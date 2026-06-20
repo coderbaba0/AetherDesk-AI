@@ -1,0 +1,120 @@
+[16:10:14] Agent started.
+[16:10:14] Config loaded.
+[16:10:16] Searching topic: open source AI agents
+[16:10:17] Results found: 10
+[16:10:17] Sending prompt to Ollama.
+[16:12:29] Agent started.
+[16:12:29] Config loaded.
+[16:12:31] Searching topic: open source AI agents
+[16:12:33] Results found: 10
+[16:12:33] Sending prompt to Ollama.
+[16:13:46] Agent started.
+[16:13:46] Config loaded.
+[16:13:48] Searching topic: open source AI agents
+[16:13:50] Results found: 10
+[16:13:50] Sending prompt to Ollama.
+[16:15:26] Agent started.
+[16:15:26] Config loaded.
+[16:15:28] Searching topic: open source AI agents
+[16:15:30] Results found: 10
+[16:15:30] Sending prompt to Ollama.
+[16:17:14] Agent started.
+[16:17:14] Config loaded.
+[16:17:16] Searching topic: open source AI agents
+[16:17:18] Results found: 10
+[16:17:18] Sending prompt to Ollama.
+[16:18:10] Report created: H:\python_project\TrendAI-Agent\reports\2026-06-20-open-source-ai-agents.md
+[16:18:10] Searching topic: local LLM tools
+[16:18:11] Results found: 10
+[16:18:11] Sending prompt to Ollama.
+[16:20:37] Agent started.
+[16:20:37] Config loaded.
+[16:20:39] Searching topic: open source AI agents
+[16:20:41] Results found: 10
+[16:20:41] Sending prompt to Ollama.
+[16:20:41] AI failed for topic: open source AI agents
+[16:20:41] Searching topic: local LLM tools
+[16:20:42] Results found: 10
+[16:20:42] Sending prompt to Ollama.
+[16:20:43] AI failed for topic: local LLM tools
+[16:20:43] Searching topic: Ollama open source AI
+[16:20:44] Results found: 10
+[16:20:44] Sending prompt to Ollama.
+[16:20:44] AI failed for topic: Ollama open source AI
+[16:20:44] Agent completed.
+[16:22:09] Agent started.
+[16:22:09] Config loaded.
+[16:22:11] Searching topic: open source AI agents
+[16:22:12] Results found: 10
+[16:22:13] Sending prompt to Ollama.
+[16:22:13] AI failed for topic: open source AI agents
+[16:22:13] Searching topic: local LLM tools
+[16:22:14] Results found: 10
+[16:22:14] Sending prompt to Ollama.
+[16:22:14] AI failed for topic: local LLM tools
+[16:22:14] Searching topic: Ollama open source AI
+[16:22:15] Results found: 10
+[16:22:15] Sending prompt to Ollama.
+[16:22:15] AI failed for topic: Ollama open source AI
+[16:22:15] Agent completed.
+[16:23:34] Agent started.
+[16:23:34] Config loaded.
+[16:23:36] Searching topic: open source AI agents
+[16:23:37] Results found: 10
+[16:23:37] Sending prompt to Ollama.
+[16:23:37] AI failed for topic: open source AI agents
+[16:23:37] Searching topic: local LLM tools
+[16:23:39] Results found: 10
+[16:23:39] Sending prompt to Ollama.
+[16:23:39] AI failed for topic: local LLM tools
+[16:23:39] Searching topic: Ollama open source AI
+[16:23:40] Results found: 9
+[16:23:40] Sending prompt to Ollama.
+[16:23:40] AI failed for topic: Ollama open source AI
+[16:23:40] Agent completed.
+[16:24:20] Agent started.
+[16:24:20] config.json read error.
+[16:25:55] Agent started.
+[16:25:55] Config loaded.
+[16:26:03] Searching topic: open source AI agents
+[16:26:04] Results found: 10
+[16:26:04] Sending prompt to Ollama.
+[16:26:04] AI failed for topic: open source AI agents
+[16:26:04] Agent completed.
+[16:27:39] Agent started.
+[16:27:39] Config loaded.
+[16:27:44] Searching topic: open source AI agents
+[16:27:45] Results found: 10
+[16:27:45] Sending prompt to Ollama.
+[16:28:26] Report created: H:\python_project\TrendAI-Agent\reports\2026-06-20-open-source-ai-agents.md
+[16:28:26] Agent completed.
+[16:35:06] Agent started.
+[16:35:07] Config loaded.
+[16:35:14] Searching topic: open source AI agents
+[16:35:16] Results found: 10
+[16:35:16] Sending prompt to Ollama.
+[16:35:56] Report created: H:\python_project\TrendAI-Agent\reports\2026-06-20-open-source-ai-agents.pdf
+[16:35:56] Agent completed.
+[16:37:24] Agent started.
+[16:37:24] Config loaded.
+[16:37:37] Searching topic: what is  flutterfever.com
+[16:37:38] Results found: 10
+[16:37:38] Sending prompt to Ollama.
+[16:38:19] Report created: H:\python_project\TrendAI-Agent\reports\2026-06-20-what-is-flutterfevercom.pdf
+[16:38:19] Agent completed.
+[17:57:07] Agent started.
+[17:57:07] Config loaded.
+[17:59:54] Agent started.
+[17:59:54] Config loaded.
+[18:00:04] Searching topic: open source AI agents
+[18:00:06] Results found: 10
+[18:00:06] Sending prompt to Ollama.
+[18:00:33] Report created: 
+[18:00:33] Agent completed.
+[18:04:05] Agent started.
+[18:04:05] Config loaded.
+[18:04:16] Searching topic: ok
+[18:04:17] Results found: 10
+[18:04:17] Sending prompt to Ollama.
+[18:04:45] Report created: H:\python_project\TrendAI-Agent\reports\2026-06-20-18-04-ok-trending-ai-dashboard.html
+[18:04:45] Agent completed.
