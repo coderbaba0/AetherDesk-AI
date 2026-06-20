@@ -1,7 +1,8 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set "BASE=H:\python_project\TrendAI-Agent"
+set "BASE=%~dp0"
+if "%BASE:~-1%"=="\" set "BASE=%BASE:~0,-1%"
 set "PS=powershell.exe -ExecutionPolicy Bypass"
 
 if not exist "%BASE%" (

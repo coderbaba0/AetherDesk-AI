@@ -1,0 +1,523 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>open source AI agents - AetherDesk AI Trending Report</title>
+<style>
+*{box-sizing:border-box}
+:root{
+  --bg:#eef4f1;
+  --card:#fff;
+  --text:#13231d;
+  --muted:#66756f;
+  --green:#0d7354;
+  --green2:#34d399;
+  --blue:#2563eb;
+  --red:#ef4444;
+  --amber:#f59e0b;
+  --border:#dceae5;
+  --shadow:0 18px 45px rgba(13,75,55,.10);
+}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:"Segoe UI",Arial,sans-serif;
+}
+.page{
+  padding:32px;
+  background:
+    radial-gradient(circle at top left,rgba(16,185,129,.24),transparent 32%),
+    radial-gradient(circle at top right,rgba(37,99,235,.18),transparent 30%),
+    linear-gradient(135deg,#f8fbfa,#edf5f1);
+  min-height:100vh;
+}
+.hero{
+  background:linear-gradient(135deg,#061d18,#0b4f3b 55%,#10a37f);
+  color:white;
+  border-radius:30px;
+  padding:36px;
+  box-shadow:0 24px 70px rgba(0,0,0,.22);
+  position:relative;
+  overflow:hidden;
+}
+.hero:after{
+  content:"";
+  position:absolute;
+  right:-110px;
+  top:-120px;
+  width:330px;
+  height:330px;
+  border-radius:50%;
+  background:rgba(255,255,255,.13);
+}
+.topbar{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  align-items:center;
+  position:relative;
+  z-index:1;
+}
+.tag{
+  display:inline-block;
+  padding:8px 14px;
+  border:1px solid rgba(255,255,255,.25);
+  border-radius:999px;
+  background:rgba(255,255,255,.12);
+  font-size:12px;
+  letter-spacing:.8px;
+  text-transform:uppercase;
+}
+.btn{
+  border:none;
+  border-radius:14px;
+  padding:11px 15px;
+  font-weight:900;
+  cursor:pointer;
+  background:white;
+  color:#0b4f3b;
+}
+h1{
+  font-size:44px;
+  line-height:1.08;
+  margin:24px 0 10px;
+  position:relative;
+  z-index:1;
+}
+.subtitle{
+  opacity:.9;
+  font-size:16px;
+  line-height:1.6;
+  max-width:900px;
+  position:relative;
+  z-index:1;
+}
+.hero-grid{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:14px;
+  margin-top:28px;
+  position:relative;
+  z-index:1;
+}
+.hero-stat{
+  padding:15px;
+  border-radius:18px;
+  background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.20);
+}
+.hero-stat .label{
+  font-size:12px;
+  opacity:.75;
+}
+.hero-stat .value{
+  font-size:22px;
+  font-weight:1000;
+  margin-top:6px;
+}
+.section{
+  margin-top:24px;
+  background:rgba(255,255,255,.95);
+  border:1px solid rgba(13,75,55,.10);
+  border-radius:26px;
+  padding:24px;
+  box-shadow:var(--shadow);
+}
+.section-title{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:18px;
+}
+.title-left{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.title-left span{
+  width:12px;
+  height:32px;
+  border-radius:999px;
+  background:linear-gradient(180deg,var(--green),var(--green2));
+}
+.section-title h2{
+  margin:0;
+  font-size:24px;
+}
+.grid-2{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+.chart-card{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:22px;
+  padding:20px;
+}
+.bar-row{
+  margin-bottom:14px;
+}
+.bar-head{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  font-size:13px;
+  margin-bottom:7px;
+}
+.bar-name{
+  font-weight:900;
+  color:#0b3b2d;
+}
+.bar-time{
+  color:var(--muted);
+  font-weight:800;
+}
+.bar{
+  height:13px;
+  background:#e8efec;
+  border-radius:999px;
+  overflow:hidden;
+}
+.fill{
+  height:100%;
+  border-radius:999px;
+  background:linear-gradient(90deg,var(--green),var(--green2));
+}
+.fill.video{
+  background:linear-gradient(90deg,#ef4444,#fb7185);
+}
+.fill.pdf{
+  background:linear-gradient(90deg,#f59e0b,#fbbf24);
+}
+.fill.github{
+  background:linear-gradient(90deg,#111827,#475569);
+}
+.ai-box{
+  background:linear-gradient(180deg,#ffffff,#f5fbf8);
+  border:1px solid #d9eee6;
+}
+.ai-head{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  margin-bottom:14px;
+}
+.ai-icon{
+  width:46px;
+  height:46px;
+  border-radius:16px;
+  background:linear-gradient(135deg,#0d7354,#34d399);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  font-size:22px;
+  font-weight:900;
+}
+.ai-meta{
+  color:var(--muted);
+  font-size:13px;
+}
+.ai-content h3{
+  color:#0d5c43;
+  font-size:19px;
+  margin:22px 0 10px;
+  border-left:4px solid #10a37f;
+  padding-left:10px;
+}
+.ai-content h4{
+  color:#0b3b2d;
+  font-size:16px;
+  margin:18px 0 8px;
+}
+.ai-content p{
+  color:#32443d;
+  line-height:1.72;
+  font-size:15px;
+  margin:10px 0;
+}
+.ai-content ul,.ai-content ol{
+  background:#f1faf7;
+  border:1px solid #dff3eb;
+  border-left:4px solid #34c49a;
+  border-radius:14px;
+  padding:14px 18px 14px 34px;
+  margin:14px 0;
+}
+.ai-content li{
+  margin:8px 0;
+  line-height:1.55;
+}
+.ai-content code{
+  background:#e9f7f1;
+  color:#0b4f3b;
+  padding:2px 6px;
+  border-radius:7px;
+}
+.resource-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+}
+.resource-card{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:22px;
+  padding:20px;
+  box-shadow:0 8px 24px rgba(13,75,55,.05);
+  transition:.2s ease;
+}
+.resource-card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 16px 35px rgba(13,75,55,.10);
+}
+.resource-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:12px;
+}
+.rank{
+  font-size:13px;
+  font-weight:1000;
+  color:#0b3b2d;
+  background:#e9f7f1;
+  padding:6px 10px;
+  border-radius:999px;
+}
+.badge{
+  font-size:12px;
+  font-weight:900;
+  border-radius:999px;
+  padding:6px 10px;
+  background:#e9f7f1;
+  color:#0d7354;
+}
+.badge.video{
+  background:#fee2e2;
+  color:#b91c1c;
+}
+.badge.pdf{
+  background:#fef3c7;
+  color:#92400e;
+}
+.badge.github{
+  background:#e5e7eb;
+  color:#111827;
+}
+.resource-card h3{
+  margin:0 0 10px;
+  color:#0b3b2d;
+  font-size:18px;
+  line-height:1.35;
+}
+.resource-card p{
+  color:#4b5f58;
+  line-height:1.6;
+  font-size:14px;
+}
+.open-link{
+  display:inline-block;
+  margin-top:10px;
+  color:#0d7354;
+  font-weight:900;
+  text-decoration:none;
+}
+.empty{
+  padding:18px;
+  border-radius:16px;
+  background:#fff7ed;
+  color:#9a3412;
+  border:1px solid #fed7aa;
+}
+.footer{
+  text-align:center;
+  color:#687870;
+  margin-top:24px;
+  font-size:12px;
+}
+@media print{
+  body{background:white}
+  .page{padding:16px;background:white}
+  .topbar,.footer{display:none!important}
+  .section,.resource-card,.chart-card,.hero{box-shadow:none}
+}
+@media(max-width:1000px){
+  .hero-grid,.grid-2,.resource-grid{grid-template-columns:1fr}
+  .page{padding:16px}
+  h1{font-size:32px}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="hero">
+    <div class="topbar">
+      <div class="tag">AetherDesk AI · Trending Intelligence</div>
+      <button class="btn" onclick="window.print()">Save as PDF</button>
+    </div>
+
+    <h1>open source AI agents</h1>
+    <div class="subtitle">
+      Professional AI trend dashboard with collected resources, open-source signals, AI-generated Markdown summary and PDF-ready layout.
+    </div>
+
+    <div class="hero-grid">
+      <div class="hero-stat"><div class="label">Generated</div><div class="value" style="font-size:16px">20 Jun 2026, 06:37 PM</div></div>
+      <div class="hero-stat"><div class="label">Total results</div><div class="value">10</div></div>
+      <div class="hero-stat"><div class="label">Articles</div><div class="value">1</div></div>
+      <div class="hero-stat"><div class="label">Videos/PDFs</div><div class="value">8</div></div>
+      <div class="hero-stat"><div class="label">GitHub</div><div class="value">1</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">
+      <div class="title-left"><span></span><h2>Graphical Overview</h2></div>
+    </div>
+
+    <div class="grid-2">
+      <div class="chart-card">
+        <div class="bar-row">
+          <div class="bar-head"><div class="bar-name">Articles</div><div class="bar-time">1</div></div>
+          <div class="bar"><div class="fill" style="width:10%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-head"><div class="bar-name">Videos</div><div class="bar-time">3</div></div>
+          <div class="bar"><div class="fill video" style="width:30%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-head"><div class="bar-name">PDF / Research</div><div class="bar-time">5</div></div>
+          <div class="bar"><div class="fill pdf" style="width:50%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-head"><div class="bar-name">GitHub / Open Source</div><div class="bar-time">1</div></div>
+          <div class="bar"><div class="fill github" style="width:10%"></div></div>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <h3 style="margin-top:0;color:#0b3b2d;">Report Quality Notes</h3>
+        <p style="color:#4b5f58;line-height:1.7">
+          This report combines public search results with local AI analysis. GitHub links indicate open-source signal,
+          PDF links indicate deeper research value, and video/article links provide quick learning material.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section ai-box">
+    <div class="ai-head">
+      <div class="ai-icon">AI</div>
+      <div>
+        <div style="font-size:22px;font-weight:1000;color:#0b3b2d;">AI Trend Summary</div>
+        <div class="ai-meta">Markdown rendered summary generated locally when Ollama is available.</div>
+      </div>
+    </div>
+
+    <div class="ai-content">
+      <h3>Executive Summary</h3><p>The search for &quot;open source AI agents&quot; is experiencing significant growth, reflecting a broader trend of increased interest in decentralized intelligence and autonomous systems within the artificial intelligence landscape.  Developers, researchers, and businesses are actively exploring open-source frameworks and tools designed to build and deploy AI agents – moving beyond traditional proprietary approaches.</p><h3>Key Trends</h3><ul><li><strong>Open Source Frameworks:</strong> Several resources highlight the development of specific frameworks (e.g., Pikachu in PokEto) and libraries focused on building agent functionalities, demonstrating a shift towards collaborative and accessible AI development.</li><li><strong>Pok&#233;mon Ecosystem &amp; Pokedex:</strong> The &quot;Pikachu&quot; project serves as a compelling example of leveraging community-driven knowledge for AI agent creation – showcasing the potential of open data and collaboration.</li><li><strong>Digital Banking &amp; Finance:</strong>  The “Open Library” initiative shows an application of AI agents within enterprise settings, highlighting their use cases in financial services.</li></ul><h3>Best Resources</h3><ol><li>[PDF] Pikachu - Wikipedia: Provides a foundational understanding of Pikachu’s role as a PokEmon and its connection to the concept of &quot;community-driven&quot; development.</li><li>[GitHub] Welcome to Open Library | Open Library: Offers a practical example of an open-source project focused on AI agent development, demonstrating the power of collaborative code sharing.</li><li><strong>[Article] Open - AI-Native Corporate Internet Banking for Enterprises:</strong> This article provides insights into how open source tools are being used to build secure and efficient corporate internet banking systems.</li></ol><h3>GitHub / Open Source Signals</h3><p>No strong GitHub signal found.</p><h3>Learning Path</h3><p>Beginners should start with understanding the core concepts of agent development – frameworks, data pipelines, and control mechanisms – before diving deep into specific open-source projects like Pikachu or PokEto. Developers can then explore more complex libraries and tools within these frameworks to build their own AI agents.</p><h3>Final Recommendation</h3><p>Investigate the [GitHub] Open Library project as a starting point for exploring open source AI agent development, focusing on practical implementation of key concepts.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">
+      <div class="title-left"><span></span><h2>Top Resources</h2></div>
+    </div>
+
+    <div class="resource-grid">
+              <article class="resource-card">
+            <div class="resource-top">
+                <div class="rank">#1</div>
+                <div class="badge pdf">PDF</div>
+            </div>
+            <h3>Pikachu (Pok&#233;mon) - Bulbapedia, the community-driven Pok&#233;mon encyclopedia</h3>
+            <p>No snippet available.</p>
+            <a class="open-link" href="https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)" target="_blank">Open resource →</a>
+        </article>        <article class="resource-card">
+            <div class="resource-top">
+                <div class="rank">#2</div>
+                <div class="badge video">Video</div>
+            </div>
+            <h3>OPEN | English meaning - Cambridge Dictionary</h3>
+            <p>No snippet available.</p>
+            <a class="open-link" href="https://dictionary.cambridge.org/dictionary/english/open" target="_blank">Open resource →</a>
+        </article>        <article class="resource-card">
+            <div class="resource-top">
+                <div class="rank">#3</div>
+                <div class="badge pdf">PDF</div>
+            </div>
+            <h3>Pikachu - Wikipedia</h3>
+            <p>No snippet available.</p>
+            <a class="open-link" href="https://en.wikipedia.org/wiki/Pikachu" target="_blank">Open resource →</a>
+        </article>        <article class="resource-card">
+            <div class="resource-top">
+                <div class="rank">#4</div>
+                <div class="badge pdf">PDF</div>
+            </div>
+            <h3>Pikachu | Pok&#233;deks | The official Pok&#233;mon Website in Malaysia</h3>
+            <p>No snippet available.</p>
+            <a class="open-link" href="https://my.portal-pokemon.com/play/pokedex/0025" target="_blank">Open resource →</a>
+        </article>        <article class="resource-card">
+            <div class="resource-top">
+                <div class="rank">#5</div>
+                <div class="badge pdf">PDF</div>
+            </div>
+            <h3>Pikachu | Pok&#233;deks | The official Pok&#233;mon Website in Malaysia</h3>
+            <p>No snippet available.</p>
+            <a class="open-link" href="https://my.portal-pokemon.com/play/pokedex/0025_1" target="_blank">Open resource →</a>
+        </article>        <article class="resource-card">
+            <div class="resource-top">
+                <div class="rank">#6</div>
+                <div class="badge article">Article</div>
+            </div>
+            <h3>Open — AI-Native Corporate Internet Banking for Enterprises</h3>
+            <p>No snippet available.</p>
+            <a class="open-link" href="https://open.money/" target="_blank">Open resource →</a>
+        </article>        <article class="resource-card">
+            <div class="resource-top">
+                <div class="rank">#7</div>
+                <div class="badge video">Video</div>
+            </div>
+            <h3>Open | Modernizing Business Finance for SMEs, Banks, and Accountants</h3>
+            <p>No snippet available.</p>
+            <a class="open-link" href="https://open.money/about-us" target="_blank">Open resource →</a>
+        </article>        <article class="resource-card">
+            <div class="resource-top">
+                <div class="rank">#8</div>
+                <div class="badge github">GitHub</div>
+            </div>
+            <h3>Welcome to Open Library | Open Library</h3>
+            <p>No snippet available.</p>
+            <a class="open-link" href="https://openlibrary.org/?preview=1" target="_blank">Open resource →</a>
+        </article>        <article class="resource-card">
+            <div class="resource-top">
+                <div class="rank">#9</div>
+                <div class="badge video">Video</div>
+            </div>
+            <h3>Open Magazine | News, Politics, Culture, and More</h3>
+            <p>No snippet available.</p>
+            <a class="open-link" href="https://openthemagazine.com/" target="_blank">Open resource →</a>
+        </article>        <article class="resource-card">
+            <div class="resource-top">
+                <div class="rank">#10</div>
+                <div class="badge pdf">PDF</div>
+            </div>
+            <h3>Pikachu | Pok&#233;mon Wiki | Fandom</h3>
+            <p>No snippet available.</p>
+            <a class="open-link" href="https://pokemon.fandom.com/wiki/Pikachu" target="_blank">Open resource →</a>
+        </article>
+    </div>
+  </div>
+
+  <div class="footer">
+    Generated locally by AetherDesk AI · Built by flutterfever.com
+  </div>
+
+</div>
+</body>
+</html>

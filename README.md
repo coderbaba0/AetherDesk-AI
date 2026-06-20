@@ -1,1654 +1,676 @@
-\# AetherDesk AI
+# AetherDesk AI
 
+**AetherDesk AI** is a local-first AI command center for Windows that helps users generate AI trend reports, monitor system health, track app usage, and create productivity dashboards from local computer activity.
 
+> Local AI. Local reports. Local productivity intelligence.
 
-\*\*AetherDesk AI\*\* is a local-first, open-source AI command center for Windows. It combines local AI reports, system health diagnosis, user activity tracking, and productivity intelligence into one lightweight PowerShell-based desktop automation toolkit.
+**Built by:** [flutterfever.com](https://flutterfever.com)
 
+---
 
+## Overview
 
-It is designed for developers, researchers, students, makers, and productivity-focused users who want useful AI automation on their own computer without depending on cloud dashboards.
+AetherDesk AI is an open-source Windows automation toolkit powered by PowerShell, HTML dashboards, and optional local AI through Ollama.
 
+It currently includes three major modules:
 
+1. **Trending AI Report Agent**
+2. **System Health AI Agent**
+3. **Activity Tracker & Productivity Dashboard**
 
-> Local-first. Privacy-aware. Extendable. Open-source ready.
+The project is designed for users who want local AI-powered reporting without depending on a cloud dashboard.
 
+---
 
+## Key Features
 
-\---
+| Feature                | Description                                                |
+| ---------------------- | ---------------------------------------------------------- |
+| Local-first design     | Activity logs and reports stay on your computer            |
+| Ollama support         | Uses local LLMs such as `gemma3:1b`                        |
+| Trending AI reports    | Generates top AI/open-source technology reports            |
+| System health reports  | Checks CPU, RAM, disk, Wi-Fi, Bluetooth, DNS, and internet |
+| Activity tracking      | Tracks active Windows apps and window titles               |
+| Productivity dashboard | Shows app-wise, category-wise, and time-wise usage         |
+| HTML reports           | Generates professional browser-based reports               |
+| Save as PDF            | Reports include print/PDF export support                   |
+| Scheduler support      | Can run daily/weekly tasks through Windows Task Scheduler  |
+| BAT launcher           | Single launcher menu for all modules                       |
 
+---
 
+## Project Modules
 
-\## What is AetherDesk AI?
+### 1. Trending AI Report Agent
 
+Generates a professional report for AI and open-source technology topics.
 
+It can collect and summarize:
 
-AetherDesk AI is a modular local agent system that can:
+* Articles
+* Videos
+* PDF/research links
+* GitHub/open-source links
+* Public AI trend resources
 
+Main script:
 
-
-\* Generate top 10 trending AI and open-source technology reports.
-
-\* Analyze local Windows system health.
-
-\* Track active app usage.
-
-\* Generate productivity dashboards from user activity.
-
-\* Create professional HTML reports.
-
-\* Export reports as PDF using browser print.
-
-\* Work with local Ollama models when available.
-
-\* Gracefully bypass AI features when Ollama is not installed or not running.
-
-
-
-The project currently runs through PowerShell scripts and a single BAT launcher menu.
-
-
-
-\---
-
-
-
-\## Why this project?
-
-
-
-Modern AI tools are powerful, but many users need a simple local assistant that can help with practical tasks:
-
-
-
-\* What is trending in AI today?
-
-\* Is my system healthy?
-
-\* Which apps did I spend time on?
-
-\* Was my work session productive?
-
-\* Can I generate a clean report from local data?
-
-\* Can I automate this daily or weekly?
-
-
-
-AetherDesk AI answers these questions locally using scripts, reports, and optional local LLM support.
-
-
-
-\---
-
-
-
-\## Project Name Meaning
-
-
-
-\*\*AetherDesk AI\*\* combines:
-
-
-
-\* \*\*Aether\*\*: a magical invisible layer of intelligence around your system.
-
-\* \*\*Desk\*\*: your personal computer workspace.
-
-\* \*\*AI\*\*: local artificial intelligence and automation.
-
-
-
-It represents a personal desktop intelligence layer that quietly observes, analyzes, and reports.
-
-
-
-\---
-
-
-
-\## Current Modules
-
-
-
-\### 1. Trending AI Report Agent
-
-
-
-Generates a top 10 report for AI, open-source tools, GitHub projects, articles, videos, PDFs, and research resources.
-
-
-
-It can be used for:
-
-
-
-\* AI trend monitoring
-
-\* Open-source discovery
-
-\* Daily research reports
-
-\* Developer learning reports
-
-\* Newsletter-style summaries
-
-
+```powershell
+run-agent.ps1
+```
 
 Output:
 
-
-
-\* HTML report
-
-\* PDF-ready report
-
-\* AI summary if Ollama is available
-
-
-
-Main file:
-
-
-
-```powershell
-
-run-agent.ps1
-
+```text
+reports/
 ```
 
+---
 
+### 2. System Health AI Agent
 
-\---
-
-
-
-\### 2. System Health AI Agent
-
-
-
-Analyzes the local Windows machine and generates a system health dashboard.
-
-
+Creates a Windows system health dashboard.
 
 It checks:
 
+* CPU usage
+* RAM usage
+* Disk usage
+* Wi-Fi status
+* Bluetooth status
+* Internet connectivity
+* DNS status
+* Battery status
+* System uptime
+* Top memory-consuming processes
 
+Main script:
 
-\* Wi-Fi status
-
-\* Internet connectivity
-
-\* DNS status
-
-\* Bluetooth status
-
-\* CPU usage
-
-\* RAM usage
-
-\* Disk health overview
-
-\* Battery status
-
-\* Top memory-consuming processes
-
-
+```powershell
+run-health-ai.ps1
+```
 
 Output:
 
-
-
-\* Professional HTML dashboard
-
-\* AI-based diagnostic summary if Ollama is available
-
-\* Useful recommendations for troubleshooting
-
-
-
-Main file:
-
-
-
-```powershell
-
-run-health-ai.ps1
-
+```text
+reports/
 ```
 
+---
 
+### 3. Activity Tracker and Productivity Dashboard
 
-\---
-
-
-
-\### 3. User Activity \& Productivity Agent
-
-
-
-Tracks active Windows apps and creates productivity reports.
-
-
+Tracks active app usage and creates a productivity report.
 
 It captures:
 
+* Active app name
+* Active window title
+* Timestamp
+* Date
+* Duration
+* Productivity category
 
-
-\* Active app name
-
-\* Active window title
-
-\* Timestamp
-
-\* Date
-
-\* Duration
-
-\* App category
-
-\* Productivity classification
-
-
-
-Categories include:
-
-
-
-\* Development
-
-\* Learning/Research
-
-\* Documents
-
-\* Communication
-
-\* Browser
-
-\* Entertainment
-
-\* Media
-
-\* File Management
-
-\* Other
-
-
-
-Output:
-
-
-
-\* App-wise usage graph
-
-\* Category-wise productivity graph
-
-\* Hour-wise activity graph
-
-\* Filterable activity table
-
-\* Productivity score
-
-\* AI productivity summary if Ollama is available
-
-\* Save as PDF button
-
-
-
-Main files:
-
-
+Main scripts:
 
 ```powershell
-
 activity-tracker.ps1
-
 activity-report.ps1
-
 ```
 
-
-
-\---
-
-
-
-\## Key Features
-
-
-
-\### Local-first design
-
-
-
-AetherDesk AI is built to run locally on your Windows computer.
-
-
-
-Your activity data and reports stay inside your project folder unless you manually share them.
-
-
-
-\---
-
-
-
-\### Optional local AI with Ollama
-
-
-
-The project supports Ollama for local AI summaries.
-
-
-
-Recommended model:
-
-
-
-```powershell
-
-ollama pull gemma3:1b
-
-```
-
-
-
-If Ollama is not installed or not running, the system should not crash. It can still generate non-AI reports and show setup instructions.
-
-
-
-\---
-
-
-
-\### Professional HTML reports
-
-
-
-Reports are generated as clean HTML dashboards with:
-
-
-
-\* Cards
-
-\* Graphs
-
-\* KPI blocks
-
-\* Filterable tables
-
-\* AI insight sections
-
-\* Print/PDF support
-
-\* Responsive layout
-
-
-
-\---
-
-
-
-\### One-click BAT launcher
-
-
-
-AetherDesk AI includes a launcher:
-
-
-
-```powershell
-
-TrendAI-Launcher.bat
-
-```
-
-
-
-The launcher provides a menu for:
-
-
-
-\* Trending AI Report
-
-\* System Health Report
-
-\* Start Activity Tracker
-
-\* Generate Productivity Dashboard
-
-\* Open Reports Folder
-
-\* Schedule Daily/Weekly Tasks
-
-\* Check Ollama Status
-
-\* Show usage instructions
-
-
-
-\---
-
-
-
-\## Folder Structure
-
-
+Output folders:
 
 ```text
+activity-data/
+reports/
+```
 
-AetherDesk-AI/
+---
 
+## Folder Structure
+
+```text
+AetherDeskAI/
 │
-
+├── AetherDeskAI-Launcher.bat
+├── README.md
 ├── config.json
-
-├── TrendAI-Launcher.bat
-
 │
-
 ├── ollama.ps1
-
 ├── search.ps1
-
 ├── report.ps1
-
 │
-
 ├── run-agent.ps1
-
 ├── run-health-ai.ps1
-
-│
-
 ├── system-health.ps1
-
-├── activity-tracker.ps1
-
-├── activity-report.ps1
-
 │
-
+├── activity-tracker.ps1
+├── activity-report.ps1
+│
 ├── reports/
-
 ├── logs/
-
 ├── cache/
-
 └── activity-data/
-
 ```
 
+---
 
+## Requirements
 
-\---
+### Required
 
+* Windows 10 or Windows 11
+* PowerShell 5.1 or newer
+* Internet connection for trending reports
 
+### Optional
 
-\## Requirements
+* Ollama
+* Local AI model such as `gemma3:1b`
 
+---
 
+## Ollama Setup
 
-\### Required
-
-
-
-\* Windows 10 or Windows 11
-
-\* PowerShell 5.1 or newer
-
-\* Internet connection for trend search reports
-
-
-
-\### Optional
-
-
-
-\* Ollama for local AI summaries
-
-\* Local model such as `gemma3:1b`
-
-
-
-\---
-
-
-
-\## Ollama Setup
-
-
-
-Download Ollama:
-
-
+Download Ollama from:
 
 ```text
-
 https://ollama.com/download
-
 ```
-
-
-
-Install Ollama for Windows.
-
-
 
 Start Ollama:
 
-
-
 ```powershell
-
 ollama serve
-
 ```
 
-
-
-Pull the recommended model:
-
-
+Pull the recommended lightweight model:
 
 ```powershell
-
 ollama pull gemma3:1b
-
 ```
-
-
 
 Test the model:
 
-
-
 ```powershell
-
 ollama run gemma3:1b "hello"
-
 ```
-
-
 
 Check installed models:
 
-
-
 ```powershell
-
 ollama list
-
 ```
 
+---
 
-
-\---
-
-
-
-\## Configuration
-
-
+## Configuration
 
 Edit:
 
-
-
-```powershell
-
+```text
 config.json
-
 ```
 
-
-
-Example configuration:
-
-
+Example:
 
 ```json
-
 {
-
-&#x20; "appName": "AetherDesk AI",
-
-&#x20; "model": "gemma3:1b",
-
-&#x20; "fastModel": "",
-
-&#x20; "backupModel": "",
-
-&#x20; "topics": \[
-
-&#x20;   "open source AI agents"
-
-&#x20; ],
-
-&#x20; "maxResults": 10,
-
-&#x20; "language": "Hinglish",
-
-&#x20; "includeArticles": true,
-
-&#x20; "includeVideos": true,
-
-&#x20; "includePDFs": true,
-
-&#x20; "includeGithub": true,
-
-&#x20; "outputFolder": "reports",
-
-&#x20; "askTopicOnRun": true
-
+  "appName": "AetherDesk AI",
+  "model": "gemma3:1b",
+  "fastModel": "",
+  "backupModel": "",
+  "topics": [
+    "Top 10 Trending AI topic"
+  ],
+  "maxResults": 10,
+  "language": "English",
+  "includeArticles": true,
+  "includeVideos": true,
+  "includePDFs": true,
+  "includeGithub": true,
+  "outputFolder": "reports",
+  "askTopicOnRun": true
 }
-
 ```
-
-
 
 For scheduled tasks, set:
 
-
-
 ```json
-
 "askTopicOnRun": false
-
 ```
-
-
 
 Scheduled tasks cannot answer interactive prompts.
 
+---
 
+## How to Run
 
-\---
-
-
-
-\## How to Use
-
-
-
-\### Option 1: Use the BAT launcher
-
-
+### Use the Launcher
 
 Run:
 
-
-
 ```powershell
-
-TrendAI-Launcher.bat
-
+H:\python_project\AetherDeskAI\AetherDeskAI-Launcher.bat
 ```
 
+The launcher provides menu options for all modules.
 
+---
 
-Or double-click the file.
-
-
-
-Menu options:
-
-
+## Launcher Menu
 
 ```text
+1. Top 10 Trending AI / Open Source Tech Report
+2. System Health AI Report
+3. Start Activity Tracker
+4. Generate Activity Productivity Dashboard
+5. Open Reports Folder
 
-1\. Top 10 Trending AI / Open Source Tech Report
+6. Schedule Daily Trending AI Report
+7. Schedule Daily System Health Report
+8. Schedule Activity Tracker on Windows Login
+9. Schedule Weekly Productivity Report
 
-2\. System Health Report
+10. Check Ollama Status
+11. Ollama Install / Run Instructions
+12. Show Usage Instructions
+13. Remove Activity Tracker Login Schedule
 
-3\. Start Activity Tracker
-
-4\. Generate Activity Productivity Dashboard
-
-5\. Open Reports Folder
-
-6\. Schedule Daily Trending AI Report
-
-7\. Schedule Daily System Health Report
-
-8\. Schedule Activity Tracker on Windows Login
-
-9\. Schedule Weekly Productivity Report
-
-10\. Check Ollama Status
-
-11\. Ollama Install / Run Instructions
-
-12\. Show Usage Instructions
-
-0\. Exit
-
+0. Exit
 ```
 
+---
 
+## Manual Commands
 
-\---
-
-
-
-\## Manual Commands
-
-
-
-\### Generate trending AI report
-
-
+### Generate Trending AI Report
 
 ```powershell
-
-cd H:\\python\_project\\TrendAI-Agent
-
-powershell -ExecutionPolicy Bypass -File .\\run-agent.ps1
-
+cd H:\python_project\AetherDeskAI
+powershell -ExecutionPolicy Bypass -File .\run-agent.ps1
 ```
 
+---
 
-
-\---
-
-
-
-\### Generate system health report
-
-
+### Generate System Health Report
 
 ```powershell
-
-cd H:\\python\_project\\TrendAI-Agent
-
-powershell -ExecutionPolicy Bypass -File .\\run-health-ai.ps1
-
+cd H:\python_project\AetherDeskAI
+powershell -ExecutionPolicy Bypass -File .\run-health-ai.ps1
 ```
 
+---
 
-
-\---
-
-
-
-\### Start activity tracker
-
-
+### Start Activity Tracker
 
 ```powershell
-
-cd H:\\python\_project\\TrendAI-Agent
-
-powershell -ExecutionPolicy Bypass -File .\\activity-tracker.ps1
-
+cd H:\python_project\AetherDeskAI
+powershell -ExecutionPolicy Bypass -File .\activity-tracker.ps1
 ```
 
+Keep the tracker window open. Closing it will stop tracking.
 
+---
 
-Keep this window open. If you close it, tracking will stop.
-
-
-
-\---
-
-
-
-\### Generate productivity dashboard
-
-
+### Generate Productivity Dashboard
 
 ```powershell
-
-cd H:\\python\_project\\TrendAI-Agent
-
-powershell -ExecutionPolicy Bypass -File .\\activity-report.ps1
-
+cd H:\python_project\AetherDeskAI
+powershell -ExecutionPolicy Bypass -File .\activity-report.ps1
 ```
 
+The productivity dashboard uses whatever activity data is available. Even one minute of tracking can generate a partial report.
 
+---
 
-The dashboard uses whatever activity data is available. Even if the tracker has run for only one minute, it can still generate a partial report.
+## Activity Tracker Workflow
 
+1. Start the launcher.
+2. Choose **Start Activity Tracker**.
+3. The tracker opens in a new terminal window.
+4. Keep the tracker window open.
+5. Work normally on your computer.
+6. Return to the launcher.
+7. Choose **Generate Activity Productivity Dashboard**.
 
-
-\---
-
-
-
-\## Activity Tracking Workflow
-
-
-
-Step 1: Start tracker.
-
-
-
-```powershell
-
-powershell -ExecutionPolicy Bypass -File .\\activity-tracker.ps1
-
-```
-
-
-
-Step 2: Work normally on your computer.
-
-
-
-Step 3: Generate report.
-
-
-
-```powershell
-
-powershell -ExecutionPolicy Bypass -File .\\activity-report.ps1
-
-```
-
-
-
-Step 4: Open generated HTML dashboard from:
-
-
+Reports are saved in:
 
 ```text
-
 reports/
-
 ```
 
-
-
-\---
-
-
-
-\## Report Output
-
-
-
-All generated reports are stored in:
-
-
+Activity logs are saved in:
 
 ```text
-
-reports/
-
-```
-
-
-
-Activity CSV logs are stored in:
-
-
-
-```text
-
 activity-data/
-
 ```
 
+---
 
+## Scheduling
 
-\---
-
-
-
-\## Scheduling
-
-
-
-\### Schedule activity tracker on Windows login
-
-
+### Start Activity Tracker on Windows Login
 
 ```powershell
-
-schtasks /Create /TN "AetherDesk Activity Tracker" /SC ONLOGON /TR "powershell.exe -ExecutionPolicy Bypass -WindowStyle Minimized -File H:\\python\_project\\TrendAI-Agent\\activity-tracker.ps1" /F
-
+schtasks /Create /TN "AetherDesk Activity Tracker" /SC ONLOGON /TR "powershell.exe -ExecutionPolicy Bypass -WindowStyle Minimized -File H:\python_project\AetherDeskAI\activity-tracker.ps1" /F
 ```
 
+---
 
-
-\---
-
-
-
-\### Schedule daily trending report
-
-
+### Schedule Daily Trending AI Report
 
 ```powershell
-
-schtasks /Create /TN "AetherDesk Daily Trending Report" /SC DAILY /ST 09:00 /TR "powershell.exe -ExecutionPolicy Bypass -File H:\\python\_project\\TrendAI-Agent\\run-agent.ps1" /F
-
+schtasks /Create /TN "AetherDesk Daily Trending Report" /SC DAILY /ST 09:00 /TR "powershell.exe -ExecutionPolicy Bypass -File H:\python_project\AetherDeskAI\run-agent.ps1" /F
 ```
 
+---
 
-
-\---
-
-
-
-\### Schedule daily system health report
-
-
+### Schedule Daily System Health Report
 
 ```powershell
-
-schtasks /Create /TN "AetherDesk Daily System Health" /SC DAILY /ST 10:00 /TR "powershell.exe -ExecutionPolicy Bypass -File H:\\python\_project\\TrendAI-Agent\\run-health-ai.ps1" /F
-
+schtasks /Create /TN "AetherDesk Daily System Health" /SC DAILY /ST 10:00 /TR "powershell.exe -ExecutionPolicy Bypass -File H:\python_project\AetherDeskAI\run-health-ai.ps1" /F
 ```
 
+---
 
-
-\---
-
-
-
-\### Schedule weekly productivity report
-
-
+### Schedule Weekly Productivity Report
 
 ```powershell
-
-schtasks /Create /TN "AetherDesk Weekly Productivity Report" /SC WEEKLY /D SUN /ST 20:00 /TR "powershell.exe -ExecutionPolicy Bypass -File H:\\python\_project\\TrendAI-Agent\\activity-report.ps1" /F
-
+schtasks /Create /TN "AetherDesk Weekly Productivity Report" /SC WEEKLY /D SUN /ST 20:00 /TR "powershell.exe -ExecutionPolicy Bypass -File H:\python_project\AetherDeskAI\activity-report.ps1" /F
 ```
 
+---
 
+### Remove Activity Tracker Login Schedule
 
-\---
+```powershell
+schtasks /Delete /TN "AetherDesk Activity Tracker" /F
+```
 
+---
 
+## Report Types
 
-\## AI Behavior
+AetherDesk AI generates professional HTML reports.
 
+Current report types:
 
+* Trending AI dashboard
+* System health dashboard
+* Productivity dashboard
 
-AetherDesk AI supports two modes.
+Reports include:
 
+* KPI cards
+* Graphical sections
+* AI summary boxes
+* Markdown-rendered AI text
+* Filterable activity tables
+* Save as PDF button
 
+---
 
-\### AI Mode
+## AI Mode and Non-AI Mode
 
+### AI Mode
 
+When Ollama is installed and running, AetherDesk AI can generate:
 
-When Ollama is installed and running:
+* AI trend summaries
+* System health diagnosis
+* Productivity recommendations
+* Markdown-based report insights
 
+### Non-AI Mode
 
+When Ollama is missing or not running:
 
-\* Reports include AI-generated summaries.
+* Activity tracker still works
+* Productivity graphs still work
+* HTML dashboards can still be generated
+* Setup instructions are shown
+* AI sections can be skipped or replaced with a fallback message
 
-\* System health includes AI diagnosis.
+---
 
-\* Productivity reports include AI recommendations.
+## Privacy
 
-\* Trending reports include AI summaries.
-
-
-
-\### Non-AI Mode
-
-
-
-When Ollama is not installed or not running:
-
-
-
-\* The launcher shows installation instructions.
-
-\* Non-AI data collection can still work.
-
-\* Activity tracker can still collect data.
-
-\* Reports can still be generated where supported.
-
-\* AI summary sections can be skipped or replaced with setup instructions.
-
-
-
-\---
-
-
-
-\## Privacy
-
-
-
-AetherDesk AI is designed as a local-first project.
-
-
+AetherDesk AI is designed to be local-first.
 
 By default:
 
+* Activity data stays on your computer
+* Reports are generated locally
+* Ollama runs locally
+* No cloud database is required
+* No activity data is uploaded by this project
 
+Important: The trending report module uses internet search sources to collect public links.
 
-\* Activity logs are saved locally.
+---
 
-\* Reports are generated locally.
+## Current Limitations
 
-\* No cloud database is required.
+* Windows-only at the current stage
+* PowerShell-based interface
+* Activity tracking works only while the tracker is running
+* Past activity before tracker start cannot be recovered
+* App categorization is rule-based
+* AI summaries require Ollama
+* Browser tab classification depends on active window title
 
-\* Ollama runs locally.
+---
 
-\* User activity is not uploaded by this project.
+## Roadmap
 
+### Near-term
 
+* Better HTML dashboard themes
+* More stable PDF export
+* SQLite storage
+* Improved scheduler manager
+* Better app category mapping
+* Installer script
 
-Important: Trend search uses internet sources to collect public links when running the trending report module.
+### Upcoming ETL Pipeline
 
+Future versions will include an ETL system for:
 
+* Extracting local logs
+* Cleaning activity data
+* Transforming app usage records
+* Aggregating daily/weekly summaries
+* Detecting sessions
+* Normalizing app names
+* Exporting CSV, JSON, SQLite, and dashboard data
 
-\---
+---
 
+## Vector Database Roadmap
 
-
-\## Current Limitations
-
-
-
-\* Currently optimized for Windows.
-
-\* PowerShell-based interface.
-
-\* Activity tracking works only while tracker is running.
-
-\* Historical activity before tracker start cannot be recovered.
-
-\* Exact app time depends on tracker interval.
-
-\* AI summaries require Ollama and a local model.
-
-\* Browser title classification may not always be perfect.
-
-
-
-\---
-
-
-
-\## Upcoming Features
-
-
-
-\### ETL Pipeline
-
-
-
-Future versions will include an ETL pipeline for collecting, cleaning, transforming, and organizing user activity and report data.
-
-
-
-Planned ETL features:
-
-
-
-\* Data extraction from local logs
-
-\* Daily aggregation
-
-\* App usage normalization
-
-\* Duplicate removal
-
-\* Session detection
-
-\* Time-block analysis
-
-\* Productivity category refinement
-
-\* Export to CSV, JSON, SQLite, and dashboard formats
-
-
-
-\---
-
-
-
-\### Vector Database Support
-
-
-
-AetherDesk AI will support vector-based storage for semantic search across local reports and activity history.
-
-
+AetherDesk AI will support vector-based storage for semantic search over local reports and activity history.
 
 Planned vector database options:
 
-
-
-\* ChromaDB
-
-\* Qdrant
-
-\* LanceDB
-
-\* SQLite vector extensions
-
-\* Local file-based vector index
-
-
+* ChromaDB
+* Qdrant
+* LanceDB
+* SQLite vector extensions
+* Local file-based vector index
 
 Possible use cases:
 
+* Search old reports semantically
+* Ask questions about previous productivity patterns
+* Find similar system health issues
+* Compare week-by-week work behavior
+* Build local AI memory
 
+---
 
-\* Search old reports semantically
+## Embedding-Powered Intelligence
 
-\* Ask questions about previous system issues
+Future versions will use embeddings for:
 
-\* Compare productivity patterns across weeks
-
-\* Find similar activity sessions
-
-\* Build memory for the local AI agent
-
-
-
-\---
-
-
-
-\### Embedding-powered Intelligence
-
-
-
-Future versions will support local embeddings.
-
-
-
-Planned embedding features:
-
-
-
-\* Embedding activity summaries
-
-\* Embedding system health logs
-
-\* Embedding daily trend reports
-
-\* Semantic search over reports
-
-\* RAG-based local question answering
-
-\* Personal productivity memory
-
-\* Long-term insight generation
-
-
+* Activity summaries
+* System health logs
+* Trend reports
+* Semantic search
+* Local RAG
+* Long-term personal productivity memory
 
 Example future query:
 
-
-
 ```text
-
-What were the main reasons my productivity dropped last week?
-
+Why did my productivity drop last week?
 ```
 
+AetherDesk AI will search previous reports, compare patterns, and generate a grounded answer.
 
+---
 
-AetherDesk AI will search previous activity summaries, compare patterns, and generate a grounded answer.
+## Planned Desktop UI
 
+A future desktop version may include:
 
+* Dashboard home screen
+* Report center
+* Activity timeline
+* Health monitor
+* Scheduler manager
+* Ollama model manager
+* Local memory explorer
+* Notification center
 
-\---
+Possible UI stacks:
 
+* Tauri
+* Electron
+* Flutter Desktop
+* Python PySide
+* .NET MAUI
 
+---
 
-\### Local Agent Memory
+## Planned Notifications
 
+Future notification features:
 
+* Daily report ready
+* Weekly productivity report ready
+* High CPU/RAM warning
+* Low disk space alert
+* Tracker not running reminder
+* Ollama offline warning
+* Focus session reminder
 
-Future versions may include local memory for:
+---
 
+## Planned Plugin System
 
+Possible plugin modules:
 
-\* User preferred work hours
+* GitHub monitor
+* Local file manager
+* Document summarizer
+* Deployment doctor
+* Software update checker
+* Log analyzer
+* Personal knowledge base
+* Research assistant
+* Local RAG assistant
 
-\* Common apps
+---
 
-\* Daily routines
-
-\* Frequent system issues
-
-\* Weekly productivity patterns
-
-\* Report history
-
-\* Saved recommendations
-
-
-
-\---
-
-
-
-\### Desktop UI
-
-
-
-A future desktop interface may include:
-
-
-
-\* Dashboard home screen
-
-\* Report center
-
-\* Activity timeline
-
-\* Health monitor
-
-\* Scheduler manager
-
-\* Ollama model manager
-
-\* Settings screen
-
-\* Theme customization
-
-\* Notification center
-
-
-
-Possible technologies:
-
-
-
-\* Tauri
-
-\* Electron
-
-\* Flutter Desktop
-
-\* Python + PySide
-
-\* .NET MAUI
-
-
-
-\---
-
-
-
-\### Notification System
-
-
-
-Planned notifications:
-
-
-
-\* Daily report ready
-
-\* Weekly productivity report ready
-
-\* High CPU/RAM warning
-
-\* Low disk space alert
-
-\* Tracker not running reminder
-
-\* Ollama not running warning
-
-\* Focus session reminder
-
-
-
-\---
-
-
-
-\### Hugging Face Connectivity
-
-
-
-Future optional support:
-
-
-
-\* Download compatible local models
-
-\* Use Hugging Face model metadata
-
-\* Search open-source models
-
-\* Compare model sizes
-
-\* Suggest lightweight models for local machines
-
-
-
-\---
-
-
-
-\### Plugin System
-
-
-
-AetherDesk AI may support plugins for:
-
-
-
-\* GitHub monitoring
-
-\* Local file management
-
-\* Document summarization
-
-\* Deployment doctor
-
-\* Software update checker
-
-\* Log analyzer
-
-\* Personal knowledge base
-
-\* Research assistant
-
-
-
-\---
-
-
-
-\## Suggested Tech Roadmap
-
-
-
-\### Current Version
-
-
-
-\* PowerShell
-
-\* BAT launcher
-
-\* HTML dashboard
-
-\* Ollama local LLM
-
-\* CSV storage
-
-
-
-\### Next Version
-
-
-
-\* SQLite storage
-
-\* Better scheduler manager
-
-\* System tray launcher
-
-\* Improved report templates
-
-\* Export to PDF automatically
-
-
-
-\### Future Version
-
-
-
-\* ETL engine
-
-\* Vector database
-
-\* Local embeddings
-
-\* RAG assistant
-
-\* Desktop UI
-
-\* Plugin architecture
-
-
-
-\---
-
-
-
-\## Suggested Repository Tags
-
-
+## Suggested Repository Topics
 
 ```text
-
 local-ai
-
 ollama
-
 windows
-
 powershell
-
 productivity
-
 system-health
-
 activity-tracker
-
 ai-agent
-
 open-source
-
 desktop-automation
-
 local-first
-
 privacy
-
 html-dashboard
-
 ```
 
+---
 
+## Suggested Repository Name
 
-\---
+Recommended:
 
+```text
+aetherdesk-ai
+```
 
+Other options:
 
-\## Example Use Cases
+```text
+aetherdesk-local-agent
+aetherdesk-windows-ai
+localmind-desktop
+deskgenie-ai
+```
 
+---
 
+## License
 
-\### Developer
+Recommended license:
 
+```text
+MIT License
+```
 
+MIT is simple and flexible for open-source projects.
 
-A developer can track how much time was spent in VS Code, browser documentation, terminals, GitHub, and distracting apps.
+---
 
-
-
-\### Student
-
-
-
-A student can monitor study time, research browsing, YouTube usage, and productivity patterns.
-
-
-
-\### Researcher
-
-
-
-A researcher can generate daily AI trend reports and save them for future analysis.
-
-
-
-\### Power User
-
-
-
-A power user can monitor system health, activity patterns, and automate local reports.
-
-
-
-\---
-
-
-
-\## Security Notes
-
-
-
-This project is intended for personal and local use.
-
-
-
-Do not use it to monitor other users without consent.
-
-
-
-Activity tracking should be transparent and controlled by the computer owner.
-
-
-
-\---
-
-
-
-\## Contributing
-
-
+## Contributing
 
 Contributions are welcome.
 
-
-
 Suggested contribution areas:
 
+* Better dashboards
+* Better app categorization
+* SQLite support
+* ETL pipeline
+* Vector database integration
+* Embedding support
+* Cross-platform support
+* Installer script
+* Desktop UI
+* Documentation improvements
 
+---
 
-\* Better app categorization
+## Responsible Use
 
-\* More dashboard themes
+This project is intended for personal and transparent use.
 
-\* SQLite support
+Do not use activity tracking to monitor another person without clear consent.
 
-\* ETL pipeline
+---
 
-\* Vector database integration
+## Final Vision
 
-\* Embedding support
-
-\* Cross-platform support
-
-\* Better documentation
-
-\* Installer script
-
-\* Desktop UI
-
-
-
-\---
-
-
-
-\## License
-
-
-
-This project is intended to be released as open source.
-
-
-
-Recommended licenses:
-
-
-
-\* MIT License for maximum flexibility
-
-\* Apache 2.0 if patent protection is preferred
-
-\* GPLv3 if derivative projects should remain open source
-
-
-
-Recommended default:
-
-
-
-```text
-
-MIT License
-
-```
-
-
-
-\---
-
-
-
-\## Project Status
-
-
-
-AetherDesk AI is currently in early development.
-
-
-
-Current modules are functional but evolving:
-
-
-
-\* Trending AI Report Agent
-
-\* System Health Agent
-
-\* Activity Tracker
-
-\* Productivity Dashboard
-
-\* BAT Launcher
-
-\* Ollama support
-
-
-
-The project roadmap includes ETL, vector search, embeddings, desktop UI, and long-term local AI memory.
-
-
-
-\---
-
-
-
-\## Final Vision
-
-
-
-AetherDesk AI aims to become a personal local AI operating layer for your computer.
-
-
+AetherDesk AI aims to become a privacy-friendly local AI operating layer for personal computers.
 
 It should help users understand:
 
-
-
-\* What is happening in their system
-
-\* What they worked on
-
-\* Where their time went
-
-\* What technology is trending
-
-\* How to improve productivity
-
-\* How to search their own local history using AI
-
-
-
-The long-term goal is to build a privacy-friendly, open-source, local AI assistant that works with your files, activity, system, reports, and personal knowledge base.
-
-
-
+* What is happening on their system
+* Which apps they use most
+* Where their time goes
+* What technology is trending
+* How healthy their system is
+* How to improve productivity
+* How to search their own local history using AI
