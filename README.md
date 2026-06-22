@@ -24,6 +24,12 @@ Watch how to run AetherDesk AI:
   <img src="https://img.youtube.com/vi/IEXWC5oNPbQ/maxresdefault.jpg" alt="Watch AetherDesk AI setup and run video" width="100%">
 </a>
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=IEXWC5oNPbQ" target="_blank">
+    <strong>Click to Play Video</strong>
+  </a>
+</p>
+
 ---
 
 ## Screenshots
