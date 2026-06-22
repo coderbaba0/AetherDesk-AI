@@ -16,6 +16,14 @@ It helps you:
 
 ---
 
+## Demo Video
+
+Watch how to run AetherDesk AI:
+
+[AetherDesk AI setup and run video](https://www.youtube.com/watch?v=IEXWC5oNPbQ)
+
+---
+
 ## Screenshots
 
 ### 1. Launcher / Main Menu
@@ -136,6 +144,10 @@ ollama pull gemma3:1b
 ---
 
 ## Quick Start
+
+Video guide:
+
+[How to run AetherDesk AI](https://www.youtube.com/watch?v=IEXWC5oNPbQ)
 
 Run the launcher:
 
