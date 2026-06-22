@@ -1,0 +1,9 @@
+{
+    "name":  "com.aetherdesk.ai",
+    "description":  "AetherDesk AI Native Messaging Host",
+    "path":  "H:\\python_project\\AetherDeskAI\\chrome-extension\\native-host\\AetherDeskNativeHost.exe",
+    "type":  "stdio",
+    "allowed_origins":  [
+                            "chrome-extension://gfmlmackegeckghlcmdmaknjcmbbnamn/"
+                        ]
+}

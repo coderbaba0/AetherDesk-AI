@@ -1,0 +1,570 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>AetherDesk AI System Health Dashboard</title>
+<style>
+*{box-sizing:border-box}
+:root{
+  --bg:#eef4f1;
+  --card:#fff;
+  --text:#13231d;
+  --muted:#66756f;
+  --green:#0d7354;
+  --green2:#34d399;
+  --blue:#2563eb;
+  --amber:#f59e0b;
+  --red:#ef4444;
+  --border:#dceae5;
+  --shadow:0 18px 45px rgba(13,75,55,.10);
+}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:"Segoe UI",Arial,sans-serif;
+}
+.page{
+  padding:32px;
+  background:
+    radial-gradient(circle at top left,rgba(16,185,129,.24),transparent 32%),
+    radial-gradient(circle at top right,rgba(37,99,235,.18),transparent 30%),
+    linear-gradient(135deg,#f8fbfa,#edf5f1);
+  min-height:100vh;
+}
+.hero{
+  background:linear-gradient(135deg,#061d18,#0b4f3b 55%,#10a37f);
+  color:white;
+  border-radius:30px;
+  padding:36px;
+  box-shadow:0 24px 70px rgba(0,0,0,.22);
+  position:relative;
+  overflow:hidden;
+}
+.hero:after{
+  content:"";
+  position:absolute;
+  right:-110px;
+  top:-120px;
+  width:330px;
+  height:330px;
+  border-radius:50%;
+  background:rgba(255,255,255,.13);
+}
+.topbar{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  align-items:center;
+  position:relative;
+  z-index:1;
+}
+.tag{
+  display:inline-block;
+  padding:8px 14px;
+  border:1px solid rgba(255,255,255,.25);
+  border-radius:999px;
+  background:rgba(255,255,255,.12);
+  font-size:12px;
+  letter-spacing:.8px;
+  text-transform:uppercase;
+}
+.btn{
+  border:none;
+  border-radius:14px;
+  padding:11px 15px;
+  font-weight:900;
+  cursor:pointer;
+  background:white;
+  color:#0b4f3b;
+}
+h1{
+  font-size:44px;
+  line-height:1.08;
+  margin:24px 0 10px;
+  position:relative;
+  z-index:1;
+}
+.subtitle{
+  opacity:.9;
+  font-size:16px;
+  line-height:1.6;
+  max-width:900px;
+  position:relative;
+  z-index:1;
+}
+.hero-grid{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:14px;
+  margin-top:28px;
+  position:relative;
+  z-index:1;
+}
+.hero-stat{
+  padding:15px;
+  border-radius:18px;
+  background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.20);
+}
+.hero-stat .label{
+  font-size:12px;
+  opacity:.75;
+}
+.hero-stat .value{
+  font-size:18px;
+  font-weight:1000;
+  margin-top:6px;
+  word-break:break-word;
+}
+.section{
+  margin-top:24px;
+  background:rgba(255,255,255,.95);
+  border:1px solid rgba(13,75,55,.10);
+  border-radius:26px;
+  padding:24px;
+  box-shadow:var(--shadow);
+}
+.section-title{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:18px;
+}
+.title-left{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.title-left span{
+  width:12px;
+  height:32px;
+  border-radius:999px;
+  background:linear-gradient(180deg,var(--green),var(--green2));
+}
+.section-title h2{
+  margin:0;
+  font-size:24px;
+}
+.metric-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:16px;
+}
+.metric-card{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:22px;
+  padding:20px;
+  box-shadow:0 8px 24px rgba(13,75,55,.05);
+}
+.metric-label{
+  color:var(--muted);
+  font-size:12px;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:.5px;
+}
+.metric-value{
+  font-size:34px;
+  font-weight:1000;
+  color:#0b3b2d;
+  margin-top:8px;
+}
+.metric-note{
+  color:var(--muted);
+  font-size:13px;
+  margin-top:6px;
+  line-height:1.45;
+}
+.bar{
+  height:13px;
+  background:#e8efec;
+  border-radius:999px;
+  overflow:hidden;
+  margin-top:13px;
+}
+.fill{
+  height:100%;
+  border-radius:999px;
+  background:linear-gradient(90deg,var(--green),var(--green2));
+}
+.fill.good{
+  background:linear-gradient(90deg,#10b981,#34d399);
+}
+.fill.warning{
+  background:linear-gradient(90deg,#f59e0b,#fbbf24);
+}
+.fill.danger{
+  background:linear-gradient(90deg,#ef4444,#fb7185);
+}
+.badge{
+  display:inline-block;
+  padding:7px 11px;
+  border-radius:999px;
+  font-weight:900;
+  font-size:13px;
+}
+.badge.good{
+  background:#dcfce7;
+  color:#166534;
+}
+.badge.warning{
+  background:#fef3c7;
+  color:#92400e;
+}
+.badge.danger{
+  background:#fee2e2;
+  color:#991b1b;
+}
+.ai-box{
+  background:linear-gradient(180deg,#ffffff,#f5fbf8);
+  border:1px solid #d9eee6;
+}
+.ai-head{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  margin-bottom:14px;
+}
+.ai-icon{
+  width:46px;
+  height:46px;
+  border-radius:16px;
+  background:linear-gradient(135deg,#0d7354,#34d399);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  font-size:22px;
+  font-weight:900;
+}
+.ai-meta{
+  color:var(--muted);
+  font-size:13px;
+}
+.ai-content h3{
+  color:#0d5c43;
+  font-size:19px;
+  margin:22px 0 10px;
+  border-left:4px solid #10a37f;
+  padding-left:10px;
+}
+.ai-content h4{
+  color:#0b3b2d;
+  font-size:16px;
+  margin:18px 0 8px;
+}
+.ai-content p{
+  color:#32443d;
+  line-height:1.72;
+  font-size:15px;
+  margin:10px 0;
+}
+.ai-content ul,.ai-content ol{
+  background:#f1faf7;
+  border:1px solid #dff3eb;
+  border-left:4px solid #34c49a;
+  border-radius:14px;
+  padding:14px 18px 14px 34px;
+  margin:14px 0;
+}
+.ai-content li{
+  margin:8px 0;
+  line-height:1.55;
+}
+.raw-box{
+  background:#07130f;
+  color:#c7f8e4;
+  padding:18px;
+  border-radius:18px;
+  white-space:pre-wrap;
+  overflow:auto;
+  font-family:Consolas,monospace;
+  font-size:12px;
+  line-height:1.5;
+  max-height:460px;
+}
+.footer{
+  text-align:center;
+  color:#687870;
+  margin-top:24px;
+  font-size:12px;
+}
+@media print{
+  body{background:white}
+  .page{padding:16px;background:white}
+  .topbar,.raw-section,.footer{display:none!important}
+  .section,.metric-card,.hero{box-shadow:none}
+}
+@media(max-width:1000px){
+  .hero-grid,.metric-grid{grid-template-columns:1fr}
+  .page{padding:16px}
+  h1{font-size:32px}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="hero">
+    <div class="topbar">
+      <div class="tag">AetherDesk AI · System Health</div>
+      <button class="btn" onclick="window.print()">Save as PDF</button>
+    </div>
+
+    <h1>System Health Pro Dashboard</h1>
+    <div class="subtitle">
+      Professional Windows system diagnostic dashboard with CPU, RAM, disk, Wi-Fi, Bluetooth, internet, DNS and AI-rendered Markdown diagnosis.
+    </div>
+
+    <div class="hero-grid">
+      <div class="hero-stat"><div class="label">Generated</div><div class="value">22 Jun 2026, 12:50 PM</div></div>
+      <div class="hero-stat"><div class="label">OS</div><div class="value">Microsoft Windows 11 Pro 64-bit</div></div>
+      <div class="hero-stat"><div class="label">Uptime</div><div class="value">1 days 22 h 6 min</div></div>
+      <div class="hero-stat"><div class="label">Battery</div><div class="value">Not available</div></div>
+      <div class="hero-stat"><div class="label">AI model</div><div class="value">gemma3:1b</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">
+      <div class="title-left"><span></span><h2>Health Metrics</h2></div>
+    </div>
+
+    <div class="metric-grid">
+      <div class="metric-card">
+        <div class="metric-label">CPU load</div>
+        <div class="metric-value">24%</div>
+        <div class="metric-note">Current processor load</div>
+        <div class="bar"><div class="fill good" style="width:24%"></div></div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-label">RAM usage</div>
+        <div class="metric-value">74.1%</div>
+        <div class="metric-note">Physical memory usage</div>
+        <div class="bar"><div class="fill warning" style="width:74.1%"></div></div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-label">Internet</div>
+        <div class="metric-value"><span class="badge good">Online</span></div>
+        <div class="metric-note">Ping check to public DNS</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-label">DNS</div>
+        <div class="metric-value"><span class="badge good">Working</span></div>
+        <div class="metric-note">Domain resolution status</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">
+      <div class="title-left"><span></span><h2>Disk Usage</h2></div>
+    </div>
+
+    <div class="metric-grid">
+                      <div class="metric-card">
+                    <div class="metric-label">Disk C:</div>
+                    <div class="metric-value">80.5%</div>
+                    <div class="metric-note">67 GB free of 343 GB</div>
+                    <div class="bar"><div class="fill warning" style="width:80.5%"></div></div>
+                </div>                <div class="metric-card">
+                    <div class="metric-label">Disk H:</div>
+                    <div class="metric-value">89.8%</div>
+                    <div class="metric-note">12.3 GB free of 121.2 GB</div>
+                    <div class="bar"><div class="fill warning" style="width:89.8%"></div></div>
+                </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">
+      <div class="title-left"><span></span><h2>Connectivity</h2></div>
+    </div>
+
+    <div class="metric-grid">
+      <div class="metric-card">
+        <div class="metric-label">Wi-Fi</div>
+        <div class="metric-note">State                  : disconnected</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-label">Bluetooth</div>
+        <div class="metric-note">No Bluetooth device found</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-label">Top processes</div>
+        <div class="metric-note" style="white-space:pre-wrap">vmmemWSL: 954.3 MB
+llama-server: 922.2 MB
+Memory Compression: 907.4 MB
+chrome: 493.7 MB
+Code: 454 MB
+</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-label">Battery</div>
+        <div class="metric-value">Not available</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section ai-box">
+    <div class="ai-head">
+      <div class="ai-icon">AI</div>
+      <div>
+        <div style="font-size:22px;font-weight:1000;color:#0b3b2d;">AI System Health Summary</div>
+        <div class="ai-meta">Markdown rendered system diagnosis generated locally when Ollama is available.</div>
+      </div>
+    </div>
+
+    <div class="ai-content">
+      <p>Okay, here’s a summary based on the provided system information:</p><p><strong>Overall Health Summary:</strong> The system is generally operating within acceptable parameters with some minor issues. CPU usage and RAM utilization are moderate, but overall stability appears good.</p><p><strong>Key Issues:</strong> There&#39;s a disconnected Wi-Fi interface (Realtek RTL8188ETV) and a potential issue with the Bluetooth service.  The system has a low battery level.</p><p><strong>Network and Connectivity:</strong> The system is online and connected to Airtel Greenlets via Ethernet, and DNS is working.</p><p><strong>Performance:</strong> CPU load is moderate, RAM usage is at 74%, and disk space is relatively full (around 343 MB).</p><p><strong>Recommended Actions:</strong> Investigate the disconnected Wi-Fi interface and troubleshoot Bluetooth issues.  Monitor battery life to prevent potential shutdowns.</p>
+    </div>
+  </div>
+
+  <div class="section raw-section">
+    <div class="section-title">
+      <div class="title-left"><span></span><h2>Raw Diagnostic Data</h2></div>
+    </div>
+
+    <div class="raw-box">=== WIFI STATUS ===
+
+There is 1 interface on the system: 
+
+    Name                   : Wi-Fi
+    Description            : Realtek RTL8188ETV Wireless LAN 802.11n USB 2.0 Network Adapter
+    GUID                   : 30f9cada-aa7d-4c05-8854-88742c34579f
+    Physical address       : 90:de:80:87:8b:ce
+    Interface type         : Primary
+    State                  : disconnected
+    Radio status           : Hardware On
+                             Software On
+
+
+=== NETWORK ADAPTERS ===
+
+Name     InterfaceDescription                                            Status       LinkSpeed
+----     --------------------                                            ------       ---------
+Ethernet Realtek PCIe GbE Family Controller                              Up           100 Mbps 
+Wi-Fi    Realtek RTL8188ETV Wireless LAN 802.11n USB 2.0 Network Adapter Disconnected 72.2 Mbps
+
+
+
+=== IP CONFIGURATION ===
+
+
+InterfaceAlias       : Ethernet
+InterfaceIndex       : 11
+InterfaceDescription : Realtek PCIe GbE Family Controller
+NetProfile.Name      : Airtel_Greenlets
+IPv6Address          : 2401:4900:1c5d:6723:4ace:a43a:ebbf:e29e
+IPv4Address          : 192.168.1.3
+IPv6DefaultGateway   : fe80::6e4f:89ff:fecb:6f29
+IPv4DefaultGateway   : 192.168.1.1
+DNSServer            : 2401:4900:50:9::7dd
+                       2401:4900:50:9::8
+                       2401:4900:50:9::7dd
+                       2401:4900:50:9::8
+                       192.168.1.1
+
+InterfaceAlias       : Wi-Fi
+InterfaceIndex       : 6
+InterfaceDescription : Realtek RTL8188ETV Wireless LAN 802.11n USB 2.0 Network Adapter
+NetAdapter.Status    : Disconnected
+
+
+
+
+=== INTERNET TEST ===
+Ping 8.8.8.8: True
+DNS google.com: True
+
+
+=== BLUETOOTH DEVICES ===
+No Bluetooth device found by PnP search.
+
+=== BLUETOOTH SERVICES ===
+
+Name                         DisplayName                              Status StartType
+----                         -----------                              ------ ---------
+BluetoothUserService_3515ff9 Bluetooth User Support Service_3515ff9  Stopped    Manual
+BTAGService                  Bluetooth Audio Gateway Service         Stopped    Manual
+BthAvctpSvc                  AVCTP service                           Stopped    Manual
+bthserv                      Bluetooth Support Service               Stopped    Manual
+webthreatdefsvc              Web Threat Defense Service              Running    Manual
+webthreatdefusersvc_3515ff9  Web Threat Defense User Service_3515ff9 Running Automatic
+
+
+
+
+=== SYSTEM INFO ===
+Computer Name: DESKTOP-NAFH7L0
+Windows: Microsoft Windows 11 Pro
+Version: 10.0.26200
+Total RAM GB: 15.84
+Used RAM GB: 11.8
+Free RAM GB: 4.04
+Uptime: 46.12 hours
+
+=== CPU ===
+
+Name                                 NumberOfCores NumberOfLogicalProcessors LoadPercentage
+----                                 ------------- ------------------------- --------------
+12th Gen Intel(R) Core(TM) i5-12400F             6                        12             27
+
+
+
+=== DISK SPACE ===
+
+
+DeviceID    : C:
+VolumeName  : 
+SizeGB      : 343.02
+FreeGB      : 67
+FreePercent : 19.53
+
+DeviceID    : H:
+VolumeName  : New Volume
+SizeGB      : 121.24
+FreeGB      : 12.34
+FreePercent : 10.18
+
+
+
+
+=== BATTERY ===
+No battery found. Probably desktop system.
+
+=== TOP MEMORY PROCESSES ===
+
+ProcessName           Id MemoryMB
+-----------           -- --------
+vmmemWSL           10420   985.18
+llama-server       11460   922.18
+Memory Compression  2840   907.41
+chrome             10548   493.67
+Code               15780   453.86
+chrome             20632   387.12
+chrome             17972   372.76
+Code               17528   336.86
+explorer            6632   332.82
+MsMpEng             4104   295.43
+
+
+</div>
+  </div>
+
+  <div class="footer">
+    Generated locally by AetherDesk AI · Built by flutterfever.com
+  </div>
+
+</div>
+</body>
+</html>

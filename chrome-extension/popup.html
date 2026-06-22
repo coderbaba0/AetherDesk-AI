@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AetherDesk AI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="panel">
+    <section class="hero">
+      <div>
+        <div class="eyebrow">AetherDesk AI</div>
+        <h1>Browser Companion</h1>
+        <p>Send pages, activity, and topics to your local AI dashboard.</p>
+      </div>
+      <div id="status" class="status">Checking</div>
+    </section>
+
+    <section class="stats">
+      <div>
+        <span>Reports</span>
+        <strong id="reportCount">-</strong>
+      </div>
+      <div>
+        <span>Activity</span>
+        <strong id="activityCount">-</strong>
+      </div>
+      <div>
+        <span>Pages</span>
+        <strong id="pageCount">-</strong>
+      </div>
+    </section>
+
+    <section class="run-state">
+      <span>TrendRadar</span>
+      <strong id="trendStatus">Idle</strong>
+    </section>
+
+    <label for="topic">TrendRadar Topic</label>
+    <input id="topic" type="text" placeholder="local ai agent">
+
+    <label for="note">Page Note</label>
+    <textarea id="note" rows="3" placeholder="Why is this page useful?"></textarea>
+
+    <label for="selector">Screenshot Selector</label>
+    <input id="selector" type="text" value="body" placeholder="body, article, #main, .content">
+
+    <div class="actions">
+      <button id="savePage">Save Page</button>
+      <button id="runTrendRadar" class="primary">Run TrendRadar</button>
+      <button id="openLatest">Open Latest Report</button>
+      <button id="openReports">Open Reports Folder</button>
+      <button id="saveSource">Save Page Source</button>
+      <button id="captureNode">Capture Selector</button>
+      <button id="refresh">Refresh Stats</button>
+    </div>
+
+    <pre id="log"></pre>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

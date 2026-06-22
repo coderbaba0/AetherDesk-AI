@@ -8,6 +8,8 @@
 
 ![AetherDesk AI Windows UI Settings and Scheduler](screenshots/powershell_ui2.png)
 
+![AetherDesk AI Chrome Extension Companion](screenshots/extension_screnshot.png)
+
 It helps you:
 
 * Generate trending AI and open-source technology reports
@@ -73,6 +75,10 @@ Watch how to run AetherDesk AI:
 
 ![Summary report module](screenshots/summary_report_module1.png)
 
+### Chrome Extension Companion
+
+![AetherDesk AI Chrome Extension Companion](screenshots/extension_screnshot.png)
+
 ---
 
 ## Features
@@ -130,6 +136,14 @@ TrendRadar scoring is weighted by topic relevance, exact matches, freshness, sou
 powershell -ExecutionPolicy Bypass -File .\social-trend-report.ps1
 ```
 
+### Chrome Extension Companion
+
+The project includes a Chrome Extension with an official Native Messaging Host. It can save browser pages, log browser activity, send topics to TrendRadar, and write local data into `activity-data/` and `social-data/`.
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\chrome-extension\native-host\install-native-host.ps1 -ExtensionId YOUR_EXTENSION_ID
+```
+
 ---
 
 ## Folder Structure
@@ -151,6 +165,7 @@ AetherDeskAI/
 ├── report.ps1
 ├── search.ps1
 ├── ollama.ps1
+├── chrome-extension/
 ├── screenshots/
 ├── reports/
 ├── social-data/

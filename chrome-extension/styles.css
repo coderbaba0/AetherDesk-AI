@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 380px;
+  min-height: 650px;
+  background: #f4f7fb;
+  color: #152033;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.panel {
+  padding: 14px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px;
+  border-radius: 18px;
+  color: white;
+  background: linear-gradient(135deg, #102238, #126b5c 65%, #29b391);
+}
+
+.eyebrow {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #b8fff0;
+}
+
+h1 {
+  margin: 4px 0 7px;
+  font-size: 25px;
+}
+
+p {
+  margin: 0;
+  color: #ddfff7;
+  line-height: 1.4;
+}
+
+.status {
+  align-self: flex-start;
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.16);
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.status.ok {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status.warn {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.stats div {
+  padding: 12px;
+  border-radius: 14px;
+  background: white;
+  border: 1px solid #dce4ef;
+}
+
+.stats span {
+  display: block;
+  color: #657184;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.stats strong {
+  display: block;
+  margin-top: 4px;
+  font-size: 21px;
+}
+
+.run-state {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: #ecfdf5;
+  border: 1px solid #bbf7d0;
+  margin-bottom: 10px;
+}
+
+.run-state span {
+  color: #047857;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.run-state strong {
+  color: #064e3b;
+  font-size: 12px;
+  text-align: right;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #334155;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 10px 11px;
+  font: inherit;
+  outline: none;
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #126b5c;
+  box-shadow: 0 0 0 3px rgba(18,107,92,.12);
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+button {
+  min-height: 38px;
+  border: 0;
+  border-radius: 12px;
+  background: #e8eef8;
+  color: #152033;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+button.primary {
+  background: #126b5c;
+  color: white;
+}
+
+#refresh {
+  grid-column: 1 / -1;
+}
+
+pre {
+  height: 110px;
+  overflow: auto;
+  padding: 10px;
+  border-radius: 12px;
+  background: #0b1220;
+  color: #d6e4ff;
+  white-space: pre-wrap;
+  font-size: 11px;
+}

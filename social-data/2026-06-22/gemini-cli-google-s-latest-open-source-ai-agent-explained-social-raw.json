@@ -1,0 +1,935 @@
+﻿{
+    "Module":  "AetherDesk TrendRadar",
+    "Purpose":  "Social Trend Intelligence + Behaviour Prediction Report",
+    "Topic":  "Gemini CLI: Google’s latest open source AI agent explained",
+    "Slug":  "gemini-cli-google-s-latest-open-source-ai-agent-explained",
+    "Date":  "2026-06-22",
+    "GeneratedAt":  "2026-06-22T12:56:40",
+    "OverallTrendOpportunityScore":  78,
+    "BestPlatform":  "News",
+    "BestContentFormat":  "Explainer article with market context and clear examples",
+    "SocialBehaviourPrediction":  "High opportunity: the topic has broad platform coverage. Expect stronger engagement around assistant, app, model, especially on News.",
+    "KeywordClusters":  [
+                            "assistant",
+                            "app",
+                            "model",
+                            "videos",
+                            "omni",
+                            "generative",
+                            "like",
+                            "now",
+                            "has",
+                            "bring",
+                            "help",
+                            "neural"
+                        ],
+    "HashtagIdeas":  [
+                         "#GeminiCLIGoogleslatestopensourceAIagentexplained",
+                         "#assistant",
+                         "#app",
+                         "#model",
+                         "#videos",
+                         "#omni",
+                         "#generative",
+                         "#like"
+                     ],
+    "YouTubeTitleIdeas":  [
+                              "I tested Gemini CLI: Google’s latest open source AI agent explained so you do not have to",
+                              "Gemini CLI: Google’s latest open source AI agent explained explained with a real workflow",
+                              "Is Gemini CLI: Google’s latest open source AI agent explained the next practical AI opportunity?",
+                              "Gemini CLI: Google’s latest open source AI agent explained: tools, examples, and mistakes to avoid"
+                          ],
+    "LinkedInPostAngles":  [
+                               "What Gemini CLI: Google’s latest open source AI agent explained means for builders and small teams",
+                               "A practical framework to evaluate Gemini CLI: Google’s latest open source AI agent explained before adopting it",
+                               "The hidden behaviour shift behind Gemini CLI: Google’s latest open source AI agent explained",
+                               "Why assistant is becoming important in the Gemini CLI: Google’s latest open source AI agent explained conversation"
+                           ],
+    "TwitterPostIdeas":  [
+                             "A short thread: what is actually changing around Gemini CLI: Google’s latest open source AI agent explained",
+                             "Hot take: Gemini CLI: Google’s latest open source AI agent explained matters less for hype and more for workflow design",
+                             "3 signals showing why Gemini CLI: Google’s latest open source AI agent explained is worth watching",
+                             "Question for builders: where does Gemini CLI: Google’s latest open source AI agent explained fit in your stack?"
+                         ],
+    "SuggestedRelatedTopics":  [
+                                   "Gemini CLI: Google’s latest open source AI agent explained tools",
+                                   "Gemini CLI: Google’s latest open source AI agent explained workflow",
+                                   "Gemini CLI: Google’s latest open source AI agent explained use cases",
+                                   "Gemini CLI: Google’s latest open source AI agent explained tutorial",
+                                   "Gemini CLI: Google’s latest open source AI agent explained automation",
+                                   "Gemini CLI: Google’s latest open source AI agent explained open source",
+                                   "Gemini CLI: Google’s latest open source AI agent explained business ideas",
+                                   "Gemini CLI: Google’s latest open source AI agent explained content strategy",
+                                   "Gemini CLI: Google’s latest open source AI agent explained comparison",
+                                   "Gemini CLI: Google’s latest open source AI agent explained roadmap"
+                               ],
+    "BestResources":  [
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Gemini CLI: Google’s latest open source AI agent explained",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38e3b0d4d1497590508baad0999e8c\u0026url=https%3a%2f%2fwww.digit.in%2ffeatures%2fgeneral%2fgemini-cli-googles-latest-open-source-ai-agent-explained.html\u0026c=13186403246934766964\u0026mkt=en-in",
+                              "Description":  "Google has released a powerful new tool aimed squarely at developers and it runs right from the terminal. Meet Gemini CLI, an open-source command-line interface powered by Google’s Gemini AI models.",
+                              "Published":  "Wed, 25 Jun 2025 16:59:00 GMT",
+                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest news trend",
+                              "ResourceScore":  77,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Google launches Gemini CLI: An open source AI agent for developers",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38e3b0d4d1497590508baad0999e8c\u0026url=https%3a%2f%2fyourstory.com%2fai-story%2fgoogle-gemini-cli-open-source-ai-agent\u0026c=7729885421760646112\u0026mkt=en-in",
+                              "Description":  "Google has introduced Gemini CLI, a command-line interface (CLI) that serves as an open source agent for interacting with its Gemini family of AI models. Built with developers in mind, the tool allows ...",
+                              "Published":  "Wed, 25 Jun 2025 16:59:00 GMT",
+                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest news trend",
+                              "ResourceScore":  51,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Google launches Gemini CLI, a free open-source AI agentic tool for developers",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38e3b0d4d1497590508baad0999e8c\u0026url=https%3a%2f%2fwww.thehindu.com%2fsci-tech%2ftechnology%2fgoogle-launches-gemini-cli-a-free-open-source-ai-agentic-tool-for-developers%2farticle69739561.ece\u0026c=5374741851111382953\u0026mkt=en-in",
+                              "Description":  "Google has launched a new agentic AI tool called Gemini CLI to bring Gemini AI’s capabilities directly to developer terminals. Once plugged into the Gemini AI models, developers can make requests for ...",
+                              "Published":  "Thu, 26 Jun 2025 12:22:00 GMT",
+                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest news trend",
+                              "ResourceScore":  51,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Google launches Gemini CLI for developers",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38e3b0d4d1497590508baad0999e8c\u0026url=https%3a%2f%2fwww.thehindubusinessline.com%2finfo-tech%2fgoogle-launches-gemini-cli-for-developers%2farticle69736670.ece\u0026c=6959423801242601934\u0026mkt=en-in",
+                              "Description":  "Google on Wednesday globally introduced an open-source AI agent Gemini CLI for developers to help with coding, content generation, problem solving and deep research. The announcement comes close on ...",
+                              "Published":  "Wed, 25 Jun 2025 01:37:00 GMT",
+                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest news trend",
+                              "ResourceScore":  51,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "Reddit",
+                              "Type":  "Community",
+                              "Title":  "Gemini 3 | Google\u0027s Latest AI Model",
+                              "Link":  "https://gemini3.us/gemini-3",
+                              "Description":  "Community platform for Gemini 3 information and resources. Learn about Google\u0027s Gemini AI model capabilities, benchmarks, and features.",
+                              "Published":  "Sun, 21 Jun 2026 18:01:00 GMT",
+                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:reddit.com/r",
+                              "ResourceScore":  50,
+                              "Domain":  "gemini3.us"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Google Unveils Free Open-Source AI Tool Gemini CLI: Here’s How It Could Transform Developer Workflows",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38e3b0d4d1497590508baad0999e8c\u0026url=https%3a%2f%2fwww.freepressjournal.in%2ftech%2fgoogle-unveils-free-open-source-ai-tool-gemini-cli-heres-how-it-could-transform-developer-workflows\u0026c=3999543740486513199\u0026mkt=en-in",
+                              "Description":  "Google has announced the launch of Gemini CLI, an open-source command-line interface tool powered by the company’s Gemini 1.5 Pro model. This tool is designed specifically for developers, bringing AI ...",
+                              "Published":  "Thu, 26 Jun 2025 11:36:00 GMT",
+                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest news trend",
+                              "ResourceScore":  48,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Gemini CLI debuts as Google’s open-source AI coding assistant: How it works",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38e3b0d4d1497590508baad0999e8c\u0026url=https%3a%2f%2fwww.livemint.com%2fai%2fartificial-intelligence%2fgemini-cli-debuts-as-google-s-open-source-ai-coding-assistant-how-it-works-11750869155751.html\u0026c=15797816447933642062\u0026mkt=en-in",
+                              "Description":  "Alphabet Inc.\u0027s Google has unveiled a new artificial intelligence-powered coding assistant called Gemini CLI (Command Line Interface), designed to streamline the development process by allowing users ...",
+                              "Published":  "Wed, 25 Jun 2025 20:45:00 GMT",
+                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest news trend",
+                              "ResourceScore":  48,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "GitHub",
+                              "Type":  "Open Source",
+                              "Title":  "Gemini 3 | Google\u0027s Latest AI Model",
+                              "Link":  "https://gemini3.us/gemini-3",
+                              "Description":  "Community platform for Gemini 3 information and resources. Learn about Google\u0027s Gemini AI model capabilities, benchmarks, and features.",
+                              "Published":  "Sun, 21 Jun 2026 18:01:00 GMT",
+                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:github.com repository open source",
+                              "ResourceScore":  42,
+                              "Domain":  "gemini3.us"
+                          },
+                          {
+                              "Platform":  "Google/Web",
+                              "Type":  "Web",
+                              "Title":  "Gemini 3 | Google\u0027s Latest AI Model",
+                              "Link":  "https://gemini3.us/gemini-3",
+                              "Description":  "Community platform for Gemini 3 information and resources. Learn about Google\u0027s Gemini AI model capabilities, benchmarks, and features.",
+                              "Published":  "Sun, 21 Jun 2026 18:01:00 GMT",
+                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest trend guide analysis",
+                              "ResourceScore":  42,
+                              "Domain":  "gemini3.us"
+                          },
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "Gemini 3 | Google\u0027s Latest AI Model",
+                              "Link":  "https://gemini3.us/gemini-3",
+                              "Description":  "Community platform for Gemini 3 information and resources. Learn about Google\u0027s Gemini AI model capabilities, benchmarks, and features.",
+                              "Published":  "Sun, 21 Jun 2026 18:01:00 GMT",
+                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  42,
+                              "Domain":  "gemini3.us"
+                          },
+                          {
+                              "Platform":  "X/Twitter",
+                              "Type":  "Social",
+                              "Title":  "Gemini 3 | Google\u0027s Latest AI Model",
+                              "Link":  "https://gemini3.us/gemini-3",
+                              "Description":  "Community platform for Gemini 3 information and resources. Learn about Google\u0027s Gemini AI model capabilities, benchmarks, and features.",
+                              "Published":  "Sun, 21 Jun 2026 18:01:00 GMT",
+                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:x.com OR site:twitter.com",
+                              "ResourceScore":  42,
+                              "Domain":  "gemini3.us"
+                          },
+                          {
+                              "Platform":  "YouTube",
+                              "Type":  "Video",
+                              "Title":  "Gemini 3 | Google\u0027s Latest AI Model",
+                              "Link":  "https://gemini3.us/gemini-3",
+                              "Description":  "Community platform for Gemini 3 information and resources. Learn about Google\u0027s Gemini AI model capabilities, benchmarks, and features.",
+                              "Published":  "Sun, 21 Jun 2026 18:01:00 GMT",
+                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:youtube.com/watch",
+                              "ResourceScore":  42,
+                              "Domain":  "gemini3.us"
+                          }
+                      ],
+    "RedditDiscussionSignal":  72,
+    "GitHubOpenSourceSignal":  72,
+    "RecommendedAction":  "Start with News using a Explainer article with market context and clear examples. Re-check signals weekly and turn top keywords into experiments.",
+    "Platforms":  [
+                      {
+                          "Name":  "YouTube",
+                          "Type":  "Video",
+                          "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:youtube.com/watch",
+                          "Score":  70,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "assistant",
+                                           "app",
+                                           "model",
+                                           "omni",
+                                           "videos",
+                                           "now",
+                                           "generative",
+                                           "like"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Google Gemini - App Store",
+                                              "Link":  "https://apps.apple.com/us/app/google-gemini/id6477489729",
+                                              "Description":  "Download Google Gemini by Google on the App Store. See screenshots, ratings and reviews, user tips, and more apps like Google Gemini.",
+                                              "Published":  "Sun, 21 Jun 2026 15:59:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:youtube.com/watch",
+                                              "ResourceScore":  29,
+                                              "Domain":  "apps.apple.com"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Gemini (language model) - Wikipedia",
+                                              "Link":  "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+                                              "Description":  "Google announced Gemini, a large language model (LLM) developed by subsidiary Google DeepMind, during the Google I/O keynote on May 10, 2023.",
+                                              "Published":  "Sun, 21 Jun 2026 04:11:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:youtube.com/watch",
+                                              "ResourceScore":  29,
+                                              "Domain":  "en.wikipedia.org"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Google Gemini",
+                                              "Link":  "https://gemini.google.com/?hl=en-IN",
+                                              "Description":  "Meet Gemini, Google\u0027s AI assistant. Get help with writing, planning, brainstorming and more. Experience the power of generative AI.",
+                                              "Published":  "Sat, 20 Jun 2026 23:53:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:youtube.com/watch",
+                                              "ResourceScore":  24,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Google Gemini",
+                                              "Link":  "https://gemini.google.com/app/download",
+                                              "Description":  "Download the Gemini app for a new kind of help from Google, now available on iOS and Android.",
+                                              "Published":  "Sun, 21 Jun 2026 00:07:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:youtube.com/watch",
+                                              "ResourceScore":  32,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Gemini – Your AI assistant from Google",
+                                              "Link":  "https://gemini.google/in/about/?hl=en-IN",
+                                              "Description":  "Building the world\u0027s most capable AI assistant. With Gemini Omni creating and editing videos is now as easy as having a conversation. Gemini Omni is like Nano Banana for videos. Blend text, images, and video to bring your ideas to life. Neural Expressive has redesigned the app from the ground up.",
+                                              "Published":  "Sun, 21 Jun 2026 23:52:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:youtube.com/watch",
+                                              "ResourceScore":  29,
+                                              "Domain":  "gemini.google"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Gemini – Your AI assistant from Google",
+                                              "Link":  "https://gemini.google/us/about/?hl=en",
+                                              "Description":  "Building the world’s most capable AI assistant. With Gemini Omni creating and editing videos is now as easy as having a conversation. Gemini Omni is like Nano Banana for videos. Blend text, images, and video to bring your ideas to life. Neural Expressive has redesigned the app from the ground up.",
+                                              "Published":  "Sun, 21 Jun 2026 21:00:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:youtube.com/watch",
+                                              "ResourceScore":  29,
+                                              "Domain":  "gemini.google"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Gemini 3 | Google\u0027s Latest AI Model",
+                                              "Link":  "https://gemini3.us/gemini-3",
+                                              "Description":  "Community platform for Gemini 3 information and resources. Learn about Google\u0027s Gemini AI model capabilities, benchmarks, and features.",
+                                              "Published":  "Sun, 21 Jun 2026 18:01:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:youtube.com/watch",
+                                              "ResourceScore":  42,
+                                              "Domain":  "gemini3.us"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Google Gemini: Everything you need to know about the ... - TechCrunch",
+                                              "Link":  "https://techcrunch.com/2025/02/26/what-is-google-gemini-ai/",
+                                              "Description":  "Google’s trying to make waves with Gemini, its flagship suite of generative AI models, apps, and services. But what’s Gemini? How can you use it? And how does it stack up to other generative AI...",
+                                              "Published":  "Mon, 08 Jan 2024 01:35:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:youtube.com/watch",
+                                              "ResourceScore":  27,
+                                              "Domain":  "techcrunch.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "X/Twitter",
+                          "Type":  "Social",
+                          "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:x.com OR site:twitter.com",
+                          "Score":  69,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "assistant",
+                                           "app",
+                                           "model",
+                                           "omni",
+                                           "videos",
+                                           "now",
+                                           "generative",
+                                           "like"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Google Gemini - App Store",
+                                              "Link":  "https://apps.apple.com/us/app/google-gemini/id6477489729",
+                                              "Description":  "Download Google Gemini by Google on the App Store. See screenshots, ratings and reviews, user tips, and more apps like Google Gemini.",
+                                              "Published":  "Sun, 21 Jun 2026 15:59:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:x.com OR site:twitter.com",
+                                              "ResourceScore":  29,
+                                              "Domain":  "apps.apple.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Gemini (language model) - Wikipedia",
+                                              "Link":  "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+                                              "Description":  "Google announced Gemini, a large language model (LLM) developed by subsidiary Google DeepMind, during the Google I/O keynote on May 10, 2023.",
+                                              "Published":  "Sun, 21 Jun 2026 04:11:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:x.com OR site:twitter.com",
+                                              "ResourceScore":  29,
+                                              "Domain":  "en.wikipedia.org"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Google Gemini",
+                                              "Link":  "https://gemini.google.com/?hl=en-IN",
+                                              "Description":  "Meet Gemini, Google\u0027s AI assistant. Get help with writing, planning, brainstorming and more. Experience the power of generative AI.",
+                                              "Published":  "Sat, 20 Jun 2026 23:53:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:x.com OR site:twitter.com",
+                                              "ResourceScore":  24,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Google Gemini",
+                                              "Link":  "https://gemini.google.com/app/download",
+                                              "Description":  "Download the Gemini app for a new kind of help from Google, now available on iOS and Android.",
+                                              "Published":  "Sun, 21 Jun 2026 00:07:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:x.com OR site:twitter.com",
+                                              "ResourceScore":  32,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Gemini – Your AI assistant from Google",
+                                              "Link":  "https://gemini.google/in/about/?hl=en-IN",
+                                              "Description":  "Building the world\u0027s most capable AI assistant. With Gemini Omni creating and editing videos is now as easy as having a conversation. Gemini Omni is like Nano Banana for videos. Blend text, images, and video to bring your ideas to life. Neural Expressive has redesigned the app from the ground up.",
+                                              "Published":  "Sun, 21 Jun 2026 23:52:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:x.com OR site:twitter.com",
+                                              "ResourceScore":  29,
+                                              "Domain":  "gemini.google"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Gemini – Your AI assistant from Google",
+                                              "Link":  "https://gemini.google/us/about/?hl=en",
+                                              "Description":  "Building the world’s most capable AI assistant. With Gemini Omni creating and editing videos is now as easy as having a conversation. Gemini Omni is like Nano Banana for videos. Blend text, images, and video to bring your ideas to life. Neural Expressive has redesigned the app from the ground up.",
+                                              "Published":  "Sun, 21 Jun 2026 21:00:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:x.com OR site:twitter.com",
+                                              "ResourceScore":  29,
+                                              "Domain":  "gemini.google"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Gemini 3 | Google\u0027s Latest AI Model",
+                                              "Link":  "https://gemini3.us/gemini-3",
+                                              "Description":  "Community platform for Gemini 3 information and resources. Learn about Google\u0027s Gemini AI model capabilities, benchmarks, and features.",
+                                              "Published":  "Sun, 21 Jun 2026 18:01:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:x.com OR site:twitter.com",
+                                              "ResourceScore":  42,
+                                              "Domain":  "gemini3.us"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Google Gemini: Everything you need to know about the ... - TechCrunch",
+                                              "Link":  "https://techcrunch.com/2025/02/26/what-is-google-gemini-ai/",
+                                              "Description":  "Google’s trying to make waves with Gemini, its flagship suite of generative AI models, apps, and services. But what’s Gemini? How can you use it? And how does it stack up to other generative AI...",
+                                              "Published":  "Mon, 08 Jan 2024 01:35:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:x.com OR site:twitter.com",
+                                              "ResourceScore":  27,
+                                              "Domain":  "techcrunch.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "LinkedIn",
+                          "Type":  "Social",
+                          "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:linkedin.com/posts OR site:linkedin.com/pulse",
+                          "Score":  71,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "assistant",
+                                           "app",
+                                           "model",
+                                           "omni",
+                                           "videos",
+                                           "now",
+                                           "generative",
+                                           "like"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Google Gemini - App Store",
+                                              "Link":  "https://apps.apple.com/us/app/google-gemini/id6477489729",
+                                              "Description":  "Download Google Gemini by Google on the App Store. See screenshots, ratings and reviews, user tips, and more apps like Google Gemini.",
+                                              "Published":  "Sun, 21 Jun 2026 15:59:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  29,
+                                              "Domain":  "apps.apple.com"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Gemini (language model) - Wikipedia",
+                                              "Link":  "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+                                              "Description":  "Google announced Gemini, a large language model (LLM) developed by subsidiary Google DeepMind, during the Google I/O keynote on May 10, 2023.",
+                                              "Published":  "Sun, 21 Jun 2026 04:11:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  29,
+                                              "Domain":  "en.wikipedia.org"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Google Gemini",
+                                              "Link":  "https://gemini.google.com/?hl=en-IN",
+                                              "Description":  "Meet Gemini, Google\u0027s AI assistant. Get help with writing, planning, brainstorming and more. Experience the power of generative AI.",
+                                              "Published":  "Sat, 20 Jun 2026 23:53:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  24,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Google Gemini",
+                                              "Link":  "https://gemini.google.com/app/download",
+                                              "Description":  "Download the Gemini app for a new kind of help from Google, now available on iOS and Android.",
+                                              "Published":  "Sun, 21 Jun 2026 00:07:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  32,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Gemini – Your AI assistant from Google",
+                                              "Link":  "https://gemini.google/in/about/?hl=en-IN",
+                                              "Description":  "Building the world\u0027s most capable AI assistant. With Gemini Omni creating and editing videos is now as easy as having a conversation. Gemini Omni is like Nano Banana for videos. Blend text, images, and video to bring your ideas to life. Neural Expressive has redesigned the app from the ground up.",
+                                              "Published":  "Sun, 21 Jun 2026 23:52:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  29,
+                                              "Domain":  "gemini.google"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Gemini – Your AI assistant from Google",
+                                              "Link":  "https://gemini.google/us/about/?hl=en",
+                                              "Description":  "Building the world’s most capable AI assistant. With Gemini Omni creating and editing videos is now as easy as having a conversation. Gemini Omni is like Nano Banana for videos. Blend text, images, and video to bring your ideas to life. Neural Expressive has redesigned the app from the ground up.",
+                                              "Published":  "Sun, 21 Jun 2026 21:00:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  29,
+                                              "Domain":  "gemini.google"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Gemini 3 | Google\u0027s Latest AI Model",
+                                              "Link":  "https://gemini3.us/gemini-3",
+                                              "Description":  "Community platform for Gemini 3 information and resources. Learn about Google\u0027s Gemini AI model capabilities, benchmarks, and features.",
+                                              "Published":  "Sun, 21 Jun 2026 18:01:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  42,
+                                              "Domain":  "gemini3.us"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Google Gemini: Everything you need to know about the ... - TechCrunch",
+                                              "Link":  "https://techcrunch.com/2025/02/26/what-is-google-gemini-ai/",
+                                              "Description":  "Google’s trying to make waves with Gemini, its flagship suite of generative AI models, apps, and services. But what’s Gemini? How can you use it? And how does it stack up to other generative AI...",
+                                              "Published":  "Mon, 08 Jan 2024 01:35:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  27,
+                                              "Domain":  "techcrunch.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "Reddit",
+                          "Type":  "Community",
+                          "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:reddit.com/r",
+                          "Score":  72,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "assistant",
+                                           "app",
+                                           "model",
+                                           "omni",
+                                           "videos",
+                                           "now",
+                                           "generative",
+                                           "like"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Google Gemini - App Store",
+                                              "Link":  "https://apps.apple.com/us/app/google-gemini/id6477489729",
+                                              "Description":  "Download Google Gemini by Google on the App Store. See screenshots, ratings and reviews, user tips, and more apps like Google Gemini.",
+                                              "Published":  "Sun, 21 Jun 2026 15:59:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:reddit.com/r",
+                                              "ResourceScore":  29,
+                                              "Domain":  "apps.apple.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Gemini (language model) - Wikipedia",
+                                              "Link":  "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+                                              "Description":  "Google announced Gemini, a large language model (LLM) developed by subsidiary Google DeepMind, during the Google I/O keynote on May 10, 2023.",
+                                              "Published":  "Sun, 21 Jun 2026 04:11:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:reddit.com/r",
+                                              "ResourceScore":  29,
+                                              "Domain":  "en.wikipedia.org"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Google Gemini",
+                                              "Link":  "https://gemini.google.com/?hl=en-IN",
+                                              "Description":  "Meet Gemini, Google\u0027s AI assistant. Get help with writing, planning, brainstorming and more. Experience the power of generative AI.",
+                                              "Published":  "Sat, 20 Jun 2026 23:53:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:reddit.com/r",
+                                              "ResourceScore":  24,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Google Gemini",
+                                              "Link":  "https://gemini.google.com/app/download",
+                                              "Description":  "Download the Gemini app for a new kind of help from Google, now available on iOS and Android.",
+                                              "Published":  "Sun, 21 Jun 2026 00:07:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:reddit.com/r",
+                                              "ResourceScore":  32,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Gemini – Your AI assistant from Google",
+                                              "Link":  "https://gemini.google/in/about/?hl=en-IN",
+                                              "Description":  "Building the world\u0027s most capable AI assistant. With Gemini Omni creating and editing videos is now as easy as having a conversation. Gemini Omni is like Nano Banana for videos. Blend text, images, and video to bring your ideas to life. Neural Expressive has redesigned the app from the ground up.",
+                                              "Published":  "Sun, 21 Jun 2026 23:52:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:reddit.com/r",
+                                              "ResourceScore":  29,
+                                              "Domain":  "gemini.google"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Gemini – Your AI assistant from Google",
+                                              "Link":  "https://gemini.google/us/about/?hl=en",
+                                              "Description":  "Building the world’s most capable AI assistant. With Gemini Omni creating and editing videos is now as easy as having a conversation. Gemini Omni is like Nano Banana for videos. Blend text, images, and video to bring your ideas to life. Neural Expressive has redesigned the app from the ground up.",
+                                              "Published":  "Sun, 21 Jun 2026 21:00:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:reddit.com/r",
+                                              "ResourceScore":  29,
+                                              "Domain":  "gemini.google"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Gemini 3 | Google\u0027s Latest AI Model",
+                                              "Link":  "https://gemini3.us/gemini-3",
+                                              "Description":  "Community platform for Gemini 3 information and resources. Learn about Google\u0027s Gemini AI model capabilities, benchmarks, and features.",
+                                              "Published":  "Sun, 21 Jun 2026 18:01:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:reddit.com/r",
+                                              "ResourceScore":  50,
+                                              "Domain":  "gemini3.us"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Google Gemini: Everything you need to know about the ... - TechCrunch",
+                                              "Link":  "https://techcrunch.com/2025/02/26/what-is-google-gemini-ai/",
+                                              "Description":  "Google’s trying to make waves with Gemini, its flagship suite of generative AI models, apps, and services. But what’s Gemini? How can you use it? And how does it stack up to other generative AI...",
+                                              "Published":  "Mon, 08 Jan 2024 01:35:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:reddit.com/r",
+                                              "ResourceScore":  27,
+                                              "Domain":  "techcrunch.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "GitHub",
+                          "Type":  "Open Source",
+                          "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:github.com repository open source",
+                          "Score":  72,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "assistant",
+                                           "app",
+                                           "model",
+                                           "omni",
+                                           "videos",
+                                           "now",
+                                           "generative",
+                                           "like"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Google Gemini - App Store",
+                                              "Link":  "https://apps.apple.com/us/app/google-gemini/id6477489729",
+                                              "Description":  "Download Google Gemini by Google on the App Store. See screenshots, ratings and reviews, user tips, and more apps like Google Gemini.",
+                                              "Published":  "Sun, 21 Jun 2026 15:59:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:github.com repository open source",
+                                              "ResourceScore":  29,
+                                              "Domain":  "apps.apple.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Gemini (language model) - Wikipedia",
+                                              "Link":  "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+                                              "Description":  "Google announced Gemini, a large language model (LLM) developed by subsidiary Google DeepMind, during the Google I/O keynote on May 10, 2023.",
+                                              "Published":  "Sun, 21 Jun 2026 04:11:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:github.com repository open source",
+                                              "ResourceScore":  29,
+                                              "Domain":  "en.wikipedia.org"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Google Gemini",
+                                              "Link":  "https://gemini.google.com/?hl=en-IN",
+                                              "Description":  "Meet Gemini, Google\u0027s AI assistant. Get help with writing, planning, brainstorming and more. Experience the power of generative AI.",
+                                              "Published":  "Sat, 20 Jun 2026 23:53:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:github.com repository open source",
+                                              "ResourceScore":  24,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Google Gemini",
+                                              "Link":  "https://gemini.google.com/app/download",
+                                              "Description":  "Download the Gemini app for a new kind of help from Google, now available on iOS and Android.",
+                                              "Published":  "Sun, 21 Jun 2026 00:07:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:github.com repository open source",
+                                              "ResourceScore":  32,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Gemini – Your AI assistant from Google",
+                                              "Link":  "https://gemini.google/in/about/?hl=en-IN",
+                                              "Description":  "Building the world\u0027s most capable AI assistant. With Gemini Omni creating and editing videos is now as easy as having a conversation. Gemini Omni is like Nano Banana for videos. Blend text, images, and video to bring your ideas to life. Neural Expressive has redesigned the app from the ground up.",
+                                              "Published":  "Sun, 21 Jun 2026 23:52:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:github.com repository open source",
+                                              "ResourceScore":  29,
+                                              "Domain":  "gemini.google"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Gemini – Your AI assistant from Google",
+                                              "Link":  "https://gemini.google/us/about/?hl=en",
+                                              "Description":  "Building the world’s most capable AI assistant. With Gemini Omni creating and editing videos is now as easy as having a conversation. Gemini Omni is like Nano Banana for videos. Blend text, images, and video to bring your ideas to life. Neural Expressive has redesigned the app from the ground up.",
+                                              "Published":  "Sun, 21 Jun 2026 21:00:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:github.com repository open source",
+                                              "ResourceScore":  29,
+                                              "Domain":  "gemini.google"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Gemini 3 | Google\u0027s Latest AI Model",
+                                              "Link":  "https://gemini3.us/gemini-3",
+                                              "Description":  "Community platform for Gemini 3 information and resources. Learn about Google\u0027s Gemini AI model capabilities, benchmarks, and features.",
+                                              "Published":  "Sun, 21 Jun 2026 18:01:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:github.com repository open source",
+                                              "ResourceScore":  42,
+                                              "Domain":  "gemini3.us"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Google Gemini: Everything you need to know about the ... - TechCrunch",
+                                              "Link":  "https://techcrunch.com/2025/02/26/what-is-google-gemini-ai/",
+                                              "Description":  "Google’s trying to make waves with Gemini, its flagship suite of generative AI models, apps, and services. But what’s Gemini? How can you use it? And how does it stack up to other generative AI...",
+                                              "Published":  "Mon, 08 Jan 2024 01:35:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained site:github.com repository open source",
+                                              "ResourceScore":  27,
+                                              "Domain":  "techcrunch.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "Google/Web",
+                          "Type":  "Web",
+                          "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest trend guide analysis",
+                          "Score":  68,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "assistant",
+                                           "app",
+                                           "model",
+                                           "omni",
+                                           "videos",
+                                           "now",
+                                           "generative",
+                                           "like"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Google Gemini - App Store",
+                                              "Link":  "https://apps.apple.com/us/app/google-gemini/id6477489729",
+                                              "Description":  "Download Google Gemini by Google on the App Store. See screenshots, ratings and reviews, user tips, and more apps like Google Gemini.",
+                                              "Published":  "Sun, 21 Jun 2026 15:59:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest trend guide analysis",
+                                              "ResourceScore":  29,
+                                              "Domain":  "apps.apple.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Gemini (language model) - Wikipedia",
+                                              "Link":  "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+                                              "Description":  "Google announced Gemini, a large language model (LLM) developed by subsidiary Google DeepMind, during the Google I/O keynote on May 10, 2023.",
+                                              "Published":  "Sun, 21 Jun 2026 04:11:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest trend guide analysis",
+                                              "ResourceScore":  29,
+                                              "Domain":  "en.wikipedia.org"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Google Gemini",
+                                              "Link":  "https://gemini.google.com/?hl=en-IN",
+                                              "Description":  "Meet Gemini, Google\u0027s AI assistant. Get help with writing, planning, brainstorming and more. Experience the power of generative AI.",
+                                              "Published":  "Sat, 20 Jun 2026 23:53:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest trend guide analysis",
+                                              "ResourceScore":  24,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Google Gemini",
+                                              "Link":  "https://gemini.google.com/app/download",
+                                              "Description":  "Download the Gemini app for a new kind of help from Google, now available on iOS and Android.",
+                                              "Published":  "Sun, 21 Jun 2026 00:07:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest trend guide analysis",
+                                              "ResourceScore":  32,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Gemini – Your AI assistant from Google",
+                                              "Link":  "https://gemini.google/in/about/?hl=en-IN",
+                                              "Description":  "Building the world\u0027s most capable AI assistant. With Gemini Omni creating and editing videos is now as easy as having a conversation. Gemini Omni is like Nano Banana for videos. Blend text, images, and video to bring your ideas to life. Neural Expressive has redesigned the app from the ground up.",
+                                              "Published":  "Sun, 21 Jun 2026 23:52:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest trend guide analysis",
+                                              "ResourceScore":  29,
+                                              "Domain":  "gemini.google"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Gemini – Your AI assistant from Google",
+                                              "Link":  "https://gemini.google/us/about/?hl=en",
+                                              "Description":  "Building the world’s most capable AI assistant. With Gemini Omni creating and editing videos is now as easy as having a conversation. Gemini Omni is like Nano Banana for videos. Blend text, images, and video to bring your ideas to life. Neural Expressive has redesigned the app from the ground up.",
+                                              "Published":  "Sun, 21 Jun 2026 21:00:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest trend guide analysis",
+                                              "ResourceScore":  29,
+                                              "Domain":  "gemini.google"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Gemini 3 | Google\u0027s Latest AI Model",
+                                              "Link":  "https://gemini3.us/gemini-3",
+                                              "Description":  "Community platform for Gemini 3 information and resources. Learn about Google\u0027s Gemini AI model capabilities, benchmarks, and features.",
+                                              "Published":  "Sun, 21 Jun 2026 18:01:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest trend guide analysis",
+                                              "ResourceScore":  42,
+                                              "Domain":  "gemini3.us"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Google Gemini: Everything you need to know about the ... - TechCrunch",
+                                              "Link":  "https://techcrunch.com/2025/02/26/what-is-google-gemini-ai/",
+                                              "Description":  "Google’s trying to make waves with Gemini, its flagship suite of generative AI models, apps, and services. But what’s Gemini? How can you use it? And how does it stack up to other generative AI...",
+                                              "Published":  "Mon, 08 Jan 2024 01:35:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest trend guide analysis",
+                                              "ResourceScore":  27,
+                                              "Domain":  "techcrunch.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "News",
+                          "Type":  "News",
+                          "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest news trend",
+                          "Score":  75,
+                          "ResultCount":  6,
+                          "Keywords":  [
+                                           "developers",
+                                           "tool",
+                                           "has",
+                                           "interface",
+                                           "line",
+                                           "command",
+                                           "launches",
+                                           "models"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Gemini CLI: Google’s latest open source AI agent explained",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38e3b0d4d1497590508baad0999e8c\u0026url=https%3a%2f%2fwww.digit.in%2ffeatures%2fgeneral%2fgemini-cli-googles-latest-open-source-ai-agent-explained.html\u0026c=13186403246934766964\u0026mkt=en-in",
+                                              "Description":  "Google has released a powerful new tool aimed squarely at developers and it runs right from the terminal. Meet Gemini CLI, an open-source command-line interface powered by Google’s Gemini AI models.",
+                                              "Published":  "Wed, 25 Jun 2025 16:59:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest news trend",
+                                              "ResourceScore":  77,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Google Unveils Free Open-Source AI Tool Gemini CLI: Here’s How It Could Transform Developer Workflows",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38e3b0d4d1497590508baad0999e8c\u0026url=https%3a%2f%2fwww.freepressjournal.in%2ftech%2fgoogle-unveils-free-open-source-ai-tool-gemini-cli-heres-how-it-could-transform-developer-workflows\u0026c=3999543740486513199\u0026mkt=en-in",
+                                              "Description":  "Google has announced the launch of Gemini CLI, an open-source command-line interface tool powered by the company’s Gemini 1.5 Pro model. This tool is designed specifically for developers, bringing AI ...",
+                                              "Published":  "Thu, 26 Jun 2025 11:36:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest news trend",
+                                              "ResourceScore":  48,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Gemini CLI debuts as Google’s open-source AI coding assistant: How it works",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38e3b0d4d1497590508baad0999e8c\u0026url=https%3a%2f%2fwww.livemint.com%2fai%2fartificial-intelligence%2fgemini-cli-debuts-as-google-s-open-source-ai-coding-assistant-how-it-works-11750869155751.html\u0026c=15797816447933642062\u0026mkt=en-in",
+                                              "Description":  "Alphabet Inc.\u0027s Google has unveiled a new artificial intelligence-powered coding assistant called Gemini CLI (Command Line Interface), designed to streamline the development process by allowing users ...",
+                                              "Published":  "Wed, 25 Jun 2025 20:45:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest news trend",
+                                              "ResourceScore":  48,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Google launches Gemini CLI, a free open-source AI agentic tool for developers",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38e3b0d4d1497590508baad0999e8c\u0026url=https%3a%2f%2fwww.thehindu.com%2fsci-tech%2ftechnology%2fgoogle-launches-gemini-cli-a-free-open-source-ai-agentic-tool-for-developers%2farticle69739561.ece\u0026c=5374741851111382953\u0026mkt=en-in",
+                                              "Description":  "Google has launched a new agentic AI tool called Gemini CLI to bring Gemini AI’s capabilities directly to developer terminals. Once plugged into the Gemini AI models, developers can make requests for ...",
+                                              "Published":  "Thu, 26 Jun 2025 12:22:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest news trend",
+                                              "ResourceScore":  51,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Google launches Gemini CLI for developers",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38e3b0d4d1497590508baad0999e8c\u0026url=https%3a%2f%2fwww.thehindubusinessline.com%2finfo-tech%2fgoogle-launches-gemini-cli-for-developers%2farticle69736670.ece\u0026c=6959423801242601934\u0026mkt=en-in",
+                                              "Description":  "Google on Wednesday globally introduced an open-source AI agent Gemini CLI for developers to help with coding, content generation, problem solving and deep research. The announcement comes close on ...",
+                                              "Published":  "Wed, 25 Jun 2025 01:37:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest news trend",
+                                              "ResourceScore":  51,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Google launches Gemini CLI: An open source AI agent for developers",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38e3b0d4d1497590508baad0999e8c\u0026url=https%3a%2f%2fyourstory.com%2fai-story%2fgoogle-gemini-cli-open-source-ai-agent\u0026c=7729885421760646112\u0026mkt=en-in",
+                                              "Description":  "Google has introduced Gemini CLI, a command-line interface (CLI) that serves as an open source agent for interacting with its Gemini family of AI models. Built with developers in mind, the tool allows ...",
+                                              "Published":  "Wed, 25 Jun 2025 16:59:00 GMT",
+                                              "Query":  "Gemini CLI: Google’s latest open source AI agent explained latest news trend",
+                                              "ResourceScore":  51,
+                                              "Domain":  "bing.com"
+                                          }
+                                      ]
+                      }
+                  ],
+    "GemmaSummary":  "## Gemma Trend Summary\n\n*   **Growing Interest in Open Source AI:** There\u0027s increasing interest among developers, researchers, and businesses exploring Gemini CLI – indicating a desire for more control and transparency in AI development.\n*   **Focus on Practical Applications:** Users are actively seeking tutorials and use cases to demonstrate the tool’s capabilities across various industries, suggesting a focus on real-world impact. \n*   **Community Engagement is Key:** The volume of discussions around Gemini CLI – particularly on Reddit and X/Twitter – highlights the importance of community feedback and engagement in shaping its adoption.\n\n\n## Platform Decision\n\nNews should be used first as it provides the most comprehensive context for understanding this trend, offering detailed explanations and market analysis.\n\n\n\n## Behaviour Prediction\n\nUsers will likely start exploring Gemini CLI through tutorials and documentation on platforms like YouTube, LinkedIn, and GitHub to understand how to integrate it into their workflows. They’ll also seek examples of its use in different industries via online searches and community forums.\n\n\n## Content Plan (Next 7 Days)\n\n1.  **Tutorial Series:** Create a series of short video tutorials demonstrating Gemini CLI\u0027s key features for beginners.\n2.  **Use Case Spotlight:** Publish articles highlighting practical applications across sectors like marketing, data analysis, or content creation.\n3.  **Comparison Post:** Offer a detailed comparison of Gemini CLI with other AI tools to help users make informed decisions. \n4.  **Community Q\u0026A Session:** Host an online session on Reddit/X/Twitter where users can ask questions and get answers from the development team.\n5. **Benchmark Example:** Create a simple benchmark example showcasing Gemini CLI’s performance in a specific task.\n\n\n## Related Topic Opportunities\n\n1.  **Gemini-Powered Automation Tools:** Explore how Gemini CLI integrates with existing automation workflows. \n2.  **AI Model Optimization Techniques:** Discuss best practices for optimizing AI models using Gemini CLI.\n3.  **Data Privacy and Security Considerations:** Address concerns surrounding data privacy when utilizing Gemini CLI.\n4. **Cloud Integration Examples**: Showcase examples of integrating Gemini CLI with cloud platforms like Google Cloud Platform (GCP). \n5. **Prompt Engineering Best Practices**: Create content on how to craft effective prompts that leverage Gemini CLI’s capabilities.",
+    "GemmaModel":  "gemma3:1b",
+    "GemmaSummarySuccess":  true
+}

@@ -1,0 +1,633 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>AetherDesk AI System Health Dashboard - AetherDesk TrendRadar</title>
+<style>
+*{box-sizing:border-box}
+:root{
+  --bg:#f4f7fb;
+  --ink:#152033;
+  --muted:#657184;
+  --card:#ffffff;
+  --line:#dce4ef;
+  --primary:#126b5c;
+  --primary2:#29b391;
+  --blue:#2563eb;
+  --orange:#f59e0b;
+  --shadow:0 18px 42px rgba(21,32,51,.10);
+}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",Arial,sans-serif}
+.page{padding:30px;min-height:100vh;background:linear-gradient(135deg,#f7fbff,#eef7f3)}
+.hero{border-radius:26px;padding:34px;background:linear-gradient(135deg,#102238,#126b5c 65%,#29b391);color:#fff;box-shadow:var(--shadow)}
+.topline{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap}
+.tag{padding:8px 13px;border-radius:999px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);font-size:12px;font-weight:800;letter-spacing:.5px;text-transform:uppercase}
+.print{border:0;border-radius:12px;padding:10px 14px;font-weight:900;color:#126b5c;background:#fff;cursor:pointer}
+h1{font-size:42px;line-height:1.08;margin:24px 0 10px}
+.hero p{max-width:900px;line-height:1.6;opacity:.9}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:24px}
+.stat{padding:16px;border-radius:18px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22)}
+.stat span{display:block;font-size:12px;opacity:.78}
+.stat strong{display:block;font-size:25px;margin-top:7px}
+.section{margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:var(--shadow)}
+.section h2{margin:0 0 16px;font-size:24px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.card{border:1px solid var(--line);border-radius:18px;padding:18px;background:#fff}
+.card h3{margin:0 0 10px}
+.muted{color:var(--muted)}
+.bar-row{margin-bottom:14px}
+.bar-head{display:flex;justify-content:space-between;gap:12px;margin-bottom:7px;font-size:13px}
+.bar{height:13px;border-radius:999px;background:#e7edf5;overflow:hidden}
+.fill{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--primary),var(--primary2))}
+.line-chart{width:100%;height:auto;display:block}
+.grid-axis{stroke:#93a4b8;stroke-width:1.2}
+.grid-soft{stroke:#dce4ef;stroke-width:1}
+.trend-line{fill:none;stroke:#2563eb;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.line-dot{fill:#fff;stroke:#2563eb;stroke-width:3}
+.axis-label{font-size:11px;fill:#657184;font-weight:800}
+.score-label{font-size:12px;fill:#152033;font-weight:900}
+.legend{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+.legend-item{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:900;color:#657184}
+.legend-item i{display:inline-block;width:24px;height:4px;border-radius:999px}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px}
+table{width:100%;border-collapse:collapse;background:#fff;min-width:820px}
+th,td{text-align:left;padding:13px 14px;border-bottom:1px solid #edf1f6;vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:#657184;background:#f8fafc}
+td span{display:block;color:#657184;font-size:12px;margin-top:3px}
+.ai-summary{background:linear-gradient(135deg,#eef6ff,#ecfdf5);border-color:#bfdbfe}
+.ai-meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.pill{display:inline-block;padding:7px 10px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:12px;font-weight:900;color:#126b5c}
+.resource-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.best-resource{display:grid;grid-template-columns:52px 1fr;gap:14px;border:1px solid var(--line);border-radius:18px;padding:16px;background:#fff;margin-bottom:12px}
+.resource-rank{height:42px;width:42px;border-radius:14px;background:#ecfdf5;color:#126b5c;display:flex;align-items:center;justify-content:center;font-weight:1000}
+.resource-meta{font-size:12px;color:#657184;font-weight:900;margin-bottom:6px}
+.best-resource h3{margin:0 0 7px;font-size:16px}
+.best-resource p{margin:0 0 9px;color:#657184;line-height:1.45;font-size:13px}
+.best-resource a{font-weight:900;color:var(--blue);text-decoration:none}
+ul{margin:0;padding-left:20px}
+li{margin:8px 0;line-height:1.45}
+.platform-section{border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:16px;background:#fff}
+.platform-heading{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}
+.platform-heading h3{margin:0}
+.platform-heading span{font-weight:900;color:var(--primary)}
+.resource{border-top:1px solid #edf1f6;padding:13px 0}
+.resource:first-of-type{border-top:0}
+.resource h4{margin:0 0 6px;font-size:15px}
+.resource p{margin:0 0 8px;color:var(--muted);font-size:13px;line-height:1.45}
+.resource a{font-weight:900;color:var(--blue);text-decoration:none}
+.recommend{background:linear-gradient(135deg,#fff7ed,#ecfdf5);border-color:#fed7aa}
+@media(max-width:900px){.page{padding:16px}.stats,.grid,.resource-grid{grid-template-columns:1fr}h1{font-size:32px}}
+@media print{.print{display:none}.page{padding:0}.section,.hero{box-shadow:none}}
+</style>
+</head>
+<body>
+<main class="page">
+  <section class="hero">
+    <div class="topline">
+      <span class="tag">AetherDesk TrendRadar</span>
+      <button class="print" onclick="window.print()">Save as PDF</button>
+    </div>
+    <h1>AetherDesk AI System Health Dashboard</h1>
+    <p>Social Trend Intelligence + Behaviour Prediction Report generated from public search, RSS, web, community, video, news, and open-source signals.</p>
+    <div class="stats">
+      <div class="stat"><span>Opportunity Score</span><strong>67/100</strong></div>
+      <div class="stat"><span>Best Platform</span><strong>Reddit</strong></div>
+      <div class="stat"><span>Reddit Signal</span><strong>60/100</strong></div>
+      <div class="stat"><span>GitHub Signal</span><strong>58/100</strong></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Platform Comparison Dashboard</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Bar Graph: Platform Strength</h3>
+        <div class="bar-row">
+  <div class="bar-head">
+    <span>YouTube</span>
+    <strong>60/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:60%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>X/Twitter</span>
+    <strong>56/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:56%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>LinkedIn</span>
+    <strong>58/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:58%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>Reddit</span>
+    <strong>60/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:60%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>GitHub</span>
+    <strong>58/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:58%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>Google/Web</span>
+    <strong>53/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:53%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>News</span>
+    <strong>46/100 · 1 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:46%"></div></div>
+</div>
+      </div>
+      <div class="card">
+        <h3>Line Graph: Trend Momentum</h3>
+        <svg class="line-chart" viewBox="0 0 760 260" role="img" aria-label="Platform trend line comparison">
+  <line x1="54" y1="24" x2="54" y2="206" class="grid-axis"></line>
+  <line x1="54" y1="206" x2="734" y2="206" class="grid-axis"></line>
+  <line x1="54" y1="24" x2="734" y2="24" class="grid-soft"></line>
+  <line x1="54" y1="115" x2="734" y2="115" class="grid-soft"></line>
+  <text x="12" y="29" class="axis-label">100</text>
+  <text x="20" y="120" class="axis-label">50</text>
+  <text x="26" y="211" class="axis-label">0</text>
+  <polyline points="54,96.8 167.33,104.08 280.67,100.44 394,96.8 507.33,100.44 620.67,109.54 734,122.28" class="trend-line"></polyline>
+  <circle cx='54' cy='96.8' r='5' class='line-dot'></circle><text x='54' y='86.8' text-anchor='middle' class='score-label'>60</text><circle cx='167.33' cy='104.08' r='5' class='line-dot'></circle><text x='167.33' y='94.08' text-anchor='middle' class='score-label'>56</text><circle cx='280.67' cy='100.44' r='5' class='line-dot'></circle><text x='280.67' y='90.44' text-anchor='middle' class='score-label'>58</text><circle cx='394' cy='96.8' r='5' class='line-dot'></circle><text x='394' y='86.8' text-anchor='middle' class='score-label'>60</text><circle cx='507.33' cy='100.44' r='5' class='line-dot'></circle><text x='507.33' y='90.44' text-anchor='middle' class='score-label'>58</text><circle cx='620.67' cy='109.54' r='5' class='line-dot'></circle><text x='620.67' y='99.54' text-anchor='middle' class='score-label'>53</text><circle cx='734' cy='122.28' r='5' class='line-dot'></circle><text x='734' y='112.28' text-anchor='middle' class='score-label'>46</text>
+  <text x='54' y='240' text-anchor='middle' class='axis-label'>YouTube</text><text x='167.33' y='240' text-anchor='middle' class='axis-label'>X/Twitter</text><text x='280.67' y='240' text-anchor='middle' class='axis-label'>LinkedIn</text><text x='394' y='240' text-anchor='middle' class='axis-label'>Reddit</text><text x='507.33' y='240' text-anchor='middle' class='axis-label'>GitHub</text><text x='620.67' y='240' text-anchor='middle' class='axis-label'>Google/Web</text><text x='734' y='240' text-anchor='middle' class='axis-label'>News</text>
+</svg>
+      </div>
+    </div>
+    <p class="muted">Scores are weighted by topic relevance, exact matches, freshness, source fit, domain diversity, keyword strength, and best-resource quality. This avoids every platform getting the same score just because each returned the same number of search results.</p>
+  </section>
+
+  <section class="section">
+    <h2>7-Day Platform Comparison</h2>
+    <p class="muted">This chart compares platform scores for the same topic across the latest seven saved daily runs. It becomes more useful as TrendRadar runs daily.</p>
+    <div class="history-chart-wrap">
+  <svg class="line-chart" viewBox="0 0 900 320" role="img" aria-label="Seven day platform comparison">
+    <line x1="54" y1="26" x2="54" y2="262" class="grid-axis"></line>
+    <line x1="54" y1="262" x2="872" y2="262" class="grid-axis"></line>
+    <line x1="54" y1="26" x2="872" y2="26" class="grid-soft"></line>
+    <line x1="54" y1="144" x2="872" y2="144" class="grid-soft"></line>
+    <text x="12" y="31" class="axis-label">100</text>
+    <text x="20" y="149" class="axis-label">50</text>
+    <text x="26" y="267" class="axis-label">0</text>
+    <polyline points='54,120.4' fill='none' stroke='#2563eb' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='120.4' r='4' fill='#2563eb'></circle><polyline points='54,120.4' fill='none' stroke='#0d7354' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='120.4' r='4' fill='#0d7354'></circle><polyline points='54,125.12' fill='none' stroke='#f59e0b' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='125.12' r='4' fill='#f59e0b'></circle><polyline points='54,125.12' fill='none' stroke='#dc2626' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='125.12' r='4' fill='#dc2626'></circle><polyline points='54,129.84' fill='none' stroke='#7c3aed' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='129.84' r='4' fill='#7c3aed'></circle>
+    <text x='54' y='298' text-anchor='middle' class='axis-label'>22 Jun</text>
+  </svg>
+  <div class="legend"><span class='legend-item'><i style='background:#2563eb'></i>Reddit</span><span class='legend-item'><i style='background:#0d7354'></i>YouTube</span><span class='legend-item'><i style='background:#f59e0b'></i>GitHub</span><span class='legend-item'><i style='background:#dc2626'></i>LinkedIn</span><span class='legend-item'><i style='background:#7c3aed'></i>X/Twitter</span></div>
+</div>
+  </section>
+
+  <section class="section">
+    <h2>Which Platform Is Best?</h2>
+    <div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Platform</th>
+        <th>Score</th>
+        <th>Signals</th>
+        <th>Top Keywords</th>
+        <th>Decision</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+  <td>1</td>
+  <td><strong>Reddit</strong><span>Community</span></td>
+  <td>60/100</td>
+  <td>8</td>
+  <td>google, maps, location, get, click</td>
+  <td>Use first</td>
+</tr><tr>
+  <td>2</td>
+  <td><strong>YouTube</strong><span>Video</span></td>
+  <td>60/100</td>
+  <td>8</td>
+  <td>finance, department, 2020, 2021, challan</td>
+  <td>Use second</td>
+</tr><tr>
+  <td>3</td>
+  <td><strong>GitHub</strong><span>Open Source</span></td>
+  <td>58/100</td>
+  <td>8</td>
+  <td>argb, armoury, armourycrate, aura, gen2</td>
+  <td>Test</td>
+</tr><tr>
+  <td>4</td>
+  <td><strong>LinkedIn</strong><span>Social</span></td>
+  <td>58/100</td>
+  <td>8</td>
+  <td>google, scholar, search, computer, science</td>
+  <td>Test</td>
+</tr><tr>
+  <td>5</td>
+  <td><strong>X/Twitter</strong><span>Social</span></td>
+  <td>56/100</td>
+  <td>8</td>
+  <td>microsoft, support, help, windows, get</td>
+  <td>Test</td>
+</tr><tr>
+  <td>6</td>
+  <td><strong>Google/Web</strong><span>Web</span></td>
+  <td>53/100</td>
+  <td>8</td>
+  <td>google, earth, maps, chrome, directions</td>
+  <td>Test</td>
+</tr><tr>
+  <td>7</td>
+  <td><strong>News</strong><span>News</span></td>
+  <td>46/100</td>
+  <td>1</td>
+  <td>learning, intelligence, machine, powered, ministry</td>
+  <td>Test</td>
+</tr>
+    </tbody>
+  </table>
+</div>
+  </section>
+
+  <section class="section">
+    <h2>Best Resources to Use</h2>
+    <p class="muted">These are the strongest individual links used by TrendRadar to decide platform quality.</p>
+    <article class="best-resource">
+  <div class="resource-rank">#1</div>
+  <div>
+    <div class="resource-meta">News · bing.com · Resource score 41/100</div>
+    <h3>I&amp;B Ministry bets big on Artificial Intelligence &amp; Machine Learning -powered dashboard to analyse news stories</h3>
+    <p>The Information and Broadcasting (I&amp;B) Ministry is planning to introduce an Artificial Intelligence (AI) and Machine Learning (ML)-powered integrated dashboard with the capability to analyse recent ...</p>
+    <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38e39137c14937a04c4a91660ead39&amp;url=https%3a%2f%2fwww.thehindu.com%2fnews%2fnational%2fib-ministry-bets-big-on-artificial-intelligence-machine-learning-powered-dashboard-to-analyse-news-stories%2farticle68645484.ece&amp;c=13993696785390446211&amp;mkt=en-in" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#2</div>
+  <div>
+    <div class="resource-meta">LinkedIn · scholar.google.com · Resource score 33/100</div>
+    <h3>‪Yann LeCun‬ - ‪Google Scholar‬</h3>
+    <p>‪Executive Chairman AMI Labs &amp; Jacob T Schwarz Professor, Courant Institute, New York University‬ - ‪‪Cited by 478,206‬‬ - ‪AI‬ - ‪machine learning‬ - ‪computer vision‬ - ‪robotics‬ - ‪image compression‬</p>
+    <a href="https://scholar.google.com/citations?user=WLN3QrAAAAAJ&amp;hl=en" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#3</div>
+  <div>
+    <div class="resource-meta">Reddit · support.google.com · Resource score 33/100</div>
+    <h3>Share your real-time location with others in Google Maps</h3>
+    <p>Share your location in Google Maps On your Android phone or tablet, open the Google Maps app . Make sure you’re signed in to your Google Account. Make sure you’ve added the person’s Gmail address to your Google Contacts. Tap your profile picture or initial Location sharing New share . Choose how long you want to share your location.</p>
+    <a href="https://support.google.com/maps/answer/15437054?hl=en&amp;co=GENIE.Platform%3DAndroid" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#4</div>
+  <div>
+    <div class="resource-meta">YouTube · karuvoolam.tn.gov.in · Resource score 33/100</div>
+    <h3>Home - TNTA - Kalanjiyam - Finance Department</h3>
+    <p>FMA 2024-2025 has been enabled for all HODs for Submission to Finance Department</p>
+    <a href="https://www.karuvoolam.tn.gov.in/tnta/home" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#5</div>
+  <div>
+    <div class="resource-meta">X/Twitter · support.microsoft.com · Resource score 29/100</div>
+    <h3>Windows help and learning - support.microsoft.com</h3>
+    <p>Find help and how-to articles for Windows operating systems. Get support for Windows and learn about installation, updates, privacy, security and more.</p>
+    <a href="https://support.microsoft.com/en-us/windows" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#6</div>
+  <div>
+    <div class="resource-meta">X/Twitter · support.microsoft.com · Resource score 29/100</div>
+    <h3>Manage your saved passkeys - Microsoft Support</h3>
+    <p>Passkeys created for your Microsoft accounts can also be managed through your personal or work/school security dashboard. For other synced credential managers, such as Microsoft Password Manager, go to the provider or service to manage passkeys stored there. Select an option below to learn more.</p>
+    <a href="https://support.microsoft.com/en-us/account-billing/%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8Bmanage-your-saved-passkeys-6a70599a-25e1-4461-86be-d67d1023c69f" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#7</div>
+  <div>
+    <div class="resource-meta">LinkedIn · scholar.google.com · Resource score 28/100</div>
+    <h3>About Google Scholar</h3>
+    <p>Google Scholar provides a simple way to broadly search for scholarly literature. From one place, you can search across many disciplines and sources: articles, theses, books, abstracts and court opinions, from academic publishers, professional societies, online repositories, universities and other web sites.</p>
+    <a href="https://scholar.google.com/intl//scholar/about.html" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#8</div>
+  <div>
+    <div class="resource-meta">YouTube · trg.karuvoolam.tn.gov.in · Resource score 28/100</div>
+    <h3>Home - TNTA - Kalanjiyam</h3>
+    <p>The Hon&#39;ble Tamil Nadu Finance Minister has made the following announcements in the Budget Statement for the year 2025-26. The major banks of Tamil Nadu (SBI,IOB,IB,Canara,Axis,BOB and UBI) have come forward to provide the following benefits free of cost to the government employees who maintain salary accounts with them.</p>
+    <a href="https://trg.karuvoolam.tn.gov.in/" target="_blank">Open best resource</a>
+  </div>
+</article>
+  </section>
+
+  <section class="section ai-summary">
+    <h2>Gemma Local AI Summary</h2>
+    <div class="ai-meta">
+      <span class="pill">Local Gemma summary</span>
+      <span class="pill">Model: gemma3:1b</span>
+      <span class="pill">Ollama local mode</span>
+    </div>
+    <div class="ai-content">
+      <h4>Gemma Trend Summary</h4><ul><li><strong>Rising Interest in AI Tooling:</strong> There&#39;s increased focus on tools designed to improve the functionality and usability of AetherDesk AI, suggesting users are seeking more streamlined workflows and better integration.</li><li><strong>Community-Driven Feedback Focus:</strong> The Reddit discussion post indicates a strong desire for insights into how users interact with and leverage the system – highlighting the need for user experience improvements and potential feature enhancements.</li><li><strong>Practical Application &amp; Workflow Optimization:</strong> Users are actively searching for content related to best practices, use cases, and optimization strategies for utilizing AetherDesk AI effectively.</li></ul><h4>Platform Decision</h4><p>Reddit should be used first due to its highly engaged community of users interested in discussing tools and workflows.  While LinkedIn offers professional insights, Reddit’s user base is more directly focused on practical application and feedback.</p><h4>Behaviour Prediction</h4><p>Users will likely engage with content that addresses pain points related to AI tool usability – particularly if it provides step-by-step guides or troubleshooting tips for common challenges.</p><h4>Content Plan</h4><p>1.  <strong>Tutorial Series:</strong> Create 3 short videos demonstrating key use cases (e.g., data analysis, report generation).</p><p>2.  <strong>User Case Studies:</strong> Showcase real-world examples of how users are successfully integrating AetherDesk AI into their workflows.</p><p>3.  <strong>Troubleshooting Blog Posts:</strong> Address frequently asked questions and provide solutions to common issues.</p><h4>Related Topic Opportunities</h4><p>1.  <strong>AI Workflow Optimization Techniques:</strong> Explore best practices for optimizing AI prompts, data input, and output.</p><p>2.  <strong>AetherDesk AI Limitations &amp; Future Trends:</strong> Discuss potential limitations of the system and emerging trends in AI technology.</p><p>3.  <strong>Data Visualization Best Practices:</strong> Share tips on creating effective visualizations with AetherDesk AI.</p><p>4.  <strong>Accessibility Considerations for AI Tools:</strong> Address considerations for making tools more accessible to users with disabilities.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Public Signals and Results</h2>
+    <p class="muted">These are the public signals used for the platform comparison. Review the links before publishing content.</p>
+    <div class="resource-grid">
+      <section class="platform-section">
+  <div class="platform-heading">
+    <h3>YouTube</h3>
+    <span>60/100</span>
+  </div>
+  <article class="resource">
+  <h4>Home - TNTA - Kalanjiyam</h4>
+  <p>The Hon&#39;ble Tamil Nadu Finance Minister has made the following announcements in the Budget Statement for the year 2025-26. The major banks of Tamil Nadu (SBI,IOB,IB,Canara,Axis,BOB and UBI) have come forward to provide the following benefits free of cost to the government employees who maintain salary accounts with them.</p>
+  <a href="https://trg.karuvoolam.tn.gov.in/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Home - TNTA - Kalanjiyam</h4>
+  <p>Enter the 6-digit OTP sent to your registered mobile number.</p>
+  <a href="https://www.karuvoolam.tn.gov.in/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>E Challan - Finance Department</h4>
+  <p>Government of Tamil Nadu Department of Finance - Treasuries and Accounts</p>
+  <a href="https://www.karuvoolam.tn.gov.in/challan/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>E Challan - Finance Department</h4>
+  <p>Contact No (For receiving OTP &amp; Challan Number ) தொடர்பு எண் * Block/Street வட்டாரம் / தெரு *</p>
+  <a href="https://www.karuvoolam.tn.gov.in/challan/echallan" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>E Challan - Finance Department</h4>
+  <p>Contact No (For receiving OTP &amp; Challan Number ) தொடர்பு எண் (OTP மற்றும் சலான் எண்ணைப் பெறுவதற்கு)</p>
+  <a href="https://www.karuvoolam.tn.gov.in/challan/search" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>X/Twitter</h3>
+    <span>56/100</span>
+  </div>
+  <article class="resource">
+  <h4>Contact Us - Microsoft Support</h4>
+  <p>Contact Microsoft Support. Find solutions to common problems, or get help from a support agent.</p>
+  <a href="https://support.microsoft.com/en-gb/contactus" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Microsoft Support</h4>
+  <p>Microsoft Support is here to help you with Microsoft products. Find how-to articles, videos, and training for Microsoft Copilot, Microsoft 365, Windows 11, Surface, and more.</p>
+  <a href="https://support.microsoft.com/en-us" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Account help - support.microsoft.com</h4>
+  <p>Get help for the account you use with Microsoft. Find how to set up Microsoft account, protect it, and use it to manage your services and subscriptions.</p>
+  <a href="https://support.microsoft.com/en-us/account" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Manage your saved passkeys - Microsoft Support</h4>
+  <p>Passkeys created for your Microsoft accounts can also be managed through your personal or work/school security dashboard. For other synced credential managers, such as Microsoft Password Manager, go to the provider or service to manage passkeys stored there. Select an option below to learn more.</p>
+  <a href="https://support.microsoft.com/en-us/account-billing/%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8Bmanage-your-saved-passkeys-6a70599a-25e1-4461-86be-d67d1023c69f" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Get started with Microsoft 365 Copilot Notebooks</h4>
+  <p>Introducing Copilot Notebooks–your own AI-powered workspace designed for the content that matters most to your task. Bring together all your relevant resources including Copilot Chat, files, pages, meeting notes, links, and more in one place. Share notebooks with your team to collaborate in real time, exchange knowledge, and build together with Copilot. As you work, get focused answers ...</p>
+  <a href="https://support.microsoft.com/en-us/Microsoft-365-Copilot/get-started-with-microsoft-365-copilot-notebooks" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>LinkedIn</h3>
+    <span>58/100</span>
+  </div>
+  <article class="resource">
+  <h4>Google Scholar</h4>
+  <p>Google Scholar provides a simple way to broadly search for scholarly literature. Search across a wide variety of disciplines and sources: articles, theses, books, abstracts and court opinions.</p>
+  <a href="https://scholar.google.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>الباحث العلمي من Google - Google Scholar</h4>
+  <p>يتيح لك &quot;الباحث العلمي من Google&quot; العثور على مجموعة واسعة من المؤلفات العلمية بسهولة. ويمكنك البحث في مجموعة متنوعة من التخصصات والمصادر، بما في ذلك المقالات والأطروحات والكتب والملخّصات وآراء المحكمة.</p>
+  <a href="https://scholar.google.com/?hl=ar" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Google Scholar Citations</h4>
+  <p>Google Scholar Citations lets you track citations to your publications over time.</p>
+  <a href="https://scholar.google.com/citations?user=***" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>‪Geoffrey Hinton‬ - ‪Google Scholar‬</h4>
+  <p>‪Emeritus Prof. Computer Science, University of Toronto‬ - ‪‪Cited by 1,053,567‬‬ - ‪machine learning‬ - ‪psychology‬ - ‪artificial intelligence‬ - ‪cognitive science‬ - ‪computer science‬</p>
+  <a href="https://scholar.google.com/citations?user=JicYPdAAAAAJ&amp;hl=en" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>‪Yann LeCun‬ - ‪Google Scholar‬</h4>
+  <p>‪Executive Chairman AMI Labs &amp; Jacob T Schwarz Professor, Courant Institute, New York University‬ - ‪‪Cited by 478,206‬‬ - ‪AI‬ - ‪machine learning‬ - ‪computer vision‬ - ‪robotics‬ - ‪image compression‬</p>
+  <a href="https://scholar.google.com/citations?user=WLN3QrAAAAAJ&amp;hl=en" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>Reddit</h3>
+    <span>60/100</span>
+  </div>
+  <article class="resource">
+  <h4>Current Location - Google Maps - Link to Directions</h4>
+  <p>I&#39;m trying to have a link going to Google Maps with the destination address pre-filled and the from address to inherit the user&#39;s current location. From what someone else had instructed, if I used &#39;current location&#39; as the &#39;from address&#39;, it&#39;d do everything for me.</p>
+  <a href="https://stackoverflow.com/questions/15042283/current-location-google-maps-link-to-directions" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What parameters should I use in a Google Maps URL to go to a lat-lon?</h4>
+  <p>In May 2017 Google announced the Google Maps URLs API that allows to construct universal cross-platform links. Now you can open Google maps on web, Android or iOS using the same URL string in form:</p>
+  <a href="https://stackoverflow.com/questions/2660201/what-parameters-should-i-use-in-a-google-maps-url-to-go-to-a-lat-lon" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Create Google Maps links based on coordinates - Stack Overflow</h4>
+  <p>I&#39;m looking for a solution if there&#39;s anyway for me to use the same URL you provided and open a native apps such as google MAP or IOS maps hijacking the locations for &quot;Get Directions&quot; purposes.</p>
+  <a href="https://stackoverflow.com/questions/30544268/create-google-maps-links-based-on-coordinates" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Google Maps shows &quot;For development purposes only&quot;</h4>
+  <p>I used vue2-google-maps library, and on documentation on how to setup google library with API KEY, they said that on main.js i should do an import like this: import * as VueGoogleMaps from &#39;vue2-google-maps&#39;;</p>
+  <a href="https://stackoverflow.com/questions/50977913/google-maps-shows-for-development-purposes-only" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Get directions &amp; show routes in Google Maps</h4>
+  <p>On your computer, open Google Maps. Click Directions . Enter the starting point and destination. Click points on the map, type an address, or add a place name. Choose your mode of transportation. To get driving directions, click Driving . To get transit directions, click Transit . To get walking directions, click Walking . To get cycling directions, click Cycle . To get flight options, click ...</p>
+  <a href="https://support.google.com/maps/answer/144339?hl=en&amp;co=GENIE.Platform%3DDesktop" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>GitHub</h3>
+    <span>58/100</span>
+  </div>
+  <article class="resource">
+  <h4>大魏 的想法: 奥创问题终极解决方案 | 我知道关注我的部分知 ...</h4>
+  <p>但是由于每位知友的电脑配置不一样，很多问题不能对号入座无法解决，而我们通过拉去奥创Log的方式进行问题反馈，就能看到自己电脑或者奥创的问题出在那里，从而解决掉，方法如下： 方法如下： 1. 打开奥创，左边最底下【设置】——【关于】</p>
+  <a href="https://www.zhihu.com/pin/1709934921840410624" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>电脑主机的argb灯效能不能分区或者整体控制效果？ - 知乎</h4>
+  <p>在华硕的奥创中心软件中，扫描ARGB设备的时候可以选择Gen1或Gen2，Gen2就是二代ARGB模式。 2、需要ARGB设备支持二代ARGB 除了主板需要支持二代ARGB以外，插在5V3针插口上的ARGB设备也需要是二代ARGB设备，才能实现每个设备单独配置灯效。</p>
+  <a href="https://www.zhihu.com/question/424677436" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>AURA Sync 无可用设备 请至少连接一个AURA Sync兼容设备 ...</h4>
+  <p>1.用官方软件软件把他卸载重启重装，重装时提示下载报错时换手机的数据流量重新卸载更新，就下载好了。这个决定下载报错我都试个好多次了。2.下载好报错提示什么没启动，就出现至少连接一个设备决绝我是换系统，前是 番茄花园 ghost Win10得安装很多次都是提示至少连接一个设备无法加载出来 ...</p>
+  <a href="https://www.zhihu.com/question/511731114" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>华硕主板可以进BIOS吧开机启动，进桌面前默认的彩虹灯效 ...</h4>
+  <p>事情是这样的，华硕主板不是有个奥创中心可以搞ARGB设备么？ 我在奥创里调好了自己想要的等效，然后关机。 下一次重启后，刚按机箱上的开机键时，机箱里所有A… 显示全部 关注者 5 被浏览</p>
+  <a href="https://www.zhihu.com/question/629695843" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>华硕奥创中心的用途保姆讲解！ 什么是奥创，华硕奥创中心都 ...</h4>
+  <p>华硕奥创中心的用途保姆讲解！ 什么是奥创，华硕奥创中心都能干啥有什么用！带你走进华硕奥创中心的世界</p>
+  <a href="https://www.zhihu.com/zvideo/1727334712681623552" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>Google/Web</h3>
+    <span>53/100</span>
+  </div>
+  <article class="resource">
+  <h4>Google マップ / Google Earth および Google Maps / Google ...</h4>
+  <p>ユーザーがビジネス リスティング データを取得することは許可されていません。 Google および Google マップに表示されるデータの使用を許諾する第三者は、本データの使用に起因する（結果的損害を含む）いかなる損害についても責任を負わないものとし ...</p>
+  <a href="https://maps.google.co.jp/help/legalnotices_maps/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Google Earth</h4>
+  <p>Google Earth は写真のようにリアルなデジタル画像の地球です。画像はどこで撮影され、どのようにしてまとめられ、どの程度の頻度でアップロードされているか、ご存知ですか？この動画では、Google Earth の 3D 画像の作成に使われる技術、撮影方法、スタッフをご紹介します。</p>
+  <a href="https://maps.google.co.jp/intl/ja/earth/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Google Earth</h4>
+  <p>Google Earth なら地球上のどんな場所へもひとっとび。衛星写真、地図、地形、3D の建物など、楽しいコンテンツが満載です。宇宙の銀河や海底の峡谷といった未知の世界もお楽しみください。お気に入りの場所は保存して、友だちや他のユーザーと共有することもできます。</p>
+  <a href="https://maps.google.co.jp/intl/ja/earth/download/gep/agree.html" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Earth のバージョン – Google Earth</h4>
+  <p>Chrome 向け Google Earth なら、一瞬で好きな場所に飛んでいって、何百もの都市の 3D の街並みをブラウザから探索できます。見たことのない場所を発見したり、Voyager のガイドツアーで探索したり、オリジナルの地図やストーリーを作成したりできます。Chrome 以外のブラウザにも対応予定です。</p>
+  <a href="https://maps.google.co.jp/intl/ja/earth/versions/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Google マップ / Google Earth および Google Maps / Google ...</h4>
+  <p>ビジネス リスティング データに関する法的通知 Google が法律または契約により提供する義務のある法的通知（以下「本法的通知」）を次に示します。本法的通知は、 Google 利用規約 でその一部を構成するものとして援用されます。ユーザーは、ビジネス リスティング データが含まれる Google の ...</p>
+  <a href="https://maps.google.co.jp/intl/ja/help/attribution_maps/" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>News</h3>
+    <span>46/100</span>
+  </div>
+  <article class="resource">
+  <h4>I&amp;B Ministry bets big on Artificial Intelligence &amp; Machine Learning -powered dashboard to analyse news stories</h4>
+  <p>The Information and Broadcasting (I&amp;B) Ministry is planning to introduce an Artificial Intelligence (AI) and Machine Learning (ML)-powered integrated dashboard with the capability to analyse recent ...</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38e39137c14937a04c4a91660ead39&amp;url=https%3a%2f%2fwww.thehindu.com%2fnews%2fnational%2fib-ministry-bets-big-on-artificial-intelligence-machine-learning-powered-dashboard-to-analyse-news-stories%2farticle68645484.ece&amp;c=13993696785390446211&amp;mkt=en-in" target="_blank">Open signal</a>
+</article>
+</section>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>Social Behaviour Prediction</h3>
+      <p>Moderate opportunity: the topic has visible signals but needs a sharper angle. Use Reddit first and test content around google, maps, microsoft.</p>
+    </div>
+    <div class="card">
+      <h3>Best Content Format</h3>
+      <p>Discussion post asking for opinions, pain points, and use cases</p>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>Keyword Clusters</h3>
+      <ul><li>google</li><li>maps</li><li>microsoft</li><li>get</li><li>support</li><li>help</li><li>location</li><li>scholar</li><li>earth</li><li>finance</li><li>argb</li><li>directions</li></ul>
+    </div>
+    <div class="card">
+      <h3>Hashtag Ideas</h3>
+      <ul><li>#AetherDeskAISystemHealthDashboard</li><li>#google</li><li>#maps</li><li>#microsoft</li><li>#get</li><li>#support</li><li>#help</li><li>#location</li></ul>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>YouTube Title Ideas</h3>
+      <ul><li>I tested AetherDesk AI System Health Dashboard so you do not have to</li><li>AetherDesk AI System Health Dashboard explained with a real workflow</li><li>Is AetherDesk AI System Health Dashboard the next practical AI opportunity?</li><li>AetherDesk AI System Health Dashboard: tools, examples, and mistakes to avoid</li></ul>
+    </div>
+    <div class="card">
+      <h3>LinkedIn Post Angles</h3>
+      <ul><li>What AetherDesk AI System Health Dashboard means for builders and small teams</li><li>A practical framework to evaluate AetherDesk AI System Health Dashboard before adopting it</li><li>The hidden behaviour shift behind AetherDesk AI System Health Dashboard</li><li>Why google is becoming important in the AetherDesk AI System Health Dashboard conversation</li></ul>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>X/Twitter Post Ideas</h3>
+      <ul><li>A short thread: what is actually changing around AetherDesk AI System Health Dashboard</li><li>Hot take: AetherDesk AI System Health Dashboard matters less for hype and more for workflow design</li><li>3 signals showing why AetherDesk AI System Health Dashboard is worth watching</li><li>Question for builders: where does AetherDesk AI System Health Dashboard fit in your stack?</li></ul>
+    </div>
+    <div class="card">
+      <h3>Suggested Topic Table</h3>
+      <div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Suggested Topic</th>
+        <th>Best Platform</th>
+        <th>Use Case</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+  <td>1</td>
+  <td><strong>AetherDesk AI System Health Dashboard tools</strong></td>
+  <td>Reddit</td>
+  <td>High-priority content test</td>
+</tr><tr>
+  <td>2</td>
+  <td><strong>AetherDesk AI System Health Dashboard workflow</strong></td>
+  <td>Reddit</td>
+  <td>High-priority content test</td>
+</tr><tr>
+  <td>3</td>
+  <td><strong>AetherDesk AI System Health Dashboard use cases</strong></td>
+  <td>Reddit</td>
+  <td>High-priority content test</td>
+</tr><tr>
+  <td>4</td>
+  <td><strong>AetherDesk AI System Health Dashboard tutorial</strong></td>
+  <td>Reddit</td>
+  <td>Secondary keyword experiment</td>
+</tr><tr>
+  <td>5</td>
+  <td><strong>AetherDesk AI System Health Dashboard automation</strong></td>
+  <td>Reddit</td>
+  <td>Secondary keyword experiment</td>
+</tr><tr>
+  <td>6</td>
+  <td><strong>AetherDesk AI System Health Dashboard open source</strong></td>
+  <td>Reddit</td>
+  <td>Secondary keyword experiment</td>
+</tr><tr>
+  <td>7</td>
+  <td><strong>AetherDesk AI System Health Dashboard business ideas</strong></td>
+  <td>Reddit</td>
+  <td>Educational post</td>
+</tr><tr>
+  <td>8</td>
+  <td><strong>AetherDesk AI System Health Dashboard content strategy</strong></td>
+  <td>Reddit</td>
+  <td>Educational post</td>
+</tr><tr>
+  <td>9</td>
+  <td><strong>AetherDesk AI System Health Dashboard comparison</strong></td>
+  <td>Reddit</td>
+  <td>Educational post</td>
+</tr><tr>
+  <td>10</td>
+  <td><strong>AetherDesk AI System Health Dashboard roadmap</strong></td>
+  <td>Reddit</td>
+  <td>Educational post</td>
+</tr>
+    </tbody>
+  </table>
+</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="card recommend">
+      <h3>Recommended Action</h3>
+      <p>Start with Reddit using a Discussion post asking for opinions, pain points, and use cases. Re-check signals weekly and turn top keywords into experiments.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <p class="muted">Generated at 22 Jun 2026, 12:56 PM. Raw data is saved date-wise in <strong>social-data/</strong>.</p>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "AetherDesk AI Companion",
+  "description": "Send browser pages, activity, and topics to local AetherDesk AI through Native Messaging.",
+  "version": "0.1.0",
+  "permissions": [
+    "activeTab",
+    "alarms",
+    "nativeMessaging",
+    "notifications",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "action": {
+    "default_title": "AetherDesk AI",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon-128.png"
+    }
+  }
+}

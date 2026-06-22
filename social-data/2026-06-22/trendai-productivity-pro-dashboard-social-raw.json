@@ -1,0 +1,863 @@
+﻿{
+    "Module":  "AetherDesk TrendRadar",
+    "Purpose":  "Social Trend Intelligence + Behaviour Prediction Report",
+    "Topic":  "TrendAI Productivity Pro Dashboard",
+    "Slug":  "trendai-productivity-pro-dashboard",
+    "Date":  "2026-06-22",
+    "GeneratedAt":  "2026-06-22T13:10:48",
+    "OverallTrendOpportunityScore":  74,
+    "BestPlatform":  "LinkedIn",
+    "BestContentFormat":  "Practical carousel, founder insight, or professional case study",
+    "SocialBehaviourPrediction":  "Moderate opportunity: the topic has visible signals but needs a sharper angle. Use LinkedIn first and test content around security, leader, micro.",
+    "KeywordClusters":  [
+                            "security",
+                            "leader",
+                            "micro",
+                            "trend",
+                            "global",
+                            "empowers",
+                            "enterprises",
+                            "business",
+                            "proactive",
+                            "innovation",
+                            "enterprise",
+                            "organizations"
+                        ],
+    "HashtagIdeas":  [
+                         "#TrendAIProductivityProDashboard",
+                         "#security",
+                         "#leader",
+                         "#micro",
+                         "#trend",
+                         "#global",
+                         "#empowers",
+                         "#enterprises"
+                     ],
+    "YouTubeTitleIdeas":  [
+                              "I tested TrendAI Productivity Pro Dashboard so you do not have to",
+                              "TrendAI Productivity Pro Dashboard explained with a real workflow",
+                              "Is TrendAI Productivity Pro Dashboard the next practical AI opportunity?",
+                              "TrendAI Productivity Pro Dashboard: tools, examples, and mistakes to avoid"
+                          ],
+    "LinkedInPostAngles":  [
+                               "What TrendAI Productivity Pro Dashboard means for builders and small teams",
+                               "A practical framework to evaluate TrendAI Productivity Pro Dashboard before adopting it",
+                               "The hidden behaviour shift behind TrendAI Productivity Pro Dashboard",
+                               "Why security is becoming important in the TrendAI Productivity Pro Dashboard conversation"
+                           ],
+    "TwitterPostIdeas":  [
+                             "A short thread: what is actually changing around TrendAI Productivity Pro Dashboard",
+                             "Hot take: TrendAI Productivity Pro Dashboard matters less for hype and more for workflow design",
+                             "3 signals showing why TrendAI Productivity Pro Dashboard is worth watching",
+                             "Question for builders: where does TrendAI Productivity Pro Dashboard fit in your stack?"
+                         ],
+    "SuggestedRelatedTopics":  [
+                                   "TrendAI Productivity Pro Dashboard tools",
+                                   "TrendAI Productivity Pro Dashboard workflow",
+                                   "TrendAI Productivity Pro Dashboard use cases",
+                                   "TrendAI Productivity Pro Dashboard tutorial",
+                                   "TrendAI Productivity Pro Dashboard automation",
+                                   "TrendAI Productivity Pro Dashboard open source",
+                                   "TrendAI Productivity Pro Dashboard business ideas",
+                                   "TrendAI Productivity Pro Dashboard content strategy",
+                                   "TrendAI Productivity Pro Dashboard comparison",
+                                   "TrendAI Productivity Pro Dashboard roadmap"
+                               ],
+    "BestResources":  [
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "TrendAI | LinkedIn",
+                              "Link":  "https://in.linkedin.com/company/trendai-security",
+                              "Description":  "TrendAI™, a business unit of Trend Micro and global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate...",
+                              "Published":  "Thu, 18 Jun 2026 00:54:00 GMT",
+                              "Query":  "TrendAI Productivity Pro Dashboard site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  53,
+                              "Domain":  "in.linkedin.com"
+                          },
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "TrendAI - LinkedIn",
+                              "Link":  "https://www.linkedin.com/company/trendai-security",
+                              "Description":  "TrendAI™, a business unit of Trend Micro and global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate...",
+                              "Published":  "Sat, 20 Jun 2026 11:50:00 GMT",
+                              "Query":  "TrendAI Productivity Pro Dashboard site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  53,
+                              "Domain":  "linkedin.com"
+                          },
+                          {
+                              "Platform":  "Google/Web",
+                              "Type":  "Web",
+                              "Title":  "Trend Micro rebrands as TrendAI, targeting AI‑centric security",
+                              "Link":  "https://techedgeai.com/trend-micro-rebrands-enterprise-security-unit-as-trendai-emphasizing-ai-centric-protection/",
+                              "Description":  "Trend Micro announced a major brand overhaul on March 23, 2026, consolidating its enterprise cybersecurity offerings under the new name TrendAI™.",
+                              "Published":  "Sun, 21 Jun 2026 08:50:00 GMT",
+                              "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                              "ResourceScore":  52,
+                              "Domain":  "techedgeai.com"
+                          },
+                          {
+                              "Platform":  "Google/Web",
+                              "Type":  "Web",
+                              "Title":  "TrendAI™ is recognized as a Leader in the 2026 Gartner® Magic Quadrant ...",
+                              "Link":  "https://newsroom.trendmicro.com/2026-05-27-TrendAI-TM-is-recognized-as-a-Leader-in-the-2026-Gartner-R-Magic-Quadrant-TM-for-Endpoint-Protection-Platforms",
+                              "Description":  "TrendAI™, the global AI security leader and enterprise business unit of Trend Micro, empowers organizations with full AI visibility and consolidated security that inspires confidence, drives innovation, and eliminates risk.",
+                              "Published":  "Thu, 18 Jun 2026 15:34:00 GMT",
+                              "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                              "ResourceScore":  52,
+                              "Domain":  "newsroom.trendmicro.com"
+                          },
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "TrendAI™ is recognized as a Leader in the 2026 Gartner® Magic Quadrant ...",
+                              "Link":  "https://newsroom.trendmicro.com/2026-05-27-TrendAI-TM-is-recognized-as-a-Leader-in-the-2026-Gartner-R-Magic-Quadrant-TM-for-Endpoint-Protection-Platforms",
+                              "Description":  "TrendAI™, the global AI security leader and enterprise business unit of Trend Micro, empowers organizations with full AI visibility and consolidated security that inspires confidence, drives innovation, and eliminates risk.",
+                              "Published":  "Thu, 18 Jun 2026 15:34:00 GMT",
+                              "Query":  "TrendAI Productivity Pro Dashboard site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  50,
+                              "Domain":  "newsroom.trendmicro.com"
+                          },
+                          {
+                              "Platform":  "GitHub",
+                              "Type":  "Open Source",
+                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™ - PR Newswire",
+                              "Link":  "https://www.prnewswire.com/news-releases/trend-micros-enterprise-business-is-now-trendai-302721673.html",
+                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                              "Published":  "Sun, 21 Jun 2026 13:15:00 GMT",
+                              "Query":  "TrendAI Productivity Pro Dashboard site:github.com repository open source",
+                              "ResourceScore":  47,
+                              "Domain":  "prnewswire.com"
+                          },
+                          {
+                              "Platform":  "Google/Web",
+                              "Type":  "Web",
+                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™",
+                              "Link":  "https://newsroom.trendmicro.com/2026-03-23-Trend-Micros-Enterprise-Business-is-now-TrendAI-TM",
+                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                              "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                              "ResourceScore":  47,
+                              "Domain":  "newsroom.trendmicro.com"
+                          },
+                          {
+                              "Platform":  "Google/Web",
+                              "Type":  "Web",
+                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™ - PR Newswire",
+                              "Link":  "https://www.prnewswire.com/news-releases/trend-micros-enterprise-business-is-now-trendai-302721673.html",
+                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                              "Published":  "Sun, 21 Jun 2026 13:15:00 GMT",
+                              "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                              "ResourceScore":  47,
+                              "Domain":  "prnewswire.com"
+                          },
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™",
+                              "Link":  "https://newsroom.trendmicro.com/2026-03-23-Trend-Micros-Enterprise-Business-is-now-TrendAI-TM",
+                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                              "Query":  "TrendAI Productivity Pro Dashboard site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  45,
+                              "Domain":  "newsroom.trendmicro.com"
+                          },
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™ - PR Newswire",
+                              "Link":  "https://www.prnewswire.com/news-releases/trend-micros-enterprise-business-is-now-trendai-302721673.html",
+                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                              "Published":  "Sun, 21 Jun 2026 13:15:00 GMT",
+                              "Query":  "TrendAI Productivity Pro Dashboard site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  45,
+                              "Domain":  "prnewswire.com"
+                          },
+                          {
+                              "Platform":  "Google/Web",
+                              "Type":  "Web",
+                              "Title":  "TrendAI | AI Fearlessly with Proactive, Platform-Driven Security",
+                              "Link":  "https://www.trendaisecurity.com/en/home",
+                              "Description":  "At the core is our AI fabric. The TrendAI™ purpose-built large language model is trained on decades of research, global threat intelligence, and real-world attack data. This allows TrendAI™ to understand the language, behavior, and intent of attackers, not just patterns in logs.",
+                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                              "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                              "ResourceScore":  44,
+                              "Domain":  "trendaisecurity.com"
+                          },
+                          {
+                              "Platform":  "Google/Web",
+                              "Type":  "Web",
+                              "Title":  "TrendAI - cybersecurityintelligence.com",
+                              "Link":  "https://www.cybersecurityintelligence.com/trendai-1601.html",
+                              "Description":  "TrendAI, a global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate risk.",
+                              "Published":  "Mon, 22 Jun 2026 02:15:00 GMT",
+                              "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                              "ResourceScore":  44,
+                              "Domain":  "cybersecurityintelligence.com"
+                          }
+                      ],
+    "RedditDiscussionSignal":  72,
+    "GitHubOpenSourceSignal":  76,
+    "RecommendedAction":  "Start with LinkedIn using a Practical carousel, founder insight, or professional case study. Re-check signals weekly and turn top keywords into experiments.",
+    "Platforms":  [
+                      {
+                          "Name":  "YouTube",
+                          "Type":  "Video",
+                          "Query":  "TrendAI Productivity Pro Dashboard site:youtube.com/watch",
+                          "Score":  72,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "security",
+                                           "leader",
+                                           "micro",
+                                           "trend",
+                                           "global",
+                                           "empowers",
+                                           "enterprises",
+                                           "business"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "TrendAI | LinkedIn",
+                                              "Link":  "https://in.linkedin.com/company/trendai-security",
+                                              "Description":  "TrendAI™, a business unit of Trend Micro and global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate...",
+                                              "Published":  "Thu, 18 Jun 2026 00:54:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:youtube.com/watch",
+                                              "ResourceScore":  29,
+                                              "Domain":  "in.linkedin.com"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™",
+                                              "Link":  "https://newsroom.trendmicro.com/2026-03-23-Trend-Micros-Enterprise-Business-is-now-TrendAI-TM",
+                                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:youtube.com/watch",
+                                              "ResourceScore":  37,
+                                              "Domain":  "newsroom.trendmicro.com"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "TrendAI™ is recognized as a Leader in the 2026 Gartner® Magic Quadrant ...",
+                                              "Link":  "https://newsroom.trendmicro.com/2026-05-27-TrendAI-TM-is-recognized-as-a-Leader-in-the-2026-Gartner-R-Magic-Quadrant-TM-for-Endpoint-Protection-Platforms",
+                                              "Description":  "TrendAI™, the global AI security leader and enterprise business unit of Trend Micro, empowers organizations with full AI visibility and consolidated security that inspires confidence, drives innovation, and eliminates risk.",
+                                              "Published":  "Thu, 18 Jun 2026 15:34:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:youtube.com/watch",
+                                              "ResourceScore":  42,
+                                              "Domain":  "newsroom.trendmicro.com"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Trend Micro rebrands as TrendAI, targeting AI‑centric security",
+                                              "Link":  "https://techedgeai.com/trend-micro-rebrands-enterprise-security-unit-as-trendai-emphasizing-ai-centric-protection/",
+                                              "Description":  "Trend Micro announced a major brand overhaul on March 23, 2026, consolidating its enterprise cybersecurity offerings under the new name TrendAI™.",
+                                              "Published":  "Sun, 21 Jun 2026 08:50:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:youtube.com/watch",
+                                              "ResourceScore":  42,
+                                              "Domain":  "techedgeai.com"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "TrendAI - cybersecurityintelligence.com",
+                                              "Link":  "https://www.cybersecurityintelligence.com/trendai-1601.html",
+                                              "Description":  "TrendAI, a global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate risk.",
+                                              "Published":  "Mon, 22 Jun 2026 02:15:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:youtube.com/watch",
+                                              "ResourceScore":  34,
+                                              "Domain":  "cybersecurityintelligence.com"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "TrendAI - LinkedIn",
+                                              "Link":  "https://www.linkedin.com/company/trendai-security",
+                                              "Description":  "TrendAI™, a business unit of Trend Micro and global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate...",
+                                              "Published":  "Sat, 20 Jun 2026 11:50:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:youtube.com/watch",
+                                              "ResourceScore":  29,
+                                              "Domain":  "linkedin.com"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™ - PR Newswire",
+                                              "Link":  "https://www.prnewswire.com/news-releases/trend-micros-enterprise-business-is-now-trendai-302721673.html",
+                                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                                              "Published":  "Sun, 21 Jun 2026 13:15:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:youtube.com/watch",
+                                              "ResourceScore":  37,
+                                              "Domain":  "prnewswire.com"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "TrendAI | AI Fearlessly with Proactive, Platform-Driven Security",
+                                              "Link":  "https://www.trendaisecurity.com/en/home",
+                                              "Description":  "At the core is our AI fabric. The TrendAI™ purpose-built large language model is trained on decades of research, global threat intelligence, and real-world attack data. This allows TrendAI™ to understand the language, behavior, and intent of attackers, not just patterns in logs.",
+                                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:youtube.com/watch",
+                                              "ResourceScore":  34,
+                                              "Domain":  "trendaisecurity.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "X/Twitter",
+                          "Type":  "Social",
+                          "Query":  "TrendAI Productivity Pro Dashboard site:x.com OR site:twitter.com",
+                          "Score":  71,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "security",
+                                           "leader",
+                                           "micro",
+                                           "trend",
+                                           "global",
+                                           "empowers",
+                                           "enterprises",
+                                           "business"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "TrendAI | LinkedIn",
+                                              "Link":  "https://in.linkedin.com/company/trendai-security",
+                                              "Description":  "TrendAI™, a business unit of Trend Micro and global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate...",
+                                              "Published":  "Thu, 18 Jun 2026 00:54:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:x.com OR site:twitter.com",
+                                              "ResourceScore":  29,
+                                              "Domain":  "in.linkedin.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™",
+                                              "Link":  "https://newsroom.trendmicro.com/2026-03-23-Trend-Micros-Enterprise-Business-is-now-TrendAI-TM",
+                                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:x.com OR site:twitter.com",
+                                              "ResourceScore":  37,
+                                              "Domain":  "newsroom.trendmicro.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "TrendAI™ is recognized as a Leader in the 2026 Gartner® Magic Quadrant ...",
+                                              "Link":  "https://newsroom.trendmicro.com/2026-05-27-TrendAI-TM-is-recognized-as-a-Leader-in-the-2026-Gartner-R-Magic-Quadrant-TM-for-Endpoint-Protection-Platforms",
+                                              "Description":  "TrendAI™, the global AI security leader and enterprise business unit of Trend Micro, empowers organizations with full AI visibility and consolidated security that inspires confidence, drives innovation, and eliminates risk.",
+                                              "Published":  "Thu, 18 Jun 2026 15:34:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:x.com OR site:twitter.com",
+                                              "ResourceScore":  42,
+                                              "Domain":  "newsroom.trendmicro.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Trend Micro rebrands as TrendAI, targeting AI‑centric security",
+                                              "Link":  "https://techedgeai.com/trend-micro-rebrands-enterprise-security-unit-as-trendai-emphasizing-ai-centric-protection/",
+                                              "Description":  "Trend Micro announced a major brand overhaul on March 23, 2026, consolidating its enterprise cybersecurity offerings under the new name TrendAI™.",
+                                              "Published":  "Sun, 21 Jun 2026 08:50:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:x.com OR site:twitter.com",
+                                              "ResourceScore":  42,
+                                              "Domain":  "techedgeai.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "TrendAI - cybersecurityintelligence.com",
+                                              "Link":  "https://www.cybersecurityintelligence.com/trendai-1601.html",
+                                              "Description":  "TrendAI, a global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate risk.",
+                                              "Published":  "Mon, 22 Jun 2026 02:15:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:x.com OR site:twitter.com",
+                                              "ResourceScore":  34,
+                                              "Domain":  "cybersecurityintelligence.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "TrendAI - LinkedIn",
+                                              "Link":  "https://www.linkedin.com/company/trendai-security",
+                                              "Description":  "TrendAI™, a business unit of Trend Micro and global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate...",
+                                              "Published":  "Sat, 20 Jun 2026 11:50:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:x.com OR site:twitter.com",
+                                              "ResourceScore":  29,
+                                              "Domain":  "linkedin.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™ - PR Newswire",
+                                              "Link":  "https://www.prnewswire.com/news-releases/trend-micros-enterprise-business-is-now-trendai-302721673.html",
+                                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                                              "Published":  "Sun, 21 Jun 2026 13:15:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:x.com OR site:twitter.com",
+                                              "ResourceScore":  37,
+                                              "Domain":  "prnewswire.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "TrendAI | AI Fearlessly with Proactive, Platform-Driven Security",
+                                              "Link":  "https://www.trendaisecurity.com/en/home",
+                                              "Description":  "At the core is our AI fabric. The TrendAI™ purpose-built large language model is trained on decades of research, global threat intelligence, and real-world attack data. This allows TrendAI™ to understand the language, behavior, and intent of attackers, not just patterns in logs.",
+                                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:x.com OR site:twitter.com",
+                                              "ResourceScore":  34,
+                                              "Domain":  "trendaisecurity.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "LinkedIn",
+                          "Type":  "Social",
+                          "Query":  "TrendAI Productivity Pro Dashboard site:linkedin.com/posts OR site:linkedin.com/pulse",
+                          "Score":  79,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "security",
+                                           "leader",
+                                           "micro",
+                                           "trend",
+                                           "global",
+                                           "empowers",
+                                           "enterprises",
+                                           "business"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "TrendAI | LinkedIn",
+                                              "Link":  "https://in.linkedin.com/company/trendai-security",
+                                              "Description":  "TrendAI™, a business unit of Trend Micro and global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate...",
+                                              "Published":  "Thu, 18 Jun 2026 00:54:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  53,
+                                              "Domain":  "in.linkedin.com"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™",
+                                              "Link":  "https://newsroom.trendmicro.com/2026-03-23-Trend-Micros-Enterprise-Business-is-now-TrendAI-TM",
+                                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  45,
+                                              "Domain":  "newsroom.trendmicro.com"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "TrendAI™ is recognized as a Leader in the 2026 Gartner® Magic Quadrant ...",
+                                              "Link":  "https://newsroom.trendmicro.com/2026-05-27-TrendAI-TM-is-recognized-as-a-Leader-in-the-2026-Gartner-R-Magic-Quadrant-TM-for-Endpoint-Protection-Platforms",
+                                              "Description":  "TrendAI™, the global AI security leader and enterprise business unit of Trend Micro, empowers organizations with full AI visibility and consolidated security that inspires confidence, drives innovation, and eliminates risk.",
+                                              "Published":  "Thu, 18 Jun 2026 15:34:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  50,
+                                              "Domain":  "newsroom.trendmicro.com"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Trend Micro rebrands as TrendAI, targeting AI‑centric security",
+                                              "Link":  "https://techedgeai.com/trend-micro-rebrands-enterprise-security-unit-as-trendai-emphasizing-ai-centric-protection/",
+                                              "Description":  "Trend Micro announced a major brand overhaul on March 23, 2026, consolidating its enterprise cybersecurity offerings under the new name TrendAI™.",
+                                              "Published":  "Sun, 21 Jun 2026 08:50:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  42,
+                                              "Domain":  "techedgeai.com"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "TrendAI - cybersecurityintelligence.com",
+                                              "Link":  "https://www.cybersecurityintelligence.com/trendai-1601.html",
+                                              "Description":  "TrendAI, a global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate risk.",
+                                              "Published":  "Mon, 22 Jun 2026 02:15:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  34,
+                                              "Domain":  "cybersecurityintelligence.com"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "TrendAI - LinkedIn",
+                                              "Link":  "https://www.linkedin.com/company/trendai-security",
+                                              "Description":  "TrendAI™, a business unit of Trend Micro and global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate...",
+                                              "Published":  "Sat, 20 Jun 2026 11:50:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  53,
+                                              "Domain":  "linkedin.com"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™ - PR Newswire",
+                                              "Link":  "https://www.prnewswire.com/news-releases/trend-micros-enterprise-business-is-now-trendai-302721673.html",
+                                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                                              "Published":  "Sun, 21 Jun 2026 13:15:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  45,
+                                              "Domain":  "prnewswire.com"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "TrendAI | AI Fearlessly with Proactive, Platform-Driven Security",
+                                              "Link":  "https://www.trendaisecurity.com/en/home",
+                                              "Description":  "At the core is our AI fabric. The TrendAI™ purpose-built large language model is trained on decades of research, global threat intelligence, and real-world attack data. This allows TrendAI™ to understand the language, behavior, and intent of attackers, not just patterns in logs.",
+                                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  34,
+                                              "Domain":  "trendaisecurity.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "Reddit",
+                          "Type":  "Community",
+                          "Query":  "TrendAI Productivity Pro Dashboard site:reddit.com/r",
+                          "Score":  72,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "security",
+                                           "leader",
+                                           "micro",
+                                           "trend",
+                                           "global",
+                                           "empowers",
+                                           "enterprises",
+                                           "business"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "TrendAI | LinkedIn",
+                                              "Link":  "https://in.linkedin.com/company/trendai-security",
+                                              "Description":  "TrendAI™, a business unit of Trend Micro and global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate...",
+                                              "Published":  "Thu, 18 Jun 2026 00:54:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:reddit.com/r",
+                                              "ResourceScore":  29,
+                                              "Domain":  "in.linkedin.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™",
+                                              "Link":  "https://newsroom.trendmicro.com/2026-03-23-Trend-Micros-Enterprise-Business-is-now-TrendAI-TM",
+                                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:reddit.com/r",
+                                              "ResourceScore":  37,
+                                              "Domain":  "newsroom.trendmicro.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "TrendAI™ is recognized as a Leader in the 2026 Gartner® Magic Quadrant ...",
+                                              "Link":  "https://newsroom.trendmicro.com/2026-05-27-TrendAI-TM-is-recognized-as-a-Leader-in-the-2026-Gartner-R-Magic-Quadrant-TM-for-Endpoint-Protection-Platforms",
+                                              "Description":  "TrendAI™, the global AI security leader and enterprise business unit of Trend Micro, empowers organizations with full AI visibility and consolidated security that inspires confidence, drives innovation, and eliminates risk.",
+                                              "Published":  "Thu, 18 Jun 2026 15:34:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:reddit.com/r",
+                                              "ResourceScore":  42,
+                                              "Domain":  "newsroom.trendmicro.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Trend Micro rebrands as TrendAI, targeting AI‑centric security",
+                                              "Link":  "https://techedgeai.com/trend-micro-rebrands-enterprise-security-unit-as-trendai-emphasizing-ai-centric-protection/",
+                                              "Description":  "Trend Micro announced a major brand overhaul on March 23, 2026, consolidating its enterprise cybersecurity offerings under the new name TrendAI™.",
+                                              "Published":  "Sun, 21 Jun 2026 08:50:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:reddit.com/r",
+                                              "ResourceScore":  42,
+                                              "Domain":  "techedgeai.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "TrendAI - cybersecurityintelligence.com",
+                                              "Link":  "https://www.cybersecurityintelligence.com/trendai-1601.html",
+                                              "Description":  "TrendAI, a global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate risk.",
+                                              "Published":  "Mon, 22 Jun 2026 02:15:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:reddit.com/r",
+                                              "ResourceScore":  34,
+                                              "Domain":  "cybersecurityintelligence.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "TrendAI - LinkedIn",
+                                              "Link":  "https://www.linkedin.com/company/trendai-security",
+                                              "Description":  "TrendAI™, a business unit of Trend Micro and global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate...",
+                                              "Published":  "Sat, 20 Jun 2026 11:50:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:reddit.com/r",
+                                              "ResourceScore":  29,
+                                              "Domain":  "linkedin.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™ - PR Newswire",
+                                              "Link":  "https://www.prnewswire.com/news-releases/trend-micros-enterprise-business-is-now-trendai-302721673.html",
+                                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                                              "Published":  "Sun, 21 Jun 2026 13:15:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:reddit.com/r",
+                                              "ResourceScore":  37,
+                                              "Domain":  "prnewswire.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "TrendAI | AI Fearlessly with Proactive, Platform-Driven Security",
+                                              "Link":  "https://www.trendaisecurity.com/en/home",
+                                              "Description":  "At the core is our AI fabric. The TrendAI™ purpose-built large language model is trained on decades of research, global threat intelligence, and real-world attack data. This allows TrendAI™ to understand the language, behavior, and intent of attackers, not just patterns in logs.",
+                                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:reddit.com/r",
+                                              "ResourceScore":  34,
+                                              "Domain":  "trendaisecurity.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "GitHub",
+                          "Type":  "Open Source",
+                          "Query":  "TrendAI Productivity Pro Dashboard site:github.com repository open source",
+                          "Score":  76,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "security",
+                                           "leader",
+                                           "micro",
+                                           "trend",
+                                           "global",
+                                           "empowers",
+                                           "enterprises",
+                                           "business"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "TrendAI | LinkedIn",
+                                              "Link":  "https://in.linkedin.com/company/trendai-security",
+                                              "Description":  "TrendAI™, a business unit of Trend Micro and global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate...",
+                                              "Published":  "Thu, 18 Jun 2026 00:54:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:github.com repository open source",
+                                              "ResourceScore":  29,
+                                              "Domain":  "in.linkedin.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™",
+                                              "Link":  "https://newsroom.trendmicro.com/2026-03-23-Trend-Micros-Enterprise-Business-is-now-TrendAI-TM",
+                                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:github.com repository open source",
+                                              "ResourceScore":  37,
+                                              "Domain":  "newsroom.trendmicro.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "TrendAI™ is recognized as a Leader in the 2026 Gartner® Magic Quadrant ...",
+                                              "Link":  "https://newsroom.trendmicro.com/2026-05-27-TrendAI-TM-is-recognized-as-a-Leader-in-the-2026-Gartner-R-Magic-Quadrant-TM-for-Endpoint-Protection-Platforms",
+                                              "Description":  "TrendAI™, the global AI security leader and enterprise business unit of Trend Micro, empowers organizations with full AI visibility and consolidated security that inspires confidence, drives innovation, and eliminates risk.",
+                                              "Published":  "Thu, 18 Jun 2026 15:34:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:github.com repository open source",
+                                              "ResourceScore":  42,
+                                              "Domain":  "newsroom.trendmicro.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Trend Micro rebrands as TrendAI, targeting AI‑centric security",
+                                              "Link":  "https://techedgeai.com/trend-micro-rebrands-enterprise-security-unit-as-trendai-emphasizing-ai-centric-protection/",
+                                              "Description":  "Trend Micro announced a major brand overhaul on March 23, 2026, consolidating its enterprise cybersecurity offerings under the new name TrendAI™.",
+                                              "Published":  "Sun, 21 Jun 2026 08:50:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:github.com repository open source",
+                                              "ResourceScore":  42,
+                                              "Domain":  "techedgeai.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "TrendAI - cybersecurityintelligence.com",
+                                              "Link":  "https://www.cybersecurityintelligence.com/trendai-1601.html",
+                                              "Description":  "TrendAI, a global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate risk.",
+                                              "Published":  "Mon, 22 Jun 2026 02:15:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:github.com repository open source",
+                                              "ResourceScore":  34,
+                                              "Domain":  "cybersecurityintelligence.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "TrendAI - LinkedIn",
+                                              "Link":  "https://www.linkedin.com/company/trendai-security",
+                                              "Description":  "TrendAI™, a business unit of Trend Micro and global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate...",
+                                              "Published":  "Sat, 20 Jun 2026 11:50:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:github.com repository open source",
+                                              "ResourceScore":  29,
+                                              "Domain":  "linkedin.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™ - PR Newswire",
+                                              "Link":  "https://www.prnewswire.com/news-releases/trend-micros-enterprise-business-is-now-trendai-302721673.html",
+                                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                                              "Published":  "Sun, 21 Jun 2026 13:15:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:github.com repository open source",
+                                              "ResourceScore":  47,
+                                              "Domain":  "prnewswire.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "TrendAI | AI Fearlessly with Proactive, Platform-Driven Security",
+                                              "Link":  "https://www.trendaisecurity.com/en/home",
+                                              "Description":  "At the core is our AI fabric. The TrendAI™ purpose-built large language model is trained on decades of research, global threat intelligence, and real-world attack data. This allows TrendAI™ to understand the language, behavior, and intent of attackers, not just patterns in logs.",
+                                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard site:github.com repository open source",
+                                              "ResourceScore":  34,
+                                              "Domain":  "trendaisecurity.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "Google/Web",
+                          "Type":  "Web",
+                          "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                          "Score":  77,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "security",
+                                           "leader",
+                                           "micro",
+                                           "trend",
+                                           "global",
+                                           "empowers",
+                                           "enterprises",
+                                           "business"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "TrendAI | LinkedIn",
+                                              "Link":  "https://in.linkedin.com/company/trendai-security",
+                                              "Description":  "TrendAI™, a business unit of Trend Micro and global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate...",
+                                              "Published":  "Thu, 18 Jun 2026 00:54:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                                              "ResourceScore":  39,
+                                              "Domain":  "in.linkedin.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™",
+                                              "Link":  "https://newsroom.trendmicro.com/2026-03-23-Trend-Micros-Enterprise-Business-is-now-TrendAI-TM",
+                                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                                              "ResourceScore":  47,
+                                              "Domain":  "newsroom.trendmicro.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "TrendAI™ is recognized as a Leader in the 2026 Gartner® Magic Quadrant ...",
+                                              "Link":  "https://newsroom.trendmicro.com/2026-05-27-TrendAI-TM-is-recognized-as-a-Leader-in-the-2026-Gartner-R-Magic-Quadrant-TM-for-Endpoint-Protection-Platforms",
+                                              "Description":  "TrendAI™, the global AI security leader and enterprise business unit of Trend Micro, empowers organizations with full AI visibility and consolidated security that inspires confidence, drives innovation, and eliminates risk.",
+                                              "Published":  "Thu, 18 Jun 2026 15:34:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                                              "ResourceScore":  52,
+                                              "Domain":  "newsroom.trendmicro.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Trend Micro rebrands as TrendAI, targeting AI‑centric security",
+                                              "Link":  "https://techedgeai.com/trend-micro-rebrands-enterprise-security-unit-as-trendai-emphasizing-ai-centric-protection/",
+                                              "Description":  "Trend Micro announced a major brand overhaul on March 23, 2026, consolidating its enterprise cybersecurity offerings under the new name TrendAI™.",
+                                              "Published":  "Sun, 21 Jun 2026 08:50:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                                              "ResourceScore":  52,
+                                              "Domain":  "techedgeai.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "TrendAI - cybersecurityintelligence.com",
+                                              "Link":  "https://www.cybersecurityintelligence.com/trendai-1601.html",
+                                              "Description":  "TrendAI, a global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate risk.",
+                                              "Published":  "Mon, 22 Jun 2026 02:15:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                                              "ResourceScore":  44,
+                                              "Domain":  "cybersecurityintelligence.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "TrendAI - LinkedIn",
+                                              "Link":  "https://www.linkedin.com/company/trendai-security",
+                                              "Description":  "TrendAI™, a business unit of Trend Micro and global AI security leader, empowers enterprises, governments, and organizations with proactive solutions designed to inspire innovation and eliminate...",
+                                              "Published":  "Sat, 20 Jun 2026 11:50:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                                              "ResourceScore":  39,
+                                              "Domain":  "linkedin.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Trend Micro\u0027s Enterprise Business is now TrendAI™ - PR Newswire",
+                                              "Link":  "https://www.prnewswire.com/news-releases/trend-micros-enterprise-business-is-now-trendai-302721673.html",
+                                              "Description":  "TrendAI™, a global leader in AI security, empowers enterprises to innovate fearlessly by securing AI, cloud, networks, endpoints, and data across the modern attack surface.",
+                                              "Published":  "Sun, 21 Jun 2026 13:15:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                                              "ResourceScore":  47,
+                                              "Domain":  "prnewswire.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "TrendAI | AI Fearlessly with Proactive, Platform-Driven Security",
+                                              "Link":  "https://www.trendaisecurity.com/en/home",
+                                              "Description":  "At the core is our AI fabric. The TrendAI™ purpose-built large language model is trained on decades of research, global threat intelligence, and real-world attack data. This allows TrendAI™ to understand the language, behavior, and intent of attackers, not just patterns in logs.",
+                                              "Published":  "Sun, 21 Jun 2026 02:31:00 GMT",
+                                              "Query":  "TrendAI Productivity Pro Dashboard latest trend guide analysis",
+                                              "ResourceScore":  44,
+                                              "Domain":  "trendaisecurity.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "News",
+                          "Type":  "News",
+                          "Query":  "TrendAI Productivity Pro Dashboard latest news trend",
+                          "Score":  9,
+                          "ResultCount":  1,
+                          "Keywords":  [
+
+                                       ],
+                          "Results":  [
+                                          null
+                                      ]
+                      }
+                  ],
+    "GemmaSummary":  "## Gemma Trend Summary\n\nHere’s a concise summary of the trend for “TrendAI Productivity Pro Dashboard” based on your provided data:\n\n*   **Growing Security Focus:** The significant signal from LinkedIn, YouTube and Google/Web points to an increasing emphasis on cybersecurity within enterprises. This suggests users are actively seeking tools that bolster their defenses against evolving threats.\n*   **Micro-Trends Driving Adoption:**  The presence of keywords like \"micro\" and “trend” across multiple platforms indicates a shift towards smaller, more targeted solutions designed for specific business needs – particularly in the context of productivity enhancement. \n*   **Proactive \u0026 Innovative Solutions Desired:** The signals from GitHub and News highlight users are prioritizing data-driven insights and innovative approaches to improve efficiency and control within their operations.\n\n## Platform Decision\n\nUse LinkedIn first, followed by YouTube.  While Google/Web offers valuable information, LinkedIn’s user base directly aligns with the target audience for a Productivity Pro Dashboard – those seeking strategic business improvements through technology.\n\n## Behaviour Prediction\n\nUsers will likely engage with content focusing on actionable insights and practical application of the dashboard\u0027s features to improve security posture and operational efficiency. They will seek tutorials and case studies demonstrating how to leverage the platform’s capabilities within their specific workflows.\n\n## Content Plan - Next 7 Days:\n\n1.  **“Security Checklist” Carousel:** Create a carousel showcasing key security best practices with brief tips using the dashboard\u0027s features (e.g., threat monitoring, vulnerability assessment).\n2.  **\"Micro-Trend Case Study\":** Showcase a real-world example of how a business successfully implemented a specific micro trend highlighted by the data and leveraged the dashboard’s insights to improve security. \n3.  **“Workflow Optimization” Video:** Produce a short video demonstrating a practical workflow optimization using the dashboard, focusing on automating security tasks.\n\n## Related Topic Opportunities:\n\n1.  **\"Security Automation Toolkit\":** Explore tools that automate repetitive security tasks within the dashboard.\n2.  **“Threat Intelligence Integration”:** Discuss how to integrate threat intelligence feeds into the dashboard for proactive defense.\n3.  **“Data Visualization Security Reports”:** Create reports visualizing key security metrics and trends, offering actionable insights through the dashboard.",
+    "GemmaModel":  "gemma3:1b",
+    "GemmaSummarySuccess":  true
+}
