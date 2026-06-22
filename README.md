@@ -238,7 +238,3 @@ Planned improvements:
 * Plugin system
 
 ---
-
-## License
-
-Recommended license: `MIT License`
