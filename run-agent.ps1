@@ -1,5 +1,9 @@
 ﻿# run-agent.ps1
 
+param(
+    [string]$Topic
+)
+
 $ErrorActionPreference = "Continue"
 
 $BaseDir = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -64,7 +68,10 @@ Write-Host ""
 # Topic input logic
 $topicsToRun = @()
 
-if ($Config.askTopicOnRun -eq $true) {
+if (-not [string]::IsNullOrWhiteSpace($Topic)) {
+    $topicsToRun = @($Topic)
+}
+elseif ($Config.askTopicOnRun -eq $true) {
     $defaultTopic = ""
 
     if ($Config.topics.Count -gt 0) {

@@ -1,17 +1,17 @@
-{
-  "appName": "TrendAI Local Agent",
-  "model": "gemma3:1b",
-  "fastModel": "",
-  "backupModel": "",
-  "topics": [
-    "open source AI agents"
-  ],
-  "maxResults": 10,
-  "language": "Hinglish",
-  "includeArticles": true,
-  "includeVideos": true,
-  "includePDFs": true,
-  "includeGithub": true,
-  "outputFolder": "reports",
-  "askTopicOnRun": true
+﻿{
+    "appName":  "AetherDesk AI",
+    "model":  "gemma3:1b",
+    "fastModel":  "",
+    "backupModel":  "",
+    "topics":  [
+                   "open source AI agents"
+               ],
+    "maxResults":  10,
+    "language":  "Hinglish",
+    "includeArticles":  true,
+    "includeVideos":  true,
+    "includePDFs":  true,
+    "includeGithub":  true,
+    "outputFolder":  "reports",
+    "askTopicOnRun":  true
 }

@@ -1,0 +1,913 @@
+﻿{
+    "Module":  "AetherDesk TrendRadar",
+    "Purpose":  "Social Trend Intelligence + Behaviour Prediction Report",
+    "Topic":  "AI in Agriculture in india",
+    "Slug":  "ai-in-agriculture-in-india",
+    "Date":  "2026-06-22",
+    "GeneratedAt":  "2026-06-22T11:49:55",
+    "OverallTrendOpportunityScore":  74,
+    "BestPlatform":  "News",
+    "BestContentFormat":  "Explainer article with market context and clear examples",
+    "SocialBehaviourPrediction":  "Moderate opportunity: the topic has visible signals but needs a sharper angle. Use News first and test content around google, intelligence, artificial.",
+    "KeywordClusters":  [
+                            "google",
+                            "intelligence",
+                            "artificial",
+                            "tasks",
+                            "gemini",
+                            "building",
+                            "explore",
+                            "such",
+                            "solving",
+                            "discover",
+                            "learning",
+                            "making"
+                        ],
+    "HashtagIdeas":  [
+                         "#AIinAgricultureinindia",
+                         "#google",
+                         "#intelligence",
+                         "#artificial",
+                         "#tasks",
+                         "#gemini",
+                         "#building",
+                         "#explore"
+                     ],
+    "YouTubeTitleIdeas":  [
+                              "I tested AI in Agriculture in india so you do not have to",
+                              "AI in Agriculture in india explained with a real workflow",
+                              "Is AI in Agriculture in india the next practical AI opportunity?",
+                              "AI in Agriculture in india: tools, examples, and mistakes to avoid"
+                          ],
+    "LinkedInPostAngles":  [
+                               "What AI in Agriculture in india means for builders and small teams",
+                               "A practical framework to evaluate AI in Agriculture in india before adopting it",
+                               "The hidden behaviour shift behind AI in Agriculture in india",
+                               "Why google is becoming important in the AI in Agriculture in india conversation"
+                           ],
+    "TwitterPostIdeas":  [
+                             "A short thread: what is actually changing around AI in Agriculture in india",
+                             "Hot take: AI in Agriculture in india matters less for hype and more for workflow design",
+                             "3 signals showing why AI in Agriculture in india is worth watching",
+                             "Question for builders: where does AI in Agriculture in india fit in your stack?"
+                         ],
+    "SuggestedRelatedTopics":  [
+                                   "AI in Agriculture in india tools",
+                                   "AI in Agriculture in india workflow",
+                                   "AI in Agriculture in india use cases",
+                                   "AI in Agriculture in india tutorial",
+                                   "AI in Agriculture in india automation",
+                                   "AI in Agriculture in india open source",
+                                   "AI in Agriculture in india business ideas",
+                                   "AI in Agriculture in india content strategy",
+                                   "AI in Agriculture in india comparison",
+                                   "AI in Agriculture in india roadmap"
+                               ],
+    "BestResources":  [
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Weather forecasting and AI in Indian farming: Transforming crop protection and agriculture",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d40a7f274217806b1931453bcf7a\u0026url=https%3a%2f%2fwww.thehindubusinessline.com%2feconomy%2fagri-business%2fweather-forecasting-and-ai-in-indian-farming-transforming-crop-protection-and-agriculture%2farticle71041183.ece\u0026c=2617816366889952567\u0026mkt=en-in",
+                              "Description":  "Explore how weather forecasting and AI are revolutionizing Indian farming, enhancing crop protection and agricultural productivity for future sustainability.",
+                              "Published":  "Sat, 30 May 2026 21:47:00 GMT",
+                              "Query":  "AI in Agriculture in india latest news trend",
+                              "ResourceScore":  62,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "In Punjab, IIT Ropar gives push to AI-driven farming in India",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d40a7f274217806b1931453bcf7a\u0026url=https%3a%2f%2ftimesofindia.indiatimes.com%2fcity%2fchandigarh%2fin-punjab-iit-ropar-gives-push-to-ai-driven-farming-in-india%2farticleshow%2f129809829.cms\u0026c=5870102663002562399\u0026mkt=en-in",
+                              "Description":  "Patiala: ANNAM.AI, the Centre of Excellence in Artificial Intelligence for Agriculture set up at IIT Ropar by the Union ministry of education, on Wednesday announced a set of initiatives aimed at ...",
+                              "Published":  "Thu, 26 Mar 2026 01:32:00 GMT",
+                              "Query":  "AI in Agriculture in india latest news trend",
+                              "ResourceScore":  59,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "The pivotal role of AI in rewiring India’s agricultural ecosystem",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d40a7f274217806b1931453bcf7a\u0026url=https%3a%2f%2fwww.thehindubusinessline.com%2feconomy%2fagri-business%2fthe-pivotal-role-of-ai-in-rewiring-indias-agricultural-ecosystem%2farticle70874154.ece\u0026c=8075545950415435391\u0026mkt=en-in",
+                              "Description":  "https://www.thehindubusinessline.com/economy/agri-business/the-pivotal-role-of-ai-in-rewiring-indias-agricultural-ecosystem/article70874154.ece Copy Agriculture is ...",
+                              "Published":  "Sat, 18 Apr 2026 03:30:00 GMT",
+                              "Query":  "AI in Agriculture in india latest news trend",
+                              "ResourceScore":  59,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "If India gets AI in agriculture right, the Global South wins",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d40a7f274217806b1931453bcf7a\u0026url=https%3a%2f%2fwww.hindustantimes.com%2fopinion%2fif-india-gets-ai-in-agriculture-right-the-global-south-wins-101773324225017.html\u0026c=1616354719677977661\u0026mkt=en-in",
+                              "Description":  "India has a rare advantage in the global race to modernise agriculture, leveraging emerging technologies such as Artificial Intelligence (AI). The country benefits from a vision to deploy digital ...",
+                              "Published":  "Thu, 12 Mar 2026 18:04:00 GMT",
+                              "Query":  "AI in Agriculture in india latest news trend",
+                              "ResourceScore":  55,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "Reddit",
+                              "Type":  "Community",
+                              "Title":  "Google AI Studio",
+                              "Link":  "https://aistudio.google.com/",
+                              "Description":  "Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.",
+                              "Published":  "Sun, 21 Jun 2026 20:53:00 GMT",
+                              "Query":  "AI in Agriculture in india site:reddit.com/r",
+                              "ResourceScore":  36,
+                              "Domain":  "aistudio.google.com"
+                          },
+                          {
+                              "Platform":  "Google/Web",
+                              "Type":  "Web",
+                              "Title":  "Google AI - How we\u0027re making AI helpful for everyone",
+                              "Link":  "https://ai.google/",
+                              "Description":  "Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.",
+                              "Published":  "Sun, 21 Jun 2026 21:43:00 GMT",
+                              "Query":  "AI in Agriculture in india latest trend guide analysis",
+                              "ResourceScore":  35,
+                              "Domain":  "ai.google"
+                          },
+                          {
+                              "Platform":  "Google/Web",
+                              "Type":  "Web",
+                              "Title":  "Understanding AI: AI tools, training, and skills — Google AI",
+                              "Link":  "https://ai.google/learn-ai-skills/",
+                              "Description":  "Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.",
+                              "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
+                              "Query":  "AI in Agriculture in india latest trend guide analysis",
+                              "ResourceScore":  35,
+                              "Domain":  "ai.google"
+                          },
+                          {
+                              "Platform":  "Reddit",
+                              "Type":  "Community",
+                              "Title":  "Understanding AI: AI tools, training, and skills — Google AI",
+                              "Link":  "https://ai.google/learn-ai-skills/",
+                              "Description":  "Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.",
+                              "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
+                              "Query":  "AI in Agriculture in india site:reddit.com/r",
+                              "ResourceScore":  33,
+                              "Domain":  "ai.google"
+                          },
+                          {
+                              "Platform":  "Reddit",
+                              "Type":  "Community",
+                              "Title":  "Artificial intelligence - Wikipedia",
+                              "Link":  "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                              "Description":  "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
+                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                              "Query":  "AI in Agriculture in india site:reddit.com/r",
+                              "ResourceScore":  33,
+                              "Domain":  "en.wikipedia.org"
+                          },
+                          {
+                              "Platform":  "GitHub",
+                              "Type":  "Open Source",
+                              "Title":  "Google AI Studio",
+                              "Link":  "https://aistudio.google.com/",
+                              "Description":  "Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.",
+                              "Published":  "Sun, 21 Jun 2026 20:53:00 GMT",
+                              "Query":  "AI in Agriculture in india site:github.com repository open source",
+                              "ResourceScore":  28,
+                              "Domain":  "aistudio.google.com"
+                          },
+                          {
+                              "Platform":  "Google/Web",
+                              "Type":  "Web",
+                              "Title":  "Google AI Studio",
+                              "Link":  "https://aistudio.google.com/",
+                              "Description":  "Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.",
+                              "Published":  "Sun, 21 Jun 2026 20:53:00 GMT",
+                              "Query":  "AI in Agriculture in india latest trend guide analysis",
+                              "ResourceScore":  28,
+                              "Domain":  "aistudio.google.com"
+                          },
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "Google AI Studio",
+                              "Link":  "https://aistudio.google.com/",
+                              "Description":  "Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.",
+                              "Published":  "Sun, 21 Jun 2026 20:53:00 GMT",
+                              "Query":  "AI in Agriculture in india site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  28,
+                              "Domain":  "aistudio.google.com"
+                          }
+                      ],
+    "RedditDiscussionSignal":  67,
+    "GitHubOpenSourceSignal":  66,
+    "RecommendedAction":  "Start with News using a Explainer article with market context and clear examples. Re-check signals weekly and turn top keywords into experiments.",
+    "Platforms":  [
+                      {
+                          "Name":  "YouTube",
+                          "Type":  "Video",
+                          "Query":  "AI in Agriculture in india site:youtube.com/watch",
+                          "Score":  64,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "google",
+                                           "intelligence",
+                                           "building",
+                                           "tasks",
+                                           "gemini",
+                                           "artificial",
+                                           "research",
+                                           "human"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Google AI - How we\u0027re making AI helpful for everyone",
+                                              "Link":  "https://ai.google/",
+                                              "Description":  "Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.",
+                                              "Published":  "Sun, 21 Jun 2026 21:43:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:youtube.com/watch",
+                                              "ResourceScore":  25,
+                                              "Domain":  "ai.google"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Understanding AI: AI tools, training, and skills — Google AI",
+                                              "Link":  "https://ai.google/learn-ai-skills/",
+                                              "Description":  "Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.",
+                                              "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:youtube.com/watch",
+                                              "ResourceScore":  25,
+                                              "Domain":  "ai.google"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Google AI Studio",
+                                              "Link":  "https://aistudio.google.com/",
+                                              "Description":  "Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.",
+                                              "Published":  "Sun, 21 Jun 2026 20:53:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:youtube.com/watch",
+                                              "ResourceScore":  28,
+                                              "Domain":  "aistudio.google.com"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "ChatGPT",
+                                              "Link":  "https://chatgpt.com/",
+                                              "Description":  "ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.",
+                                              "Published":  "Sun, 21 Jun 2026 06:12:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:youtube.com/watch",
+                                              "ResourceScore":  20,
+                                              "Domain":  "chatgpt.com"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "DeepAI",
+                                              "Link":  "https://deepai.org/",
+                                              "Description":  "This is what AI for Good means to us—using technology and resources to create opportunities and inspire hope, whether through conservation science or grassroots sports development.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:youtube.com/watch",
+                                              "ResourceScore":  20,
+                                              "Domain":  "deepai.org"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Artificial intelligence - Wikipedia",
+                                              "Link":  "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                                              "Description":  "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:youtube.com/watch",
+                                              "ResourceScore":  25,
+                                              "Domain":  "en.wikipedia.org"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "‎Google Gemini",
+                                              "Link":  "https://gemini.google.com/",
+                                              "Description":  "Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:youtube.com/watch",
+                                              "ResourceScore":  20,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "OpenAI | Research \u0026 Deployment",
+                                              "Link":  "https://openai.com/",
+                                              "Description":  "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.",
+                                              "Published":  "Mon, 22 Jun 2026 01:18:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:youtube.com/watch",
+                                              "ResourceScore":  25,
+                                              "Domain":  "openai.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "X/Twitter",
+                          "Type":  "Social",
+                          "Query":  "AI in Agriculture in india site:x.com OR site:twitter.com",
+                          "Score":  63,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "google",
+                                           "intelligence",
+                                           "building",
+                                           "tasks",
+                                           "gemini",
+                                           "artificial",
+                                           "research",
+                                           "human"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Google AI - How we\u0027re making AI helpful for everyone",
+                                              "Link":  "https://ai.google/",
+                                              "Description":  "Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.",
+                                              "Published":  "Sun, 21 Jun 2026 21:43:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:x.com OR site:twitter.com",
+                                              "ResourceScore":  25,
+                                              "Domain":  "ai.google"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Understanding AI: AI tools, training, and skills — Google AI",
+                                              "Link":  "https://ai.google/learn-ai-skills/",
+                                              "Description":  "Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.",
+                                              "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:x.com OR site:twitter.com",
+                                              "ResourceScore":  25,
+                                              "Domain":  "ai.google"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Google AI Studio",
+                                              "Link":  "https://aistudio.google.com/",
+                                              "Description":  "Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.",
+                                              "Published":  "Sun, 21 Jun 2026 20:53:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:x.com OR site:twitter.com",
+                                              "ResourceScore":  28,
+                                              "Domain":  "aistudio.google.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "ChatGPT",
+                                              "Link":  "https://chatgpt.com/",
+                                              "Description":  "ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.",
+                                              "Published":  "Sun, 21 Jun 2026 06:12:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:x.com OR site:twitter.com",
+                                              "ResourceScore":  20,
+                                              "Domain":  "chatgpt.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "DeepAI",
+                                              "Link":  "https://deepai.org/",
+                                              "Description":  "This is what AI for Good means to us—using technology and resources to create opportunities and inspire hope, whether through conservation science or grassroots sports development.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:x.com OR site:twitter.com",
+                                              "ResourceScore":  20,
+                                              "Domain":  "deepai.org"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Artificial intelligence - Wikipedia",
+                                              "Link":  "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                                              "Description":  "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:x.com OR site:twitter.com",
+                                              "ResourceScore":  25,
+                                              "Domain":  "en.wikipedia.org"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "‎Google Gemini",
+                                              "Link":  "https://gemini.google.com/",
+                                              "Description":  "Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:x.com OR site:twitter.com",
+                                              "ResourceScore":  20,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "OpenAI | Research \u0026 Deployment",
+                                              "Link":  "https://openai.com/",
+                                              "Description":  "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.",
+                                              "Published":  "Mon, 22 Jun 2026 01:18:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:x.com OR site:twitter.com",
+                                              "ResourceScore":  25,
+                                              "Domain":  "openai.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "LinkedIn",
+                          "Type":  "Social",
+                          "Query":  "AI in Agriculture in india site:linkedin.com/posts OR site:linkedin.com/pulse",
+                          "Score":  65,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "google",
+                                           "intelligence",
+                                           "building",
+                                           "tasks",
+                                           "gemini",
+                                           "artificial",
+                                           "research",
+                                           "human"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Google AI - How we\u0027re making AI helpful for everyone",
+                                              "Link":  "https://ai.google/",
+                                              "Description":  "Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.",
+                                              "Published":  "Sun, 21 Jun 2026 21:43:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  25,
+                                              "Domain":  "ai.google"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Understanding AI: AI tools, training, and skills — Google AI",
+                                              "Link":  "https://ai.google/learn-ai-skills/",
+                                              "Description":  "Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.",
+                                              "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  25,
+                                              "Domain":  "ai.google"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Google AI Studio",
+                                              "Link":  "https://aistudio.google.com/",
+                                              "Description":  "Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.",
+                                              "Published":  "Sun, 21 Jun 2026 20:53:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  28,
+                                              "Domain":  "aistudio.google.com"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "ChatGPT",
+                                              "Link":  "https://chatgpt.com/",
+                                              "Description":  "ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.",
+                                              "Published":  "Sun, 21 Jun 2026 06:12:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  20,
+                                              "Domain":  "chatgpt.com"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "DeepAI",
+                                              "Link":  "https://deepai.org/",
+                                              "Description":  "This is what AI for Good means to us—using technology and resources to create opportunities and inspire hope, whether through conservation science or grassroots sports development.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  20,
+                                              "Domain":  "deepai.org"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Artificial intelligence - Wikipedia",
+                                              "Link":  "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                                              "Description":  "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  25,
+                                              "Domain":  "en.wikipedia.org"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "‎Google Gemini",
+                                              "Link":  "https://gemini.google.com/",
+                                              "Description":  "Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  20,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "OpenAI | Research \u0026 Deployment",
+                                              "Link":  "https://openai.com/",
+                                              "Description":  "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.",
+                                              "Published":  "Mon, 22 Jun 2026 01:18:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  25,
+                                              "Domain":  "openai.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "Reddit",
+                          "Type":  "Community",
+                          "Query":  "AI in Agriculture in india site:reddit.com/r",
+                          "Score":  67,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "google",
+                                           "intelligence",
+                                           "building",
+                                           "tasks",
+                                           "gemini",
+                                           "artificial",
+                                           "research",
+                                           "human"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Google AI - How we\u0027re making AI helpful for everyone",
+                                              "Link":  "https://ai.google/",
+                                              "Description":  "Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.",
+                                              "Published":  "Sun, 21 Jun 2026 21:43:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:reddit.com/r",
+                                              "ResourceScore":  25,
+                                              "Domain":  "ai.google"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Understanding AI: AI tools, training, and skills — Google AI",
+                                              "Link":  "https://ai.google/learn-ai-skills/",
+                                              "Description":  "Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.",
+                                              "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:reddit.com/r",
+                                              "ResourceScore":  33,
+                                              "Domain":  "ai.google"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Google AI Studio",
+                                              "Link":  "https://aistudio.google.com/",
+                                              "Description":  "Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.",
+                                              "Published":  "Sun, 21 Jun 2026 20:53:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:reddit.com/r",
+                                              "ResourceScore":  36,
+                                              "Domain":  "aistudio.google.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "ChatGPT",
+                                              "Link":  "https://chatgpt.com/",
+                                              "Description":  "ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.",
+                                              "Published":  "Sun, 21 Jun 2026 06:12:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:reddit.com/r",
+                                              "ResourceScore":  20,
+                                              "Domain":  "chatgpt.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "DeepAI",
+                                              "Link":  "https://deepai.org/",
+                                              "Description":  "This is what AI for Good means to us—using technology and resources to create opportunities and inspire hope, whether through conservation science or grassroots sports development.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:reddit.com/r",
+                                              "ResourceScore":  20,
+                                              "Domain":  "deepai.org"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Artificial intelligence - Wikipedia",
+                                              "Link":  "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                                              "Description":  "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:reddit.com/r",
+                                              "ResourceScore":  33,
+                                              "Domain":  "en.wikipedia.org"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "‎Google Gemini",
+                                              "Link":  "https://gemini.google.com/",
+                                              "Description":  "Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:reddit.com/r",
+                                              "ResourceScore":  20,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "OpenAI | Research \u0026 Deployment",
+                                              "Link":  "https://openai.com/",
+                                              "Description":  "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.",
+                                              "Published":  "Mon, 22 Jun 2026 01:18:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:reddit.com/r",
+                                              "ResourceScore":  25,
+                                              "Domain":  "openai.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "GitHub",
+                          "Type":  "Open Source",
+                          "Query":  "AI in Agriculture in india site:github.com repository open source",
+                          "Score":  66,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "google",
+                                           "intelligence",
+                                           "building",
+                                           "tasks",
+                                           "gemini",
+                                           "artificial",
+                                           "research",
+                                           "human"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Google AI - How we\u0027re making AI helpful for everyone",
+                                              "Link":  "https://ai.google/",
+                                              "Description":  "Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.",
+                                              "Published":  "Sun, 21 Jun 2026 21:43:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:github.com repository open source",
+                                              "ResourceScore":  25,
+                                              "Domain":  "ai.google"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Understanding AI: AI tools, training, and skills — Google AI",
+                                              "Link":  "https://ai.google/learn-ai-skills/",
+                                              "Description":  "Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.",
+                                              "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:github.com repository open source",
+                                              "ResourceScore":  25,
+                                              "Domain":  "ai.google"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Google AI Studio",
+                                              "Link":  "https://aistudio.google.com/",
+                                              "Description":  "Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.",
+                                              "Published":  "Sun, 21 Jun 2026 20:53:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:github.com repository open source",
+                                              "ResourceScore":  28,
+                                              "Domain":  "aistudio.google.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "ChatGPT",
+                                              "Link":  "https://chatgpt.com/",
+                                              "Description":  "ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.",
+                                              "Published":  "Sun, 21 Jun 2026 06:12:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:github.com repository open source",
+                                              "ResourceScore":  20,
+                                              "Domain":  "chatgpt.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "DeepAI",
+                                              "Link":  "https://deepai.org/",
+                                              "Description":  "This is what AI for Good means to us—using technology and resources to create opportunities and inspire hope, whether through conservation science or grassroots sports development.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:github.com repository open source",
+                                              "ResourceScore":  20,
+                                              "Domain":  "deepai.org"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Artificial intelligence - Wikipedia",
+                                              "Link":  "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                                              "Description":  "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:github.com repository open source",
+                                              "ResourceScore":  25,
+                                              "Domain":  "en.wikipedia.org"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "‎Google Gemini",
+                                              "Link":  "https://gemini.google.com/",
+                                              "Description":  "Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:github.com repository open source",
+                                              "ResourceScore":  20,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "OpenAI | Research \u0026 Deployment",
+                                              "Link":  "https://openai.com/",
+                                              "Description":  "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.",
+                                              "Published":  "Mon, 22 Jun 2026 01:18:00 GMT",
+                                              "Query":  "AI in Agriculture in india site:github.com repository open source",
+                                              "ResourceScore":  25,
+                                              "Domain":  "openai.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "Google/Web",
+                          "Type":  "Web",
+                          "Query":  "AI in Agriculture in india latest trend guide analysis",
+                          "Score":  64,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "google",
+                                           "intelligence",
+                                           "building",
+                                           "tasks",
+                                           "gemini",
+                                           "artificial",
+                                           "research",
+                                           "human"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Google AI - How we\u0027re making AI helpful for everyone",
+                                              "Link":  "https://ai.google/",
+                                              "Description":  "Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.",
+                                              "Published":  "Sun, 21 Jun 2026 21:43:00 GMT",
+                                              "Query":  "AI in Agriculture in india latest trend guide analysis",
+                                              "ResourceScore":  35,
+                                              "Domain":  "ai.google"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Understanding AI: AI tools, training, and skills — Google AI",
+                                              "Link":  "https://ai.google/learn-ai-skills/",
+                                              "Description":  "Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.",
+                                              "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
+                                              "Query":  "AI in Agriculture in india latest trend guide analysis",
+                                              "ResourceScore":  35,
+                                              "Domain":  "ai.google"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Google AI Studio",
+                                              "Link":  "https://aistudio.google.com/",
+                                              "Description":  "Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.",
+                                              "Published":  "Sun, 21 Jun 2026 20:53:00 GMT",
+                                              "Query":  "AI in Agriculture in india latest trend guide analysis",
+                                              "ResourceScore":  28,
+                                              "Domain":  "aistudio.google.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "ChatGPT",
+                                              "Link":  "https://chatgpt.com/",
+                                              "Description":  "ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.",
+                                              "Published":  "Sun, 21 Jun 2026 06:12:00 GMT",
+                                              "Query":  "AI in Agriculture in india latest trend guide analysis",
+                                              "ResourceScore":  20,
+                                              "Domain":  "chatgpt.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "DeepAI",
+                                              "Link":  "https://deepai.org/",
+                                              "Description":  "This is what AI for Good means to us—using technology and resources to create opportunities and inspire hope, whether through conservation science or grassroots sports development.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india latest trend guide analysis",
+                                              "ResourceScore":  20,
+                                              "Domain":  "deepai.org"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Artificial intelligence - Wikipedia",
+                                              "Link":  "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                                              "Description":  "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india latest trend guide analysis",
+                                              "ResourceScore":  25,
+                                              "Domain":  "en.wikipedia.org"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "‎Google Gemini",
+                                              "Link":  "https://gemini.google.com/",
+                                              "Description":  "Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.",
+                                              "Published":  "Sun, 21 Jun 2026 00:15:00 GMT",
+                                              "Query":  "AI in Agriculture in india latest trend guide analysis",
+                                              "ResourceScore":  20,
+                                              "Domain":  "gemini.google.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "OpenAI | Research \u0026 Deployment",
+                                              "Link":  "https://openai.com/",
+                                              "Description":  "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.",
+                                              "Published":  "Mon, 22 Jun 2026 01:18:00 GMT",
+                                              "Query":  "AI in Agriculture in india latest trend guide analysis",
+                                              "ResourceScore":  25,
+                                              "Domain":  "openai.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "News",
+                          "Type":  "News",
+                          "Query":  "AI in Agriculture in india latest news trend",
+                          "Score":  68,
+                          "ResultCount":  4,
+                          "Keywords":  [
+                                           "agricultural",
+                                           "farming",
+                                           "intelligence",
+                                           "artificial",
+                                           "forecasting",
+                                           "pivotal",
+                                           "protection",
+                                           "indian"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "In Punjab, IIT Ropar gives push to AI-driven farming in India",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d40a7f274217806b1931453bcf7a\u0026url=https%3a%2f%2ftimesofindia.indiatimes.com%2fcity%2fchandigarh%2fin-punjab-iit-ropar-gives-push-to-ai-driven-farming-in-india%2farticleshow%2f129809829.cms\u0026c=5870102663002562399\u0026mkt=en-in",
+                                              "Description":  "Patiala: ANNAM.AI, the Centre of Excellence in Artificial Intelligence for Agriculture set up at IIT Ropar by the Union ministry of education, on Wednesday announced a set of initiatives aimed at ...",
+                                              "Published":  "Thu, 26 Mar 2026 01:32:00 GMT",
+                                              "Query":  "AI in Agriculture in india latest news trend",
+                                              "ResourceScore":  59,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "If India gets AI in agriculture right, the Global South wins",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d40a7f274217806b1931453bcf7a\u0026url=https%3a%2f%2fwww.hindustantimes.com%2fopinion%2fif-india-gets-ai-in-agriculture-right-the-global-south-wins-101773324225017.html\u0026c=1616354719677977661\u0026mkt=en-in",
+                                              "Description":  "India has a rare advantage in the global race to modernise agriculture, leveraging emerging technologies such as Artificial Intelligence (AI). The country benefits from a vision to deploy digital ...",
+                                              "Published":  "Thu, 12 Mar 2026 18:04:00 GMT",
+                                              "Query":  "AI in Agriculture in india latest news trend",
+                                              "ResourceScore":  55,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "The pivotal role of AI in rewiring India’s agricultural ecosystem",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d40a7f274217806b1931453bcf7a\u0026url=https%3a%2f%2fwww.thehindubusinessline.com%2feconomy%2fagri-business%2fthe-pivotal-role-of-ai-in-rewiring-indias-agricultural-ecosystem%2farticle70874154.ece\u0026c=8075545950415435391\u0026mkt=en-in",
+                                              "Description":  "https://www.thehindubusinessline.com/economy/agri-business/the-pivotal-role-of-ai-in-rewiring-indias-agricultural-ecosystem/article70874154.ece Copy Agriculture is ...",
+                                              "Published":  "Sat, 18 Apr 2026 03:30:00 GMT",
+                                              "Query":  "AI in Agriculture in india latest news trend",
+                                              "ResourceScore":  59,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Weather forecasting and AI in Indian farming: Transforming crop protection and agriculture",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d40a7f274217806b1931453bcf7a\u0026url=https%3a%2f%2fwww.thehindubusinessline.com%2feconomy%2fagri-business%2fweather-forecasting-and-ai-in-indian-farming-transforming-crop-protection-and-agriculture%2farticle71041183.ece\u0026c=2617816366889952567\u0026mkt=en-in",
+                                              "Description":  "Explore how weather forecasting and AI are revolutionizing Indian farming, enhancing crop protection and agricultural productivity for future sustainability.",
+                                              "Published":  "Sat, 30 May 2026 21:47:00 GMT",
+                                              "Query":  "AI in Agriculture in india latest news trend",
+                                              "ResourceScore":  62,
+                                              "Domain":  "bing.com"
+                                          }
+                                      ]
+                      }
+                  ],
+    "GemmaSummary":  "## Gemma Trend Summary\n\n*   **Growing AI Adoption:** There’s increasing interest in utilizing Artificial Intelligence (AI) across Indian agriculture, with significant investment being directed towards optimizing farming practices through data analysis and automation.\n*   **Focus on Precision Farming:** The trend points to a shift toward precision farming techniques leveraging AI for crop yield prediction, disease detection, and resource management – creating substantial opportunities for businesses and farmers alike. \n*   **Data-Driven Insights Needed:** Users are actively seeking practical examples of how AI is being applied in India’s agricultural landscape, highlighting the importance of clear case studies and tangible results to drive adoption.\n\n## Platform Decision\n\nUse **News** first as it provides the most relevant context for understanding the overall trends and current discussions surrounding AI in Indian agriculture. It will offer a broader view of the information flow and identify key areas of focus. \n\n## Behaviour Prediction\n\nUsers are likely to engage with explainer articles that clearly illustrate how AI is being used, focusing on benefits like increased productivity, reduced costs, and improved sustainability. They’ll also seek real-world examples and comparisons between different AI solutions.\n\n## Content Plan (Next 7 Days)\n\n1.  **Blog Post: Case Study – Precision Irrigation with AI:** Detail a successful implementation of an AI-powered irrigation system in a specific region, showcasing quantifiable results like water savings and yield increases.\n2.  **Social Media Q\u0026A - “AI Challenges \u0026 Opportunities”**: Host a live session on LinkedIn or Twitter answering common questions about implementing AI in agriculture, addressing concerns around data privacy, infrastructure requirements, and initial investment. \n3.  **Short Video Tutorial – Basic Data Analysis with Google Sheets:** Create a short video demonstrating how farmers can use simple spreadsheet tools to analyze crop health data using AI insights.\n4. **News Article: Government Initiatives \u0026 Policy Updates**: Share a summary of recent government initiatives promoting AI in agriculture, highlighting key policies and funding programs. \n5.  **Infographic - “AI’s Impact on Indian Farming”:** Create an infographic visually representing the potential benefits across different sectors (crop yield, cost reduction, labor efficiency).\n\n## Related Topic Opportunities\n\n1.  **AI-Powered Crop Monitoring Tools**: Explore tools for drone imagery analysis and satellite data interpretation to detect diseases and pests early.\n2.  **Blockchain \u0026 Traceability:** Investigate how blockchain technology can enhance supply chain management through AI-driven traceability of agricultural products. \n3. **Agricultural Robotics - Autonomous Tractors \u0026 Weeds Detection:** Focus on the development and deployment of autonomous machinery, including robotic weeding systems.",
+    "GemmaModel":  "gemma3:1b",
+    "GemmaSummarySuccess":  true
+}

@@ -2,6 +2,12 @@
 
 **AetherDesk AI** is a local-first Windows AI command center built with PowerShell, HTML reports, and optional Ollama support.
 
+## Windows UI Preview
+
+![AetherDesk AI Windows PowerShell UI](screenshots/powershell_ui1.png)
+
+![AetherDesk AI Windows UI Settings and Scheduler](screenshots/powershell_ui2.png)
+
 It helps you:
 
 * Generate trending AI and open-source technology reports
@@ -131,6 +137,8 @@ powershell -ExecutionPolicy Bypass -File .\social-trend-report.ps1
 ```text
 AetherDeskAI/
 ├── AetherDeskAI-Launcher.bat
+├── AetherDeskAI-UI.bat
+├── AetherDeskAI-UI.ps1
 ├── README.md
 ├── config.json
 ├── run-agent.ps1
@@ -169,6 +177,18 @@ ollama pull gemma3:1b
 ---
 
 ## Quick Start
+
+Run the Windows app:
+
+```powershell
+.\AetherDeskAI.exe
+```
+
+Run the Windows UI:
+
+```powershell
+.\AetherDeskAI-UI.bat
+```
 
 Run the launcher:
 

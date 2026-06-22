@@ -1,0 +1,645 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>AI in Agriculture in india - AetherDesk TrendRadar</title>
+<style>
+*{box-sizing:border-box}
+:root{
+  --bg:#f4f7fb;
+  --ink:#152033;
+  --muted:#657184;
+  --card:#ffffff;
+  --line:#dce4ef;
+  --primary:#126b5c;
+  --primary2:#29b391;
+  --blue:#2563eb;
+  --orange:#f59e0b;
+  --shadow:0 18px 42px rgba(21,32,51,.10);
+}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",Arial,sans-serif}
+.page{padding:30px;min-height:100vh;background:linear-gradient(135deg,#f7fbff,#eef7f3)}
+.hero{border-radius:26px;padding:34px;background:linear-gradient(135deg,#102238,#126b5c 65%,#29b391);color:#fff;box-shadow:var(--shadow)}
+.topline{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap}
+.tag{padding:8px 13px;border-radius:999px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);font-size:12px;font-weight:800;letter-spacing:.5px;text-transform:uppercase}
+.print{border:0;border-radius:12px;padding:10px 14px;font-weight:900;color:#126b5c;background:#fff;cursor:pointer}
+h1{font-size:42px;line-height:1.08;margin:24px 0 10px}
+.hero p{max-width:900px;line-height:1.6;opacity:.9}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:24px}
+.stat{padding:16px;border-radius:18px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22)}
+.stat span{display:block;font-size:12px;opacity:.78}
+.stat strong{display:block;font-size:25px;margin-top:7px}
+.section{margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:var(--shadow)}
+.section h2{margin:0 0 16px;font-size:24px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.card{border:1px solid var(--line);border-radius:18px;padding:18px;background:#fff}
+.card h3{margin:0 0 10px}
+.muted{color:var(--muted)}
+.bar-row{margin-bottom:14px}
+.bar-head{display:flex;justify-content:space-between;gap:12px;margin-bottom:7px;font-size:13px}
+.bar{height:13px;border-radius:999px;background:#e7edf5;overflow:hidden}
+.fill{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--primary),var(--primary2))}
+.line-chart{width:100%;height:auto;display:block}
+.grid-axis{stroke:#93a4b8;stroke-width:1.2}
+.grid-soft{stroke:#dce4ef;stroke-width:1}
+.trend-line{fill:none;stroke:#2563eb;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.line-dot{fill:#fff;stroke:#2563eb;stroke-width:3}
+.axis-label{font-size:11px;fill:#657184;font-weight:800}
+.score-label{font-size:12px;fill:#152033;font-weight:900}
+.legend{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+.legend-item{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:900;color:#657184}
+.legend-item i{display:inline-block;width:24px;height:4px;border-radius:999px}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px}
+table{width:100%;border-collapse:collapse;background:#fff;min-width:820px}
+th,td{text-align:left;padding:13px 14px;border-bottom:1px solid #edf1f6;vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:#657184;background:#f8fafc}
+td span{display:block;color:#657184;font-size:12px;margin-top:3px}
+.ai-summary{background:linear-gradient(135deg,#eef6ff,#ecfdf5);border-color:#bfdbfe}
+.ai-meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.pill{display:inline-block;padding:7px 10px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:12px;font-weight:900;color:#126b5c}
+.resource-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.best-resource{display:grid;grid-template-columns:52px 1fr;gap:14px;border:1px solid var(--line);border-radius:18px;padding:16px;background:#fff;margin-bottom:12px}
+.resource-rank{height:42px;width:42px;border-radius:14px;background:#ecfdf5;color:#126b5c;display:flex;align-items:center;justify-content:center;font-weight:1000}
+.resource-meta{font-size:12px;color:#657184;font-weight:900;margin-bottom:6px}
+.best-resource h3{margin:0 0 7px;font-size:16px}
+.best-resource p{margin:0 0 9px;color:#657184;line-height:1.45;font-size:13px}
+.best-resource a{font-weight:900;color:var(--blue);text-decoration:none}
+ul{margin:0;padding-left:20px}
+li{margin:8px 0;line-height:1.45}
+.platform-section{border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:16px;background:#fff}
+.platform-heading{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}
+.platform-heading h3{margin:0}
+.platform-heading span{font-weight:900;color:var(--primary)}
+.resource{border-top:1px solid #edf1f6;padding:13px 0}
+.resource:first-of-type{border-top:0}
+.resource h4{margin:0 0 6px;font-size:15px}
+.resource p{margin:0 0 8px;color:var(--muted);font-size:13px;line-height:1.45}
+.resource a{font-weight:900;color:var(--blue);text-decoration:none}
+.recommend{background:linear-gradient(135deg,#fff7ed,#ecfdf5);border-color:#fed7aa}
+@media(max-width:900px){.page{padding:16px}.stats,.grid,.resource-grid{grid-template-columns:1fr}h1{font-size:32px}}
+@media print{.print{display:none}.page{padding:0}.section,.hero{box-shadow:none}}
+</style>
+</head>
+<body>
+<main class="page">
+  <section class="hero">
+    <div class="topline">
+      <span class="tag">AetherDesk TrendRadar</span>
+      <button class="print" onclick="window.print()">Save as PDF</button>
+    </div>
+    <h1>AI in Agriculture in india</h1>
+    <p>Social Trend Intelligence + Behaviour Prediction Report generated from public search, RSS, web, community, video, news, and open-source signals.</p>
+    <div class="stats">
+      <div class="stat"><span>Opportunity Score</span><strong>74/100</strong></div>
+      <div class="stat"><span>Best Platform</span><strong>News</strong></div>
+      <div class="stat"><span>Reddit Signal</span><strong>67/100</strong></div>
+      <div class="stat"><span>GitHub Signal</span><strong>66/100</strong></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Platform Comparison Dashboard</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Bar Graph: Platform Strength</h3>
+        <div class="bar-row">
+  <div class="bar-head">
+    <span>YouTube</span>
+    <strong>64/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:64%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>X/Twitter</span>
+    <strong>63/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:63%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>LinkedIn</span>
+    <strong>65/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:65%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>Reddit</span>
+    <strong>67/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:67%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>GitHub</span>
+    <strong>66/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:66%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>Google/Web</span>
+    <strong>64/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:64%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>News</span>
+    <strong>68/100 · 4 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:68%"></div></div>
+</div>
+      </div>
+      <div class="card">
+        <h3>Line Graph: Trend Momentum</h3>
+        <svg class="line-chart" viewBox="0 0 760 260" role="img" aria-label="Platform trend line comparison">
+  <line x1="54" y1="24" x2="54" y2="206" class="grid-axis"></line>
+  <line x1="54" y1="206" x2="734" y2="206" class="grid-axis"></line>
+  <line x1="54" y1="24" x2="734" y2="24" class="grid-soft"></line>
+  <line x1="54" y1="115" x2="734" y2="115" class="grid-soft"></line>
+  <text x="12" y="29" class="axis-label">100</text>
+  <text x="20" y="120" class="axis-label">50</text>
+  <text x="26" y="211" class="axis-label">0</text>
+  <polyline points="54,89.52 167.33,91.34 280.67,87.7 394,84.06 507.33,85.88 620.67,89.52 734,82.24" class="trend-line"></polyline>
+  <circle cx='54' cy='89.52' r='5' class='line-dot'></circle><text x='54' y='79.52' text-anchor='middle' class='score-label'>64</text><circle cx='167.33' cy='91.34' r='5' class='line-dot'></circle><text x='167.33' y='81.34' text-anchor='middle' class='score-label'>63</text><circle cx='280.67' cy='87.7' r='5' class='line-dot'></circle><text x='280.67' y='77.7' text-anchor='middle' class='score-label'>65</text><circle cx='394' cy='84.06' r='5' class='line-dot'></circle><text x='394' y='74.06' text-anchor='middle' class='score-label'>67</text><circle cx='507.33' cy='85.88' r='5' class='line-dot'></circle><text x='507.33' y='75.88' text-anchor='middle' class='score-label'>66</text><circle cx='620.67' cy='89.52' r='5' class='line-dot'></circle><text x='620.67' y='79.52' text-anchor='middle' class='score-label'>64</text><circle cx='734' cy='82.24' r='5' class='line-dot'></circle><text x='734' y='72.24' text-anchor='middle' class='score-label'>68</text>
+  <text x='54' y='240' text-anchor='middle' class='axis-label'>YouTube</text><text x='167.33' y='240' text-anchor='middle' class='axis-label'>X/Twitter</text><text x='280.67' y='240' text-anchor='middle' class='axis-label'>LinkedIn</text><text x='394' y='240' text-anchor='middle' class='axis-label'>Reddit</text><text x='507.33' y='240' text-anchor='middle' class='axis-label'>GitHub</text><text x='620.67' y='240' text-anchor='middle' class='axis-label'>Google/Web</text><text x='734' y='240' text-anchor='middle' class='axis-label'>News</text>
+</svg>
+      </div>
+    </div>
+    <p class="muted">Scores are weighted by topic relevance, exact matches, freshness, source fit, domain diversity, keyword strength, and best-resource quality. This avoids every platform getting the same score just because each returned the same number of search results.</p>
+  </section>
+
+  <section class="section">
+    <h2>7-Day Platform Comparison</h2>
+    <p class="muted">This chart compares platform scores for the same topic across the latest seven saved daily runs. It becomes more useful as TrendRadar runs daily.</p>
+    <div class="history-chart-wrap">
+  <svg class="line-chart" viewBox="0 0 900 320" role="img" aria-label="Seven day platform comparison">
+    <line x1="54" y1="26" x2="54" y2="262" class="grid-axis"></line>
+    <line x1="54" y1="262" x2="872" y2="262" class="grid-axis"></line>
+    <line x1="54" y1="26" x2="872" y2="26" class="grid-soft"></line>
+    <line x1="54" y1="144" x2="872" y2="144" class="grid-soft"></line>
+    <text x="12" y="31" class="axis-label">100</text>
+    <text x="20" y="149" class="axis-label">50</text>
+    <text x="26" y="267" class="axis-label">0</text>
+    <polyline points='54,101.52' fill='none' stroke='#2563eb' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='101.52' r='4' fill='#2563eb'></circle><polyline points='54,103.88' fill='none' stroke='#0d7354' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='103.88' r='4' fill='#0d7354'></circle><polyline points='54,106.24' fill='none' stroke='#f59e0b' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='106.24' r='4' fill='#f59e0b'></circle><polyline points='54,108.6' fill='none' stroke='#dc2626' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='108.6' r='4' fill='#dc2626'></circle><polyline points='54,110.96' fill='none' stroke='#7c3aed' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='110.96' r='4' fill='#7c3aed'></circle>
+    <text x='54' y='298' text-anchor='middle' class='axis-label'>22 Jun</text>
+  </svg>
+  <div class="legend"><span class='legend-item'><i style='background:#2563eb'></i>News</span><span class='legend-item'><i style='background:#0d7354'></i>Reddit</span><span class='legend-item'><i style='background:#f59e0b'></i>GitHub</span><span class='legend-item'><i style='background:#dc2626'></i>LinkedIn</span><span class='legend-item'><i style='background:#7c3aed'></i>YouTube</span></div>
+</div>
+  </section>
+
+  <section class="section">
+    <h2>Which Platform Is Best?</h2>
+    <div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Platform</th>
+        <th>Score</th>
+        <th>Signals</th>
+        <th>Top Keywords</th>
+        <th>Decision</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+  <td>1</td>
+  <td><strong>News</strong><span>News</span></td>
+  <td>68/100</td>
+  <td>4</td>
+  <td>agricultural, farming, intelligence, artificial, forecasting</td>
+  <td>Use first</td>
+</tr><tr>
+  <td>2</td>
+  <td><strong>Reddit</strong><span>Community</span></td>
+  <td>67/100</td>
+  <td>8</td>
+  <td>google, intelligence, building, tasks, gemini</td>
+  <td>Use second</td>
+</tr><tr>
+  <td>3</td>
+  <td><strong>GitHub</strong><span>Open Source</span></td>
+  <td>66/100</td>
+  <td>8</td>
+  <td>google, intelligence, building, tasks, gemini</td>
+  <td>Test</td>
+</tr><tr>
+  <td>4</td>
+  <td><strong>LinkedIn</strong><span>Social</span></td>
+  <td>65/100</td>
+  <td>8</td>
+  <td>google, intelligence, building, tasks, gemini</td>
+  <td>Test</td>
+</tr><tr>
+  <td>5</td>
+  <td><strong>YouTube</strong><span>Video</span></td>
+  <td>64/100</td>
+  <td>8</td>
+  <td>google, intelligence, building, tasks, gemini</td>
+  <td>Test</td>
+</tr><tr>
+  <td>6</td>
+  <td><strong>Google/Web</strong><span>Web</span></td>
+  <td>64/100</td>
+  <td>8</td>
+  <td>google, intelligence, building, tasks, gemini</td>
+  <td>Test</td>
+</tr><tr>
+  <td>7</td>
+  <td><strong>X/Twitter</strong><span>Social</span></td>
+  <td>63/100</td>
+  <td>8</td>
+  <td>google, intelligence, building, tasks, gemini</td>
+  <td>Test</td>
+</tr>
+    </tbody>
+  </table>
+</div>
+  </section>
+
+  <section class="section">
+    <h2>Best Resources to Use</h2>
+    <p class="muted">These are the strongest individual links used by TrendRadar to decide platform quality.</p>
+    <article class="best-resource">
+  <div class="resource-rank">#1</div>
+  <div>
+    <div class="resource-meta">News · bing.com · Resource score 62/100</div>
+    <h3>Weather forecasting and AI in Indian farming: Transforming crop protection and agriculture</h3>
+    <p>Explore how weather forecasting and AI are revolutionizing Indian farming, enhancing crop protection and agricultural productivity for future sustainability.</p>
+    <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d40a7f274217806b1931453bcf7a&amp;url=https%3a%2f%2fwww.thehindubusinessline.com%2feconomy%2fagri-business%2fweather-forecasting-and-ai-in-indian-farming-transforming-crop-protection-and-agriculture%2farticle71041183.ece&amp;c=2617816366889952567&amp;mkt=en-in" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#2</div>
+  <div>
+    <div class="resource-meta">News · bing.com · Resource score 59/100</div>
+    <h3>In Punjab, IIT Ropar gives push to AI-driven farming in India</h3>
+    <p>Patiala: ANNAM.AI, the Centre of Excellence in Artificial Intelligence for Agriculture set up at IIT Ropar by the Union ministry of education, on Wednesday announced a set of initiatives aimed at ...</p>
+    <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d40a7f274217806b1931453bcf7a&amp;url=https%3a%2f%2ftimesofindia.indiatimes.com%2fcity%2fchandigarh%2fin-punjab-iit-ropar-gives-push-to-ai-driven-farming-in-india%2farticleshow%2f129809829.cms&amp;c=5870102663002562399&amp;mkt=en-in" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#3</div>
+  <div>
+    <div class="resource-meta">News · bing.com · Resource score 59/100</div>
+    <h3>The pivotal role of AI in rewiring India’s agricultural ecosystem</h3>
+    <p>https://www.thehindubusinessline.com/economy/agri-business/the-pivotal-role-of-ai-in-rewiring-indias-agricultural-ecosystem/article70874154.ece Copy Agriculture is ...</p>
+    <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d40a7f274217806b1931453bcf7a&amp;url=https%3a%2f%2fwww.thehindubusinessline.com%2feconomy%2fagri-business%2fthe-pivotal-role-of-ai-in-rewiring-indias-agricultural-ecosystem%2farticle70874154.ece&amp;c=8075545950415435391&amp;mkt=en-in" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#4</div>
+  <div>
+    <div class="resource-meta">News · bing.com · Resource score 55/100</div>
+    <h3>If India gets AI in agriculture right, the Global South wins</h3>
+    <p>India has a rare advantage in the global race to modernise agriculture, leveraging emerging technologies such as Artificial Intelligence (AI). The country benefits from a vision to deploy digital ...</p>
+    <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d40a7f274217806b1931453bcf7a&amp;url=https%3a%2f%2fwww.hindustantimes.com%2fopinion%2fif-india-gets-ai-in-agriculture-right-the-global-south-wins-101773324225017.html&amp;c=1616354719677977661&amp;mkt=en-in" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#5</div>
+  <div>
+    <div class="resource-meta">Reddit · aistudio.google.com · Resource score 36/100</div>
+    <h3>Google AI Studio</h3>
+    <p>Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.</p>
+    <a href="https://aistudio.google.com/" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#6</div>
+  <div>
+    <div class="resource-meta">Google/Web · ai.google · Resource score 35/100</div>
+    <h3>Google AI - How we&#39;re making AI helpful for everyone</h3>
+    <p>Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.</p>
+    <a href="https://ai.google/" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#7</div>
+  <div>
+    <div class="resource-meta">Google/Web · ai.google · Resource score 35/100</div>
+    <h3>Understanding AI: AI tools, training, and skills — Google AI</h3>
+    <p>Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.</p>
+    <a href="https://ai.google/learn-ai-skills/" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#8</div>
+  <div>
+    <div class="resource-meta">Reddit · ai.google · Resource score 33/100</div>
+    <h3>Understanding AI: AI tools, training, and skills — Google AI</h3>
+    <p>Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.</p>
+    <a href="https://ai.google/learn-ai-skills/" target="_blank">Open best resource</a>
+  </div>
+</article>
+  </section>
+
+  <section class="section ai-summary">
+    <h2>Gemma Local AI Summary</h2>
+    <div class="ai-meta">
+      <span class="pill">Local Gemma summary</span>
+      <span class="pill">Model: gemma3:1b</span>
+      <span class="pill">Ollama local mode</span>
+    </div>
+    <div class="ai-content">
+      <h4>Gemma Trend Summary</h4><ul><li><strong>Growing AI Adoption:</strong> There’s increasing interest in utilizing Artificial Intelligence (AI) across Indian agriculture, with significant investment being directed towards optimizing farming practices through data analysis and automation.</li><li><strong>Focus on Precision Farming:</strong> The trend points to a shift toward precision farming techniques leveraging AI for crop yield prediction, disease detection, and resource management – creating substantial opportunities for businesses and farmers alike.</li><li><strong>Data-Driven Insights Needed:</strong> Users are actively seeking practical examples of how AI is being applied in India’s agricultural landscape, highlighting the importance of clear case studies and tangible results to drive adoption.</li></ul><h4>Platform Decision</h4><p>Use <strong>News</strong> first as it provides the most relevant context for understanding the overall trends and current discussions surrounding AI in Indian agriculture. It will offer a broader view of the information flow and identify key areas of focus.</p><h4>Behaviour Prediction</h4><p>Users are likely to engage with explainer articles that clearly illustrate how AI is being used, focusing on benefits like increased productivity, reduced costs, and improved sustainability. They’ll also seek real-world examples and comparisons between different AI solutions.</p><h4>Content Plan (Next 7 Days)</h4><p>1.  <strong>Blog Post: Case Study – Precision Irrigation with AI:</strong> Detail a successful implementation of an AI-powered irrigation system in a specific region, showcasing quantifiable results like water savings and yield increases.</p><p>2.  <strong>Social Media Q&amp;A - “AI Challenges &amp; Opportunities”</strong>: Host a live session on LinkedIn or Twitter answering common questions about implementing AI in agriculture, addressing concerns around data privacy, infrastructure requirements, and initial investment.</p><p>3.  <strong>Short Video Tutorial – Basic Data Analysis with Google Sheets:</strong> Create a short video demonstrating how farmers can use simple spreadsheet tools to analyze crop health data using AI insights.</p><p>4. <strong>News Article: Government Initiatives &amp; Policy Updates</strong>: Share a summary of recent government initiatives promoting AI in agriculture, highlighting key policies and funding programs.</p><p>5.  <strong>Infographic - “AI’s Impact on Indian Farming”:</strong> Create an infographic visually representing the potential benefits across different sectors (crop yield, cost reduction, labor efficiency).</p><h4>Related Topic Opportunities</h4><p>1.  <strong>AI-Powered Crop Monitoring Tools</strong>: Explore tools for drone imagery analysis and satellite data interpretation to detect diseases and pests early.</p><p>2.  <strong>Blockchain &amp; Traceability:</strong> Investigate how blockchain technology can enhance supply chain management through AI-driven traceability of agricultural products.</p><p>3. <strong>Agricultural Robotics - Autonomous Tractors &amp; Weeds Detection:</strong> Focus on the development and deployment of autonomous machinery, including robotic weeding systems.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Public Signals and Results</h2>
+    <p class="muted">These are the public signals used for the platform comparison. Review the links before publishing content.</p>
+    <div class="resource-grid">
+      <section class="platform-section">
+  <div class="platform-heading">
+    <h3>YouTube</h3>
+    <span>64/100</span>
+  </div>
+  <article class="resource">
+  <h4>Google AI - How we&#39;re making AI helpful for everyone</h4>
+  <p>Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.</p>
+  <a href="https://ai.google/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Understanding AI: AI tools, training, and skills — Google AI</h4>
+  <p>Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.</p>
+  <a href="https://ai.google/learn-ai-skills/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Google AI Studio</h4>
+  <p>Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.</p>
+  <a href="https://aistudio.google.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>ChatGPT</h4>
+  <p>ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.</p>
+  <a href="https://chatgpt.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>DeepAI</h4>
+  <p>This is what AI for Good means to us—using technology and resources to create opportunities and inspire hope, whether through conservation science or grassroots sports development.</p>
+  <a href="https://deepai.org/" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>X/Twitter</h3>
+    <span>63/100</span>
+  </div>
+  <article class="resource">
+  <h4>Google AI - How we&#39;re making AI helpful for everyone</h4>
+  <p>Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.</p>
+  <a href="https://ai.google/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Understanding AI: AI tools, training, and skills — Google AI</h4>
+  <p>Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.</p>
+  <a href="https://ai.google/learn-ai-skills/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Google AI Studio</h4>
+  <p>Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.</p>
+  <a href="https://aistudio.google.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>ChatGPT</h4>
+  <p>ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.</p>
+  <a href="https://chatgpt.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>DeepAI</h4>
+  <p>This is what AI for Good means to us—using technology and resources to create opportunities and inspire hope, whether through conservation science or grassroots sports development.</p>
+  <a href="https://deepai.org/" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>LinkedIn</h3>
+    <span>65/100</span>
+  </div>
+  <article class="resource">
+  <h4>Google AI - How we&#39;re making AI helpful for everyone</h4>
+  <p>Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.</p>
+  <a href="https://ai.google/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Understanding AI: AI tools, training, and skills — Google AI</h4>
+  <p>Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.</p>
+  <a href="https://ai.google/learn-ai-skills/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Google AI Studio</h4>
+  <p>Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.</p>
+  <a href="https://aistudio.google.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>ChatGPT</h4>
+  <p>ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.</p>
+  <a href="https://chatgpt.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>DeepAI</h4>
+  <p>This is what AI for Good means to us—using technology and resources to create opportunities and inspire hope, whether through conservation science or grassroots sports development.</p>
+  <a href="https://deepai.org/" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>Reddit</h3>
+    <span>67/100</span>
+  </div>
+  <article class="resource">
+  <h4>Google AI - How we&#39;re making AI helpful for everyone</h4>
+  <p>Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.</p>
+  <a href="https://ai.google/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Understanding AI: AI tools, training, and skills — Google AI</h4>
+  <p>Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.</p>
+  <a href="https://ai.google/learn-ai-skills/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Google AI Studio</h4>
+  <p>Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.</p>
+  <a href="https://aistudio.google.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>ChatGPT</h4>
+  <p>ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.</p>
+  <a href="https://chatgpt.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>DeepAI</h4>
+  <p>This is what AI for Good means to us—using technology and resources to create opportunities and inspire hope, whether through conservation science or grassroots sports development.</p>
+  <a href="https://deepai.org/" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>GitHub</h3>
+    <span>66/100</span>
+  </div>
+  <article class="resource">
+  <h4>Google AI - How we&#39;re making AI helpful for everyone</h4>
+  <p>Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.</p>
+  <a href="https://ai.google/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Understanding AI: AI tools, training, and skills — Google AI</h4>
+  <p>Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.</p>
+  <a href="https://ai.google/learn-ai-skills/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Google AI Studio</h4>
+  <p>Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.</p>
+  <a href="https://aistudio.google.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>ChatGPT</h4>
+  <p>ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.</p>
+  <a href="https://chatgpt.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>DeepAI</h4>
+  <p>This is what AI for Good means to us—using technology and resources to create opportunities and inspire hope, whether through conservation science or grassroots sports development.</p>
+  <a href="https://deepai.org/" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>Google/Web</h3>
+    <span>64/100</span>
+  </div>
+  <article class="resource">
+  <h4>Google AI - How we&#39;re making AI helpful for everyone</h4>
+  <p>Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.</p>
+  <a href="https://ai.google/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Understanding AI: AI tools, training, and skills — Google AI</h4>
+  <p>Discover foundational AI concepts, such as machine learning (ML), and explore how AI works, including the rise of generative AI and how to perform tasks with it.</p>
+  <a href="https://ai.google/learn-ai-skills/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Google AI Studio</h4>
+  <p>Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.</p>
+  <a href="https://aistudio.google.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>ChatGPT</h4>
+  <p>ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.</p>
+  <a href="https://chatgpt.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>DeepAI</h4>
+  <p>This is what AI for Good means to us—using technology and resources to create opportunities and inspire hope, whether through conservation science or grassroots sports development.</p>
+  <a href="https://deepai.org/" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>News</h3>
+    <span>68/100</span>
+  </div>
+  <article class="resource">
+  <h4>In Punjab, IIT Ropar gives push to AI-driven farming in India</h4>
+  <p>Patiala: ANNAM.AI, the Centre of Excellence in Artificial Intelligence for Agriculture set up at IIT Ropar by the Union ministry of education, on Wednesday announced a set of initiatives aimed at ...</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d40a7f274217806b1931453bcf7a&amp;url=https%3a%2f%2ftimesofindia.indiatimes.com%2fcity%2fchandigarh%2fin-punjab-iit-ropar-gives-push-to-ai-driven-farming-in-india%2farticleshow%2f129809829.cms&amp;c=5870102663002562399&amp;mkt=en-in" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>If India gets AI in agriculture right, the Global South wins</h4>
+  <p>India has a rare advantage in the global race to modernise agriculture, leveraging emerging technologies such as Artificial Intelligence (AI). The country benefits from a vision to deploy digital ...</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d40a7f274217806b1931453bcf7a&amp;url=https%3a%2f%2fwww.hindustantimes.com%2fopinion%2fif-india-gets-ai-in-agriculture-right-the-global-south-wins-101773324225017.html&amp;c=1616354719677977661&amp;mkt=en-in" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>The pivotal role of AI in rewiring India’s agricultural ecosystem</h4>
+  <p>https://www.thehindubusinessline.com/economy/agri-business/the-pivotal-role-of-ai-in-rewiring-indias-agricultural-ecosystem/article70874154.ece Copy Agriculture is ...</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d40a7f274217806b1931453bcf7a&amp;url=https%3a%2f%2fwww.thehindubusinessline.com%2feconomy%2fagri-business%2fthe-pivotal-role-of-ai-in-rewiring-indias-agricultural-ecosystem%2farticle70874154.ece&amp;c=8075545950415435391&amp;mkt=en-in" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Weather forecasting and AI in Indian farming: Transforming crop protection and agriculture</h4>
+  <p>Explore how weather forecasting and AI are revolutionizing Indian farming, enhancing crop protection and agricultural productivity for future sustainability.</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d40a7f274217806b1931453bcf7a&amp;url=https%3a%2f%2fwww.thehindubusinessline.com%2feconomy%2fagri-business%2fweather-forecasting-and-ai-in-indian-farming-transforming-crop-protection-and-agriculture%2farticle71041183.ece&amp;c=2617816366889952567&amp;mkt=en-in" target="_blank">Open signal</a>
+</article>
+</section>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>Social Behaviour Prediction</h3>
+      <p>Moderate opportunity: the topic has visible signals but needs a sharper angle. Use News first and test content around google, intelligence, artificial.</p>
+    </div>
+    <div class="card">
+      <h3>Best Content Format</h3>
+      <p>Explainer article with market context and clear examples</p>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>Keyword Clusters</h3>
+      <ul><li>google</li><li>intelligence</li><li>artificial</li><li>tasks</li><li>gemini</li><li>building</li><li>explore</li><li>such</li><li>solving</li><li>discover</li><li>learning</li><li>making</li></ul>
+    </div>
+    <div class="card">
+      <h3>Hashtag Ideas</h3>
+      <ul><li>#AIinAgricultureinindia</li><li>#google</li><li>#intelligence</li><li>#artificial</li><li>#tasks</li><li>#gemini</li><li>#building</li><li>#explore</li></ul>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>YouTube Title Ideas</h3>
+      <ul><li>I tested AI in Agriculture in india so you do not have to</li><li>AI in Agriculture in india explained with a real workflow</li><li>Is AI in Agriculture in india the next practical AI opportunity?</li><li>AI in Agriculture in india: tools, examples, and mistakes to avoid</li></ul>
+    </div>
+    <div class="card">
+      <h3>LinkedIn Post Angles</h3>
+      <ul><li>What AI in Agriculture in india means for builders and small teams</li><li>A practical framework to evaluate AI in Agriculture in india before adopting it</li><li>The hidden behaviour shift behind AI in Agriculture in india</li><li>Why google is becoming important in the AI in Agriculture in india conversation</li></ul>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>X/Twitter Post Ideas</h3>
+      <ul><li>A short thread: what is actually changing around AI in Agriculture in india</li><li>Hot take: AI in Agriculture in india matters less for hype and more for workflow design</li><li>3 signals showing why AI in Agriculture in india is worth watching</li><li>Question for builders: where does AI in Agriculture in india fit in your stack?</li></ul>
+    </div>
+    <div class="card">
+      <h3>Suggested Topic Table</h3>
+      <div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Suggested Topic</th>
+        <th>Best Platform</th>
+        <th>Use Case</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+  <td>1</td>
+  <td><strong>AI in Agriculture in india tools</strong></td>
+  <td>News</td>
+  <td>High-priority content test</td>
+</tr><tr>
+  <td>2</td>
+  <td><strong>AI in Agriculture in india workflow</strong></td>
+  <td>News</td>
+  <td>High-priority content test</td>
+</tr><tr>
+  <td>3</td>
+  <td><strong>AI in Agriculture in india use cases</strong></td>
+  <td>News</td>
+  <td>High-priority content test</td>
+</tr><tr>
+  <td>4</td>
+  <td><strong>AI in Agriculture in india tutorial</strong></td>
+  <td>News</td>
+  <td>Secondary keyword experiment</td>
+</tr><tr>
+  <td>5</td>
+  <td><strong>AI in Agriculture in india automation</strong></td>
+  <td>News</td>
+  <td>Secondary keyword experiment</td>
+</tr><tr>
+  <td>6</td>
+  <td><strong>AI in Agriculture in india open source</strong></td>
+  <td>News</td>
+  <td>Secondary keyword experiment</td>
+</tr><tr>
+  <td>7</td>
+  <td><strong>AI in Agriculture in india business ideas</strong></td>
+  <td>News</td>
+  <td>Educational post</td>
+</tr><tr>
+  <td>8</td>
+  <td><strong>AI in Agriculture in india content strategy</strong></td>
+  <td>News</td>
+  <td>Educational post</td>
+</tr><tr>
+  <td>9</td>
+  <td><strong>AI in Agriculture in india comparison</strong></td>
+  <td>News</td>
+  <td>Educational post</td>
+</tr><tr>
+  <td>10</td>
+  <td><strong>AI in Agriculture in india roadmap</strong></td>
+  <td>News</td>
+  <td>Educational post</td>
+</tr>
+    </tbody>
+  </table>
+</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="card recommend">
+      <h3>Recommended Action</h3>
+      <p>Start with News using a Explainer article with market context and clear examples. Re-check signals weekly and turn top keywords into experiments.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <p class="muted">Generated at 22 Jun 2026, 11:49 AM. Raw data is saved date-wise in <strong>social-data/</strong>.</p>
+  </section>
+</main>
+</body>
+</html>

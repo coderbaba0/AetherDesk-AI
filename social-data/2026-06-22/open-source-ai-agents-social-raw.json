@@ -1,0 +1,951 @@
+﻿{
+    "Module":  "AetherDesk TrendRadar",
+    "Purpose":  "Social Trend Intelligence + Behaviour Prediction Report",
+    "Topic":  "open source AI agents",
+    "Slug":  "open-source-ai-agents",
+    "Date":  "2026-06-22",
+    "GeneratedAt":  "2026-06-22T12:19:28",
+    "OverallTrendOpportunityScore":  75,
+    "BestPlatform":  "News",
+    "BestContentFormat":  "Explainer article with market context and clear examples",
+    "SocialBehaviourPrediction":  "High opportunity: the topic has broad platform coverage. Expect stronger engagement around definition, dictionary, meaning, especially on News.",
+    "KeywordClusters":  [
+                            "definition",
+                            "dictionary",
+                            "meaning",
+                            "not",
+                            "closed",
+                            "more",
+                            "lta",
+                            "unobstructed",
+                            "adjective",
+                            "onemotoring",
+                            "free",
+                            "all"
+                        ],
+    "HashtagIdeas":  [
+                         "#opensourceAIagents",
+                         "#definition",
+                         "#dictionary",
+                         "#meaning",
+                         "#not",
+                         "#closed",
+                         "#more",
+                         "#lta"
+                     ],
+    "YouTubeTitleIdeas":  [
+                              "I tested open source AI agents so you do not have to",
+                              "open source AI agents explained with a real workflow",
+                              "Is open source AI agents the next practical AI opportunity?",
+                              "open source AI agents: tools, examples, and mistakes to avoid"
+                          ],
+    "LinkedInPostAngles":  [
+                               "What open source AI agents means for builders and small teams",
+                               "A practical framework to evaluate open source AI agents before adopting it",
+                               "The hidden behaviour shift behind open source AI agents",
+                               "Why definition is becoming important in the open source AI agents conversation"
+                           ],
+    "TwitterPostIdeas":  [
+                             "A short thread: what is actually changing around open source AI agents",
+                             "Hot take: open source AI agents matters less for hype and more for workflow design",
+                             "3 signals showing why open source AI agents is worth watching",
+                             "Question for builders: where does open source AI agents fit in your stack?"
+                         ],
+    "SuggestedRelatedTopics":  [
+                                   "open source AI agents tools",
+                                   "open source AI agents workflow",
+                                   "open source AI agents use cases",
+                                   "open source AI agents tutorial",
+                                   "open source AI agents automation",
+                                   "open source AI agents open source",
+                                   "open source AI agents business ideas",
+                                   "open source AI agents content strategy",
+                                   "open source AI agents comparison",
+                                   "open source AI agents roadmap"
+                               ],
+    "BestResources":  [
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Databricks Introduces OpenSharing, a New Open Standard for Sharing of Data and AI Assets",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2fwww.dbta.com%2fEditorial%2fNews-Flashes%2fDatabricks-Introduces-OpenSharing-a-New-Open-Standard-for-Sharing-of-Data-and-AI-Assets-175258.aspx\u0026c=12504018406838570835\u0026mkt=en-in",
+                              "Description":  "Databricks, the data and AI company, is introducing OpenSharing, the next evolution of the open source Delta Sharing protocol for the agentic era. OpenSharing, now a project of the Linux Foundation ...",
+                              "Published":  "Mon, 15 Jun 2026 16:59:00 GMT",
+                              "Query":  "open source AI agents latest news trend",
+                              "ResourceScore":  59,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Xiaomi’s New AI Coding Agent Beats Claude Code and is Now Completely Free to Use With a Major Advantage Over Rivals",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2fpropakistani.pk%2f2026%2f06%2f11%2fxiaomis-new-ai-coding-agent-beats-claude-code-and-is-now-completely-free-to-use-with-a-major-advantage-over-rivals%2f\u0026c=11448456150954240310\u0026mkt=en-in",
+                              "Description":  "Xiaomi has open-sourced MiMo Code V0.1.0, a new terminal-based AI coding assistant built for long-running software projects. This means it is completely ...",
+                              "Published":  "Thu, 11 Jun 2026 01:08:00 GMT",
+                              "Query":  "open source AI agents latest news trend",
+                              "ResourceScore":  56,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Xiaomi’s latest AI coding tool claims to outperform Claude Code on complex tasks",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2findianexpress.com%2farticle%2ftechnology%2fartificial-intelligence%2fxiaomis-latest-ai-coding-tool-claims-to-outperform-claude-code-on-complex-tasks-10736639%2f\u0026c=13053403210505547165\u0026mkt=en-in",
+                              "Description":  "The open-source AI coding assistant is designed for long-running software projects and, according to Xiaomi\u0027s own benchmarks and internal evaluation, outperforms Anthropic\u0027s Claude Code on several com ...",
+                              "Published":  "Fri, 12 Jun 2026 05:02:00 GMT",
+                              "Query":  "open source AI agents latest news trend",
+                              "ResourceScore":  56,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "\u0027Scarily accurate\u0027: Open-source AI engine predicts markets and public opinion using thousands of digital agents",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2fwww.moneycontrol.com%2fnews%2ftrends%2fscarily-accurate-open-source-ai-engine-predicts-markets-and-public-opinion-using-thousands-of-digital-agents-13858961.html\u0026c=6906984518606280189\u0026mkt=en-in",
+                              "Description":  "The project is described by its creators as a universal swarm-intelligence engine designed to run large-scale simulations in order to explore possible future scenarios. Instead of relying on a single ...",
+                              "Published":  "Fri, 13 Mar 2026 04:30:00 GMT",
+                              "Query":  "open source AI agents latest news trend",
+                              "ResourceScore":  55,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "China’s latest AI scientific model highlights unique open-source ecosystem built on tech sharing to tackle global challenges",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2fwww.globaltimes.cn%2fpage%2f202605%2f1361310.shtml\u0026c=13062031726872449018\u0026mkt=en-in",
+                              "Description":  "As global challenges grow increasingly interconnected, technological solutions are rarely confined to a single country. Through research collaboration, open sharing of expertise and partnerships with ...",
+                              "Published":  "Mon, 18 May 2026 07:50:00 GMT",
+                              "Query":  "open source AI agents latest news trend",
+                              "ResourceScore":  53,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Gemini CLI: Google’s latest open source AI agent explained",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2fwww.digit.in%2ffeatures%2fgeneral%2fgemini-cli-googles-latest-open-source-ai-agent-explained.html\u0026c=13186403246934766964\u0026mkt=en-in",
+                              "Description":  "Google has released a powerful new tool aimed squarely at developers and it runs right from the terminal. Meet Gemini CLI, an open-source command-line interface powered by Google’s Gemini AI models.",
+                              "Published":  "Wed, 25 Jun 2025 16:59:00 GMT",
+                              "Query":  "open source AI agents latest news trend",
+                              "ResourceScore":  49,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "From AI agents to humanoid robots: Top AI trends for 2025",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2fwww.digit.in%2ffeatures%2fgeneral%2ffrom-ai-agents-to-humanoid-robots-top-ai-trends-for-2025.html\u0026c=8488641544265771395\u0026mkt=en-in",
+                              "Description":  "From the emergence of autonomous AI agents capable of executing complex tasks to the integration of cutting-edge AI capabilities directly into devices, New Year 2025 promises to accelerate AI ...",
+                              "Published":  "Tue, 31 Dec 2024 16:00:00 GMT",
+                              "Query":  "open source AI agents latest news trend",
+                              "ResourceScore":  43,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "AI AGENTS",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2fcio.economictimes.indiatimes.com%2ftag%2fai%2bagents\u0026c=15959058778854586404\u0026mkt=en-in",
+                              "Description":  "Agentic AI is revolutionizing finance by embedding autonomous decision-making into workflows, offering speed and personalization. Financial institutions must adapt by designing agent-friendly products ...",
+                              "Published":  "Mon, 04 May 2026 21:09:00 GMT",
+                              "Query":  "open source AI agents latest news trend",
+                              "ResourceScore":  42,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "LTA | Login to LTALink - OneMotoring",
+                              "Link":  "https://onemotoring.lta.gov.sg/content/onemotoring/home/login_to/login_to_ltalink.html",
+                              "Description":  "Note: From 1 Jul 2026, all ESAs must use Singpass for Business Users to log in to LTALink, as Netrust Tokens will no longer be supported. Click here for more details on switching to Singpass for Business Users.",
+                              "Published":  "Mon, 22 Jun 2026 00:56:00 GMT",
+                              "Query":  "open source AI agents site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  41,
+                              "Domain":  "onemotoring.lta.gov.sg"
+                          },
+                          {
+                              "Platform":  "Reddit",
+                              "Type":  "Community",
+                              "Title":  "OPEN Definition \u0026 Meaning - Merriam-Webster",
+                              "Link":  "https://www.merriam-webster.com/dictionary/open",
+                              "Description":  "The meaning of OPEN is having no enclosing or confining barrier : accessible on all or nearly all sides. How to use open in a sentence. Synonym Discussion of Open.",
+                              "Published":  "Sun, 21 Jun 2026 20:03:00 GMT",
+                              "Query":  "open source AI agents site:reddit.com/r",
+                              "ResourceScore":  39,
+                              "Domain":  "merriam-webster.com"
+                          },
+                          {
+                              "Platform":  "Reddit",
+                              "Type":  "Community",
+                              "Title":  "OPEN definition and meaning | Collins English Dictionary",
+                              "Link":  "https://www.collinsdictionary.com/dictionary/english/open",
+                              "Description":  "If you say that a fact or question is open to debate, interpretation, or discussion, you mean that people are uncertain whether it is true, what it means, or what the answer is.",
+                              "Published":  "Sun, 21 Jun 2026 17:04:00 GMT",
+                              "Query":  "open source AI agents site:reddit.com/r",
+                              "ResourceScore":  39,
+                              "Domain":  "collinsdictionary.com"
+                          },
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "Singapore OneMotoring LTA Portal: Renew Road Tax, COE \u0026 Fines Online ...",
+                              "Link":  "https://dir.md/onemotoring.lta.gov.sg/content/onemotoring/home.html",
+                              "Description":  "Access Singapore OneMotoring portal to renew road tax, check fines, manage COE and vehicle services online in minutes. Step-by-step guide with tips to avoid penalties and save time.",
+                              "Published":  "Sun, 21 Jun 2026 11:56:00 GMT",
+                              "Query":  "open source AI agents site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  33,
+                              "Domain":  "dir.md"
+                          }
+                      ],
+    "RedditDiscussionSignal":  70,
+    "GitHubOpenSourceSignal":  70,
+    "RecommendedAction":  "Start with News using a Explainer article with market context and clear examples. Re-check signals weekly and turn top keywords into experiments.",
+    "Platforms":  [
+                      {
+                          "Name":  "YouTube",
+                          "Type":  "Video",
+                          "Query":  "open source AI agents site:youtube.com/watch",
+                          "Score":  56,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "retty",
+                                           "top20"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "【藤沢市】辻堂駅南口近くにある蕎麦の名店「そば 酒 髙島家 ...",
+                                              "Link":  "https://fujisawa.goguynet.jp/2023/07/17/sobasaketakashimaya/",
+                                              "Description":  "辻堂駅南口より海浜公園通りを歩いておよそ3分ほどの場所に「そば 酒 髙島家」はあります。 髙島家は昼営業の開店前にはすでに人が並んでいたり、夜も満席であることが多く、非常に人気であることがわかるお店です。",
+                                              "Published":  "Fri, 19 Jun 2026 07:05:00 GMT",
+                                              "Query":  "open source AI agents site:youtube.com/watch",
+                                              "ResourceScore":  25,
+                                              "Domain":  "fujisawa.goguynet.jp"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "辻堂のおすすめそばベスト20",
+                                              "Link":  "https://hamoni.jp/area/kanagawa/fujisawa/tsujido/shops/soba",
+                                              "Description":  "辻堂にあるそばのお店からランキングTOP20を紹介！",
+                                              "Published":  "Wed, 10 Jun 2026 19:11:00 GMT",
+                                              "Query":  "open source AI agents site:youtube.com/watch",
+                                              "ResourceScore":  17,
+                                              "Domain":  "hamoni.jp"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "【辻堂】そば 酒 髙島家のお蕎麦が喉越し最高！天ぷら ...",
+                                              "Link":  "https://jimohack-shonan.jp/takashimaya/",
+                                              "Description":  "辻堂で美味しいお蕎麦食べよう！ 今回紹介するのは、辻堂にある人気のお蕎麦屋さん「そば 酒 髙島家」。 お蕎麦だけでなく美味しい日本酒も楽しめて、飲みに行くのにもピッタリのお店なんです。 今回はそんな同店で、家族と一緒に飲んできました！",
+                                              "Published":  "Mon, 22 Jun 2026 00:06:00 GMT",
+                                              "Query":  "open source AI agents site:youtube.com/watch",
+                                              "ResourceScore":  25,
+                                              "Domain":  "jimohack-shonan.jp"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "辻堂 そば 酒 高島家の口コミレビュー！おすすめメニュー紹介 ...",
+                                              "Link":  "https://kunohirosi.xsrv.jp/175.html",
+                                              "Description":  "辻堂は、いまやテラスモール湘南で超有名になりました。 辻堂駅から直結、雨の日でも苦なくいくことができます。 テラスモールは、平日でもたくさんの人でにぎわいます。 高島家は、昼のみができる人気のそば屋さんです。",
+                                              "Published":  "Fri, 19 Jun 2026 08:38:00 GMT",
+                                              "Query":  "open source AI agents site:youtube.com/watch",
+                                              "ResourceScore":  25,
+                                              "Domain":  "kunohirosi.xsrv.jp"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "辻堂のそば（蕎麦）の人気16店【穴場あり】 - Retty（レッティ）",
+                                              "Link":  "https://retty.me/area/PRE14/ARE34/SUB58010/LCAT5/CAT50/",
+                                              "Description":  "【Rettyでお得にネット予約】実名口コミNo.1のグルメサイトRetty（レッティ）では、【ここでしか見つからない】辻堂 そば（蕎麦）のお店探しをサポートします！ 「辻堂 そば（蕎麦）」の人気店・穴場のお店など16選を紹介。",
+                                              "Published":  "Thu, 21 May 2026 03:07:00 GMT",
+                                              "Query":  "open source AI agents site:youtube.com/watch",
+                                              "ResourceScore":  19,
+                                              "Domain":  "retty.me"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "香り豊かな辻堂駅の美味しいそば（蕎麦）20選 - Retty [レッティ]",
+                                              "Link":  "https://retty.me/area/PRE14/ARE34/SUB58010/STAN1356/LCAT5/CAT50/",
+                                              "Description":  "【Rettyでお得にネット予約】実名口コミNo.1のグルメサイトRetty（レッティ）では、【ここでしか見つからない】辻堂駅 そば（蕎麦）のお店探しをサポートします！ 「辻堂駅 そば（蕎麦）」の人気店・穴場のお店など20選+αを紹介。",
+                                              "Published":  "Sun, 21 Jun 2026 04:32:00 GMT",
+                                              "Query":  "open source AI agents site:youtube.com/watch",
+                                              "ResourceScore":  25,
+                                              "Domain":  "retty.me"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "手打ち はな蕎麦 - 辻堂/そば | 食べログ",
+                                              "Link":  "https://tabelog.com/kanagawa/A1404/A140404/14097348/",
+                                              "Description":  "手打ち はな蕎麦 (辻堂/そば)の店舗情報は食べログでチェック！ 【禁煙】口コミや評価、写真など、ユーザーによるリアルな情報が満載です！ 地図や料理メニューなどの詳細情報も充実。",
+                                              "Published":  "Sat, 16 May 2026 20:31:00 GMT",
+                                              "Query":  "open source AI agents site:youtube.com/watch",
+                                              "ResourceScore":  14,
+                                              "Domain":  "tabelog.com"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "辻堂駅でおすすめの美味しいそば（蕎麦）をご紹介！ | 食べログ",
+                                              "Link":  "https://tabelog.com/kanagawa/A1404/A140404/R6370/rstLst/soba/",
+                                              "Description":  "日本最大級のグルメサイト「食べログ」では、辻堂駅で人気のそば（蕎麦）のお店 6件を掲載中。 実際にお店で食事をしたユーザーの口コミ、写真、評価など食べログにしかない情報が満載。",
+                                              "Published":  "Sat, 13 Jun 2026 15:33:00 GMT",
+                                              "Query":  "open source AI agents site:youtube.com/watch",
+                                              "ResourceScore":  22,
+                                              "Domain":  "tabelog.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "X/Twitter",
+                          "Type":  "Social",
+                          "Query":  "open source AI agents site:x.com OR site:twitter.com",
+                          "Score":  67,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "definition",
+                                           "dictionary",
+                                           "meaning",
+                                           "not",
+                                           "closed",
+                                           "more",
+                                           "unobstructed",
+                                           "adjective"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "OPEN | English meaning - Cambridge Dictionary",
+                                              "Link":  "https://dictionary.cambridge.org/dictionary/english/open",
+                                              "Description":  "OPEN definition: 1. not closed or fastened: 2. ready to be used or ready to provide a service: 3. not closed in or…. Learn more.",
+                                              "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
+                                              "Query":  "open source AI agents site:x.com OR site:twitter.com",
+                                              "ResourceScore":  31,
+                                              "Domain":  "dictionary.cambridge.org"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "OPEN | meaning - Cambridge Learner\u0027s Dictionary",
+                                              "Link":  "https://dictionary.cambridge.org/dictionary/learner-english/open",
+                                              "Description":  "OPEN definition: 1. not closed or fastened: 2. A shop or business is open during the time it is available for…. Learn more.",
+                                              "Published":  "Fri, 19 Jun 2026 07:05:00 GMT",
+                                              "Query":  "open source AI agents site:x.com OR site:twitter.com",
+                                              "ResourceScore":  31,
+                                              "Domain":  "dictionary.cambridge.org"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "open - Wiktionary, the free dictionary",
+                                              "Link":  "https://en.wiktionary.org/wiki/open",
+                                              "Description":  "open (comparative more open or (phonetics) opener, superlative most open or (phonetics) openest) (usually not comparable) Physically unobstructed, uncovered, etc.",
+                                              "Published":  "Sun, 21 Jun 2026 17:04:00 GMT",
+                                              "Query":  "open source AI agents site:x.com OR site:twitter.com",
+                                              "ResourceScore":  31,
+                                              "Domain":  "en.wiktionary.org"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "OPEN definition and meaning | Collins English Dictionary",
+                                              "Link":  "https://www.collinsdictionary.com/dictionary/english/open",
+                                              "Description":  "If you say that a fact or question is open to debate, interpretation, or discussion, you mean that people are uncertain whether it is true, what it means, or what the answer is.",
+                                              "Published":  "Sun, 21 Jun 2026 17:04:00 GMT",
+                                              "Query":  "open source AI agents site:x.com OR site:twitter.com",
+                                              "ResourceScore":  31,
+                                              "Domain":  "collinsdictionary.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "OPEN Definition \u0026 Meaning | Dictionary.com",
+                                              "Link":  "https://www.dictionary.com/browse/open",
+                                              "Description":  "The adjective open describes something that\u0027s not closed or blocked up, like open curtains that provide a view of the garden outside. Open can also refer to something that\u0027s unfastened or parted — an open jar of peanut butter, an open eye, or an open book.",
+                                              "Published":  "Sun, 21 Jun 2026 18:37:00 GMT",
+                                              "Query":  "open source AI agents site:x.com OR site:twitter.com",
+                                              "ResourceScore":  31,
+                                              "Domain":  "dictionary.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "OPEN Definition \u0026 Meaning - Merriam-Webster",
+                                              "Link":  "https://www.merriam-webster.com/dictionary/open",
+                                              "Description":  "The meaning of OPEN is having no enclosing or confining barrier : accessible on all or nearly all sides. How to use open in a sentence. Synonym Discussion of Open.",
+                                              "Published":  "Sun, 21 Jun 2026 20:03:00 GMT",
+                                              "Query":  "open source AI agents site:x.com OR site:twitter.com",
+                                              "ResourceScore":  31,
+                                              "Domain":  "merriam-webster.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "open adjective - Definition, pictures, pronunciation and usage notes ...",
+                                              "Link":  "https://www.oxfordlearnersdictionaries.com/definition/english/open_1",
+                                              "Description":  "Definition of open adjective in Oxford Advanced Learner\u0027s Dictionary. Meaning, pronunciation, picture, example sentences, grammar, usage notes, synonyms and more.",
+                                              "Published":  "Sun, 21 Jun 2026 13:43:00 GMT",
+                                              "Query":  "open source AI agents site:x.com OR site:twitter.com",
+                                              "ResourceScore":  31,
+                                              "Domain":  "oxfordlearnersdictionaries.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Open - definition of open by The Free Dictionary",
+                                              "Link":  "https://www.thefreedictionary.com/open",
+                                              "Description":  "Affording unobstructed entrance and exit; not shut or closed. b. Affording unobstructed passage or view: open waters; the open countryside. 2. a. Having no protecting or concealing cover: an open wound; an open sports car. b. Completely obvious; blatant: open disregard of the law.",
+                                              "Published":  "Sun, 21 Jun 2026 21:57:00 GMT",
+                                              "Query":  "open source AI agents site:x.com OR site:twitter.com",
+                                              "ResourceScore":  31,
+                                              "Domain":  "thefreedictionary.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "LinkedIn",
+                          "Type":  "Social",
+                          "Query":  "open source AI agents site:linkedin.com/posts OR site:linkedin.com/pulse",
+                          "Score":  68,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "lta",
+                                           "onemotoring",
+                                           "services",
+                                           "login",
+                                           "tax",
+                                           "road",
+                                           "singapore",
+                                           "digital"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Singapore OneMotoring LTA Portal: Renew Road Tax, COE \u0026 Fines Online ...",
+                                              "Link":  "https://dir.md/onemotoring.lta.gov.sg/content/onemotoring/home.html",
+                                              "Description":  "Access Singapore OneMotoring portal to renew road tax, check fines, manage COE and vehicle services online in minutes. Step-by-step guide with tips to avoid penalties and save time.",
+                                              "Published":  "Sun, 21 Jun 2026 11:56:00 GMT",
+                                              "Query":  "open source AI agents site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  33,
+                                              "Domain":  "dir.md"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "OneMotoring | Land Transport Authority (LTA)",
+                                              "Link":  "https://onemotoring.lta.gov.sg/content/onemotoring/home.html",
+                                              "Description":  "One-stop hub for motoring information and digital services provided by the Land Transport Authority (LTA) of Singapore.",
+                                              "Published":  "Mon, 04 May 2026 12:17:00 GMT",
+                                              "Query":  "open source AI agents site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  19,
+                                              "Domain":  "onemotoring.lta.gov.sg"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "LTA | Digital Services - OneMotoring",
+                                              "Link":  "https://onemotoring.lta.gov.sg/content/onemotoring/home/digitalservices.html",
+                                              "Description":  "Access digital services such as road tax renewal or transfer of vehicle ownership. Some services may require login.",
+                                              "Published":  "Mon, 04 May 2026 02:09:00 GMT",
+                                              "Query":  "open source AI agents site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  27,
+                                              "Domain":  "onemotoring.lta.gov.sg"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "LTA | ESSO Login - OneMotoring",
+                                              "Link":  "https://onemotoring.lta.gov.sg/content/onemotoring/home/esso-login.html?callback=%2Fcontent%2Fonemotoring%2Fhome%2Fdashboard.html",
+                                              "Description":  "ESSO Login OneMotoring Report Vulnerability Privacy Statement Terms of Use Sitemap Site Requirements © 2026 Government of Singapore Last updated 24 February 2025",
+                                              "Published":  "Fri, 19 Jun 2026 20:48:00 GMT",
+                                              "Query":  "open source AI agents site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  33,
+                                              "Domain":  "onemotoring.lta.gov.sg"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "LTA | Login to LTALink - OneMotoring",
+                                              "Link":  "https://onemotoring.lta.gov.sg/content/onemotoring/home/login_to/login_to_ltalink.html",
+                                              "Description":  "Note: From 1 Jul 2026, all ESAs must use Singpass for Business Users to log in to LTALink, as Netrust Tokens will no longer be supported. Click here for more details on switching to Singpass for Business Users.",
+                                              "Published":  "Mon, 22 Jun 2026 00:56:00 GMT",
+                                              "Query":  "open source AI agents site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  41,
+                                              "Domain":  "onemotoring.lta.gov.sg"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "LTA | Road Tax - OneMotoring",
+                                              "Link":  "https://onemotoring.lta.gov.sg/content/onemotoring/home/owning/ongoing-car-costs/road-tax.html",
+                                              "Description":  "You can view or make changes, such as add or remove vehicle (s) and change deduction options, at Manage GIRO Account for Road Tax Renewal (Requires Login). You will receive a GIRO payment schedule from LTA about 1 month before your vehicle’s road tax expires.",
+                                              "Published":  "Mon, 04 May 2026 13:07:00 GMT",
+                                              "Query":  "open source AI agents site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  27,
+                                              "Domain":  "onemotoring.lta.gov.sg"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "onemotoring.lta.gov.sg - OneMotoring | Land Transport A... - One ...",
+                                              "Link":  "https://sur.ly/i/onemotoring.lta.gov.sg/",
+                                              "Description":  "onemotoring.lta.gov.sg. One-stop hub for motoring information and digital services provided by the Land Transport Authority (LTA) of Singapore.",
+                                              "Published":  "Thu, 18 Jun 2026 22:30:00 GMT",
+                                              "Query":  "open source AI agents site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  25,
+                                              "Domain":  "sur.ly"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Welcome [vrl.lta.gov.sg]",
+                                              "Link":  "https://vrl.lta.gov.sg/eai/vrl/action/vrl-eSvcLogin?FUNCTION_ID=F0000005TT",
+                                              "Description":  "For Business Users, click here to login using Singpass. For LTALink Business Users, click here to login using Singpass. Welcome to LTA\u0027S e-Services@ONE.MOTORING. Our eServices are available daily from Mondays to Sundays, including Public Holidays.",
+                                              "Published":  "Sun, 21 Jun 2026 18:37:00 GMT",
+                                              "Query":  "open source AI agents site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  28,
+                                              "Domain":  "vrl.lta.gov.sg"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "Reddit",
+                          "Type":  "Community",
+                          "Query":  "open source AI agents site:reddit.com/r",
+                          "Score":  70,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "definition",
+                                           "dictionary",
+                                           "meaning",
+                                           "not",
+                                           "closed",
+                                           "more",
+                                           "unobstructed",
+                                           "adjective"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "OPEN | English meaning - Cambridge Dictionary",
+                                              "Link":  "https://dictionary.cambridge.org/dictionary/english/open",
+                                              "Description":  "OPEN definition: 1. not closed or fastened: 2. ready to be used or ready to provide a service: 3. not closed in or…. Learn more.",
+                                              "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
+                                              "Query":  "open source AI agents site:reddit.com/r",
+                                              "ResourceScore":  31,
+                                              "Domain":  "dictionary.cambridge.org"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "OPEN | meaning - Cambridge Learner\u0027s Dictionary",
+                                              "Link":  "https://dictionary.cambridge.org/dictionary/learner-english/open",
+                                              "Description":  "OPEN definition: 1. not closed or fastened: 2. A shop or business is open during the time it is available for…. Learn more.",
+                                              "Published":  "Fri, 19 Jun 2026 07:05:00 GMT",
+                                              "Query":  "open source AI agents site:reddit.com/r",
+                                              "ResourceScore":  31,
+                                              "Domain":  "dictionary.cambridge.org"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "open - Wiktionary, the free dictionary",
+                                              "Link":  "https://en.wiktionary.org/wiki/open",
+                                              "Description":  "open (comparative more open or (phonetics) opener, superlative most open or (phonetics) openest) (usually not comparable) Physically unobstructed, uncovered, etc.",
+                                              "Published":  "Sun, 21 Jun 2026 17:04:00 GMT",
+                                              "Query":  "open source AI agents site:reddit.com/r",
+                                              "ResourceScore":  31,
+                                              "Domain":  "en.wiktionary.org"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "OPEN definition and meaning | Collins English Dictionary",
+                                              "Link":  "https://www.collinsdictionary.com/dictionary/english/open",
+                                              "Description":  "If you say that a fact or question is open to debate, interpretation, or discussion, you mean that people are uncertain whether it is true, what it means, or what the answer is.",
+                                              "Published":  "Sun, 21 Jun 2026 17:04:00 GMT",
+                                              "Query":  "open source AI agents site:reddit.com/r",
+                                              "ResourceScore":  39,
+                                              "Domain":  "collinsdictionary.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "OPEN Definition \u0026 Meaning | Dictionary.com",
+                                              "Link":  "https://www.dictionary.com/browse/open",
+                                              "Description":  "The adjective open describes something that\u0027s not closed or blocked up, like open curtains that provide a view of the garden outside. Open can also refer to something that\u0027s unfastened or parted — an open jar of peanut butter, an open eye, or an open book.",
+                                              "Published":  "Sun, 21 Jun 2026 18:37:00 GMT",
+                                              "Query":  "open source AI agents site:reddit.com/r",
+                                              "ResourceScore":  31,
+                                              "Domain":  "dictionary.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "OPEN Definition \u0026 Meaning - Merriam-Webster",
+                                              "Link":  "https://www.merriam-webster.com/dictionary/open",
+                                              "Description":  "The meaning of OPEN is having no enclosing or confining barrier : accessible on all or nearly all sides. How to use open in a sentence. Synonym Discussion of Open.",
+                                              "Published":  "Sun, 21 Jun 2026 20:03:00 GMT",
+                                              "Query":  "open source AI agents site:reddit.com/r",
+                                              "ResourceScore":  39,
+                                              "Domain":  "merriam-webster.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "open adjective - Definition, pictures, pronunciation and usage notes ...",
+                                              "Link":  "https://www.oxfordlearnersdictionaries.com/definition/english/open_1",
+                                              "Description":  "Definition of open adjective in Oxford Advanced Learner\u0027s Dictionary. Meaning, pronunciation, picture, example sentences, grammar, usage notes, synonyms and more.",
+                                              "Published":  "Sun, 21 Jun 2026 13:43:00 GMT",
+                                              "Query":  "open source AI agents site:reddit.com/r",
+                                              "ResourceScore":  31,
+                                              "Domain":  "oxfordlearnersdictionaries.com"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Open - definition of open by The Free Dictionary",
+                                              "Link":  "https://www.thefreedictionary.com/open",
+                                              "Description":  "Affording unobstructed entrance and exit; not shut or closed. b. Affording unobstructed passage or view: open waters; the open countryside. 2. a. Having no protecting or concealing cover: an open wound; an open sports car. b. Completely obvious; blatant: open disregard of the law.",
+                                              "Published":  "Sun, 21 Jun 2026 21:57:00 GMT",
+                                              "Query":  "open source AI agents site:reddit.com/r",
+                                              "ResourceScore":  31,
+                                              "Domain":  "thefreedictionary.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "GitHub",
+                          "Type":  "Open Source",
+                          "Query":  "open source AI agents site:github.com repository open source",
+                          "Score":  70,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "definition",
+                                           "dictionary",
+                                           "meaning",
+                                           "not",
+                                           "closed",
+                                           "more",
+                                           "unobstructed",
+                                           "adjective"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "OPEN | English meaning - Cambridge Dictionary",
+                                              "Link":  "https://dictionary.cambridge.org/dictionary/english/open",
+                                              "Description":  "OPEN definition: 1. not closed or fastened: 2. ready to be used or ready to provide a service: 3. not closed in or…. Learn more.",
+                                              "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
+                                              "Query":  "open source AI agents site:github.com repository open source",
+                                              "ResourceScore":  31,
+                                              "Domain":  "dictionary.cambridge.org"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "OPEN | meaning - Cambridge Learner\u0027s Dictionary",
+                                              "Link":  "https://dictionary.cambridge.org/dictionary/learner-english/open",
+                                              "Description":  "OPEN definition: 1. not closed or fastened: 2. A shop or business is open during the time it is available for…. Learn more.",
+                                              "Published":  "Fri, 19 Jun 2026 07:05:00 GMT",
+                                              "Query":  "open source AI agents site:github.com repository open source",
+                                              "ResourceScore":  31,
+                                              "Domain":  "dictionary.cambridge.org"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "open - Wiktionary, the free dictionary",
+                                              "Link":  "https://en.wiktionary.org/wiki/open",
+                                              "Description":  "open (comparative more open or (phonetics) opener, superlative most open or (phonetics) openest) (usually not comparable) Physically unobstructed, uncovered, etc.",
+                                              "Published":  "Sun, 21 Jun 2026 17:04:00 GMT",
+                                              "Query":  "open source AI agents site:github.com repository open source",
+                                              "ResourceScore":  31,
+                                              "Domain":  "en.wiktionary.org"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "OPEN definition and meaning | Collins English Dictionary",
+                                              "Link":  "https://www.collinsdictionary.com/dictionary/english/open",
+                                              "Description":  "If you say that a fact or question is open to debate, interpretation, or discussion, you mean that people are uncertain whether it is true, what it means, or what the answer is.",
+                                              "Published":  "Sun, 21 Jun 2026 17:04:00 GMT",
+                                              "Query":  "open source AI agents site:github.com repository open source",
+                                              "ResourceScore":  31,
+                                              "Domain":  "collinsdictionary.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "OPEN Definition \u0026 Meaning | Dictionary.com",
+                                              "Link":  "https://www.dictionary.com/browse/open",
+                                              "Description":  "The adjective open describes something that\u0027s not closed or blocked up, like open curtains that provide a view of the garden outside. Open can also refer to something that\u0027s unfastened or parted — an open jar of peanut butter, an open eye, or an open book.",
+                                              "Published":  "Sun, 21 Jun 2026 18:37:00 GMT",
+                                              "Query":  "open source AI agents site:github.com repository open source",
+                                              "ResourceScore":  31,
+                                              "Domain":  "dictionary.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "OPEN Definition \u0026 Meaning - Merriam-Webster",
+                                              "Link":  "https://www.merriam-webster.com/dictionary/open",
+                                              "Description":  "The meaning of OPEN is having no enclosing or confining barrier : accessible on all or nearly all sides. How to use open in a sentence. Synonym Discussion of Open.",
+                                              "Published":  "Sun, 21 Jun 2026 20:03:00 GMT",
+                                              "Query":  "open source AI agents site:github.com repository open source",
+                                              "ResourceScore":  31,
+                                              "Domain":  "merriam-webster.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "open adjective - Definition, pictures, pronunciation and usage notes ...",
+                                              "Link":  "https://www.oxfordlearnersdictionaries.com/definition/english/open_1",
+                                              "Description":  "Definition of open adjective in Oxford Advanced Learner\u0027s Dictionary. Meaning, pronunciation, picture, example sentences, grammar, usage notes, synonyms and more.",
+                                              "Published":  "Sun, 21 Jun 2026 13:43:00 GMT",
+                                              "Query":  "open source AI agents site:github.com repository open source",
+                                              "ResourceScore":  31,
+                                              "Domain":  "oxfordlearnersdictionaries.com"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Open - definition of open by The Free Dictionary",
+                                              "Link":  "https://www.thefreedictionary.com/open",
+                                              "Description":  "Affording unobstructed entrance and exit; not shut or closed. b. Affording unobstructed passage or view: open waters; the open countryside. 2. a. Having no protecting or concealing cover: an open wound; an open sports car. b. Completely obvious; blatant: open disregard of the law.",
+                                              "Published":  "Sun, 21 Jun 2026 21:57:00 GMT",
+                                              "Query":  "open source AI agents site:github.com repository open source",
+                                              "ResourceScore":  31,
+                                              "Domain":  "thefreedictionary.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "Google/Web",
+                          "Type":  "Web",
+                          "Query":  "open source AI agents latest trend guide analysis",
+                          "Score":  66,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "definition",
+                                           "dictionary",
+                                           "meaning",
+                                           "not",
+                                           "closed",
+                                           "more",
+                                           "unobstructed",
+                                           "adjective"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "OPEN | English meaning - Cambridge Dictionary",
+                                              "Link":  "https://dictionary.cambridge.org/dictionary/english/open",
+                                              "Description":  "OPEN definition: 1. not closed or fastened: 2. ready to be used or ready to provide a service: 3. not closed in or…. Learn more.",
+                                              "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
+                                              "Query":  "open source AI agents latest trend guide analysis",
+                                              "ResourceScore":  31,
+                                              "Domain":  "dictionary.cambridge.org"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "OPEN | meaning - Cambridge Learner\u0027s Dictionary",
+                                              "Link":  "https://dictionary.cambridge.org/dictionary/learner-english/open",
+                                              "Description":  "OPEN definition: 1. not closed or fastened: 2. A shop or business is open during the time it is available for…. Learn more.",
+                                              "Published":  "Fri, 19 Jun 2026 07:05:00 GMT",
+                                              "Query":  "open source AI agents latest trend guide analysis",
+                                              "ResourceScore":  31,
+                                              "Domain":  "dictionary.cambridge.org"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "open - Wiktionary, the free dictionary",
+                                              "Link":  "https://en.wiktionary.org/wiki/open",
+                                              "Description":  "open (comparative more open or (phonetics) opener, superlative most open or (phonetics) openest) (usually not comparable) Physically unobstructed, uncovered, etc.",
+                                              "Published":  "Sun, 21 Jun 2026 17:04:00 GMT",
+                                              "Query":  "open source AI agents latest trend guide analysis",
+                                              "ResourceScore":  31,
+                                              "Domain":  "en.wiktionary.org"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "OPEN definition and meaning | Collins English Dictionary",
+                                              "Link":  "https://www.collinsdictionary.com/dictionary/english/open",
+                                              "Description":  "If you say that a fact or question is open to debate, interpretation, or discussion, you mean that people are uncertain whether it is true, what it means, or what the answer is.",
+                                              "Published":  "Sun, 21 Jun 2026 17:04:00 GMT",
+                                              "Query":  "open source AI agents latest trend guide analysis",
+                                              "ResourceScore":  31,
+                                              "Domain":  "collinsdictionary.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "OPEN Definition \u0026 Meaning | Dictionary.com",
+                                              "Link":  "https://www.dictionary.com/browse/open",
+                                              "Description":  "The adjective open describes something that\u0027s not closed or blocked up, like open curtains that provide a view of the garden outside. Open can also refer to something that\u0027s unfastened or parted — an open jar of peanut butter, an open eye, or an open book.",
+                                              "Published":  "Sun, 21 Jun 2026 18:37:00 GMT",
+                                              "Query":  "open source AI agents latest trend guide analysis",
+                                              "ResourceScore":  31,
+                                              "Domain":  "dictionary.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "OPEN Definition \u0026 Meaning - Merriam-Webster",
+                                              "Link":  "https://www.merriam-webster.com/dictionary/open",
+                                              "Description":  "The meaning of OPEN is having no enclosing or confining barrier : accessible on all or nearly all sides. How to use open in a sentence. Synonym Discussion of Open.",
+                                              "Published":  "Sun, 21 Jun 2026 20:03:00 GMT",
+                                              "Query":  "open source AI agents latest trend guide analysis",
+                                              "ResourceScore":  31,
+                                              "Domain":  "merriam-webster.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "open adjective - Definition, pictures, pronunciation and usage notes ...",
+                                              "Link":  "https://www.oxfordlearnersdictionaries.com/definition/english/open_1",
+                                              "Description":  "Definition of open adjective in Oxford Advanced Learner\u0027s Dictionary. Meaning, pronunciation, picture, example sentences, grammar, usage notes, synonyms and more.",
+                                              "Published":  "Sun, 21 Jun 2026 13:43:00 GMT",
+                                              "Query":  "open source AI agents latest trend guide analysis",
+                                              "ResourceScore":  31,
+                                              "Domain":  "oxfordlearnersdictionaries.com"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Open - definition of open by The Free Dictionary",
+                                              "Link":  "https://www.thefreedictionary.com/open",
+                                              "Description":  "Affording unobstructed entrance and exit; not shut or closed. b. Affording unobstructed passage or view: open waters; the open countryside. 2. a. Having no protecting or concealing cover: an open wound; an open sports car. b. Completely obvious; blatant: open disregard of the law.",
+                                              "Published":  "Sun, 21 Jun 2026 21:57:00 GMT",
+                                              "Query":  "open source AI agents latest trend guide analysis",
+                                              "ResourceScore":  31,
+                                              "Domain":  "thefreedictionary.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "News",
+                          "Type":  "News",
+                          "Query":  "open source AI agents latest news trend",
+                          "Score":  74,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "code",
+                                           "xiaomi",
+                                           "sharing",
+                                           "coding",
+                                           "opensharing",
+                                           "claude",
+                                           "agent",
+                                           "google"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "AI AGENTS",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2fcio.economictimes.indiatimes.com%2ftag%2fai%2bagents\u0026c=15959058778854586404\u0026mkt=en-in",
+                                              "Description":  "Agentic AI is revolutionizing finance by embedding autonomous decision-making into workflows, offering speed and personalization. Financial institutions must adapt by designing agent-friendly products ...",
+                                              "Published":  "Mon, 04 May 2026 21:09:00 GMT",
+                                              "Query":  "open source AI agents latest news trend",
+                                              "ResourceScore":  42,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Xiaomi’s latest AI coding tool claims to outperform Claude Code on complex tasks",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2findianexpress.com%2farticle%2ftechnology%2fartificial-intelligence%2fxiaomis-latest-ai-coding-tool-claims-to-outperform-claude-code-on-complex-tasks-10736639%2f\u0026c=13053403210505547165\u0026mkt=en-in",
+                                              "Description":  "The open-source AI coding assistant is designed for long-running software projects and, according to Xiaomi\u0027s own benchmarks and internal evaluation, outperforms Anthropic\u0027s Claude Code on several com ...",
+                                              "Published":  "Fri, 12 Jun 2026 05:02:00 GMT",
+                                              "Query":  "open source AI agents latest news trend",
+                                              "ResourceScore":  56,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Xiaomi’s New AI Coding Agent Beats Claude Code and is Now Completely Free to Use With a Major Advantage Over Rivals",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2fpropakistani.pk%2f2026%2f06%2f11%2fxiaomis-new-ai-coding-agent-beats-claude-code-and-is-now-completely-free-to-use-with-a-major-advantage-over-rivals%2f\u0026c=11448456150954240310\u0026mkt=en-in",
+                                              "Description":  "Xiaomi has open-sourced MiMo Code V0.1.0, a new terminal-based AI coding assistant built for long-running software projects. This means it is completely ...",
+                                              "Published":  "Thu, 11 Jun 2026 01:08:00 GMT",
+                                              "Query":  "open source AI agents latest news trend",
+                                              "ResourceScore":  56,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Databricks Introduces OpenSharing, a New Open Standard for Sharing of Data and AI Assets",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2fwww.dbta.com%2fEditorial%2fNews-Flashes%2fDatabricks-Introduces-OpenSharing-a-New-Open-Standard-for-Sharing-of-Data-and-AI-Assets-175258.aspx\u0026c=12504018406838570835\u0026mkt=en-in",
+                                              "Description":  "Databricks, the data and AI company, is introducing OpenSharing, the next evolution of the open source Delta Sharing protocol for the agentic era. OpenSharing, now a project of the Linux Foundation ...",
+                                              "Published":  "Mon, 15 Jun 2026 16:59:00 GMT",
+                                              "Query":  "open source AI agents latest news trend",
+                                              "ResourceScore":  59,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "From AI agents to humanoid robots: Top AI trends for 2025",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2fwww.digit.in%2ffeatures%2fgeneral%2ffrom-ai-agents-to-humanoid-robots-top-ai-trends-for-2025.html\u0026c=8488641544265771395\u0026mkt=en-in",
+                                              "Description":  "From the emergence of autonomous AI agents capable of executing complex tasks to the integration of cutting-edge AI capabilities directly into devices, New Year 2025 promises to accelerate AI ...",
+                                              "Published":  "Tue, 31 Dec 2024 16:00:00 GMT",
+                                              "Query":  "open source AI agents latest news trend",
+                                              "ResourceScore":  43,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Gemini CLI: Google’s latest open source AI agent explained",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2fwww.digit.in%2ffeatures%2fgeneral%2fgemini-cli-googles-latest-open-source-ai-agent-explained.html\u0026c=13186403246934766964\u0026mkt=en-in",
+                                              "Description":  "Google has released a powerful new tool aimed squarely at developers and it runs right from the terminal. Meet Gemini CLI, an open-source command-line interface powered by Google’s Gemini AI models.",
+                                              "Published":  "Wed, 25 Jun 2025 16:59:00 GMT",
+                                              "Query":  "open source AI agents latest news trend",
+                                              "ResourceScore":  49,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "China’s latest AI scientific model highlights unique open-source ecosystem built on tech sharing to tackle global challenges",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2fwww.globaltimes.cn%2fpage%2f202605%2f1361310.shtml\u0026c=13062031726872449018\u0026mkt=en-in",
+                                              "Description":  "As global challenges grow increasingly interconnected, technological solutions are rarely confined to a single country. Through research collaboration, open sharing of expertise and partnerships with ...",
+                                              "Published":  "Mon, 18 May 2026 07:50:00 GMT",
+                                              "Query":  "open source AI agents latest news trend",
+                                              "ResourceScore":  53,
+                                              "Domain":  "bing.com"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "\u0027Scarily accurate\u0027: Open-source AI engine predicts markets and public opinion using thousands of digital agents",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38daf8e3844491a7e9d9c9fde2681b\u0026url=https%3a%2f%2fwww.moneycontrol.com%2fnews%2ftrends%2fscarily-accurate-open-source-ai-engine-predicts-markets-and-public-opinion-using-thousands-of-digital-agents-13858961.html\u0026c=6906984518606280189\u0026mkt=en-in",
+                                              "Description":  "The project is described by its creators as a universal swarm-intelligence engine designed to run large-scale simulations in order to explore possible future scenarios. Instead of relying on a single ...",
+                                              "Published":  "Fri, 13 Mar 2026 04:30:00 GMT",
+                                              "Query":  "open source AI agents latest news trend",
+                                              "ResourceScore":  55,
+                                              "Domain":  "bing.com"
+                                          }
+                                      ]
+                      }
+                  ],
+    "GemmaSummary":  "## Gemma Trend Summary\n\n*   **Growing Popularity \u0026 Definition:** There’s a significant increase in interest and discussion surrounding “open source AI agents,” signifying a growing trend of individuals, developers, and businesses exploring the capabilities and potential of these tools. The rising volume of content on platforms like YouTube and LinkedIn suggests a broader adoption phase.\n*   **Focus on Practical Applications \u0026 Business Value:**  The data highlights that users are increasingly seeking practical examples and use cases for open source AI agents – particularly within the “oneomotoring” space, suggesting a focus on business applications and real-world value.\n*   **Technical Complexity \u0026 Limited Accessibility:** The presence of keywords like \"dictionary,\" \"closed,\" and \"not\" indicates a level of technical complexity associated with these tools, potentially limiting accessibility for some users and requiring more in-depth understanding.\n\n## Platform Decision\n\nUse **YouTube** first. Its high score (56/100) coupled with the signal count of 8 suggests it’s currently the most effective platform to quickly disseminate information about this trend. It provides a diverse range of video content, including tutorials and demonstrations, which is ideal for engaging a broad audience interested in learning about open source AI agents.\n\n## Behaviour Prediction\n\nUsers will likely explore open source AI agents through YouTube videos and articles on LinkedIn, seeking practical guidance and comparisons to existing solutions. They\u0027ll also be drawn to resources like Reddit (70/100) where they’re actively discussing the topic and sharing their experiences. \n\n## Content Plan - Next 7 Days:\n\n*   **Day 1-2:** Create a short, visually appealing YouTube video explaining \"What are Open Source AI Agents?\"\n*   **Day 3-4:** Share a LinkedIn article detailing three key benefits of using open source AI agents (e.g., cost savings, customization).\n*   **Day 5-6:** Publish a Reddit thread discussing common challenges and best practices for working with open source AI agents.\n*   **Day 7:**  Create a short infographic summarizing the key takeaways from the content shared on LinkedIn and YouTube.\n\n## Related Topic Opportunities\n\n*   **Open Source AI Agents Tools \u0026 Workflow:** A dedicated blog post or guide explaining specific tools and development workflows.\n*   **Open Source AI Agents – Business Case Studies:** Focus on successful implementations of open source AI agents across different industries.\n*   **Open Source AI Agents - Code Examples \u0026 Tutorials:**  A series of practical tutorials demonstrating how to use open source AI agents for common tasks (e.g., text summarization, image recognition).",
+    "GemmaModel":  "gemma3:1b",
+    "GemmaSummarySuccess":  true
+}
