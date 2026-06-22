@@ -1,0 +1,550 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>agentic ai job - AetherDesk TrendRadar</title>
+<style>
+*{box-sizing:border-box}
+:root{
+  --bg:#f4f7fb;
+  --ink:#152033;
+  --muted:#657184;
+  --card:#ffffff;
+  --line:#dce4ef;
+  --primary:#126b5c;
+  --primary2:#29b391;
+  --blue:#2563eb;
+  --orange:#f59e0b;
+  --shadow:0 18px 42px rgba(21,32,51,.10);
+}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",Arial,sans-serif}
+.page{padding:30px;min-height:100vh;background:linear-gradient(135deg,#f7fbff,#eef7f3)}
+.hero{border-radius:26px;padding:34px;background:linear-gradient(135deg,#102238,#126b5c 65%,#29b391);color:#fff;box-shadow:var(--shadow)}
+.topline{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap}
+.tag{padding:8px 13px;border-radius:999px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);font-size:12px;font-weight:800;letter-spacing:.5px;text-transform:uppercase}
+.print{border:0;border-radius:12px;padding:10px 14px;font-weight:900;color:#126b5c;background:#fff;cursor:pointer}
+h1{font-size:42px;line-height:1.08;margin:24px 0 10px}
+.hero p{max-width:900px;line-height:1.6;opacity:.9}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:24px}
+.stat{padding:16px;border-radius:18px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22)}
+.stat span{display:block;font-size:12px;opacity:.78}
+.stat strong{display:block;font-size:25px;margin-top:7px}
+.section{margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:var(--shadow)}
+.section h2{margin:0 0 16px;font-size:24px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.card{border:1px solid var(--line);border-radius:18px;padding:18px;background:#fff}
+.card h3{margin:0 0 10px}
+.muted{color:var(--muted)}
+.bar-row{margin-bottom:14px}
+.bar-head{display:flex;justify-content:space-between;gap:12px;margin-bottom:7px;font-size:13px}
+.bar{height:13px;border-radius:999px;background:#e7edf5;overflow:hidden}
+.fill{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--primary),var(--primary2))}
+.line-chart{width:100%;height:auto;display:block}
+.grid-axis{stroke:#93a4b8;stroke-width:1.2}
+.grid-soft{stroke:#dce4ef;stroke-width:1}
+.trend-line{fill:none;stroke:#2563eb;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.line-dot{fill:#fff;stroke:#2563eb;stroke-width:3}
+.axis-label{font-size:11px;fill:#657184;font-weight:800}
+.score-label{font-size:12px;fill:#152033;font-weight:900}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px}
+table{width:100%;border-collapse:collapse;background:#fff;min-width:820px}
+th,td{text-align:left;padding:13px 14px;border-bottom:1px solid #edf1f6;vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:#657184;background:#f8fafc}
+td span{display:block;color:#657184;font-size:12px;margin-top:3px}
+.ai-summary{background:linear-gradient(135deg,#eef6ff,#ecfdf5);border-color:#bfdbfe}
+.ai-meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.pill{display:inline-block;padding:7px 10px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:12px;font-weight:900;color:#126b5c}
+.resource-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+ul{margin:0;padding-left:20px}
+li{margin:8px 0;line-height:1.45}
+.platform-section{border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:16px;background:#fff}
+.platform-heading{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}
+.platform-heading h3{margin:0}
+.platform-heading span{font-weight:900;color:var(--primary)}
+.resource{border-top:1px solid #edf1f6;padding:13px 0}
+.resource:first-of-type{border-top:0}
+.resource h4{margin:0 0 6px;font-size:15px}
+.resource p{margin:0 0 8px;color:var(--muted);font-size:13px;line-height:1.45}
+.resource a{font-weight:900;color:var(--blue);text-decoration:none}
+.recommend{background:linear-gradient(135deg,#fff7ed,#ecfdf5);border-color:#fed7aa}
+@media(max-width:900px){.page{padding:16px}.stats,.grid,.resource-grid{grid-template-columns:1fr}h1{font-size:32px}}
+@media print{.print{display:none}.page{padding:0}.section,.hero{box-shadow:none}}
+</style>
+</head>
+<body>
+<main class="page">
+  <section class="hero">
+    <div class="topline">
+      <span class="tag">AetherDesk TrendRadar</span>
+      <button class="print" onclick="window.print()">Save as PDF</button>
+    </div>
+    <h1>agentic ai job</h1>
+    <p>Social Trend Intelligence + Behaviour Prediction Report generated from public search, RSS, web, community, video, news, and open-source signals.</p>
+    <div class="stats">
+      <div class="stat"><span>Opportunity Score</span><strong>100/100</strong></div>
+      <div class="stat"><span>Best Platform</span><strong>GitHub</strong></div>
+      <div class="stat"><span>Reddit Signal</span><strong>100/100</strong></div>
+      <div class="stat"><span>GitHub Signal</span><strong>100/100</strong></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Platform Comparison Dashboard</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Bar Graph: Platform Strength</h3>
+        <div class="bar-row">
+  <div class="bar-head">
+    <span>YouTube</span>
+    <strong>100/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:100%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>X/Twitter</span>
+    <strong>100/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:100%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>LinkedIn</span>
+    <strong>100/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:100%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>Reddit</span>
+    <strong>100/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:100%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>GitHub</span>
+    <strong>100/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:100%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>Google/Web</span>
+    <strong>100/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:100%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>News</span>
+    <strong>100/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:100%"></div></div>
+</div>
+      </div>
+      <div class="card">
+        <h3>Line Graph: Trend Momentum</h3>
+        <svg class="line-chart" viewBox="0 0 760 260" role="img" aria-label="Platform trend line comparison">
+  <line x1="54" y1="24" x2="54" y2="206" class="grid-axis"></line>
+  <line x1="54" y1="206" x2="734" y2="206" class="grid-axis"></line>
+  <line x1="54" y1="24" x2="734" y2="24" class="grid-soft"></line>
+  <line x1="54" y1="115" x2="734" y2="115" class="grid-soft"></line>
+  <text x="12" y="29" class="axis-label">100</text>
+  <text x="20" y="120" class="axis-label">50</text>
+  <text x="26" y="211" class="axis-label">0</text>
+  <polyline points="54,24 167.33,24 280.67,24 394,24 507.33,24 620.67,24 734,24" class="trend-line"></polyline>
+  <circle cx='54' cy='24' r='5' class='line-dot'></circle><text x='54' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='167.33' cy='24' r='5' class='line-dot'></circle><text x='167.33' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='280.67' cy='24' r='5' class='line-dot'></circle><text x='280.67' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='394' cy='24' r='5' class='line-dot'></circle><text x='394' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='507.33' cy='24' r='5' class='line-dot'></circle><text x='507.33' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='620.67' cy='24' r='5' class='line-dot'></circle><text x='620.67' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='734' cy='24' r='5' class='line-dot'></circle><text x='734' y='14' text-anchor='middle' class='score-label'>100</text>
+  <text x='54' y='240' text-anchor='middle' class='axis-label'>YouTube</text><text x='167.33' y='240' text-anchor='middle' class='axis-label'>X/Twitter</text><text x='280.67' y='240' text-anchor='middle' class='axis-label'>LinkedIn</text><text x='394' y='240' text-anchor='middle' class='axis-label'>Reddit</text><text x='507.33' y='240' text-anchor='middle' class='axis-label'>GitHub</text><text x='620.67' y='240' text-anchor='middle' class='axis-label'>Google/Web</text><text x='734' y='240' text-anchor='middle' class='axis-label'>News</text>
+</svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Which Platform Is Best?</h2>
+    <div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Platform</th>
+        <th>Score</th>
+        <th>Signals</th>
+        <th>Top Keywords</th>
+        <th>Decision</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+  <td>1</td>
+  <td><strong>GitHub</strong><span>Open Source</span></td>
+  <td>100/100</td>
+  <td>8</td>
+  <td>agents, systems, autonomous, 2026, artificial</td>
+  <td>Use first</td>
+</tr><tr>
+  <td>2</td>
+  <td><strong>Google/Web</strong><span>Web</span></td>
+  <td>100/100</td>
+  <td>8</td>
+  <td>agents, systems, autonomous, 2026, artificial</td>
+  <td>Use second</td>
+</tr><tr>
+  <td>3</td>
+  <td><strong>News</strong><span>News</span></td>
+  <td>100/100</td>
+  <td>8</td>
+  <td>cybersecurity, india, has, jobs, will</td>
+  <td>Test</td>
+</tr><tr>
+  <td>4</td>
+  <td><strong>Reddit</strong><span>Community</span></td>
+  <td>100/100</td>
+  <td>8</td>
+  <td>agents, systems, autonomous, 2026, artificial</td>
+  <td>Test</td>
+</tr><tr>
+  <td>5</td>
+  <td><strong>YouTube</strong><span>Video</span></td>
+  <td>100/100</td>
+  <td>8</td>
+  <td>agents, systems, autonomous, 2026, artificial</td>
+  <td>Test</td>
+</tr><tr>
+  <td>6</td>
+  <td><strong>X/Twitter</strong><span>Social</span></td>
+  <td>100/100</td>
+  <td>8</td>
+  <td>agents, systems, autonomous, 2026, artificial</td>
+  <td>Test</td>
+</tr><tr>
+  <td>7</td>
+  <td><strong>LinkedIn</strong><span>Social</span></td>
+  <td>100/100</td>
+  <td>8</td>
+  <td>agents, systems, autonomous, 2026, artificial</td>
+  <td>Test</td>
+</tr>
+    </tbody>
+  </table>
+</div>
+  </section>
+
+  <section class="section ai-summary">
+    <h2>Gemma Local AI Summary</h2>
+    <div class="ai-meta">
+      <span class="pill">Local Gemma summary</span>
+      <span class="pill">Model: gemma3:1b</span>
+      <span class="pill">Ollama local mode</span>
+    </div>
+    <div class="ai-content">
+      <h4>Gemma Trend Summary</h4><ul><li><strong>Rapid Acceleration of Agentic AI Roles:</strong> The surge in data signals indicates an unprecedented demand for professionals equipped with autonomous systems, pushing the definition of “jobs” to rapidly evolve beyond traditional roles. This trend is fueled by increased investment and speculation within the artificial intelligence landscape.</li></ul><ul><li><strong>GitHub as Primary Focus:</strong> GitHub’s high signal score suggests a significant focus on open-source tools and methodologies directly related to agentic AI development – highlighting a crucial pathway for adoption and collaboration. It signifies the most relevant area of exploration.</li></ul><ul><li><strong>Increased Emphasis on ‘Making Real’ Applications:</strong> The heightened interest in “making real” applications, as indicated by the search terms, underscores a shift from theoretical concepts toward practical implementation and demonstrable impact within specific industries. This suggests a growing need for tangible results.</li></ul><h4>Platform Decision</h4><ul><li>GitHub should be used first due to its direct relevance to agentic AI development tools and workflows.</li></ul><h4>Behaviour Prediction</h4><ul><li>Users will likely seek tutorials, documentation, and code examples related to automating tasks with agents and systems, focusing on integrating existing frameworks into their workflows. There&#39;s a strong desire for practical implementation guides.</li></ul><h4>Content Plan (Next 7 Days)</h4><p>1. <strong>Agentic AI Tool Showcase:</strong> Create a blog post/video demonstrating key open-source libraries or platforms used in agentic AI development.</p><p>2.  <strong>Workflow Example - [Specific Use Case]:</strong> Develop a detailed walkthrough of how to automate a specific process using an agentic AI system (e.g., robotic process automation).</p><p>3. <strong>Agentic AI Job Role Analysis:</strong> Produce a report outlining the skills and experience required for various roles within the agentic AI ecosystem, including potential career paths.</p><p>4.  <strong>Open Source Project Spotlight:</strong> Highlight an interesting open-source project related to agentic AI, encouraging community contributions and engagement.</p><h4>Related Topic Opportunities</h4><p>1. <strong>Agentic AI Job Training Programs:</strong> Create a curated list of online courses and certifications focused on developing skills for agentic AI jobs.</p><p>2. <strong>Ethical Considerations in Agentic AI:</strong> Develop content addressing the ethical challenges associated with autonomous systems, such as bias mitigation and accountability.</p><p>3. <strong>AI Model Deployment Strategies:</strong> Explore best practices for deploying agentic AI models into real-world applications, including monitoring and maintenance strategies.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Public Signals and Results</h2>
+    <p class="muted">These are the public signals used for the platform comparison. Review the links before publishing content.</p>
+    <div class="resource-grid">
+      <section class="platform-section">
+  <div class="platform-heading">
+    <h3>YouTube</h3>
+    <span>100/100</span>
+  </div>
+  <article class="resource">
+  <h4>What Is Agentic AI? Definition, 6 Levels &amp; Examples (2026)</h4>
+  <p>Agentic AI describes artificial intelligence systems that pursue goals through their own actions, rather than only producing output for a human to act on.</p>
+  <a href="https://agentic.ai/what-is-agentic-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What Is Agentic AI? Characteristics, Use Cases &amp; Setup in 2026</h4>
+  <p>Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan&#39;s platform helping enterprises provide that foundation.</p>
+  <a href="https://atlan.com/know/what-is-agentic-ai/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What is agentic AI? Definition and differentiators | Google Cloud</h4>
+  <p>Agentic AI is an advanced form of artificial intelligence focused on autonomous decision-making and action. Unlike traditional AI, which primarily responds to commands or analyzes data, agentic...</p>
+  <a href="https://cloud.google.com/discover/what-is-agentic-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What Is Agentic AI, and How Will It Change Work?</h4>
+  <p>Recent advances in agentic AI bring that autonomous future a step closer to reality. With their supercharged reasoning and execution capabilities, agentic AI systems promise to transform many...</p>
+  <a href="https://hbr.org/2024/12/what-is-agentic-ai-and-how-will-it-change-work" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Agentic AI, explained - MIT Sloan</h4>
+  <p>Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.</p>
+  <a href="https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>X/Twitter</h3>
+    <span>100/100</span>
+  </div>
+  <article class="resource">
+  <h4>What Is Agentic AI? Definition, 6 Levels &amp; Examples (2026)</h4>
+  <p>Agentic AI describes artificial intelligence systems that pursue goals through their own actions, rather than only producing output for a human to act on.</p>
+  <a href="https://agentic.ai/what-is-agentic-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What Is Agentic AI? Characteristics, Use Cases &amp; Setup in 2026</h4>
+  <p>Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan&#39;s platform helping enterprises provide that foundation.</p>
+  <a href="https://atlan.com/know/what-is-agentic-ai/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What is agentic AI? Definition and differentiators | Google Cloud</h4>
+  <p>Agentic AI is an advanced form of artificial intelligence focused on autonomous decision-making and action. Unlike traditional AI, which primarily responds to commands or analyzes data, agentic...</p>
+  <a href="https://cloud.google.com/discover/what-is-agentic-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What Is Agentic AI, and How Will It Change Work?</h4>
+  <p>Recent advances in agentic AI bring that autonomous future a step closer to reality. With their supercharged reasoning and execution capabilities, agentic AI systems promise to transform many...</p>
+  <a href="https://hbr.org/2024/12/what-is-agentic-ai-and-how-will-it-change-work" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Agentic AI, explained - MIT Sloan</h4>
+  <p>Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.</p>
+  <a href="https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>LinkedIn</h3>
+    <span>100/100</span>
+  </div>
+  <article class="resource">
+  <h4>What Is Agentic AI? Definition, 6 Levels &amp; Examples (2026)</h4>
+  <p>Agentic AI describes artificial intelligence systems that pursue goals through their own actions, rather than only producing output for a human to act on.</p>
+  <a href="https://agentic.ai/what-is-agentic-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What Is Agentic AI? Characteristics, Use Cases &amp; Setup in 2026</h4>
+  <p>Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan&#39;s platform helping enterprises provide that foundation.</p>
+  <a href="https://atlan.com/know/what-is-agentic-ai/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What is agentic AI? Definition and differentiators | Google Cloud</h4>
+  <p>Agentic AI is an advanced form of artificial intelligence focused on autonomous decision-making and action. Unlike traditional AI, which primarily responds to commands or analyzes data, agentic...</p>
+  <a href="https://cloud.google.com/discover/what-is-agentic-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What Is Agentic AI, and How Will It Change Work?</h4>
+  <p>Recent advances in agentic AI bring that autonomous future a step closer to reality. With their supercharged reasoning and execution capabilities, agentic AI systems promise to transform many...</p>
+  <a href="https://hbr.org/2024/12/what-is-agentic-ai-and-how-will-it-change-work" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Agentic AI, explained - MIT Sloan</h4>
+  <p>Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.</p>
+  <a href="https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>Reddit</h3>
+    <span>100/100</span>
+  </div>
+  <article class="resource">
+  <h4>What Is Agentic AI? Definition, 6 Levels &amp; Examples (2026)</h4>
+  <p>Agentic AI describes artificial intelligence systems that pursue goals through their own actions, rather than only producing output for a human to act on.</p>
+  <a href="https://agentic.ai/what-is-agentic-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What Is Agentic AI? Characteristics, Use Cases &amp; Setup in 2026</h4>
+  <p>Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan&#39;s platform helping enterprises provide that foundation.</p>
+  <a href="https://atlan.com/know/what-is-agentic-ai/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What is agentic AI? Definition and differentiators | Google Cloud</h4>
+  <p>Agentic AI is an advanced form of artificial intelligence focused on autonomous decision-making and action. Unlike traditional AI, which primarily responds to commands or analyzes data, agentic...</p>
+  <a href="https://cloud.google.com/discover/what-is-agentic-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What Is Agentic AI, and How Will It Change Work?</h4>
+  <p>Recent advances in agentic AI bring that autonomous future a step closer to reality. With their supercharged reasoning and execution capabilities, agentic AI systems promise to transform many...</p>
+  <a href="https://hbr.org/2024/12/what-is-agentic-ai-and-how-will-it-change-work" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Agentic AI, explained - MIT Sloan</h4>
+  <p>Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.</p>
+  <a href="https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>GitHub</h3>
+    <span>100/100</span>
+  </div>
+  <article class="resource">
+  <h4>What Is Agentic AI? Definition, 6 Levels &amp; Examples (2026)</h4>
+  <p>Agentic AI describes artificial intelligence systems that pursue goals through their own actions, rather than only producing output for a human to act on.</p>
+  <a href="https://agentic.ai/what-is-agentic-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What Is Agentic AI? Characteristics, Use Cases &amp; Setup in 2026</h4>
+  <p>Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan&#39;s platform helping enterprises provide that foundation.</p>
+  <a href="https://atlan.com/know/what-is-agentic-ai/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What is agentic AI? Definition and differentiators | Google Cloud</h4>
+  <p>Agentic AI is an advanced form of artificial intelligence focused on autonomous decision-making and action. Unlike traditional AI, which primarily responds to commands or analyzes data, agentic...</p>
+  <a href="https://cloud.google.com/discover/what-is-agentic-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What Is Agentic AI, and How Will It Change Work?</h4>
+  <p>Recent advances in agentic AI bring that autonomous future a step closer to reality. With their supercharged reasoning and execution capabilities, agentic AI systems promise to transform many...</p>
+  <a href="https://hbr.org/2024/12/what-is-agentic-ai-and-how-will-it-change-work" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Agentic AI, explained - MIT Sloan</h4>
+  <p>Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.</p>
+  <a href="https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>Google/Web</h3>
+    <span>100/100</span>
+  </div>
+  <article class="resource">
+  <h4>What Is Agentic AI? Definition, 6 Levels &amp; Examples (2026)</h4>
+  <p>Agentic AI describes artificial intelligence systems that pursue goals through their own actions, rather than only producing output for a human to act on.</p>
+  <a href="https://agentic.ai/what-is-agentic-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What Is Agentic AI? Characteristics, Use Cases &amp; Setup in 2026</h4>
+  <p>Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan&#39;s platform helping enterprises provide that foundation.</p>
+  <a href="https://atlan.com/know/what-is-agentic-ai/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What is agentic AI? Definition and differentiators | Google Cloud</h4>
+  <p>Agentic AI is an advanced form of artificial intelligence focused on autonomous decision-making and action. Unlike traditional AI, which primarily responds to commands or analyzes data, agentic...</p>
+  <a href="https://cloud.google.com/discover/what-is-agentic-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What Is Agentic AI, and How Will It Change Work?</h4>
+  <p>Recent advances in agentic AI bring that autonomous future a step closer to reality. With their supercharged reasoning and execution capabilities, agentic AI systems promise to transform many...</p>
+  <a href="https://hbr.org/2024/12/what-is-agentic-ai-and-how-will-it-change-work" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Agentic AI, explained - MIT Sloan</h4>
+  <p>Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.</p>
+  <a href="https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>News</h3>
+    <span>100/100</span>
+  </div>
+  <article class="resource">
+  <h4>Will agentic AI take away jobs in the cybersecurity domain?</h4>
+  <p>Cybersecurity professionals need to upskill CISO role will evolve and transform Agentic AI could help close the talent gap in cybersecurity Tech giant Microsoft has said that it will soon roll out 11 ...</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d007e2b5478cb2120a5daa7587df&amp;url=https%3a%2f%2fcio.economictimes.indiatimes.com%2fnews%2fartificial-intelligence%2fwill-agentic-ai-take-away-jobs-in-the-cybersecurity-domain%2f119966197&amp;c=13023652717230068745&amp;mkt=en-in" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>What is the Agentic SOC, and how can it help solve India’s Cybersecurity Talent Challenge?</h4>
+  <p>India&#39;s booming digital infrastructure faces a cybersecurity workforce strain, with teams overwhelmed by AI-driven threats and operational fatigue. The &quot;Agentic SOC&quot; emerges as a solution, leveraging ...</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d007e2b5478cb2120a5daa7587df&amp;url=https%3a%2f%2fcio.economictimes.indiatimes.com%2fnews%2fbrand-solution%2fwhat-is-the-agentic-soc-and-how-can-it-help-solve-indias-cybersecurity-talent-challenge%2f131787597&amp;c=11162604105569818634&amp;mkt=en-in" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>AGENTIC AI</h4>
+  <p>Seamless reading experience. Save your favourite. &quot;Agentic AI is not just another tech upgrade but a strategic shift in how telecoms operate, compete, and serve. Its ability to autonomously observe, ...</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d007e2b5478cb2120a5daa7587df&amp;url=https%3a%2f%2ftelecom.economictimes.indiatimes.com%2ftag%2fagentic%2bai&amp;c=2867126963796236559&amp;mkt=en-in" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Agentic AI to reshape over 10 million jobs in India by 2030: ServiceNow report</h4>
+  <p>Agentic AI is set to reshape over 10 million jobs in India by 2030, according to the ServiceNow AI Skills Research 2025 report with Pearson. Unlike traditional automation, Agentic AI enhances human ...</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d007e2b5478cb2120a5daa7587df&amp;url=https%3a%2f%2ftimesofindia.indiatimes.com%2fetimes%2ftrending%2fagentic-ai-to-reshape-over-10-million-jobs-in-india-by-2030-servicenow-report%2farticleshow%2f123036275.cms&amp;c=2232104954980068744&amp;mkt=en-in" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Agentic AI: The catalyst for the future of work</h4>
+  <p>The rise of agentic AI is fundamentally altering workplace dynamics, providing a blueprint for how individuals and organisations can thrive in an era defined by efficiency, innovation, and agility. By ...</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d007e2b5478cb2120a5daa7587df&amp;url=https%3a%2f%2fwww.financialexpress.com%2flife%2ftechnology-agentic-ai-the-catalyst-for-the-future-of-work-3789729%2f&amp;c=13546797804911820273&amp;mkt=en-in" target="_blank">Open signal</a>
+</article>
+</section>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>Social Behaviour Prediction</h3>
+      <p>High opportunity: the topic has broad platform coverage. Expect stronger engagement around agents, systems, autonomous, especially on GitHub.</p>
+    </div>
+    <div class="card">
+      <h3>Best Content Format</h3>
+      <p>Open-source repository, demo README, or technical changelog</p>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>Keyword Clusters</h3>
+      <ul><li>agents</li><li>systems</li><li>autonomous</li><li>2026</li><li>intelligence</li><li>artificial</li><li>making</li><li>real</li><li>hype</li><li>their</li><li>human</li><li>business</li></ul>
+    </div>
+    <div class="card">
+      <h3>Hashtag Ideas</h3>
+      <ul><li>#agenticaijob</li><li>#agents</li><li>#systems</li><li>#autonomous</li><li>#2026</li><li>#intelligence</li><li>#artificial</li><li>#making</li></ul>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>YouTube Title Ideas</h3>
+      <ul><li>I tested agentic ai job so you do not have to</li><li>agentic ai job explained with a real workflow</li><li>Is agentic ai job the next practical AI opportunity?</li><li>agentic ai job: tools, examples, and mistakes to avoid</li></ul>
+    </div>
+    <div class="card">
+      <h3>LinkedIn Post Angles</h3>
+      <ul><li>What agentic ai job means for builders and small teams</li><li>A practical framework to evaluate agentic ai job before adopting it</li><li>The hidden behaviour shift behind agentic ai job</li><li>Why agents is becoming important in the agentic ai job conversation</li></ul>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>X/Twitter Post Ideas</h3>
+      <ul><li>A short thread: what is actually changing around agentic ai job</li><li>Hot take: agentic ai job matters less for hype and more for workflow design</li><li>3 signals showing why agentic ai job is worth watching</li><li>Question for builders: where does agentic ai job fit in your stack?</li></ul>
+    </div>
+    <div class="card">
+      <h3>Suggested Topic Table</h3>
+      <div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Suggested Topic</th>
+        <th>Best Platform</th>
+        <th>Use Case</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+  <td>1</td>
+  <td><strong>agentic ai job tools</strong></td>
+  <td>GitHub</td>
+  <td>High-priority content test</td>
+</tr><tr>
+  <td>2</td>
+  <td><strong>agentic ai job workflow</strong></td>
+  <td>GitHub</td>
+  <td>High-priority content test</td>
+</tr><tr>
+  <td>3</td>
+  <td><strong>agentic ai job use cases</strong></td>
+  <td>GitHub</td>
+  <td>High-priority content test</td>
+</tr><tr>
+  <td>4</td>
+  <td><strong>agentic ai job tutorial</strong></td>
+  <td>GitHub</td>
+  <td>Secondary keyword experiment</td>
+</tr><tr>
+  <td>5</td>
+  <td><strong>agentic ai job automation</strong></td>
+  <td>GitHub</td>
+  <td>Secondary keyword experiment</td>
+</tr><tr>
+  <td>6</td>
+  <td><strong>agentic ai job open source</strong></td>
+  <td>GitHub</td>
+  <td>Secondary keyword experiment</td>
+</tr><tr>
+  <td>7</td>
+  <td><strong>agentic ai job business ideas</strong></td>
+  <td>GitHub</td>
+  <td>Educational post</td>
+</tr><tr>
+  <td>8</td>
+  <td><strong>agentic ai job content strategy</strong></td>
+  <td>GitHub</td>
+  <td>Educational post</td>
+</tr><tr>
+  <td>9</td>
+  <td><strong>agentic ai job comparison</strong></td>
+  <td>GitHub</td>
+  <td>Educational post</td>
+</tr><tr>
+  <td>10</td>
+  <td><strong>agentic ai job roadmap</strong></td>
+  <td>GitHub</td>
+  <td>Educational post</td>
+</tr>
+    </tbody>
+  </table>
+</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="card recommend">
+      <h3>Recommended Action</h3>
+      <p>Start with GitHub using a Open-source repository, demo README, or technical changelog. Re-check signals weekly and turn top keywords into experiments.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <p class="muted">Generated at 22 Jun 2026, 11:32 AM. Raw data is saved date-wise in <strong>social-data/</strong>.</p>
+  </section>
+</main>
+</body>
+</html>

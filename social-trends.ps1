@@ -235,6 +235,30 @@ function Get-TrendRadarPrediction {
     return "Early signal: the topic is searchable but not yet strongly distributed. Start with educational content and monitor whether $keywordLine keeps appearing."
 }
 
+function Get-TrendRadarRelatedTopics {
+    param(
+        [string]$Topic,
+        [array]$Keywords,
+        [int]$Limit = 10
+    )
+
+    $ideas = @()
+    $base = $Topic.Trim()
+    $prefixes = @("tools", "workflow", "use cases", "tutorial", "automation", "open source", "business ideas", "content strategy", "comparison", "roadmap")
+
+    foreach ($prefix in $prefixes) {
+        $ideas += "$base $prefix"
+    }
+
+    foreach ($keyword in @($Keywords | Select-Object -First 8)) {
+        if (-not [string]::IsNullOrWhiteSpace($keyword)) {
+            $ideas += "$base $keyword"
+        }
+    }
+
+    return @($ideas | Select-Object -Unique | Select-Object -First $Limit)
+}
+
 function Get-TrendRadarSignals {
     param(
         [string]$Topic,
@@ -303,6 +327,7 @@ function Get-TrendRadarSignals {
 
     $overallScore = [int][math]::Min(100, [math]::Round(($avgScore * 0.75) + (($coverage / 7) * 25)))
     $keywords = Get-TrendRadarTopTerms -Results $allResults -Topic $Topic -Limit 12
+    $relatedTopics = Get-TrendRadarRelatedTopics -Topic $Topic -Keywords $keywords -Limit 10
     $ideas = New-TrendRadarIdeas -Topic $Topic -Keywords $keywords -BestPlatform $bestPlatform
     $prediction = Get-TrendRadarPrediction -OverallScore $overallScore -BestPlatform $bestPlatform -Keywords $keywords
     $format = Get-TrendRadarContentFormat -BestPlatform $bestPlatform
@@ -325,6 +350,7 @@ function Get-TrendRadarSignals {
         YouTubeTitleIdeas = @($ideas.YouTubeTitles)
         LinkedInPostAngles = @($ideas.LinkedInAngles)
         TwitterPostIdeas = @($ideas.TwitterIdeas)
+        SuggestedRelatedTopics = @($relatedTopics)
         RedditDiscussionSignal = (($platforms | Where-Object { $_.Name -eq "Reddit" } | Select-Object -First 1).Score)
         GitHubOpenSourceSignal = (($platforms | Where-Object { $_.Name -eq "GitHub" } | Select-Object -First 1).Score)
         RecommendedAction = "Start with $bestPlatform using a $format. Re-check signals weekly and turn top keywords into experiments."

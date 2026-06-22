@@ -116,6 +116,8 @@ powershell -ExecutionPolicy Bypass -File .\activity-report.ps1
 
 Generates a Social Trend Intelligence + Behaviour Prediction Report from public search/RSS signals across YouTube, X/Twitter, LinkedIn, Reddit, GitHub, Google/Web, and News.
 
+The dashboard includes platform comparison bar/line graphs, a platform decision table, public signal results, related topic suggestions, and a local Gemma/Ollama summary when Ollama is running.
+
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\social-trend-report.ps1
 ```
