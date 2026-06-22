@@ -4,11 +4,11 @@
     "Topic":  "Fresher Job for AI developer",
     "Slug":  "fresher-job-for-ai-developer",
     "Date":  "2026-06-22",
-    "GeneratedAt":  "2026-06-22T11:33:46",
-    "OverallTrendOpportunityScore":  100,
-    "BestPlatform":  "GitHub",
-    "BestContentFormat":  "Open-source repository, demo README, or technical changelog",
-    "SocialBehaviourPrediction":  "High opportunity: the topic has broad platform coverage. Expect stronger engagement around jobs, india, freshers, especially on GitHub.",
+    "GeneratedAt":  "2026-06-22T11:44:02",
+    "OverallTrendOpportunityScore":  82,
+    "BestPlatform":  "LinkedIn",
+    "BestContentFormat":  "Practical carousel, founder insight, or professional case study",
+    "SocialBehaviourPrediction":  "High opportunity: the topic has broad platform coverage. Expect stronger engagement around jobs, india, freshers, especially on LinkedIn.",
     "KeywordClusters":  [
                             "jobs",
                             "india",
@@ -63,15 +63,149 @@
                                    "Fresher Job for AI developer comparison",
                                    "Fresher Job for AI developer roadmap"
                                ],
-    "RedditDiscussionSignal":  100,
-    "GitHubOpenSourceSignal":  100,
-    "RecommendedAction":  "Start with GitHub using a Open-source repository, demo README, or technical changelog. Re-check signals weekly and turn top keywords into experiments.",
+    "BestResources":  [
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "Fresher jobs in India",
+                              "Link":  "https://in.linkedin.com/jobs/fresher-jobs",
+                              "Description":  "Leverage your professional network, and get hired. New Fresher jobs added daily.",
+                              "Published":  "Sun, 21 Jun 2026 21:14:00 GMT",
+                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  61,
+                              "Domain":  "in.linkedin.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "AI Automation is Reshaping Indian Careers: High-Paying Roles Freshers Must Master in 2026",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d2a974f44314a26e0f4da105ac74\u0026url=https%3a%2f%2fwww.careerindia.com%2fnews%2fai-careers-in-india-2026-high-paying-roles-for-freshers-011-61053.html\u0026c=13278923549848299264\u0026mkt=en-in",
+                              "Description":  "A new study shows Artificial Intelligence (AI) now handles 37% of entry-level tasks in India. This shift forces Indian freshers to rethink their career paths. Traditional manual data entry and basic ...",
+                              "Published":  "Fri, 19 Jun 2026 10:13:00 GMT",
+                              "Query":  "Fresher Job for AI developer latest news trend",
+                              "ResourceScore":  56,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "Fresher Jobs: Latest Jobs for Freshers In India. Freshers Govt jobs ...",
+                              "Link":  "https://www.freshersworld.com/jobs",
+                              "Description":  "Fresher Jobs: Search \u0026 Apply for the Latest Fresher Jobs for Graduates \u0026 Post Graduates. Register with Freshersworld for Latest freshers job vacancies in India.",
+                              "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
+                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  55,
+                              "Domain":  "freshersworld.com"
+                          },
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "Fresher Jobs Archives - CareerForFreshers",
+                              "Link":  "https://careerforfreshers.com/category/fresher-jobs/",
+                              "Description":  "Find the newest fresher job openings across IT, engineering, healthcare, and corporate sectors to launch your career successfully.",
+                              "Published":  "Sun, 21 Jun 2026 11:42:00 GMT",
+                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  55,
+                              "Domain":  "careerforfreshers.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "The End of Easy IT Jobs? How TCS is Replacing Freshers with AI Agents in 2026",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d2a974f44314a26e0f4da105ac74\u0026url=https%3a%2f%2fwww.careerindia.com%2fnews%2ftcs-hiring-strategy-2026-ai-agents-replacing-entry-level-it-jobs-011-60549.html\u0026c=1819730918087831563\u0026mkt=en-in",
+                              "Description":  "Tata Consultancy Services (TCS) recently signaled a major shift in its mass hiring strategy. The company warns that Artificial Intelligence (AI) agents will soon handle many entry-level tasks. This ...",
+                              "Published":  "Tue, 09 Jun 2026 10:35:00 GMT",
+                              "Query":  "Fresher Job for AI developer latest news trend",
+                              "ResourceScore":  53,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "X/Twitter",
+                              "Type":  "Social",
+                              "Title":  "Fresher Jobs: Latest Jobs for Freshers In India. Freshers Govt jobs ...",
+                              "Link":  "https://www.freshersworld.com/jobs",
+                              "Description":  "Fresher Jobs: Search \u0026 Apply for the Latest Fresher Jobs for Graduates \u0026 Post Graduates. Register with Freshersworld for Latest freshers job vacancies in India.",
+                              "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
+                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com",
+                              "ResourceScore":  52,
+                              "Domain":  "freshersworld.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Fresher Leaves ₹10 LPA Job, Then Settles for ₹5 LPA Salary – The Reason Is…",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d2a974f44314a26e0f4da105ac74\u0026url=https%3a%2f%2fwww.livemint.com%2fnews%2ftrends%2ffresher-leaves-10-lpa-job-then-settles-for-5-lpa-salary-the-reason-is-11743923428321.html\u0026c=13903734747747895771\u0026mkt=en-in",
+                              "Description":  "Success in a career isn’t about landing lucrative jobs with high salaries but about continuous self-improvement. This is especially true during the formative years in the workforce. A Redditor—a 2024 ...",
+                              "Published":  "Sun, 06 Apr 2025 11:47:00 GMT",
+                              "Query":  "Fresher Job for AI developer latest news trend",
+                              "ResourceScore":  51,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "AI jobs in 2025: From data scientists to generative AI developers, the most in-demand roles, salaries and trends",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d2a974f44314a26e0f4da105ac74\u0026url=https%3a%2f%2fwww.livemint.com%2fai%2fartificial-intelligence%2flooking-to-be-an-ai-expert-in-2025-check-top-job-roles-salaries-and-industry-trends-11734679408784.html\u0026c=14839331638561805170\u0026mkt=en-in",
+                              "Description":  "The demand for professionals skilled in artificial intelligence (AI) and machine learning (ML) is set to surge significantly in 2025, with industries such as healthcare, BFSI, and IT driving this ...",
+                              "Published":  "Fri, 20 Dec 2024 12:55:00 GMT",
+                              "Query":  "Fresher Job for AI developer latest news trend",
+                              "ResourceScore":  51,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Fresher hiring for AI skills in IT sector jumps to 20-25% from 5-10% in 3 years",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d2a974f44314a26e0f4da105ac74\u0026url=https%3a%2f%2fwww.financialexpress.com%2fjobs-career%2ffresher-hiring-for-ai-skills-in-it-sector-jumps-to-20-25-from-5-10-in-3-years-3684248%2f\u0026c=8094295223247448495\u0026mkt=en-in",
+                              "Description":  "Freshers entering the workforce are now expected to optimise existing systems and adopt an agile mindset. (Image/Freepik) IT companies are increasingly hiring higher number of candidates with ...",
+                              "Published":  "Thu, 05 Dec 2024 16:29:00 GMT",
+                              "Query":  "Fresher Job for AI developer latest news trend",
+                              "ResourceScore":  51,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Report reveals most in-demand jobs, Indian cities that are top locations for fresher hiring, salaries and more",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d2a974f44314a26e0f4da105ac74\u0026url=https%3a%2f%2ftimesofindia.indiatimes.com%2ftechnology%2ftech-news%2freport-reveals-most-in-demand-jobs-indian-cities-that-are-top-locations-for-fresher-hiring-salaries-and-more%2farticleshow%2f111037300.cms\u0026c=12272348445865546318\u0026mkt=en-in",
+                              "Description":  "IT companies in India are increasingly hiring entry-level professionals, especially in Delhi and Bengaluru, focusing on new technologies. Startups lead in hiring engineering students for roles like ...",
+                              "Published":  "Sun, 16 Jun 2024 14:22:00 GMT",
+                              "Query":  "Fresher Job for AI developer latest news trend",
+                              "ResourceScore":  51,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "91693 Fresher Job Vacancies In June 2026 - Naukri.com",
+                              "Link":  "https://www.naukri.com/fresher-jobs?experience=0",
+                              "Description":  "91693 Fresher Jobs Available On Naukri.com. Explore Fresher Job Vacancies In Your Desired Locations Now!",
+                              "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
+                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  50,
+                              "Domain":  "naukri.com"
+                          },
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "Freshershunt | Fresher IT Jobs 2026 - Off Campus Drives India",
+                              "Link":  "https://freshershunt.in/",
+                              "Description":  "Find the latest fresher IT jobs 2026 — off-campus drives, 2025 \u0026 2026 batch openings from TCS, Infosys, Wipro and more. Updated daily. Apply now!",
+                              "Published":  "Mon, 22 Jun 2026 00:49:00 GMT",
+                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  50,
+                              "Domain":  "freshershunt.in"
+                          }
+                      ],
+    "RedditDiscussionSignal":  75,
+    "GitHubOpenSourceSignal":  77,
+    "RecommendedAction":  "Start with LinkedIn using a Practical carousel, founder insight, or professional case study. Re-check signals weekly and turn top keywords into experiments.",
     "Platforms":  [
                       {
                           "Name":  "YouTube",
                           "Type":  "Video",
                           "Query":  "Fresher Job for AI developer site:youtube.com/watch",
-                          "Score":  100,
+                          "Score":  75,
                           "ResultCount":  8,
                           "Keywords":  [
                                            "jobs",
@@ -91,7 +225,9 @@
                                               "Link":  "https://careerforfreshers.com/category/fresher-jobs/",
                                               "Description":  "Find the newest fresher job openings across IT, engineering, healthcare, and corporate sectors to launch your career successfully.",
                                               "Published":  "Sun, 21 Jun 2026 11:42:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch"
+                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch",
+                                              "ResourceScore":  47,
+                                              "Domain":  "careerforfreshers.com"
                                           },
                                           {
                                               "Platform":  "YouTube",
@@ -100,7 +236,9 @@
                                               "Link":  "https://fresherdoor.in/",
                                               "Description":  "Begin your career in cloud computing and DevOps engineering with an exciting fresher opportunity focused on infrastructure automation, deployment engineering, cloud operations, and modern DevOps workflows.",
                                               "Published":  "Sat, 20 Jun 2026 21:01:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch"
+                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch",
+                                              "ResourceScore":  34,
+                                              "Domain":  "fresherdoor.in"
                                           },
                                           {
                                               "Platform":  "YouTube",
@@ -109,7 +247,9 @@
                                               "Link":  "https://freshershunt.in/",
                                               "Description":  "Find the latest fresher IT jobs 2026 — off-campus drives, 2025 \u0026 2026 batch openings from TCS, Infosys, Wipro and more. Updated daily. Apply now!",
                                               "Published":  "Mon, 22 Jun 2026 00:49:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch"
+                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch",
+                                              "ResourceScore":  42,
+                                              "Domain":  "freshershunt.in"
                                           },
                                           {
                                               "Platform":  "YouTube",
@@ -118,7 +258,9 @@
                                               "Link":  "https://in.linkedin.com/jobs/fresher-jobs",
                                               "Description":  "Leverage your professional network, and get hired. New Fresher jobs added daily.",
                                               "Published":  "Sun, 21 Jun 2026 21:14:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch"
+                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch",
+                                              "ResourceScore":  37,
+                                              "Domain":  "in.linkedin.com"
                                           },
                                           {
                                               "Platform":  "YouTube",
@@ -127,7 +269,9 @@
                                               "Link":  "https://www.freshersnow.com/",
                                               "Description":  "Freshersnow.com is one of the best job portals in India. We provide updates on freshers jobs, it jobs, govt jobs, bank jobs, bpo jobs, internship jobs, railway jobs, startup jobs, tv jobs, walkins, off campus drives across India.",
                                               "Published":  "Sun, 21 Jun 2026 02:16:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch"
+                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch",
+                                              "ResourceScore":  34,
+                                              "Domain":  "freshersnow.com"
                                           },
                                           {
                                               "Platform":  "YouTube",
@@ -136,7 +280,9 @@
                                               "Link":  "https://www.freshersworld.com/",
                                               "Description":  "No.1 Job sites in India: Freshersworld is one of the best job portals for freshers, offers opportunities to trained and experienced professionals, useful if you are a fresher who is searching for a job.",
                                               "Published":  "Mon, 15 Jun 2026 05:51:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch"
+                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch",
+                                              "ResourceScore":  36,
+                                              "Domain":  "freshersworld.com"
                                           },
                                           {
                                               "Platform":  "YouTube",
@@ -145,7 +291,9 @@
                                               "Link":  "https://www.freshersworld.com/jobs",
                                               "Description":  "Fresher Jobs: Search \u0026 Apply for the Latest Fresher Jobs for Graduates \u0026 Post Graduates. Register with Freshersworld for Latest freshers job vacancies in India.",
                                               "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch"
+                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch",
+                                              "ResourceScore":  47,
+                                              "Domain":  "freshersworld.com"
                                           },
                                           {
                                               "Platform":  "YouTube",
@@ -154,7 +302,9 @@
                                               "Link":  "https://www.naukri.com/fresher-jobs?experience=0",
                                               "Description":  "91693 Fresher Jobs Available On Naukri.com. Explore Fresher Job Vacancies In Your Desired Locations Now!",
                                               "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch"
+                                              "Query":  "Fresher Job for AI developer site:youtube.com/watch",
+                                              "ResourceScore":  42,
+                                              "Domain":  "naukri.com"
                                           }
                                       ]
                       },
@@ -162,7 +312,7 @@
                           "Name":  "X/Twitter",
                           "Type":  "Social",
                           "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com",
-                          "Score":  100,
+                          "Score":  75,
                           "ResultCount":  8,
                           "Keywords":  [
                                            "jobs",
@@ -182,7 +332,9 @@
                                               "Link":  "https://careerforfreshers.com/category/fresher-jobs/",
                                               "Description":  "Find the newest fresher job openings across IT, engineering, healthcare, and corporate sectors to launch your career successfully.",
                                               "Published":  "Sun, 21 Jun 2026 11:42:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com"
+                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com",
+                                              "ResourceScore":  47,
+                                              "Domain":  "careerforfreshers.com"
                                           },
                                           {
                                               "Platform":  "X/Twitter",
@@ -191,7 +343,9 @@
                                               "Link":  "https://fresherdoor.in/",
                                               "Description":  "Begin your career in cloud computing and DevOps engineering with an exciting fresher opportunity focused on infrastructure automation, deployment engineering, cloud operations, and modern DevOps workflows.",
                                               "Published":  "Sat, 20 Jun 2026 21:01:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com"
+                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com",
+                                              "ResourceScore":  34,
+                                              "Domain":  "fresherdoor.in"
                                           },
                                           {
                                               "Platform":  "X/Twitter",
@@ -200,7 +354,9 @@
                                               "Link":  "https://freshershunt.in/",
                                               "Description":  "Find the latest fresher IT jobs 2026 — off-campus drives, 2025 \u0026 2026 batch openings from TCS, Infosys, Wipro and more. Updated daily. Apply now!",
                                               "Published":  "Mon, 22 Jun 2026 00:49:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com"
+                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com",
+                                              "ResourceScore":  42,
+                                              "Domain":  "freshershunt.in"
                                           },
                                           {
                                               "Platform":  "X/Twitter",
@@ -209,7 +365,9 @@
                                               "Link":  "https://in.linkedin.com/jobs/fresher-jobs",
                                               "Description":  "Leverage your professional network, and get hired. New Fresher jobs added daily.",
                                               "Published":  "Sun, 21 Jun 2026 21:14:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com"
+                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com",
+                                              "ResourceScore":  37,
+                                              "Domain":  "in.linkedin.com"
                                           },
                                           {
                                               "Platform":  "X/Twitter",
@@ -218,7 +376,9 @@
                                               "Link":  "https://www.freshersnow.com/",
                                               "Description":  "Freshersnow.com is one of the best job portals in India. We provide updates on freshers jobs, it jobs, govt jobs, bank jobs, bpo jobs, internship jobs, railway jobs, startup jobs, tv jobs, walkins, off campus drives across India.",
                                               "Published":  "Sun, 21 Jun 2026 02:16:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com"
+                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com",
+                                              "ResourceScore":  34,
+                                              "Domain":  "freshersnow.com"
                                           },
                                           {
                                               "Platform":  "X/Twitter",
@@ -227,7 +387,9 @@
                                               "Link":  "https://www.freshersworld.com/",
                                               "Description":  "No.1 Job sites in India: Freshersworld is one of the best job portals for freshers, offers opportunities to trained and experienced professionals, useful if you are a fresher who is searching for a job.",
                                               "Published":  "Mon, 15 Jun 2026 05:51:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com"
+                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com",
+                                              "ResourceScore":  36,
+                                              "Domain":  "freshersworld.com"
                                           },
                                           {
                                               "Platform":  "X/Twitter",
@@ -236,7 +398,9 @@
                                               "Link":  "https://www.freshersworld.com/jobs",
                                               "Description":  "Fresher Jobs: Search \u0026 Apply for the Latest Fresher Jobs for Graduates \u0026 Post Graduates. Register with Freshersworld for Latest freshers job vacancies in India.",
                                               "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com"
+                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com",
+                                              "ResourceScore":  52,
+                                              "Domain":  "freshersworld.com"
                                           },
                                           {
                                               "Platform":  "X/Twitter",
@@ -245,7 +409,9 @@
                                               "Link":  "https://www.naukri.com/fresher-jobs?experience=0",
                                               "Description":  "91693 Fresher Jobs Available On Naukri.com. Explore Fresher Job Vacancies In Your Desired Locations Now!",
                                               "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com"
+                                              "Query":  "Fresher Job for AI developer site:x.com OR site:twitter.com",
+                                              "ResourceScore":  42,
+                                              "Domain":  "naukri.com"
                                           }
                                       ]
                       },
@@ -253,7 +419,7 @@
                           "Name":  "LinkedIn",
                           "Type":  "Social",
                           "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse",
-                          "Score":  100,
+                          "Score":  84,
                           "ResultCount":  8,
                           "Keywords":  [
                                            "jobs",
@@ -273,7 +439,9 @@
                                               "Link":  "https://careerforfreshers.com/category/fresher-jobs/",
                                               "Description":  "Find the newest fresher job openings across IT, engineering, healthcare, and corporate sectors to launch your career successfully.",
                                               "Published":  "Sun, 21 Jun 2026 11:42:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  55,
+                                              "Domain":  "careerforfreshers.com"
                                           },
                                           {
                                               "Platform":  "LinkedIn",
@@ -282,7 +450,9 @@
                                               "Link":  "https://fresherdoor.in/",
                                               "Description":  "Begin your career in cloud computing and DevOps engineering with an exciting fresher opportunity focused on infrastructure automation, deployment engineering, cloud operations, and modern DevOps workflows.",
                                               "Published":  "Sat, 20 Jun 2026 21:01:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  42,
+                                              "Domain":  "fresherdoor.in"
                                           },
                                           {
                                               "Platform":  "LinkedIn",
@@ -291,7 +461,9 @@
                                               "Link":  "https://freshershunt.in/",
                                               "Description":  "Find the latest fresher IT jobs 2026 — off-campus drives, 2025 \u0026 2026 batch openings from TCS, Infosys, Wipro and more. Updated daily. Apply now!",
                                               "Published":  "Mon, 22 Jun 2026 00:49:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  50,
+                                              "Domain":  "freshershunt.in"
                                           },
                                           {
                                               "Platform":  "LinkedIn",
@@ -300,7 +472,9 @@
                                               "Link":  "https://in.linkedin.com/jobs/fresher-jobs",
                                               "Description":  "Leverage your professional network, and get hired. New Fresher jobs added daily.",
                                               "Published":  "Sun, 21 Jun 2026 21:14:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  61,
+                                              "Domain":  "in.linkedin.com"
                                           },
                                           {
                                               "Platform":  "LinkedIn",
@@ -309,7 +483,9 @@
                                               "Link":  "https://www.freshersnow.com/",
                                               "Description":  "Freshersnow.com is one of the best job portals in India. We provide updates on freshers jobs, it jobs, govt jobs, bank jobs, bpo jobs, internship jobs, railway jobs, startup jobs, tv jobs, walkins, off campus drives across India.",
                                               "Published":  "Sun, 21 Jun 2026 02:16:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  42,
+                                              "Domain":  "freshersnow.com"
                                           },
                                           {
                                               "Platform":  "LinkedIn",
@@ -318,7 +494,9 @@
                                               "Link":  "https://www.freshersworld.com/",
                                               "Description":  "No.1 Job sites in India: Freshersworld is one of the best job portals for freshers, offers opportunities to trained and experienced professionals, useful if you are a fresher who is searching for a job.",
                                               "Published":  "Mon, 15 Jun 2026 05:51:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  44,
+                                              "Domain":  "freshersworld.com"
                                           },
                                           {
                                               "Platform":  "LinkedIn",
@@ -327,7 +505,9 @@
                                               "Link":  "https://www.freshersworld.com/jobs",
                                               "Description":  "Fresher Jobs: Search \u0026 Apply for the Latest Fresher Jobs for Graduates \u0026 Post Graduates. Register with Freshersworld for Latest freshers job vacancies in India.",
                                               "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  55,
+                                              "Domain":  "freshersworld.com"
                                           },
                                           {
                                               "Platform":  "LinkedIn",
@@ -336,7 +516,9 @@
                                               "Link":  "https://www.naukri.com/fresher-jobs?experience=0",
                                               "Description":  "91693 Fresher Jobs Available On Naukri.com. Explore Fresher Job Vacancies In Your Desired Locations Now!",
                                               "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "Fresher Job for AI developer site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  50,
+                                              "Domain":  "naukri.com"
                                           }
                                       ]
                       },
@@ -344,7 +526,7 @@
                           "Name":  "Reddit",
                           "Type":  "Community",
                           "Query":  "Fresher Job for AI developer site:reddit.com/r",
-                          "Score":  100,
+                          "Score":  75,
                           "ResultCount":  8,
                           "Keywords":  [
                                            "jobs",
@@ -364,7 +546,9 @@
                                               "Link":  "https://careerforfreshers.com/category/fresher-jobs/",
                                               "Description":  "Find the newest fresher job openings across IT, engineering, healthcare, and corporate sectors to launch your career successfully.",
                                               "Published":  "Sun, 21 Jun 2026 11:42:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:reddit.com/r"
+                                              "Query":  "Fresher Job for AI developer site:reddit.com/r",
+                                              "ResourceScore":  47,
+                                              "Domain":  "careerforfreshers.com"
                                           },
                                           {
                                               "Platform":  "Reddit",
@@ -373,7 +557,9 @@
                                               "Link":  "https://fresherdoor.in/",
                                               "Description":  "Begin your career in cloud computing and DevOps engineering with an exciting fresher opportunity focused on infrastructure automation, deployment engineering, cloud operations, and modern DevOps workflows.",
                                               "Published":  "Sat, 20 Jun 2026 21:01:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:reddit.com/r"
+                                              "Query":  "Fresher Job for AI developer site:reddit.com/r",
+                                              "ResourceScore":  34,
+                                              "Domain":  "fresherdoor.in"
                                           },
                                           {
                                               "Platform":  "Reddit",
@@ -382,7 +568,9 @@
                                               "Link":  "https://freshershunt.in/",
                                               "Description":  "Find the latest fresher IT jobs 2026 — off-campus drives, 2025 \u0026 2026 batch openings from TCS, Infosys, Wipro and more. Updated daily. Apply now!",
                                               "Published":  "Mon, 22 Jun 2026 00:49:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:reddit.com/r"
+                                              "Query":  "Fresher Job for AI developer site:reddit.com/r",
+                                              "ResourceScore":  42,
+                                              "Domain":  "freshershunt.in"
                                           },
                                           {
                                               "Platform":  "Reddit",
@@ -391,7 +579,9 @@
                                               "Link":  "https://in.linkedin.com/jobs/fresher-jobs",
                                               "Description":  "Leverage your professional network, and get hired. New Fresher jobs added daily.",
                                               "Published":  "Sun, 21 Jun 2026 21:14:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:reddit.com/r"
+                                              "Query":  "Fresher Job for AI developer site:reddit.com/r",
+                                              "ResourceScore":  37,
+                                              "Domain":  "in.linkedin.com"
                                           },
                                           {
                                               "Platform":  "Reddit",
@@ -400,7 +590,9 @@
                                               "Link":  "https://www.freshersnow.com/",
                                               "Description":  "Freshersnow.com is one of the best job portals in India. We provide updates on freshers jobs, it jobs, govt jobs, bank jobs, bpo jobs, internship jobs, railway jobs, startup jobs, tv jobs, walkins, off campus drives across India.",
                                               "Published":  "Sun, 21 Jun 2026 02:16:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:reddit.com/r"
+                                              "Query":  "Fresher Job for AI developer site:reddit.com/r",
+                                              "ResourceScore":  34,
+                                              "Domain":  "freshersnow.com"
                                           },
                                           {
                                               "Platform":  "Reddit",
@@ -409,7 +601,9 @@
                                               "Link":  "https://www.freshersworld.com/",
                                               "Description":  "No.1 Job sites in India: Freshersworld is one of the best job portals for freshers, offers opportunities to trained and experienced professionals, useful if you are a fresher who is searching for a job.",
                                               "Published":  "Mon, 15 Jun 2026 05:51:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:reddit.com/r"
+                                              "Query":  "Fresher Job for AI developer site:reddit.com/r",
+                                              "ResourceScore":  36,
+                                              "Domain":  "freshersworld.com"
                                           },
                                           {
                                               "Platform":  "Reddit",
@@ -418,7 +612,9 @@
                                               "Link":  "https://www.freshersworld.com/jobs",
                                               "Description":  "Fresher Jobs: Search \u0026 Apply for the Latest Fresher Jobs for Graduates \u0026 Post Graduates. Register with Freshersworld for Latest freshers job vacancies in India.",
                                               "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:reddit.com/r"
+                                              "Query":  "Fresher Job for AI developer site:reddit.com/r",
+                                              "ResourceScore":  47,
+                                              "Domain":  "freshersworld.com"
                                           },
                                           {
                                               "Platform":  "Reddit",
@@ -427,7 +623,9 @@
                                               "Link":  "https://www.naukri.com/fresher-jobs?experience=0",
                                               "Description":  "91693 Fresher Jobs Available On Naukri.com. Explore Fresher Job Vacancies In Your Desired Locations Now!",
                                               "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:reddit.com/r"
+                                              "Query":  "Fresher Job for AI developer site:reddit.com/r",
+                                              "ResourceScore":  42,
+                                              "Domain":  "naukri.com"
                                           }
                                       ]
                       },
@@ -435,7 +633,7 @@
                           "Name":  "GitHub",
                           "Type":  "Open Source",
                           "Query":  "Fresher Job for AI developer site:github.com repository open source",
-                          "Score":  100,
+                          "Score":  77,
                           "ResultCount":  8,
                           "Keywords":  [
                                            "jobs",
@@ -455,7 +653,9 @@
                                               "Link":  "https://careerforfreshers.com/category/fresher-jobs/",
                                               "Description":  "Find the newest fresher job openings across IT, engineering, healthcare, and corporate sectors to launch your career successfully.",
                                               "Published":  "Sun, 21 Jun 2026 11:42:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:github.com repository open source"
+                                              "Query":  "Fresher Job for AI developer site:github.com repository open source",
+                                              "ResourceScore":  47,
+                                              "Domain":  "careerforfreshers.com"
                                           },
                                           {
                                               "Platform":  "GitHub",
@@ -464,7 +664,9 @@
                                               "Link":  "https://fresherdoor.in/",
                                               "Description":  "Begin your career in cloud computing and DevOps engineering with an exciting fresher opportunity focused on infrastructure automation, deployment engineering, cloud operations, and modern DevOps workflows.",
                                               "Published":  "Sat, 20 Jun 2026 21:01:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:github.com repository open source"
+                                              "Query":  "Fresher Job for AI developer site:github.com repository open source",
+                                              "ResourceScore":  34,
+                                              "Domain":  "fresherdoor.in"
                                           },
                                           {
                                               "Platform":  "GitHub",
@@ -473,7 +675,9 @@
                                               "Link":  "https://freshershunt.in/",
                                               "Description":  "Find the latest fresher IT jobs 2026 — off-campus drives, 2025 \u0026 2026 batch openings from TCS, Infosys, Wipro and more. Updated daily. Apply now!",
                                               "Published":  "Mon, 22 Jun 2026 00:49:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:github.com repository open source"
+                                              "Query":  "Fresher Job for AI developer site:github.com repository open source",
+                                              "ResourceScore":  42,
+                                              "Domain":  "freshershunt.in"
                                           },
                                           {
                                               "Platform":  "GitHub",
@@ -482,7 +686,9 @@
                                               "Link":  "https://in.linkedin.com/jobs/fresher-jobs",
                                               "Description":  "Leverage your professional network, and get hired. New Fresher jobs added daily.",
                                               "Published":  "Sun, 21 Jun 2026 21:14:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:github.com repository open source"
+                                              "Query":  "Fresher Job for AI developer site:github.com repository open source",
+                                              "ResourceScore":  37,
+                                              "Domain":  "in.linkedin.com"
                                           },
                                           {
                                               "Platform":  "GitHub",
@@ -491,7 +697,9 @@
                                               "Link":  "https://www.freshersnow.com/",
                                               "Description":  "Freshersnow.com is one of the best job portals in India. We provide updates on freshers jobs, it jobs, govt jobs, bank jobs, bpo jobs, internship jobs, railway jobs, startup jobs, tv jobs, walkins, off campus drives across India.",
                                               "Published":  "Sun, 21 Jun 2026 02:16:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:github.com repository open source"
+                                              "Query":  "Fresher Job for AI developer site:github.com repository open source",
+                                              "ResourceScore":  34,
+                                              "Domain":  "freshersnow.com"
                                           },
                                           {
                                               "Platform":  "GitHub",
@@ -500,7 +708,9 @@
                                               "Link":  "https://www.freshersworld.com/",
                                               "Description":  "No.1 Job sites in India: Freshersworld is one of the best job portals for freshers, offers opportunities to trained and experienced professionals, useful if you are a fresher who is searching for a job.",
                                               "Published":  "Mon, 15 Jun 2026 05:51:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:github.com repository open source"
+                                              "Query":  "Fresher Job for AI developer site:github.com repository open source",
+                                              "ResourceScore":  36,
+                                              "Domain":  "freshersworld.com"
                                           },
                                           {
                                               "Platform":  "GitHub",
@@ -509,7 +719,9 @@
                                               "Link":  "https://www.freshersworld.com/jobs",
                                               "Description":  "Fresher Jobs: Search \u0026 Apply for the Latest Fresher Jobs for Graduates \u0026 Post Graduates. Register with Freshersworld for Latest freshers job vacancies in India.",
                                               "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:github.com repository open source"
+                                              "Query":  "Fresher Job for AI developer site:github.com repository open source",
+                                              "ResourceScore":  47,
+                                              "Domain":  "freshersworld.com"
                                           },
                                           {
                                               "Platform":  "GitHub",
@@ -518,7 +730,9 @@
                                               "Link":  "https://www.naukri.com/fresher-jobs?experience=0",
                                               "Description":  "91693 Fresher Jobs Available On Naukri.com. Explore Fresher Job Vacancies In Your Desired Locations Now!",
                                               "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
-                                              "Query":  "Fresher Job for AI developer site:github.com repository open source"
+                                              "Query":  "Fresher Job for AI developer site:github.com repository open source",
+                                              "ResourceScore":  42,
+                                              "Domain":  "naukri.com"
                                           }
                                       ]
                       },
@@ -526,7 +740,7 @@
                           "Name":  "Google/Web",
                           "Type":  "Web",
                           "Query":  "Fresher Job for AI developer latest trend guide analysis",
-                          "Score":  100,
+                          "Score":  73,
                           "ResultCount":  8,
                           "Keywords":  [
                                            "jobs",
@@ -546,7 +760,9 @@
                                               "Link":  "https://careerforfreshers.com/category/fresher-jobs/",
                                               "Description":  "Find the newest fresher job openings across IT, engineering, healthcare, and corporate sectors to launch your career successfully.",
                                               "Published":  "Sun, 21 Jun 2026 11:42:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest trend guide analysis"
+                                              "Query":  "Fresher Job for AI developer latest trend guide analysis",
+                                              "ResourceScore":  47,
+                                              "Domain":  "careerforfreshers.com"
                                           },
                                           {
                                               "Platform":  "Google/Web",
@@ -555,7 +771,9 @@
                                               "Link":  "https://fresherdoor.in/",
                                               "Description":  "Begin your career in cloud computing and DevOps engineering with an exciting fresher opportunity focused on infrastructure automation, deployment engineering, cloud operations, and modern DevOps workflows.",
                                               "Published":  "Sat, 20 Jun 2026 21:01:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest trend guide analysis"
+                                              "Query":  "Fresher Job for AI developer latest trend guide analysis",
+                                              "ResourceScore":  34,
+                                              "Domain":  "fresherdoor.in"
                                           },
                                           {
                                               "Platform":  "Google/Web",
@@ -564,7 +782,9 @@
                                               "Link":  "https://freshershunt.in/",
                                               "Description":  "Find the latest fresher IT jobs 2026 — off-campus drives, 2025 \u0026 2026 batch openings from TCS, Infosys, Wipro and more. Updated daily. Apply now!",
                                               "Published":  "Mon, 22 Jun 2026 00:49:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest trend guide analysis"
+                                              "Query":  "Fresher Job for AI developer latest trend guide analysis",
+                                              "ResourceScore":  42,
+                                              "Domain":  "freshershunt.in"
                                           },
                                           {
                                               "Platform":  "Google/Web",
@@ -573,7 +793,9 @@
                                               "Link":  "https://in.linkedin.com/jobs/fresher-jobs",
                                               "Description":  "Leverage your professional network, and get hired. New Fresher jobs added daily.",
                                               "Published":  "Sun, 21 Jun 2026 21:14:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest trend guide analysis"
+                                              "Query":  "Fresher Job for AI developer latest trend guide analysis",
+                                              "ResourceScore":  37,
+                                              "Domain":  "in.linkedin.com"
                                           },
                                           {
                                               "Platform":  "Google/Web",
@@ -582,7 +804,9 @@
                                               "Link":  "https://www.freshersnow.com/",
                                               "Description":  "Freshersnow.com is one of the best job portals in India. We provide updates on freshers jobs, it jobs, govt jobs, bank jobs, bpo jobs, internship jobs, railway jobs, startup jobs, tv jobs, walkins, off campus drives across India.",
                                               "Published":  "Sun, 21 Jun 2026 02:16:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest trend guide analysis"
+                                              "Query":  "Fresher Job for AI developer latest trend guide analysis",
+                                              "ResourceScore":  34,
+                                              "Domain":  "freshersnow.com"
                                           },
                                           {
                                               "Platform":  "Google/Web",
@@ -591,7 +815,9 @@
                                               "Link":  "https://www.freshersworld.com/",
                                               "Description":  "No.1 Job sites in India: Freshersworld is one of the best job portals for freshers, offers opportunities to trained and experienced professionals, useful if you are a fresher who is searching for a job.",
                                               "Published":  "Mon, 15 Jun 2026 05:51:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest trend guide analysis"
+                                              "Query":  "Fresher Job for AI developer latest trend guide analysis",
+                                              "ResourceScore":  36,
+                                              "Domain":  "freshersworld.com"
                                           },
                                           {
                                               "Platform":  "Google/Web",
@@ -600,7 +826,9 @@
                                               "Link":  "https://www.freshersworld.com/jobs",
                                               "Description":  "Fresher Jobs: Search \u0026 Apply for the Latest Fresher Jobs for Graduates \u0026 Post Graduates. Register with Freshersworld for Latest freshers job vacancies in India.",
                                               "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest trend guide analysis"
+                                              "Query":  "Fresher Job for AI developer latest trend guide analysis",
+                                              "ResourceScore":  47,
+                                              "Domain":  "freshersworld.com"
                                           },
                                           {
                                               "Platform":  "Google/Web",
@@ -609,7 +837,9 @@
                                               "Link":  "https://www.naukri.com/fresher-jobs?experience=0",
                                               "Description":  "91693 Fresher Jobs Available On Naukri.com. Explore Fresher Job Vacancies In Your Desired Locations Now!",
                                               "Published":  "Sun, 21 Jun 2026 21:07:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest trend guide analysis"
+                                              "Query":  "Fresher Job for AI developer latest trend guide analysis",
+                                              "ResourceScore":  42,
+                                              "Domain":  "naukri.com"
                                           }
                                       ]
                       },
@@ -617,7 +847,7 @@
                           "Name":  "News",
                           "Type":  "News",
                           "Query":  "Fresher Job for AI developer latest news trend",
-                          "Score":  100,
+                          "Score":  73,
                           "ResultCount":  8,
                           "Keywords":  [
                                            "hiring",
@@ -634,78 +864,94 @@
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "Cognizant doubles fresher hiring in 2025; CEO says company plans to hire more graduates to …",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d0422f264d8abedc15166bbacf1a\u0026url=https%3a%2f%2ftimesofindia.indiatimes.com%2ftechnology%2ftech-news%2fcognizant-doubles-fresher-hiring-in-2025-ceo-says-company-plans-to-hire-more-graduates-to-%2farticleshow%2f120813553.cms\u0026c=16657918357605961569\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d2a974f44314a26e0f4da105ac74\u0026url=https%3a%2f%2ftimesofindia.indiatimes.com%2ftechnology%2ftech-news%2fcognizant-doubles-fresher-hiring-in-2025-ceo-says-company-plans-to-hire-more-graduates-to-%2farticleshow%2f120813553.cms\u0026c=16657918357605961569\u0026mkt=en-in",
                                               "Description":  "Cognizant plans to hire 20,000 freshers this year, more than double the previous year\u0027s intake, to reshape its talent pyramid and support AI-led software development. CEO Ravi Kumar S. emphasizes ...",
                                               "Published":  "Fri, 02 May 2025 09:51:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest news trend"
+                                              "Query":  "Fresher Job for AI developer latest news trend",
+                                              "ResourceScore":  41,
+                                              "Domain":  "bing.com"
                                           },
                                           {
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "Report reveals most in-demand jobs, Indian cities that are top locations for fresher hiring, salaries and more",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d0422f264d8abedc15166bbacf1a\u0026url=https%3a%2f%2ftimesofindia.indiatimes.com%2ftechnology%2ftech-news%2freport-reveals-most-in-demand-jobs-indian-cities-that-are-top-locations-for-fresher-hiring-salaries-and-more%2farticleshow%2f111037300.cms\u0026c=12272348445865546318\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d2a974f44314a26e0f4da105ac74\u0026url=https%3a%2f%2ftimesofindia.indiatimes.com%2ftechnology%2ftech-news%2freport-reveals-most-in-demand-jobs-indian-cities-that-are-top-locations-for-fresher-hiring-salaries-and-more%2farticleshow%2f111037300.cms\u0026c=12272348445865546318\u0026mkt=en-in",
                                               "Description":  "IT companies in India are increasingly hiring entry-level professionals, especially in Delhi and Bengaluru, focusing on new technologies. Startups lead in hiring engineering students for roles like ...",
                                               "Published":  "Sun, 16 Jun 2024 14:22:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest news trend"
+                                              "Query":  "Fresher Job for AI developer latest news trend",
+                                              "ResourceScore":  51,
+                                              "Domain":  "bing.com"
                                           },
                                           {
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "AI Automation is Reshaping Indian Careers: High-Paying Roles Freshers Must Master in 2026",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d0422f264d8abedc15166bbacf1a\u0026url=https%3a%2f%2fwww.careerindia.com%2fnews%2fai-careers-in-india-2026-high-paying-roles-for-freshers-011-61053.html\u0026c=13278923549848299264\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d2a974f44314a26e0f4da105ac74\u0026url=https%3a%2f%2fwww.careerindia.com%2fnews%2fai-careers-in-india-2026-high-paying-roles-for-freshers-011-61053.html\u0026c=13278923549848299264\u0026mkt=en-in",
                                               "Description":  "A new study shows Artificial Intelligence (AI) now handles 37% of entry-level tasks in India. This shift forces Indian freshers to rethink their career paths. Traditional manual data entry and basic ...",
                                               "Published":  "Fri, 19 Jun 2026 10:13:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest news trend"
+                                              "Query":  "Fresher Job for AI developer latest news trend",
+                                              "ResourceScore":  56,
+                                              "Domain":  "bing.com"
                                           },
                                           {
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "The End of Easy IT Jobs? How TCS is Replacing Freshers with AI Agents in 2026",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d0422f264d8abedc15166bbacf1a\u0026url=https%3a%2f%2fwww.careerindia.com%2fnews%2ftcs-hiring-strategy-2026-ai-agents-replacing-entry-level-it-jobs-011-60549.html\u0026c=1819730918087831563\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d2a974f44314a26e0f4da105ac74\u0026url=https%3a%2f%2fwww.careerindia.com%2fnews%2ftcs-hiring-strategy-2026-ai-agents-replacing-entry-level-it-jobs-011-60549.html\u0026c=1819730918087831563\u0026mkt=en-in",
                                               "Description":  "Tata Consultancy Services (TCS) recently signaled a major shift in its mass hiring strategy. The company warns that Artificial Intelligence (AI) agents will soon handle many entry-level tasks. This ...",
                                               "Published":  "Tue, 09 Jun 2026 10:35:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest news trend"
+                                              "Query":  "Fresher Job for AI developer latest news trend",
+                                              "ResourceScore":  53,
+                                              "Domain":  "bing.com"
                                           },
                                           {
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "Startups cushion IT hiring slowdown",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d0422f264d8abedc15166bbacf1a\u0026url=https%3a%2f%2fwww.financialexpress.com%2fbusiness%2fnews-tech-startups-ramp-up-fresher-hiring-as-it-hiring-takes-a-hit-4220820%2f\u0026c=10475009051019556859\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d2a974f44314a26e0f4da105ac74\u0026url=https%3a%2f%2fwww.financialexpress.com%2fbusiness%2fnews-tech-startups-ramp-up-fresher-hiring-as-it-hiring-takes-a-hit-4220820%2f\u0026c=10475009051019556859\u0026mkt=en-in",
                                               "Description":  "Fresher hiring in the technology sector is being reshaped as large IT services firms scale back bulk recruitment while startups expand campus presence, helping keep overall placement volumes broadly ...",
                                               "Published":  "Sat, 02 May 2026 15:44:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest news trend"
+                                              "Query":  "Fresher Job for AI developer latest news trend",
+                                              "ResourceScore":  45,
+                                              "Domain":  "bing.com"
                                           },
                                           {
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "Fresher hiring for AI skills in IT sector jumps to 20-25% from 5-10% in 3 years",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d0422f264d8abedc15166bbacf1a\u0026url=https%3a%2f%2fwww.financialexpress.com%2fjobs-career%2ffresher-hiring-for-ai-skills-in-it-sector-jumps-to-20-25-from-5-10-in-3-years-3684248%2f\u0026c=8094295223247448495\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d2a974f44314a26e0f4da105ac74\u0026url=https%3a%2f%2fwww.financialexpress.com%2fjobs-career%2ffresher-hiring-for-ai-skills-in-it-sector-jumps-to-20-25-from-5-10-in-3-years-3684248%2f\u0026c=8094295223247448495\u0026mkt=en-in",
                                               "Description":  "Freshers entering the workforce are now expected to optimise existing systems and adopt an agile mindset. (Image/Freepik) IT companies are increasingly hiring higher number of candidates with ...",
                                               "Published":  "Thu, 05 Dec 2024 16:29:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest news trend"
+                                              "Query":  "Fresher Job for AI developer latest news trend",
+                                              "ResourceScore":  51,
+                                              "Domain":  "bing.com"
                                           },
                                           {
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "AI jobs in 2025: From data scientists to generative AI developers, the most in-demand roles, salaries and trends",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d0422f264d8abedc15166bbacf1a\u0026url=https%3a%2f%2fwww.livemint.com%2fai%2fartificial-intelligence%2flooking-to-be-an-ai-expert-in-2025-check-top-job-roles-salaries-and-industry-trends-11734679408784.html\u0026c=14839331638561805170\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d2a974f44314a26e0f4da105ac74\u0026url=https%3a%2f%2fwww.livemint.com%2fai%2fartificial-intelligence%2flooking-to-be-an-ai-expert-in-2025-check-top-job-roles-salaries-and-industry-trends-11734679408784.html\u0026c=14839331638561805170\u0026mkt=en-in",
                                               "Description":  "The demand for professionals skilled in artificial intelligence (AI) and machine learning (ML) is set to surge significantly in 2025, with industries such as healthcare, BFSI, and IT driving this ...",
                                               "Published":  "Fri, 20 Dec 2024 12:55:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest news trend"
+                                              "Query":  "Fresher Job for AI developer latest news trend",
+                                              "ResourceScore":  51,
+                                              "Domain":  "bing.com"
                                           },
                                           {
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "Fresher Leaves ₹10 LPA Job, Then Settles for ₹5 LPA Salary – The Reason Is…",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d0422f264d8abedc15166bbacf1a\u0026url=https%3a%2f%2fwww.livemint.com%2fnews%2ftrends%2ffresher-leaves-10-lpa-job-then-settles-for-5-lpa-salary-the-reason-is-11743923428321.html\u0026c=13903734747747895771\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d2a974f44314a26e0f4da105ac74\u0026url=https%3a%2f%2fwww.livemint.com%2fnews%2ftrends%2ffresher-leaves-10-lpa-job-then-settles-for-5-lpa-salary-the-reason-is-11743923428321.html\u0026c=13903734747747895771\u0026mkt=en-in",
                                               "Description":  "Success in a career isn’t about landing lucrative jobs with high salaries but about continuous self-improvement. This is especially true during the formative years in the workforce. A Redditor—a 2024 ...",
                                               "Published":  "Sun, 06 Apr 2025 11:47:00 GMT",
-                                              "Query":  "Fresher Job for AI developer latest news trend"
+                                              "Query":  "Fresher Job for AI developer latest news trend",
+                                              "ResourceScore":  51,
+                                              "Domain":  "bing.com"
                                           }
                                       ]
                       }
                   ],
-    "GemmaSummary":  "## Gemma Trend Summary\n\n*   **Growing Demand for Fresh AI Developers:** There’s a significant surge in job postings specifically targeting freshers with an increasing focus on India, indicating high demand for entry-level roles within the field.\n*   **Com as the Primary Destination:** LinkedIn and GitHub are consistently showing the highest volume of relevant job listings related to \"Fresher Job for AI developer,\" suggesting this platform is currently the most effective channel for finding opportunities.\n*   **Focus on India \u0026 Emerging Technologies:** YouTube, Reddit, and Google/Web highlight a strong emphasis on India as a primary location for these roles, hinting at growing interest in local talent and specific technological trends (engineering).\n\n## Platform Decision\n\n- **GitHub First - Core Focus:** GitHub should be the first platform used due to its concentration of open-source projects related to AI development. It’s likely where many freshers are seeking practical experience and learning resources.\n\n\n## Behaviour Prediction\n\n– Users will actively search for specific job titles (e.g., \"AI Engineer Freshers India\") on LinkedIn, GitHub, and Google/Web.  They\u0027ll also explore open-source projects related to the technologies mentioned in their job descriptions. \n – Increased engagement with tutorials and documentation on platforms like YouTube and Reddit suggests a desire for hands-on learning.\n\n\n## Content Plan (Next 7 Days)\n\n1. **LinkedIn Article - \"Top 5 AI Skills for Freshers in India\":**  Create an article highlighting essential skills and career pathways for fresh AI developers in India, focusing on practical application.\n2. **GitHub Repository Showcase - “Project X: A Fresher’s First Project”:** Develop a GitHub repository showcasing a small, manageable project that demonstrates fundamental AI concepts (e.g., image classification) – encouraging collaboration and learning. \n3.  **YouTube Tutorial Series – \"AI Fundamentals for Beginners\":** Produce a short series of YouTube tutorials on core AI concepts like neural networks or regression analysis to cater to beginners.\n4. **Reddit AMA - “Ask Me Anything” Session about Fresher Job Opportunities in AI:** Host an AMA session on Reddit where freshers can ask questions about career paths and opportunities within the field, fostering community engagement. \n5.  **Blog Post – \"Navigating the Indian AI Job Market: Tips for Freshers\"**: A blog post addressing common challenges and providing practical advice for new entrants to the industry.\n\n\n## Related Topic Opportunities\n\n*   **Fresher Job for AI Developer Tools:** Explore tools like Jupyter Notebooks, TensorFlow/PyTorch, and cloud platforms (AWS SageMaker) that are frequently discussed in job postings.\n*   **Fresher Job for AI Developer Workflow:** Focus on processes such as data cleaning, model training, evaluation, and deployment – all crucial aspects of the role. \n*   **Fresher Job for AI Developer Use Cases:** Highlight specific applications like NLP (Natural Language Processing), Computer Vision, or recommendation systems.\n*   **Fresher Job for AI Developer Tutorial:** Create step-by-step tutorials on fundamental concepts in machine learning and deep learning.\n*  **Fresher Job for AI Developer Content Strategy:** Develop content that showcases the skills needed to create effective job descriptions, career blogs, and social media posts. \n",
+    "GemmaSummary":  "## Gemma Trend Summary\n\n*   **Rising Demand for Specialized AI Roles:** There’s significant interest in fresh talent specifically focused on AI development – indicating a growing need for skilled professionals. LinkedIn is showing the highest demand, followed by GitHub and YouTube with considerable activity.\n*   **Focus on Practical Experience \u0026 Skills:** Content strategy should prioritize practical examples, tutorials, and case studies demonstrating real-world application of AI concepts. The emphasis on “freshers” suggests content targeting entry-level roles will be highly sought after.\n*   **LinkedIn Dominance for Professional Connections:** LinkedIn is currently the most effective platform for connecting with potential employers and showcasing relevant skills. It’s also driving a high volume of job postings and discussions within the AI developer community.\n\n## Platform Decision\n\nUse LinkedIn first, followed by YouTube. GitHub offers valuable resources but has lower engagement rates compared to LinkedIn.\n\n\n## Behaviour Prediction\n\nUsers will likely engage with content that focuses on practical application, skill development, career advice for freshers, and specific technologies relevant to AI development.  They\u0027ll be drawn to tutorials, case studies, and profiles of individuals actively working in the field.\n\n\n\n## Content Plan (7-Day)\n\n1.  **Day 1:** \"5 Essential AI Frameworks for Beginners\" - A carousel post showcasing key frameworks like TensorFlow/PyTorch and scikit-learn.\n2.  **Day 2:** “Top 3 AI Projects to Build Your Portfolio” – Provide a list of achievable projects that demonstrate practical skills.\n3.  **Day 3:** \"Common Mistakes in AI Development \u0026 How to Avoid Them\" - An infographic or short video addressing frequent pitfalls and solutions.\n4.  **Day 4:** “LinkedIn Profile Optimization for AI Developers” - Guide users on how to create a compelling profile highlighting relevant experience and skills.\n5.  **Day 5:** \"AI Career Paths: A Roadmap for Freshers\" – An overview of different roles within the field, including salary expectations.\n6.  **Day 6:** “Case Study: How [Company Name] Leveraged AI” - Showcase a real-world example of successful AI implementation.\n7.  **Day 7:** \"AI Tool Spotlight: [Tool Name]\" – A review and demonstration of a useful AI tool for specific tasks.\n\n\n## Related Topic Opportunities\n\n*   \"Fresher Job for AI Developer Tools\"\n*   \"Fresher Job for AI Developer Workflow\"\n*   \"Fresher Job for AI Developer Use Cases\"\n*   \"Fresher Job for AI Developer Tutorial\"\n*   “Fresher Job for AI Developer Automation”\n*   “Fresher Job for AI Developer Open Source”\n*   “Fresher Job for AI Developer Business Ideas”\n*   “Fresher Job for AI Developer Content Strategy”\n*   “Fresher Job for AI Developer Comparison”\n*   \"Fresher Job for AI Developer Roadmap\"",
     "GemmaModel":  "gemma3:1b",
     "GemmaSummarySuccess":  true
 }

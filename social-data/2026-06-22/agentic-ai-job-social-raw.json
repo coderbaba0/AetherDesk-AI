@@ -4,11 +4,11 @@
     "Topic":  "agentic ai job",
     "Slug":  "agentic-ai-job",
     "Date":  "2026-06-22",
-    "GeneratedAt":  "2026-06-22T11:32:47",
-    "OverallTrendOpportunityScore":  100,
-    "BestPlatform":  "GitHub",
-    "BestContentFormat":  "Open-source repository, demo README, or technical changelog",
-    "SocialBehaviourPrediction":  "High opportunity: the topic has broad platform coverage. Expect stronger engagement around agents, systems, autonomous, especially on GitHub.",
+    "GeneratedAt":  "2026-06-22T11:43:17",
+    "OverallTrendOpportunityScore":  80,
+    "BestPlatform":  "LinkedIn",
+    "BestContentFormat":  "Practical carousel, founder insight, or professional case study",
+    "SocialBehaviourPrediction":  "High opportunity: the topic has broad platform coverage. Expect stronger engagement around agents, systems, autonomous, especially on LinkedIn.",
     "KeywordClusters":  [
                             "agents",
                             "systems",
@@ -63,15 +63,149 @@
                                    "agentic ai job comparison",
                                    "agentic ai job roadmap"
                                ],
-    "RedditDiscussionSignal":  100,
-    "GitHubOpenSourceSignal":  100,
-    "RecommendedAction":  "Start with GitHub using a Open-source repository, demo README, or technical changelog. Re-check signals weekly and turn top keywords into experiments.",
+    "BestResources":  [
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "What is the Agentic SOC, and how can it help solve India’s Cybersecurity Talent Challenge?",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d27d9bbe437e8f7f9262ad1dde36\u0026url=https%3a%2f%2fcio.economictimes.indiatimes.com%2fnews%2fbrand-solution%2fwhat-is-the-agentic-soc-and-how-can-it-help-solve-indias-cybersecurity-talent-challenge%2f131787597\u0026c=11162604105569818634\u0026mkt=en-in",
+                              "Description":  "India\u0027s booming digital infrastructure faces a cybersecurity workforce strain, with teams overwhelmed by AI-driven threats and operational fatigue. The \"Agentic SOC\" emerges as a solution, leveraging ...",
+                              "Published":  "Tue, 16 Jun 2026 22:49:00 GMT",
+                              "Query":  "agentic ai job latest news trend",
+                              "ResourceScore":  56,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Will agentic AI take away jobs in the cybersecurity domain?",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d27d9bbe437e8f7f9262ad1dde36\u0026url=https%3a%2f%2fcio.economictimes.indiatimes.com%2fnews%2fartificial-intelligence%2fwill-agentic-ai-take-away-jobs-in-the-cybersecurity-domain%2f119966197\u0026c=13023652717230068745\u0026mkt=en-in",
+                              "Description":  "Cybersecurity professionals need to upskill CISO role will evolve and transform Agentic AI could help close the talent gap in cybersecurity Tech giant Microsoft has said that it will soon roll out 11 ...",
+                              "Published":  "Fri, 04 Apr 2025 08:43:00 GMT",
+                              "Query":  "agentic ai job latest news trend",
+                              "ResourceScore":  55,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Agentic AI to reshape over 10 million jobs in India by 2030: ServiceNow report",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d27d9bbe437e8f7f9262ad1dde36\u0026url=https%3a%2f%2ftimesofindia.indiatimes.com%2fetimes%2ftrending%2fagentic-ai-to-reshape-over-10-million-jobs-in-india-by-2030-servicenow-report%2farticleshow%2f123036275.cms\u0026c=2232104954980068744\u0026mkt=en-in",
+                              "Description":  "Agentic AI is set to reshape over 10 million jobs in India by 2030, according to the ServiceNow AI Skills Research 2025 report with Pearson. Unlike traditional automation, Agentic AI enhances human ...",
+                              "Published":  "Thu, 31 Jul 2025 17:00:00 GMT",
+                              "Query":  "agentic ai job latest news trend",
+                              "ResourceScore":  55,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "Google/Web",
+                              "Type":  "Web",
+                              "Title":  "What Is Agentic AI? Characteristics, Use Cases \u0026 Setup in 2026",
+                              "Link":  "https://atlan.com/know/what-is-agentic-ai/",
+                              "Description":  "Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan\u0027s platform helping enterprises provide that foundation.",
+                              "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
+                              "Query":  "agentic ai job latest trend guide analysis",
+                              "ResourceScore":  52,
+                              "Domain":  "atlan.com"
+                          },
+                          {
+                              "Platform":  "LinkedIn",
+                              "Type":  "Social",
+                              "Title":  "2026 Hype Cycle for Agentic AI | Gartner",
+                              "Link":  "https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai",
+                              "Description":  "The 2026 Hype Cycle for Agentic AI helps leaders cut through hype, assess AI agent maturity and prioritize innovations that deliver scalable business value.",
+                              "Published":  "Sun, 21 Jun 2026 22:26:00 GMT",
+                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse",
+                              "ResourceScore":  50,
+                              "Domain":  "gartner.com"
+                          },
+                          {
+                              "Platform":  "YouTube",
+                              "Type":  "Video",
+                              "Title":  "Agentic AI, explained - MIT Sloan",
+                              "Link":  "https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained",
+                              "Description":  "Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.",
+                              "Published":  "Mon, 22 Jun 2026 01:25:00 GMT",
+                              "Query":  "agentic ai job site:youtube.com/watch",
+                              "ResourceScore":  48,
+                              "Domain":  "mitsloan.mit.edu"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Fractal bets on agentic AI to drive revenue",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d27d9bbe437e8f7f9262ad1dde36\u0026url=https%3a%2f%2fwww.livemint.com%2fcompanies%2fnews%2ffractal-bets-on-agentic-ai-to-drive-revenue-cogentiq-11739695057304.html\u0026c=5868350753081857704\u0026mkt=en-in",
+                              "Description":  "Fractal Analytics has two agentic AI projects in development, a first for the company, one of which has already started pulling in revenue, according to company co-founder Srikanth Velamakanni. “We ...",
+                              "Published":  "Fri, 21 Feb 2025 03:30:00 GMT",
+                              "Query":  "agentic ai job latest news trend",
+                              "ResourceScore":  46,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Agentic AI: The catalyst for the future of work",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d27d9bbe437e8f7f9262ad1dde36\u0026url=https%3a%2f%2fwww.financialexpress.com%2flife%2ftechnology-agentic-ai-the-catalyst-for-the-future-of-work-3789729%2f\u0026c=13546797804911820273\u0026mkt=en-in",
+                              "Description":  "The rise of agentic AI is fundamentally altering workplace dynamics, providing a blueprint for how individuals and organisations can thrive in an era defined by efficiency, innovation, and agility. By ...",
+                              "Published":  "Wed, 26 Mar 2025 21:29:00 GMT",
+                              "Query":  "agentic ai job latest news trend",
+                              "ResourceScore":  46,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "News",
+                              "Type":  "News",
+                              "Title":  "Who’s in charge of agentic AI?",
+                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d27d9bbe437e8f7f9262ad1dde36\u0026url=https%3a%2f%2fwww.financialexpress.com%2fopinion%2fwhos-in-charge-of-agentic-ai%2f3874086%2f\u0026c=7561773307718297272\u0026mkt=en-in",
+                              "Description":  "For many clued-in on technology directions, Gartner’s top strategic technology trends are a signpost. Not surprisingly, the very first trend they talk about for 2025 is agentic artificial intelligence ...",
+                              "Published":  "Mon, 09 Jun 2025 23:31:00 GMT",
+                              "Query":  "agentic ai job latest news trend",
+                              "ResourceScore":  46,
+                              "Domain":  "bing.com"
+                          },
+                          {
+                              "Platform":  "GitHub",
+                              "Type":  "Open Source",
+                              "Title":  "Agentic AI, explained - MIT Sloan",
+                              "Link":  "https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained",
+                              "Description":  "Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.",
+                              "Published":  "Mon, 22 Jun 2026 01:25:00 GMT",
+                              "Query":  "agentic ai job site:github.com repository open source",
+                              "ResourceScore":  42,
+                              "Domain":  "mitsloan.mit.edu"
+                          },
+                          {
+                              "Platform":  "GitHub",
+                              "Type":  "Open Source",
+                              "Title":  "What Is Agentic AI? Definition, 6 Levels \u0026 Examples (2026)",
+                              "Link":  "https://agentic.ai/what-is-agentic-ai",
+                              "Description":  "Agentic AI describes artificial intelligence systems that pursue goals through their own actions, rather than only producing output for a human to act on.",
+                              "Published":  "Sun, 21 Jun 2026 21:14:00 GMT",
+                              "Query":  "agentic ai job site:github.com repository open source",
+                              "ResourceScore":  42,
+                              "Domain":  "agentic.ai"
+                          },
+                          {
+                              "Platform":  "GitHub",
+                              "Type":  "Open Source",
+                              "Title":  "What Is Agentic AI? Characteristics, Use Cases \u0026 Setup in 2026",
+                              "Link":  "https://atlan.com/know/what-is-agentic-ai/",
+                              "Description":  "Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan\u0027s platform helping enterprises provide that foundation.",
+                              "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
+                              "Query":  "agentic ai job site:github.com repository open source",
+                              "ResourceScore":  42,
+                              "Domain":  "atlan.com"
+                          }
+                      ],
+    "RedditDiscussionSignal":  74,
+    "GitHubOpenSourceSignal":  75,
+    "RecommendedAction":  "Start with LinkedIn using a Practical carousel, founder insight, or professional case study. Re-check signals weekly and turn top keywords into experiments.",
     "Platforms":  [
                       {
                           "Name":  "YouTube",
                           "Type":  "Video",
                           "Query":  "agentic ai job site:youtube.com/watch",
-                          "Score":  100,
+                          "Score":  75,
                           "ResultCount":  8,
                           "Keywords":  [
                                            "agents",
@@ -91,7 +225,9 @@
                                               "Link":  "https://agentic.ai/what-is-agentic-ai",
                                               "Description":  "Agentic AI describes artificial intelligence systems that pursue goals through their own actions, rather than only producing output for a human to act on.",
                                               "Published":  "Sun, 21 Jun 2026 21:14:00 GMT",
-                                              "Query":  "agentic ai job site:youtube.com/watch"
+                                              "Query":  "agentic ai job site:youtube.com/watch",
+                                              "ResourceScore":  42,
+                                              "Domain":  "agentic.ai"
                                           },
                                           {
                                               "Platform":  "YouTube",
@@ -100,7 +236,9 @@
                                               "Link":  "https://atlan.com/know/what-is-agentic-ai/",
                                               "Description":  "Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan\u0027s platform helping enterprises provide that foundation.",
                                               "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
-                                              "Query":  "agentic ai job site:youtube.com/watch"
+                                              "Query":  "agentic ai job site:youtube.com/watch",
+                                              "ResourceScore":  42,
+                                              "Domain":  "atlan.com"
                                           },
                                           {
                                               "Platform":  "YouTube",
@@ -109,7 +247,9 @@
                                               "Link":  "https://cloud.google.com/discover/what-is-agentic-ai",
                                               "Description":  "Agentic AI is an advanced form of artificial intelligence focused on autonomous decision-making and action. Unlike traditional AI, which primarily responds to commands or analyzes data, agentic...",
                                               "Published":  "Sat, 20 Jun 2026 23:17:00 GMT",
-                                              "Query":  "agentic ai job site:youtube.com/watch"
+                                              "Query":  "agentic ai job site:youtube.com/watch",
+                                              "ResourceScore":  34,
+                                              "Domain":  "cloud.google.com"
                                           },
                                           {
                                               "Platform":  "YouTube",
@@ -118,7 +258,9 @@
                                               "Link":  "https://hbr.org/2024/12/what-is-agentic-ai-and-how-will-it-change-work",
                                               "Description":  "Recent advances in agentic AI bring that autonomous future a step closer to reality. With their supercharged reasoning and execution capabilities, agentic AI systems promise to transform many...",
                                               "Published":  "Wed, 11 Dec 2024 23:54:00 GMT",
-                                              "Query":  "agentic ai job site:youtube.com/watch"
+                                              "Query":  "agentic ai job site:youtube.com/watch",
+                                              "ResourceScore":  32,
+                                              "Domain":  "hbr.org"
                                           },
                                           {
                                               "Platform":  "YouTube",
@@ -127,7 +269,9 @@
                                               "Link":  "https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained",
                                               "Description":  "Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.",
                                               "Published":  "Mon, 22 Jun 2026 01:25:00 GMT",
-                                              "Query":  "agentic ai job site:youtube.com/watch"
+                                              "Query":  "agentic ai job site:youtube.com/watch",
+                                              "ResourceScore":  48,
+                                              "Domain":  "mitsloan.mit.edu"
                                           },
                                           {
                                               "Platform":  "YouTube",
@@ -136,7 +280,9 @@
                                               "Link":  "https://www.eicta.iitk.ac.in/knowledge-hub/artificial-intelligence/ai-agents-vs-agentic-ai",
                                               "Description":  "Understand the real difference between AI agents and agentic AI. Learn how they compare in architecture, autonomy, decision-making, and real-world applications across business, healthcare, and tech.",
                                               "Published":  "Fri, 19 Jun 2026 16:16:00 GMT",
-                                              "Query":  "agentic ai job site:youtube.com/watch"
+                                              "Query":  "agentic ai job site:youtube.com/watch",
+                                              "ResourceScore":  34,
+                                              "Domain":  "eicta.iitk.ac.in"
                                           },
                                           {
                                               "Platform":  "YouTube",
@@ -145,7 +291,9 @@
                                               "Link":  "https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai",
                                               "Description":  "The 2026 Hype Cycle for Agentic AI helps leaders cut through hype, assess AI agent maturity and prioritize innovations that deliver scalable business value.",
                                               "Published":  "Sun, 21 Jun 2026 22:26:00 GMT",
-                                              "Query":  "agentic ai job site:youtube.com/watch"
+                                              "Query":  "agentic ai job site:youtube.com/watch",
+                                              "ResourceScore":  42,
+                                              "Domain":  "gartner.com"
                                           },
                                           {
                                               "Platform":  "YouTube",
@@ -154,7 +302,9 @@
                                               "Link":  "https://www.geeksforgeeks.org/artificial-intelligence/agentic-ai-tutorial/",
                                               "Description":  "Agentic AI is a branch of artificial intelligence focused on building autonomous, intelligent agents capable of making decisions, interacting with other agents and completing complex tasks with minimal human intervention. It combines LLMs, multi-agent systems and workflow orchestration to build advanced AI applications.",
                                               "Published":  "Mon, 22 Jun 2026 02:29:00 GMT",
-                                              "Query":  "agentic ai job site:youtube.com/watch"
+                                              "Query":  "agentic ai job site:youtube.com/watch",
+                                              "ResourceScore":  40,
+                                              "Domain":  "geeksforgeeks.org"
                                           }
                                       ]
                       },
@@ -162,7 +312,7 @@
                           "Name":  "X/Twitter",
                           "Type":  "Social",
                           "Query":  "agentic ai job site:x.com OR site:twitter.com",
-                          "Score":  100,
+                          "Score":  72,
                           "ResultCount":  8,
                           "Keywords":  [
                                            "agents",
@@ -182,7 +332,9 @@
                                               "Link":  "https://agentic.ai/what-is-agentic-ai",
                                               "Description":  "Agentic AI describes artificial intelligence systems that pursue goals through their own actions, rather than only producing output for a human to act on.",
                                               "Published":  "Sun, 21 Jun 2026 21:14:00 GMT",
-                                              "Query":  "agentic ai job site:x.com OR site:twitter.com"
+                                              "Query":  "agentic ai job site:x.com OR site:twitter.com",
+                                              "ResourceScore":  42,
+                                              "Domain":  "agentic.ai"
                                           },
                                           {
                                               "Platform":  "X/Twitter",
@@ -191,7 +343,9 @@
                                               "Link":  "https://atlan.com/know/what-is-agentic-ai/",
                                               "Description":  "Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan\u0027s platform helping enterprises provide that foundation.",
                                               "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
-                                              "Query":  "agentic ai job site:x.com OR site:twitter.com"
+                                              "Query":  "agentic ai job site:x.com OR site:twitter.com",
+                                              "ResourceScore":  42,
+                                              "Domain":  "atlan.com"
                                           },
                                           {
                                               "Platform":  "X/Twitter",
@@ -200,7 +354,9 @@
                                               "Link":  "https://cloud.google.com/discover/what-is-agentic-ai",
                                               "Description":  "Agentic AI is an advanced form of artificial intelligence focused on autonomous decision-making and action. Unlike traditional AI, which primarily responds to commands or analyzes data, agentic...",
                                               "Published":  "Sat, 20 Jun 2026 23:17:00 GMT",
-                                              "Query":  "agentic ai job site:x.com OR site:twitter.com"
+                                              "Query":  "agentic ai job site:x.com OR site:twitter.com",
+                                              "ResourceScore":  34,
+                                              "Domain":  "cloud.google.com"
                                           },
                                           {
                                               "Platform":  "X/Twitter",
@@ -209,7 +365,9 @@
                                               "Link":  "https://hbr.org/2024/12/what-is-agentic-ai-and-how-will-it-change-work",
                                               "Description":  "Recent advances in agentic AI bring that autonomous future a step closer to reality. With their supercharged reasoning and execution capabilities, agentic AI systems promise to transform many...",
                                               "Published":  "Wed, 11 Dec 2024 23:54:00 GMT",
-                                              "Query":  "agentic ai job site:x.com OR site:twitter.com"
+                                              "Query":  "agentic ai job site:x.com OR site:twitter.com",
+                                              "ResourceScore":  32,
+                                              "Domain":  "hbr.org"
                                           },
                                           {
                                               "Platform":  "X/Twitter",
@@ -218,7 +376,9 @@
                                               "Link":  "https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained",
                                               "Description":  "Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.",
                                               "Published":  "Mon, 22 Jun 2026 01:25:00 GMT",
-                                              "Query":  "agentic ai job site:x.com OR site:twitter.com"
+                                              "Query":  "agentic ai job site:x.com OR site:twitter.com",
+                                              "ResourceScore":  42,
+                                              "Domain":  "mitsloan.mit.edu"
                                           },
                                           {
                                               "Platform":  "X/Twitter",
@@ -227,7 +387,9 @@
                                               "Link":  "https://www.eicta.iitk.ac.in/knowledge-hub/artificial-intelligence/ai-agents-vs-agentic-ai",
                                               "Description":  "Understand the real difference between AI agents and agentic AI. Learn how they compare in architecture, autonomy, decision-making, and real-world applications across business, healthcare, and tech.",
                                               "Published":  "Fri, 19 Jun 2026 16:16:00 GMT",
-                                              "Query":  "agentic ai job site:x.com OR site:twitter.com"
+                                              "Query":  "agentic ai job site:x.com OR site:twitter.com",
+                                              "ResourceScore":  34,
+                                              "Domain":  "eicta.iitk.ac.in"
                                           },
                                           {
                                               "Platform":  "X/Twitter",
@@ -236,7 +398,9 @@
                                               "Link":  "https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai",
                                               "Description":  "The 2026 Hype Cycle for Agentic AI helps leaders cut through hype, assess AI agent maturity and prioritize innovations that deliver scalable business value.",
                                               "Published":  "Sun, 21 Jun 2026 22:26:00 GMT",
-                                              "Query":  "agentic ai job site:x.com OR site:twitter.com"
+                                              "Query":  "agentic ai job site:x.com OR site:twitter.com",
+                                              "ResourceScore":  42,
+                                              "Domain":  "gartner.com"
                                           },
                                           {
                                               "Platform":  "X/Twitter",
@@ -245,7 +409,9 @@
                                               "Link":  "https://www.geeksforgeeks.org/artificial-intelligence/agentic-ai-tutorial/",
                                               "Description":  "Agentic AI is a branch of artificial intelligence focused on building autonomous, intelligent agents capable of making decisions, interacting with other agents and completing complex tasks with minimal human intervention. It combines LLMs, multi-agent systems and workflow orchestration to build advanced AI applications.",
                                               "Published":  "Mon, 22 Jun 2026 02:29:00 GMT",
-                                              "Query":  "agentic ai job site:x.com OR site:twitter.com"
+                                              "Query":  "agentic ai job site:x.com OR site:twitter.com",
+                                              "ResourceScore":  34,
+                                              "Domain":  "geeksforgeeks.org"
                                           }
                                       ]
                       },
@@ -253,7 +419,7 @@
                           "Name":  "LinkedIn",
                           "Type":  "Social",
                           "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse",
-                          "Score":  100,
+                          "Score":  77,
                           "ResultCount":  8,
                           "Keywords":  [
                                            "agents",
@@ -273,7 +439,9 @@
                                               "Link":  "https://agentic.ai/what-is-agentic-ai",
                                               "Description":  "Agentic AI describes artificial intelligence systems that pursue goals through their own actions, rather than only producing output for a human to act on.",
                                               "Published":  "Sun, 21 Jun 2026 21:14:00 GMT",
-                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  42,
+                                              "Domain":  "agentic.ai"
                                           },
                                           {
                                               "Platform":  "LinkedIn",
@@ -282,7 +450,9 @@
                                               "Link":  "https://atlan.com/know/what-is-agentic-ai/",
                                               "Description":  "Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan\u0027s platform helping enterprises provide that foundation.",
                                               "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
-                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  42,
+                                              "Domain":  "atlan.com"
                                           },
                                           {
                                               "Platform":  "LinkedIn",
@@ -291,7 +461,9 @@
                                               "Link":  "https://cloud.google.com/discover/what-is-agentic-ai",
                                               "Description":  "Agentic AI is an advanced form of artificial intelligence focused on autonomous decision-making and action. Unlike traditional AI, which primarily responds to commands or analyzes data, agentic...",
                                               "Published":  "Sat, 20 Jun 2026 23:17:00 GMT",
-                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  34,
+                                              "Domain":  "cloud.google.com"
                                           },
                                           {
                                               "Platform":  "LinkedIn",
@@ -300,7 +472,9 @@
                                               "Link":  "https://hbr.org/2024/12/what-is-agentic-ai-and-how-will-it-change-work",
                                               "Description":  "Recent advances in agentic AI bring that autonomous future a step closer to reality. With their supercharged reasoning and execution capabilities, agentic AI systems promise to transform many...",
                                               "Published":  "Wed, 11 Dec 2024 23:54:00 GMT",
-                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  32,
+                                              "Domain":  "hbr.org"
                                           },
                                           {
                                               "Platform":  "LinkedIn",
@@ -309,7 +483,9 @@
                                               "Link":  "https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained",
                                               "Description":  "Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.",
                                               "Published":  "Mon, 22 Jun 2026 01:25:00 GMT",
-                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  42,
+                                              "Domain":  "mitsloan.mit.edu"
                                           },
                                           {
                                               "Platform":  "LinkedIn",
@@ -318,7 +494,9 @@
                                               "Link":  "https://www.eicta.iitk.ac.in/knowledge-hub/artificial-intelligence/ai-agents-vs-agentic-ai",
                                               "Description":  "Understand the real difference between AI agents and agentic AI. Learn how they compare in architecture, autonomy, decision-making, and real-world applications across business, healthcare, and tech.",
                                               "Published":  "Fri, 19 Jun 2026 16:16:00 GMT",
-                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  42,
+                                              "Domain":  "eicta.iitk.ac.in"
                                           },
                                           {
                                               "Platform":  "LinkedIn",
@@ -327,7 +505,9 @@
                                               "Link":  "https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai",
                                               "Description":  "The 2026 Hype Cycle for Agentic AI helps leaders cut through hype, assess AI agent maturity and prioritize innovations that deliver scalable business value.",
                                               "Published":  "Sun, 21 Jun 2026 22:26:00 GMT",
-                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  50,
+                                              "Domain":  "gartner.com"
                                           },
                                           {
                                               "Platform":  "LinkedIn",
@@ -336,7 +516,9 @@
                                               "Link":  "https://www.geeksforgeeks.org/artificial-intelligence/agentic-ai-tutorial/",
                                               "Description":  "Agentic AI is a branch of artificial intelligence focused on building autonomous, intelligent agents capable of making decisions, interacting with other agents and completing complex tasks with minimal human intervention. It combines LLMs, multi-agent systems and workflow orchestration to build advanced AI applications.",
                                               "Published":  "Mon, 22 Jun 2026 02:29:00 GMT",
-                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                              "Query":  "agentic ai job site:linkedin.com/posts OR site:linkedin.com/pulse",
+                                              "ResourceScore":  34,
+                                              "Domain":  "geeksforgeeks.org"
                                           }
                                       ]
                       },
@@ -344,7 +526,7 @@
                           "Name":  "Reddit",
                           "Type":  "Community",
                           "Query":  "agentic ai job site:reddit.com/r",
-                          "Score":  100,
+                          "Score":  74,
                           "ResultCount":  8,
                           "Keywords":  [
                                            "agents",
@@ -364,7 +546,9 @@
                                               "Link":  "https://agentic.ai/what-is-agentic-ai",
                                               "Description":  "Agentic AI describes artificial intelligence systems that pursue goals through their own actions, rather than only producing output for a human to act on.",
                                               "Published":  "Sun, 21 Jun 2026 21:14:00 GMT",
-                                              "Query":  "agentic ai job site:reddit.com/r"
+                                              "Query":  "agentic ai job site:reddit.com/r",
+                                              "ResourceScore":  42,
+                                              "Domain":  "agentic.ai"
                                           },
                                           {
                                               "Platform":  "Reddit",
@@ -373,7 +557,9 @@
                                               "Link":  "https://atlan.com/know/what-is-agentic-ai/",
                                               "Description":  "Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan\u0027s platform helping enterprises provide that foundation.",
                                               "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
-                                              "Query":  "agentic ai job site:reddit.com/r"
+                                              "Query":  "agentic ai job site:reddit.com/r",
+                                              "ResourceScore":  42,
+                                              "Domain":  "atlan.com"
                                           },
                                           {
                                               "Platform":  "Reddit",
@@ -382,7 +568,9 @@
                                               "Link":  "https://cloud.google.com/discover/what-is-agentic-ai",
                                               "Description":  "Agentic AI is an advanced form of artificial intelligence focused on autonomous decision-making and action. Unlike traditional AI, which primarily responds to commands or analyzes data, agentic...",
                                               "Published":  "Sat, 20 Jun 2026 23:17:00 GMT",
-                                              "Query":  "agentic ai job site:reddit.com/r"
+                                              "Query":  "agentic ai job site:reddit.com/r",
+                                              "ResourceScore":  34,
+                                              "Domain":  "cloud.google.com"
                                           },
                                           {
                                               "Platform":  "Reddit",
@@ -391,7 +579,9 @@
                                               "Link":  "https://hbr.org/2024/12/what-is-agentic-ai-and-how-will-it-change-work",
                                               "Description":  "Recent advances in agentic AI bring that autonomous future a step closer to reality. With their supercharged reasoning and execution capabilities, agentic AI systems promise to transform many...",
                                               "Published":  "Wed, 11 Dec 2024 23:54:00 GMT",
-                                              "Query":  "agentic ai job site:reddit.com/r"
+                                              "Query":  "agentic ai job site:reddit.com/r",
+                                              "ResourceScore":  32,
+                                              "Domain":  "hbr.org"
                                           },
                                           {
                                               "Platform":  "Reddit",
@@ -400,7 +590,9 @@
                                               "Link":  "https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained",
                                               "Description":  "Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.",
                                               "Published":  "Mon, 22 Jun 2026 01:25:00 GMT",
-                                              "Query":  "agentic ai job site:reddit.com/r"
+                                              "Query":  "agentic ai job site:reddit.com/r",
+                                              "ResourceScore":  42,
+                                              "Domain":  "mitsloan.mit.edu"
                                           },
                                           {
                                               "Platform":  "Reddit",
@@ -409,7 +601,9 @@
                                               "Link":  "https://www.eicta.iitk.ac.in/knowledge-hub/artificial-intelligence/ai-agents-vs-agentic-ai",
                                               "Description":  "Understand the real difference between AI agents and agentic AI. Learn how they compare in architecture, autonomy, decision-making, and real-world applications across business, healthcare, and tech.",
                                               "Published":  "Fri, 19 Jun 2026 16:16:00 GMT",
-                                              "Query":  "agentic ai job site:reddit.com/r"
+                                              "Query":  "agentic ai job site:reddit.com/r",
+                                              "ResourceScore":  34,
+                                              "Domain":  "eicta.iitk.ac.in"
                                           },
                                           {
                                               "Platform":  "Reddit",
@@ -418,7 +612,9 @@
                                               "Link":  "https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai",
                                               "Description":  "The 2026 Hype Cycle for Agentic AI helps leaders cut through hype, assess AI agent maturity and prioritize innovations that deliver scalable business value.",
                                               "Published":  "Sun, 21 Jun 2026 22:26:00 GMT",
-                                              "Query":  "agentic ai job site:reddit.com/r"
+                                              "Query":  "agentic ai job site:reddit.com/r",
+                                              "ResourceScore":  42,
+                                              "Domain":  "gartner.com"
                                           },
                                           {
                                               "Platform":  "Reddit",
@@ -427,7 +623,9 @@
                                               "Link":  "https://www.geeksforgeeks.org/artificial-intelligence/agentic-ai-tutorial/",
                                               "Description":  "Agentic AI is a branch of artificial intelligence focused on building autonomous, intelligent agents capable of making decisions, interacting with other agents and completing complex tasks with minimal human intervention. It combines LLMs, multi-agent systems and workflow orchestration to build advanced AI applications.",
                                               "Published":  "Mon, 22 Jun 2026 02:29:00 GMT",
-                                              "Query":  "agentic ai job site:reddit.com/r"
+                                              "Query":  "agentic ai job site:reddit.com/r",
+                                              "ResourceScore":  42,
+                                              "Domain":  "geeksforgeeks.org"
                                           }
                                       ]
                       },
@@ -435,7 +633,7 @@
                           "Name":  "GitHub",
                           "Type":  "Open Source",
                           "Query":  "agentic ai job site:github.com repository open source",
-                          "Score":  100,
+                          "Score":  75,
                           "ResultCount":  8,
                           "Keywords":  [
                                            "agents",
@@ -455,7 +653,9 @@
                                               "Link":  "https://agentic.ai/what-is-agentic-ai",
                                               "Description":  "Agentic AI describes artificial intelligence systems that pursue goals through their own actions, rather than only producing output for a human to act on.",
                                               "Published":  "Sun, 21 Jun 2026 21:14:00 GMT",
-                                              "Query":  "agentic ai job site:github.com repository open source"
+                                              "Query":  "agentic ai job site:github.com repository open source",
+                                              "ResourceScore":  42,
+                                              "Domain":  "agentic.ai"
                                           },
                                           {
                                               "Platform":  "GitHub",
@@ -464,7 +664,9 @@
                                               "Link":  "https://atlan.com/know/what-is-agentic-ai/",
                                               "Description":  "Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan\u0027s platform helping enterprises provide that foundation.",
                                               "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
-                                              "Query":  "agentic ai job site:github.com repository open source"
+                                              "Query":  "agentic ai job site:github.com repository open source",
+                                              "ResourceScore":  42,
+                                              "Domain":  "atlan.com"
                                           },
                                           {
                                               "Platform":  "GitHub",
@@ -473,7 +675,9 @@
                                               "Link":  "https://cloud.google.com/discover/what-is-agentic-ai",
                                               "Description":  "Agentic AI is an advanced form of artificial intelligence focused on autonomous decision-making and action. Unlike traditional AI, which primarily responds to commands or analyzes data, agentic...",
                                               "Published":  "Sat, 20 Jun 2026 23:17:00 GMT",
-                                              "Query":  "agentic ai job site:github.com repository open source"
+                                              "Query":  "agentic ai job site:github.com repository open source",
+                                              "ResourceScore":  34,
+                                              "Domain":  "cloud.google.com"
                                           },
                                           {
                                               "Platform":  "GitHub",
@@ -482,7 +686,9 @@
                                               "Link":  "https://hbr.org/2024/12/what-is-agentic-ai-and-how-will-it-change-work",
                                               "Description":  "Recent advances in agentic AI bring that autonomous future a step closer to reality. With their supercharged reasoning and execution capabilities, agentic AI systems promise to transform many...",
                                               "Published":  "Wed, 11 Dec 2024 23:54:00 GMT",
-                                              "Query":  "agentic ai job site:github.com repository open source"
+                                              "Query":  "agentic ai job site:github.com repository open source",
+                                              "ResourceScore":  32,
+                                              "Domain":  "hbr.org"
                                           },
                                           {
                                               "Platform":  "GitHub",
@@ -491,7 +697,9 @@
                                               "Link":  "https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained",
                                               "Description":  "Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.",
                                               "Published":  "Mon, 22 Jun 2026 01:25:00 GMT",
-                                              "Query":  "agentic ai job site:github.com repository open source"
+                                              "Query":  "agentic ai job site:github.com repository open source",
+                                              "ResourceScore":  42,
+                                              "Domain":  "mitsloan.mit.edu"
                                           },
                                           {
                                               "Platform":  "GitHub",
@@ -500,7 +708,9 @@
                                               "Link":  "https://www.eicta.iitk.ac.in/knowledge-hub/artificial-intelligence/ai-agents-vs-agentic-ai",
                                               "Description":  "Understand the real difference between AI agents and agentic AI. Learn how they compare in architecture, autonomy, decision-making, and real-world applications across business, healthcare, and tech.",
                                               "Published":  "Fri, 19 Jun 2026 16:16:00 GMT",
-                                              "Query":  "agentic ai job site:github.com repository open source"
+                                              "Query":  "agentic ai job site:github.com repository open source",
+                                              "ResourceScore":  34,
+                                              "Domain":  "eicta.iitk.ac.in"
                                           },
                                           {
                                               "Platform":  "GitHub",
@@ -509,7 +719,9 @@
                                               "Link":  "https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai",
                                               "Description":  "The 2026 Hype Cycle for Agentic AI helps leaders cut through hype, assess AI agent maturity and prioritize innovations that deliver scalable business value.",
                                               "Published":  "Sun, 21 Jun 2026 22:26:00 GMT",
-                                              "Query":  "agentic ai job site:github.com repository open source"
+                                              "Query":  "agentic ai job site:github.com repository open source",
+                                              "ResourceScore":  42,
+                                              "Domain":  "gartner.com"
                                           },
                                           {
                                               "Platform":  "GitHub",
@@ -518,7 +730,9 @@
                                               "Link":  "https://www.geeksforgeeks.org/artificial-intelligence/agentic-ai-tutorial/",
                                               "Description":  "Agentic AI is a branch of artificial intelligence focused on building autonomous, intelligent agents capable of making decisions, interacting with other agents and completing complex tasks with minimal human intervention. It combines LLMs, multi-agent systems and workflow orchestration to build advanced AI applications.",
                                               "Published":  "Mon, 22 Jun 2026 02:29:00 GMT",
-                                              "Query":  "agentic ai job site:github.com repository open source"
+                                              "Query":  "agentic ai job site:github.com repository open source",
+                                              "ResourceScore":  34,
+                                              "Domain":  "geeksforgeeks.org"
                                           }
                                       ]
                       },
@@ -526,7 +740,7 @@
                           "Name":  "Google/Web",
                           "Type":  "Web",
                           "Query":  "agentic ai job latest trend guide analysis",
-                          "Score":  100,
+                          "Score":  74,
                           "ResultCount":  8,
                           "Keywords":  [
                                            "agents",
@@ -546,7 +760,9 @@
                                               "Link":  "https://agentic.ai/what-is-agentic-ai",
                                               "Description":  "Agentic AI describes artificial intelligence systems that pursue goals through their own actions, rather than only producing output for a human to act on.",
                                               "Published":  "Sun, 21 Jun 2026 21:14:00 GMT",
-                                              "Query":  "agentic ai job latest trend guide analysis"
+                                              "Query":  "agentic ai job latest trend guide analysis",
+                                              "ResourceScore":  42,
+                                              "Domain":  "agentic.ai"
                                           },
                                           {
                                               "Platform":  "Google/Web",
@@ -555,7 +771,9 @@
                                               "Link":  "https://atlan.com/know/what-is-agentic-ai/",
                                               "Description":  "Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan\u0027s platform helping enterprises provide that foundation.",
                                               "Published":  "Sun, 21 Jun 2026 18:58:00 GMT",
-                                              "Query":  "agentic ai job latest trend guide analysis"
+                                              "Query":  "agentic ai job latest trend guide analysis",
+                                              "ResourceScore":  52,
+                                              "Domain":  "atlan.com"
                                           },
                                           {
                                               "Platform":  "Google/Web",
@@ -564,7 +782,9 @@
                                               "Link":  "https://cloud.google.com/discover/what-is-agentic-ai",
                                               "Description":  "Agentic AI is an advanced form of artificial intelligence focused on autonomous decision-making and action. Unlike traditional AI, which primarily responds to commands or analyzes data, agentic...",
                                               "Published":  "Sat, 20 Jun 2026 23:17:00 GMT",
-                                              "Query":  "agentic ai job latest trend guide analysis"
+                                              "Query":  "agentic ai job latest trend guide analysis",
+                                              "ResourceScore":  34,
+                                              "Domain":  "cloud.google.com"
                                           },
                                           {
                                               "Platform":  "Google/Web",
@@ -573,7 +793,9 @@
                                               "Link":  "https://hbr.org/2024/12/what-is-agentic-ai-and-how-will-it-change-work",
                                               "Description":  "Recent advances in agentic AI bring that autonomous future a step closer to reality. With their supercharged reasoning and execution capabilities, agentic AI systems promise to transform many...",
                                               "Published":  "Wed, 11 Dec 2024 23:54:00 GMT",
-                                              "Query":  "agentic ai job latest trend guide analysis"
+                                              "Query":  "agentic ai job latest trend guide analysis",
+                                              "ResourceScore":  32,
+                                              "Domain":  "hbr.org"
                                           },
                                           {
                                               "Platform":  "Google/Web",
@@ -582,7 +804,9 @@
                                               "Link":  "https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained",
                                               "Description":  "Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.",
                                               "Published":  "Mon, 22 Jun 2026 01:25:00 GMT",
-                                              "Query":  "agentic ai job latest trend guide analysis"
+                                              "Query":  "agentic ai job latest trend guide analysis",
+                                              "ResourceScore":  42,
+                                              "Domain":  "mitsloan.mit.edu"
                                           },
                                           {
                                               "Platform":  "Google/Web",
@@ -591,7 +815,9 @@
                                               "Link":  "https://www.eicta.iitk.ac.in/knowledge-hub/artificial-intelligence/ai-agents-vs-agentic-ai",
                                               "Description":  "Understand the real difference between AI agents and agentic AI. Learn how they compare in architecture, autonomy, decision-making, and real-world applications across business, healthcare, and tech.",
                                               "Published":  "Fri, 19 Jun 2026 16:16:00 GMT",
-                                              "Query":  "agentic ai job latest trend guide analysis"
+                                              "Query":  "agentic ai job latest trend guide analysis",
+                                              "ResourceScore":  34,
+                                              "Domain":  "eicta.iitk.ac.in"
                                           },
                                           {
                                               "Platform":  "Google/Web",
@@ -600,7 +826,9 @@
                                               "Link":  "https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai",
                                               "Description":  "The 2026 Hype Cycle for Agentic AI helps leaders cut through hype, assess AI agent maturity and prioritize innovations that deliver scalable business value.",
                                               "Published":  "Sun, 21 Jun 2026 22:26:00 GMT",
-                                              "Query":  "agentic ai job latest trend guide analysis"
+                                              "Query":  "agentic ai job latest trend guide analysis",
+                                              "ResourceScore":  42,
+                                              "Domain":  "gartner.com"
                                           },
                                           {
                                               "Platform":  "Google/Web",
@@ -609,7 +837,9 @@
                                               "Link":  "https://www.geeksforgeeks.org/artificial-intelligence/agentic-ai-tutorial/",
                                               "Description":  "Agentic AI is a branch of artificial intelligence focused on building autonomous, intelligent agents capable of making decisions, interacting with other agents and completing complex tasks with minimal human intervention. It combines LLMs, multi-agent systems and workflow orchestration to build advanced AI applications.",
                                               "Published":  "Mon, 22 Jun 2026 02:29:00 GMT",
-                                              "Query":  "agentic ai job latest trend guide analysis"
+                                              "Query":  "agentic ai job latest trend guide analysis",
+                                              "ResourceScore":  34,
+                                              "Domain":  "geeksforgeeks.org"
                                           }
                                       ]
                       },
@@ -617,7 +847,7 @@
                           "Name":  "News",
                           "Type":  "News",
                           "Query":  "agentic ai job latest news trend",
-                          "Score":  100,
+                          "Score":  71,
                           "ResultCount":  8,
                           "Keywords":  [
                                            "cybersecurity",
@@ -634,78 +864,94 @@
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "Will agentic AI take away jobs in the cybersecurity domain?",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d007e2b5478cb2120a5daa7587df\u0026url=https%3a%2f%2fcio.economictimes.indiatimes.com%2fnews%2fartificial-intelligence%2fwill-agentic-ai-take-away-jobs-in-the-cybersecurity-domain%2f119966197\u0026c=13023652717230068745\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d27d9bbe437e8f7f9262ad1dde36\u0026url=https%3a%2f%2fcio.economictimes.indiatimes.com%2fnews%2fartificial-intelligence%2fwill-agentic-ai-take-away-jobs-in-the-cybersecurity-domain%2f119966197\u0026c=13023652717230068745\u0026mkt=en-in",
                                               "Description":  "Cybersecurity professionals need to upskill CISO role will evolve and transform Agentic AI could help close the talent gap in cybersecurity Tech giant Microsoft has said that it will soon roll out 11 ...",
                                               "Published":  "Fri, 04 Apr 2025 08:43:00 GMT",
-                                              "Query":  "agentic ai job latest news trend"
+                                              "Query":  "agentic ai job latest news trend",
+                                              "ResourceScore":  55,
+                                              "Domain":  "bing.com"
                                           },
                                           {
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "What is the Agentic SOC, and how can it help solve India’s Cybersecurity Talent Challenge?",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d007e2b5478cb2120a5daa7587df\u0026url=https%3a%2f%2fcio.economictimes.indiatimes.com%2fnews%2fbrand-solution%2fwhat-is-the-agentic-soc-and-how-can-it-help-solve-indias-cybersecurity-talent-challenge%2f131787597\u0026c=11162604105569818634\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d27d9bbe437e8f7f9262ad1dde36\u0026url=https%3a%2f%2fcio.economictimes.indiatimes.com%2fnews%2fbrand-solution%2fwhat-is-the-agentic-soc-and-how-can-it-help-solve-indias-cybersecurity-talent-challenge%2f131787597\u0026c=11162604105569818634\u0026mkt=en-in",
                                               "Description":  "India\u0027s booming digital infrastructure faces a cybersecurity workforce strain, with teams overwhelmed by AI-driven threats and operational fatigue. The \"Agentic SOC\" emerges as a solution, leveraging ...",
                                               "Published":  "Tue, 16 Jun 2026 22:49:00 GMT",
-                                              "Query":  "agentic ai job latest news trend"
+                                              "Query":  "agentic ai job latest news trend",
+                                              "ResourceScore":  56,
+                                              "Domain":  "bing.com"
                                           },
                                           {
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "AGENTIC AI",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d007e2b5478cb2120a5daa7587df\u0026url=https%3a%2f%2ftelecom.economictimes.indiatimes.com%2ftag%2fagentic%2bai\u0026c=2867126963796236559\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d27d9bbe437e8f7f9262ad1dde36\u0026url=https%3a%2f%2ftelecom.economictimes.indiatimes.com%2ftag%2fagentic%2bai\u0026c=2867126963796236559\u0026mkt=en-in",
                                               "Description":  "Seamless reading experience. Save your favourite. \"Agentic AI is not just another tech upgrade but a strategic shift in how telecoms operate, compete, and serve. Its ability to autonomously observe, ...",
                                               "Published":  "Fri, 11 Apr 2025 22:40:00 GMT",
-                                              "Query":  "agentic ai job latest news trend"
+                                              "Query":  "agentic ai job latest news trend",
+                                              "ResourceScore":  41,
+                                              "Domain":  "bing.com"
                                           },
                                           {
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "Agentic AI to reshape over 10 million jobs in India by 2030: ServiceNow report",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d007e2b5478cb2120a5daa7587df\u0026url=https%3a%2f%2ftimesofindia.indiatimes.com%2fetimes%2ftrending%2fagentic-ai-to-reshape-over-10-million-jobs-in-india-by-2030-servicenow-report%2farticleshow%2f123036275.cms\u0026c=2232104954980068744\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d27d9bbe437e8f7f9262ad1dde36\u0026url=https%3a%2f%2ftimesofindia.indiatimes.com%2fetimes%2ftrending%2fagentic-ai-to-reshape-over-10-million-jobs-in-india-by-2030-servicenow-report%2farticleshow%2f123036275.cms\u0026c=2232104954980068744\u0026mkt=en-in",
                                               "Description":  "Agentic AI is set to reshape over 10 million jobs in India by 2030, according to the ServiceNow AI Skills Research 2025 report with Pearson. Unlike traditional automation, Agentic AI enhances human ...",
                                               "Published":  "Thu, 31 Jul 2025 17:00:00 GMT",
-                                              "Query":  "agentic ai job latest news trend"
+                                              "Query":  "agentic ai job latest news trend",
+                                              "ResourceScore":  55,
+                                              "Domain":  "bing.com"
                                           },
                                           {
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "Agentic AI: The catalyst for the future of work",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d007e2b5478cb2120a5daa7587df\u0026url=https%3a%2f%2fwww.financialexpress.com%2flife%2ftechnology-agentic-ai-the-catalyst-for-the-future-of-work-3789729%2f\u0026c=13546797804911820273\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d27d9bbe437e8f7f9262ad1dde36\u0026url=https%3a%2f%2fwww.financialexpress.com%2flife%2ftechnology-agentic-ai-the-catalyst-for-the-future-of-work-3789729%2f\u0026c=13546797804911820273\u0026mkt=en-in",
                                               "Description":  "The rise of agentic AI is fundamentally altering workplace dynamics, providing a blueprint for how individuals and organisations can thrive in an era defined by efficiency, innovation, and agility. By ...",
                                               "Published":  "Wed, 26 Mar 2025 21:29:00 GMT",
-                                              "Query":  "agentic ai job latest news trend"
+                                              "Query":  "agentic ai job latest news trend",
+                                              "ResourceScore":  46,
+                                              "Domain":  "bing.com"
                                           },
                                           {
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "Who’s in charge of agentic AI?",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d007e2b5478cb2120a5daa7587df\u0026url=https%3a%2f%2fwww.financialexpress.com%2fopinion%2fwhos-in-charge-of-agentic-ai%2f3874086%2f\u0026c=7561773307718297272\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d27d9bbe437e8f7f9262ad1dde36\u0026url=https%3a%2f%2fwww.financialexpress.com%2fopinion%2fwhos-in-charge-of-agentic-ai%2f3874086%2f\u0026c=7561773307718297272\u0026mkt=en-in",
                                               "Description":  "For many clued-in on technology directions, Gartner’s top strategic technology trends are a signpost. Not surprisingly, the very first trend they talk about for 2025 is agentic artificial intelligence ...",
                                               "Published":  "Mon, 09 Jun 2025 23:31:00 GMT",
-                                              "Query":  "agentic ai job latest news trend"
+                                              "Query":  "agentic ai job latest news trend",
+                                              "ResourceScore":  46,
+                                              "Domain":  "bing.com"
                                           },
                                           {
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "AI-Powered Cybersecurity",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d007e2b5478cb2120a5daa7587df\u0026url=https%3a%2f%2fwww.forbes.com%2ftopics%2fai-cybersecurity%2f\u0026c=7608203915177558774\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d27d9bbe437e8f7f9262ad1dde36\u0026url=https%3a%2f%2fwww.forbes.com%2ftopics%2fai-cybersecurity%2f\u0026c=7608203915177558774\u0026mkt=en-in",
                                               "Description":  "Explore the forefront of AI-Powered Cybersecurity news with Forbes\u0027 comprehensive coverage tailored to keep you ahead of emerging trends and expert predictions with in-depth analysis.",
                                               "Published":  "Wed, 26 Nov 2025 10:31:00 GMT",
-                                              "Query":  "agentic ai job latest news trend"
+                                              "Query":  "agentic ai job latest news trend",
+                                              "ResourceScore":  32,
+                                              "Domain":  "bing.com"
                                           },
                                           {
                                               "Platform":  "News",
                                               "Type":  "News",
                                               "Title":  "Fractal bets on agentic AI to drive revenue",
-                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d007e2b5478cb2120a5daa7587df\u0026url=https%3a%2f%2fwww.livemint.com%2fcompanies%2fnews%2ffractal-bets-on-agentic-ai-to-drive-revenue-cogentiq-11739695057304.html\u0026c=5868350753081857704\u0026mkt=en-in",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38d27d9bbe437e8f7f9262ad1dde36\u0026url=https%3a%2f%2fwww.livemint.com%2fcompanies%2fnews%2ffractal-bets-on-agentic-ai-to-drive-revenue-cogentiq-11739695057304.html\u0026c=5868350753081857704\u0026mkt=en-in",
                                               "Description":  "Fractal Analytics has two agentic AI projects in development, a first for the company, one of which has already started pulling in revenue, according to company co-founder Srikanth Velamakanni. “We ...",
                                               "Published":  "Fri, 21 Feb 2025 03:30:00 GMT",
-                                              "Query":  "agentic ai job latest news trend"
+                                              "Query":  "agentic ai job latest news trend",
+                                              "ResourceScore":  46,
+                                              "Domain":  "bing.com"
                                           }
                                       ]
                       }
                   ],
-    "GemmaSummary":  "## Gemma Trend Summary\n- **Rapid Acceleration of Agentic AI Roles:** The surge in data signals indicates an unprecedented demand for professionals equipped with autonomous systems, pushing the definition of “jobs” to rapidly evolve beyond traditional roles. This trend is fueled by increased investment and speculation within the artificial intelligence landscape.\n\n- **GitHub as Primary Focus:** GitHub’s high signal score suggests a significant focus on open-source tools and methodologies directly related to agentic AI development – highlighting a crucial pathway for adoption and collaboration. It signifies the most relevant area of exploration. \n\n- **Increased Emphasis on ‘Making Real’ Applications:** The heightened interest in “making real” applications, as indicated by the search terms, underscores a shift from theoretical concepts toward practical implementation and demonstrable impact within specific industries. This suggests a growing need for tangible results.\n\n\n## Platform Decision\n- GitHub should be used first due to its direct relevance to agentic AI development tools and workflows.\n\n## Behaviour Prediction\n- Users will likely seek tutorials, documentation, and code examples related to automating tasks with agents and systems, focusing on integrating existing frameworks into their workflows. There\u0027s a strong desire for practical implementation guides.\n\n## Content Plan (Next 7 Days)\n1. **Agentic AI Tool Showcase:** Create a blog post/video demonstrating key open-source libraries or platforms used in agentic AI development.\n2.  **Workflow Example - [Specific Use Case]:** Develop a detailed walkthrough of how to automate a specific process using an agentic AI system (e.g., robotic process automation). \n3. **Agentic AI Job Role Analysis:** Produce a report outlining the skills and experience required for various roles within the agentic AI ecosystem, including potential career paths.\n4.  **Open Source Project Spotlight:** Highlight an interesting open-source project related to agentic AI, encouraging community contributions and engagement. \n\n## Related Topic Opportunities\n1. **Agentic AI Job Training Programs:** Create a curated list of online courses and certifications focused on developing skills for agentic AI jobs.\n2. **Ethical Considerations in Agentic AI:** Develop content addressing the ethical challenges associated with autonomous systems, such as bias mitigation and accountability. \n3. **AI Model Deployment Strategies:** Explore best practices for deploying agentic AI models into real-world applications, including monitoring and maintenance strategies.",
+    "GemmaSummary":  "## Gemma Trend Summary\n\n- **Rapid Skill Shift:** The increasing focus on ‘agentic ai’ signifies a significant shift in job roles, moving beyond traditional programming to encompass management, orchestration, and ethical oversight of AI systems. This requires workers with skills in system design, behavioral modeling, and risk assessment.\n- **Rise of Specialized Roles:**  The trend points towards the emergence of niche roles focused on ‘agentic ai’ – such as AI ethicists, autonomous task managers, and system integrators. These positions will be highly sought after due to their strategic importance. \n- **Focus on Human-AI Collaboration:** The emphasis on \u0027making real\u0027 suggests a growing need for tools and strategies that facilitate seamless collaboration between humans and intelligent systems, emphasizing the value of human oversight and adaptation.\n\n## Platform Decision\n\nUse LinkedIn first as it offers the most comprehensive data related to professional roles, career paths, and industry discussions concerning agentic ai jobs.\n\n\n## Behaviour Prediction\n\nUsers will likely engage with content highlighting practical application scenarios – case studies demonstrating how agents are used in real-world business processes or showcasing specific skills needed for this emerging field.  They’ll also seek information on training resources and potential career transitions. \n\n\n\n## Content Plan (Next 7 Days)\n\n1. **Carousel: \"Agentic AI Roles - A Quick Guide\":** Showcase 5 key roles with brief descriptions, required skills, and projected job growth.\n2. **Founder Insight: “Building an Autonomous Team”:**  A short interview or analysis of a founder discussing the challenges and opportunities presented by agentic ai implementation.\n3. **Professional Case Study: \"AI-Powered Supply Chain Optimization\":** Detail how an AI system is used to optimize a supply chain, highlighting the specific skills needed for success (e.g., data analytics, algorithmic thinking).\n\n\n## Related Topic Opportunities\n\n1.  **Agentic Ai Job Tools:** Develop and share practical tools like workflow automation platforms or monitoring systems that support agentic ai workflows.\n2.  **Agentic AI Job Workflow Examples:** Create a detailed infographic outlining the typical steps involved in an ‘agentic ai’ project lifecycle (e.g., requirements gathering, model training, deployment, monitoring). \n3.  **Agentic Ai Job Content Strategy:** Offer a template for creating engaging content that targets different audience segments – technical experts, business leaders, and HR professionals interested in the field.",
     "GemmaModel":  "gemma3:1b",
     "GemmaSummarySuccess":  true
 }

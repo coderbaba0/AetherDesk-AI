@@ -46,6 +46,9 @@ h1{font-size:42px;line-height:1.08;margin:24px 0 10px}
 .line-dot{fill:#fff;stroke:#2563eb;stroke-width:3}
 .axis-label{font-size:11px;fill:#657184;font-weight:800}
 .score-label{font-size:12px;fill:#152033;font-weight:900}
+.legend{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+.legend-item{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:900;color:#657184}
+.legend-item i{display:inline-block;width:24px;height:4px;border-radius:999px}
 .table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px}
 table{width:100%;border-collapse:collapse;background:#fff;min-width:820px}
 th,td{text-align:left;padding:13px 14px;border-bottom:1px solid #edf1f6;vertical-align:top}
@@ -55,6 +58,12 @@ td span{display:block;color:#657184;font-size:12px;margin-top:3px}
 .ai-meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
 .pill{display:inline-block;padding:7px 10px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:12px;font-weight:900;color:#126b5c}
 .resource-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.best-resource{display:grid;grid-template-columns:52px 1fr;gap:14px;border:1px solid var(--line);border-radius:18px;padding:16px;background:#fff;margin-bottom:12px}
+.resource-rank{height:42px;width:42px;border-radius:14px;background:#ecfdf5;color:#126b5c;display:flex;align-items:center;justify-content:center;font-weight:1000}
+.resource-meta{font-size:12px;color:#657184;font-weight:900;margin-bottom:6px}
+.best-resource h3{margin:0 0 7px;font-size:16px}
+.best-resource p{margin:0 0 9px;color:#657184;line-height:1.45;font-size:13px}
+.best-resource a{font-weight:900;color:var(--blue);text-decoration:none}
 ul{margin:0;padding-left:20px}
 li{margin:8px 0;line-height:1.45}
 .platform-section{border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:16px;background:#fff}
@@ -81,10 +90,10 @@ li{margin:8px 0;line-height:1.45}
     <h1>agentic ai job</h1>
     <p>Social Trend Intelligence + Behaviour Prediction Report generated from public search, RSS, web, community, video, news, and open-source signals.</p>
     <div class="stats">
-      <div class="stat"><span>Opportunity Score</span><strong>100/100</strong></div>
-      <div class="stat"><span>Best Platform</span><strong>GitHub</strong></div>
-      <div class="stat"><span>Reddit Signal</span><strong>100/100</strong></div>
-      <div class="stat"><span>GitHub Signal</span><strong>100/100</strong></div>
+      <div class="stat"><span>Opportunity Score</span><strong>80/100</strong></div>
+      <div class="stat"><span>Best Platform</span><strong>LinkedIn</strong></div>
+      <div class="stat"><span>Reddit Signal</span><strong>74/100</strong></div>
+      <div class="stat"><span>GitHub Signal</span><strong>75/100</strong></div>
     </div>
   </section>
 
@@ -96,45 +105,45 @@ li{margin:8px 0;line-height:1.45}
         <div class="bar-row">
   <div class="bar-head">
     <span>YouTube</span>
-    <strong>100/100 · 8 signals</strong>
+    <strong>75/100 · 8 signals</strong>
   </div>
-  <div class="bar"><div class="fill" style="width:100%"></div></div>
+  <div class="bar"><div class="fill" style="width:75%"></div></div>
 </div><div class="bar-row">
   <div class="bar-head">
     <span>X/Twitter</span>
-    <strong>100/100 · 8 signals</strong>
+    <strong>72/100 · 8 signals</strong>
   </div>
-  <div class="bar"><div class="fill" style="width:100%"></div></div>
+  <div class="bar"><div class="fill" style="width:72%"></div></div>
 </div><div class="bar-row">
   <div class="bar-head">
     <span>LinkedIn</span>
-    <strong>100/100 · 8 signals</strong>
+    <strong>77/100 · 8 signals</strong>
   </div>
-  <div class="bar"><div class="fill" style="width:100%"></div></div>
+  <div class="bar"><div class="fill" style="width:77%"></div></div>
 </div><div class="bar-row">
   <div class="bar-head">
     <span>Reddit</span>
-    <strong>100/100 · 8 signals</strong>
+    <strong>74/100 · 8 signals</strong>
   </div>
-  <div class="bar"><div class="fill" style="width:100%"></div></div>
+  <div class="bar"><div class="fill" style="width:74%"></div></div>
 </div><div class="bar-row">
   <div class="bar-head">
     <span>GitHub</span>
-    <strong>100/100 · 8 signals</strong>
+    <strong>75/100 · 8 signals</strong>
   </div>
-  <div class="bar"><div class="fill" style="width:100%"></div></div>
+  <div class="bar"><div class="fill" style="width:75%"></div></div>
 </div><div class="bar-row">
   <div class="bar-head">
     <span>Google/Web</span>
-    <strong>100/100 · 8 signals</strong>
+    <strong>74/100 · 8 signals</strong>
   </div>
-  <div class="bar"><div class="fill" style="width:100%"></div></div>
+  <div class="bar"><div class="fill" style="width:74%"></div></div>
 </div><div class="bar-row">
   <div class="bar-head">
     <span>News</span>
-    <strong>100/100 · 8 signals</strong>
+    <strong>71/100 · 8 signals</strong>
   </div>
-  <div class="bar"><div class="fill" style="width:100%"></div></div>
+  <div class="bar"><div class="fill" style="width:71%"></div></div>
 </div>
       </div>
       <div class="card">
@@ -147,12 +156,32 @@ li{margin:8px 0;line-height:1.45}
   <text x="12" y="29" class="axis-label">100</text>
   <text x="20" y="120" class="axis-label">50</text>
   <text x="26" y="211" class="axis-label">0</text>
-  <polyline points="54,24 167.33,24 280.67,24 394,24 507.33,24 620.67,24 734,24" class="trend-line"></polyline>
-  <circle cx='54' cy='24' r='5' class='line-dot'></circle><text x='54' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='167.33' cy='24' r='5' class='line-dot'></circle><text x='167.33' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='280.67' cy='24' r='5' class='line-dot'></circle><text x='280.67' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='394' cy='24' r='5' class='line-dot'></circle><text x='394' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='507.33' cy='24' r='5' class='line-dot'></circle><text x='507.33' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='620.67' cy='24' r='5' class='line-dot'></circle><text x='620.67' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='734' cy='24' r='5' class='line-dot'></circle><text x='734' y='14' text-anchor='middle' class='score-label'>100</text>
+  <polyline points="54,69.5 167.33,74.96 280.67,65.86 394,71.32 507.33,69.5 620.67,71.32 734,76.78" class="trend-line"></polyline>
+  <circle cx='54' cy='69.5' r='5' class='line-dot'></circle><text x='54' y='59.5' text-anchor='middle' class='score-label'>75</text><circle cx='167.33' cy='74.96' r='5' class='line-dot'></circle><text x='167.33' y='64.96' text-anchor='middle' class='score-label'>72</text><circle cx='280.67' cy='65.86' r='5' class='line-dot'></circle><text x='280.67' y='55.86' text-anchor='middle' class='score-label'>77</text><circle cx='394' cy='71.32' r='5' class='line-dot'></circle><text x='394' y='61.32' text-anchor='middle' class='score-label'>74</text><circle cx='507.33' cy='69.5' r='5' class='line-dot'></circle><text x='507.33' y='59.5' text-anchor='middle' class='score-label'>75</text><circle cx='620.67' cy='71.32' r='5' class='line-dot'></circle><text x='620.67' y='61.32' text-anchor='middle' class='score-label'>74</text><circle cx='734' cy='76.78' r='5' class='line-dot'></circle><text x='734' y='66.78' text-anchor='middle' class='score-label'>71</text>
   <text x='54' y='240' text-anchor='middle' class='axis-label'>YouTube</text><text x='167.33' y='240' text-anchor='middle' class='axis-label'>X/Twitter</text><text x='280.67' y='240' text-anchor='middle' class='axis-label'>LinkedIn</text><text x='394' y='240' text-anchor='middle' class='axis-label'>Reddit</text><text x='507.33' y='240' text-anchor='middle' class='axis-label'>GitHub</text><text x='620.67' y='240' text-anchor='middle' class='axis-label'>Google/Web</text><text x='734' y='240' text-anchor='middle' class='axis-label'>News</text>
 </svg>
       </div>
     </div>
+    <p class="muted">Scores are weighted by topic relevance, exact matches, freshness, source fit, domain diversity, keyword strength, and best-resource quality. This avoids every platform getting the same score just because each returned the same number of search results.</p>
+  </section>
+
+  <section class="section">
+    <h2>7-Day Platform Comparison</h2>
+    <p class="muted">This chart compares platform scores for the same topic across the latest seven saved daily runs. It becomes more useful as TrendRadar runs daily.</p>
+    <div class="history-chart-wrap">
+  <svg class="line-chart" viewBox="0 0 900 320" role="img" aria-label="Seven day platform comparison">
+    <line x1="54" y1="26" x2="54" y2="262" class="grid-axis"></line>
+    <line x1="54" y1="262" x2="872" y2="262" class="grid-axis"></line>
+    <line x1="54" y1="26" x2="872" y2="26" class="grid-soft"></line>
+    <line x1="54" y1="144" x2="872" y2="144" class="grid-soft"></line>
+    <text x="12" y="31" class="axis-label">100</text>
+    <text x="20" y="149" class="axis-label">50</text>
+    <text x="26" y="267" class="axis-label">0</text>
+    <polyline points='54,80.28' fill='none' stroke='#2563eb' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='80.28' r='4' fill='#2563eb'></circle><polyline points='54,85' fill='none' stroke='#0d7354' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='85' r='4' fill='#0d7354'></circle><polyline points='54,85' fill='none' stroke='#f59e0b' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='85' r='4' fill='#f59e0b'></circle><polyline points='54,87.36' fill='none' stroke='#dc2626' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='87.36' r='4' fill='#dc2626'></circle><polyline points='54,87.36' fill='none' stroke='#7c3aed' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='87.36' r='4' fill='#7c3aed'></circle>
+    <text x='54' y='298' text-anchor='middle' class='axis-label'>22 Jun</text>
+  </svg>
+  <div class="legend"><span class='legend-item'><i style='background:#2563eb'></i>LinkedIn</span><span class='legend-item'><i style='background:#0d7354'></i>GitHub</span><span class='legend-item'><i style='background:#f59e0b'></i>YouTube</span><span class='legend-item'><i style='background:#dc2626'></i>Google/Web</span><span class='legend-item'><i style='background:#7c3aed'></i>Reddit</span></div>
+</div>
   </section>
 
   <section class="section">
@@ -172,57 +201,127 @@ li{margin:8px 0;line-height:1.45}
     <tbody>
       <tr>
   <td>1</td>
-  <td><strong>GitHub</strong><span>Open Source</span></td>
-  <td>100/100</td>
+  <td><strong>LinkedIn</strong><span>Social</span></td>
+  <td>77/100</td>
   <td>8</td>
   <td>agents, systems, autonomous, 2026, artificial</td>
   <td>Use first</td>
 </tr><tr>
   <td>2</td>
-  <td><strong>Google/Web</strong><span>Web</span></td>
-  <td>100/100</td>
+  <td><strong>GitHub</strong><span>Open Source</span></td>
+  <td>75/100</td>
   <td>8</td>
   <td>agents, systems, autonomous, 2026, artificial</td>
   <td>Use second</td>
 </tr><tr>
   <td>3</td>
-  <td><strong>News</strong><span>News</span></td>
-  <td>100/100</td>
+  <td><strong>YouTube</strong><span>Video</span></td>
+  <td>75/100</td>
   <td>8</td>
-  <td>cybersecurity, india, has, jobs, will</td>
+  <td>agents, systems, autonomous, 2026, artificial</td>
   <td>Test</td>
 </tr><tr>
   <td>4</td>
-  <td><strong>Reddit</strong><span>Community</span></td>
-  <td>100/100</td>
+  <td><strong>Google/Web</strong><span>Web</span></td>
+  <td>74/100</td>
   <td>8</td>
   <td>agents, systems, autonomous, 2026, artificial</td>
   <td>Test</td>
 </tr><tr>
   <td>5</td>
-  <td><strong>YouTube</strong><span>Video</span></td>
-  <td>100/100</td>
+  <td><strong>Reddit</strong><span>Community</span></td>
+  <td>74/100</td>
   <td>8</td>
   <td>agents, systems, autonomous, 2026, artificial</td>
   <td>Test</td>
 </tr><tr>
   <td>6</td>
   <td><strong>X/Twitter</strong><span>Social</span></td>
-  <td>100/100</td>
+  <td>72/100</td>
   <td>8</td>
   <td>agents, systems, autonomous, 2026, artificial</td>
   <td>Test</td>
 </tr><tr>
   <td>7</td>
-  <td><strong>LinkedIn</strong><span>Social</span></td>
-  <td>100/100</td>
+  <td><strong>News</strong><span>News</span></td>
+  <td>71/100</td>
   <td>8</td>
-  <td>agents, systems, autonomous, 2026, artificial</td>
+  <td>cybersecurity, india, has, jobs, will</td>
   <td>Test</td>
 </tr>
     </tbody>
   </table>
 </div>
+  </section>
+
+  <section class="section">
+    <h2>Best Resources to Use</h2>
+    <p class="muted">These are the strongest individual links used by TrendRadar to decide platform quality.</p>
+    <article class="best-resource">
+  <div class="resource-rank">#1</div>
+  <div>
+    <div class="resource-meta">News · bing.com · Resource score 56/100</div>
+    <h3>What is the Agentic SOC, and how can it help solve India’s Cybersecurity Talent Challenge?</h3>
+    <p>India&#39;s booming digital infrastructure faces a cybersecurity workforce strain, with teams overwhelmed by AI-driven threats and operational fatigue. The &quot;Agentic SOC&quot; emerges as a solution, leveraging ...</p>
+    <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d27d9bbe437e8f7f9262ad1dde36&amp;url=https%3a%2f%2fcio.economictimes.indiatimes.com%2fnews%2fbrand-solution%2fwhat-is-the-agentic-soc-and-how-can-it-help-solve-indias-cybersecurity-talent-challenge%2f131787597&amp;c=11162604105569818634&amp;mkt=en-in" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#2</div>
+  <div>
+    <div class="resource-meta">News · bing.com · Resource score 55/100</div>
+    <h3>Will agentic AI take away jobs in the cybersecurity domain?</h3>
+    <p>Cybersecurity professionals need to upskill CISO role will evolve and transform Agentic AI could help close the talent gap in cybersecurity Tech giant Microsoft has said that it will soon roll out 11 ...</p>
+    <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d27d9bbe437e8f7f9262ad1dde36&amp;url=https%3a%2f%2fcio.economictimes.indiatimes.com%2fnews%2fartificial-intelligence%2fwill-agentic-ai-take-away-jobs-in-the-cybersecurity-domain%2f119966197&amp;c=13023652717230068745&amp;mkt=en-in" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#3</div>
+  <div>
+    <div class="resource-meta">News · bing.com · Resource score 55/100</div>
+    <h3>Agentic AI to reshape over 10 million jobs in India by 2030: ServiceNow report</h3>
+    <p>Agentic AI is set to reshape over 10 million jobs in India by 2030, according to the ServiceNow AI Skills Research 2025 report with Pearson. Unlike traditional automation, Agentic AI enhances human ...</p>
+    <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d27d9bbe437e8f7f9262ad1dde36&amp;url=https%3a%2f%2ftimesofindia.indiatimes.com%2fetimes%2ftrending%2fagentic-ai-to-reshape-over-10-million-jobs-in-india-by-2030-servicenow-report%2farticleshow%2f123036275.cms&amp;c=2232104954980068744&amp;mkt=en-in" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#4</div>
+  <div>
+    <div class="resource-meta">Google/Web · atlan.com · Resource score 52/100</div>
+    <h3>What Is Agentic AI? Characteristics, Use Cases &amp; Setup in 2026</h3>
+    <p>Agentic AI pursues goals autonomously using tools, memory, and reasoning. Learn how it works, top use cases, and why governed metadata and context matter for scale — with Atlan&#39;s platform helping enterprises provide that foundation.</p>
+    <a href="https://atlan.com/know/what-is-agentic-ai/" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#5</div>
+  <div>
+    <div class="resource-meta">LinkedIn · gartner.com · Resource score 50/100</div>
+    <h3>2026 Hype Cycle for Agentic AI | Gartner</h3>
+    <p>The 2026 Hype Cycle for Agentic AI helps leaders cut through hype, assess AI agent maturity and prioritize innovations that deliver scalable business value.</p>
+    <a href="https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#6</div>
+  <div>
+    <div class="resource-meta">YouTube · mitsloan.mit.edu · Resource score 48/100</div>
+    <h3>Agentic AI, explained - MIT Sloan</h3>
+    <p>Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, and act on their own.</p>
+    <a href="https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#7</div>
+  <div>
+    <div class="resource-meta">News · bing.com · Resource score 46/100</div>
+    <h3>Fractal bets on agentic AI to drive revenue</h3>
+    <p>Fractal Analytics has two agentic AI projects in development, a first for the company, one of which has already started pulling in revenue, according to company co-founder Srikanth Velamakanni. “We ...</p>
+    <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d27d9bbe437e8f7f9262ad1dde36&amp;url=https%3a%2f%2fwww.livemint.com%2fcompanies%2fnews%2ffractal-bets-on-agentic-ai-to-drive-revenue-cogentiq-11739695057304.html&amp;c=5868350753081857704&amp;mkt=en-in" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#8</div>
+  <div>
+    <div class="resource-meta">News · bing.com · Resource score 46/100</div>
+    <h3>Agentic AI: The catalyst for the future of work</h3>
+    <p>The rise of agentic AI is fundamentally altering workplace dynamics, providing a blueprint for how individuals and organisations can thrive in an era defined by efficiency, innovation, and agility. By ...</p>
+    <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d27d9bbe437e8f7f9262ad1dde36&amp;url=https%3a%2f%2fwww.financialexpress.com%2flife%2ftechnology-agentic-ai-the-catalyst-for-the-future-of-work-3789729%2f&amp;c=13546797804911820273&amp;mkt=en-in" target="_blank">Open best resource</a>
+  </div>
+</article>
   </section>
 
   <section class="section ai-summary">
@@ -233,7 +332,7 @@ li{margin:8px 0;line-height:1.45}
       <span class="pill">Ollama local mode</span>
     </div>
     <div class="ai-content">
-      <h4>Gemma Trend Summary</h4><ul><li><strong>Rapid Acceleration of Agentic AI Roles:</strong> The surge in data signals indicates an unprecedented demand for professionals equipped with autonomous systems, pushing the definition of “jobs” to rapidly evolve beyond traditional roles. This trend is fueled by increased investment and speculation within the artificial intelligence landscape.</li></ul><ul><li><strong>GitHub as Primary Focus:</strong> GitHub’s high signal score suggests a significant focus on open-source tools and methodologies directly related to agentic AI development – highlighting a crucial pathway for adoption and collaboration. It signifies the most relevant area of exploration.</li></ul><ul><li><strong>Increased Emphasis on ‘Making Real’ Applications:</strong> The heightened interest in “making real” applications, as indicated by the search terms, underscores a shift from theoretical concepts toward practical implementation and demonstrable impact within specific industries. This suggests a growing need for tangible results.</li></ul><h4>Platform Decision</h4><ul><li>GitHub should be used first due to its direct relevance to agentic AI development tools and workflows.</li></ul><h4>Behaviour Prediction</h4><ul><li>Users will likely seek tutorials, documentation, and code examples related to automating tasks with agents and systems, focusing on integrating existing frameworks into their workflows. There&#39;s a strong desire for practical implementation guides.</li></ul><h4>Content Plan (Next 7 Days)</h4><p>1. <strong>Agentic AI Tool Showcase:</strong> Create a blog post/video demonstrating key open-source libraries or platforms used in agentic AI development.</p><p>2.  <strong>Workflow Example - [Specific Use Case]:</strong> Develop a detailed walkthrough of how to automate a specific process using an agentic AI system (e.g., robotic process automation).</p><p>3. <strong>Agentic AI Job Role Analysis:</strong> Produce a report outlining the skills and experience required for various roles within the agentic AI ecosystem, including potential career paths.</p><p>4.  <strong>Open Source Project Spotlight:</strong> Highlight an interesting open-source project related to agentic AI, encouraging community contributions and engagement.</p><h4>Related Topic Opportunities</h4><p>1. <strong>Agentic AI Job Training Programs:</strong> Create a curated list of online courses and certifications focused on developing skills for agentic AI jobs.</p><p>2. <strong>Ethical Considerations in Agentic AI:</strong> Develop content addressing the ethical challenges associated with autonomous systems, such as bias mitigation and accountability.</p><p>3. <strong>AI Model Deployment Strategies:</strong> Explore best practices for deploying agentic AI models into real-world applications, including monitoring and maintenance strategies.</p>
+      <h4>Gemma Trend Summary</h4><ul><li><strong>Rapid Skill Shift:</strong> The increasing focus on ‘agentic ai’ signifies a significant shift in job roles, moving beyond traditional programming to encompass management, orchestration, and ethical oversight of AI systems. This requires workers with skills in system design, behavioral modeling, and risk assessment.</li><li><strong>Rise of Specialized Roles:</strong>  The trend points towards the emergence of niche roles focused on ‘agentic ai’ – such as AI ethicists, autonomous task managers, and system integrators. These positions will be highly sought after due to their strategic importance.</li><li><strong>Focus on Human-AI Collaboration:</strong> The emphasis on &#39;making real&#39; suggests a growing need for tools and strategies that facilitate seamless collaboration between humans and intelligent systems, emphasizing the value of human oversight and adaptation.</li></ul><h4>Platform Decision</h4><p>Use LinkedIn first as it offers the most comprehensive data related to professional roles, career paths, and industry discussions concerning agentic ai jobs.</p><h4>Behaviour Prediction</h4><p>Users will likely engage with content highlighting practical application scenarios – case studies demonstrating how agents are used in real-world business processes or showcasing specific skills needed for this emerging field.  They’ll also seek information on training resources and potential career transitions.</p><h4>Content Plan (Next 7 Days)</h4><p>1. <strong>Carousel: &quot;Agentic AI Roles - A Quick Guide&quot;:</strong> Showcase 5 key roles with brief descriptions, required skills, and projected job growth.</p><p>2. <strong>Founder Insight: “Building an Autonomous Team”:</strong>  A short interview or analysis of a founder discussing the challenges and opportunities presented by agentic ai implementation.</p><p>3. <strong>Professional Case Study: &quot;AI-Powered Supply Chain Optimization&quot;:</strong> Detail how an AI system is used to optimize a supply chain, highlighting the specific skills needed for success (e.g., data analytics, algorithmic thinking).</p><h4>Related Topic Opportunities</h4><p>1.  <strong>Agentic Ai Job Tools:</strong> Develop and share practical tools like workflow automation platforms or monitoring systems that support agentic ai workflows.</p><p>2.  <strong>Agentic AI Job Workflow Examples:</strong> Create a detailed infographic outlining the typical steps involved in an ‘agentic ai’ project lifecycle (e.g., requirements gathering, model training, deployment, monitoring).</p><p>3.  <strong>Agentic Ai Job Content Strategy:</strong> Offer a template for creating engaging content that targets different audience segments – technical experts, business leaders, and HR professionals interested in the field.</p>
     </div>
   </section>
 
@@ -244,7 +343,7 @@ li{margin:8px 0;line-height:1.45}
       <section class="platform-section">
   <div class="platform-heading">
     <h3>YouTube</h3>
-    <span>100/100</span>
+    <span>75/100</span>
   </div>
   <article class="resource">
   <h4>What Is Agentic AI? Definition, 6 Levels &amp; Examples (2026)</h4>
@@ -270,7 +369,7 @@ li{margin:8px 0;line-height:1.45}
 </section><section class="platform-section">
   <div class="platform-heading">
     <h3>X/Twitter</h3>
-    <span>100/100</span>
+    <span>72/100</span>
   </div>
   <article class="resource">
   <h4>What Is Agentic AI? Definition, 6 Levels &amp; Examples (2026)</h4>
@@ -296,7 +395,7 @@ li{margin:8px 0;line-height:1.45}
 </section><section class="platform-section">
   <div class="platform-heading">
     <h3>LinkedIn</h3>
-    <span>100/100</span>
+    <span>77/100</span>
   </div>
   <article class="resource">
   <h4>What Is Agentic AI? Definition, 6 Levels &amp; Examples (2026)</h4>
@@ -322,7 +421,7 @@ li{margin:8px 0;line-height:1.45}
 </section><section class="platform-section">
   <div class="platform-heading">
     <h3>Reddit</h3>
-    <span>100/100</span>
+    <span>74/100</span>
   </div>
   <article class="resource">
   <h4>What Is Agentic AI? Definition, 6 Levels &amp; Examples (2026)</h4>
@@ -348,7 +447,7 @@ li{margin:8px 0;line-height:1.45}
 </section><section class="platform-section">
   <div class="platform-heading">
     <h3>GitHub</h3>
-    <span>100/100</span>
+    <span>75/100</span>
   </div>
   <article class="resource">
   <h4>What Is Agentic AI? Definition, 6 Levels &amp; Examples (2026)</h4>
@@ -374,7 +473,7 @@ li{margin:8px 0;line-height:1.45}
 </section><section class="platform-section">
   <div class="platform-heading">
     <h3>Google/Web</h3>
-    <span>100/100</span>
+    <span>74/100</span>
   </div>
   <article class="resource">
   <h4>What Is Agentic AI? Definition, 6 Levels &amp; Examples (2026)</h4>
@@ -400,28 +499,28 @@ li{margin:8px 0;line-height:1.45}
 </section><section class="platform-section">
   <div class="platform-heading">
     <h3>News</h3>
-    <span>100/100</span>
+    <span>71/100</span>
   </div>
   <article class="resource">
   <h4>Will agentic AI take away jobs in the cybersecurity domain?</h4>
   <p>Cybersecurity professionals need to upskill CISO role will evolve and transform Agentic AI could help close the talent gap in cybersecurity Tech giant Microsoft has said that it will soon roll out 11 ...</p>
-  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d007e2b5478cb2120a5daa7587df&amp;url=https%3a%2f%2fcio.economictimes.indiatimes.com%2fnews%2fartificial-intelligence%2fwill-agentic-ai-take-away-jobs-in-the-cybersecurity-domain%2f119966197&amp;c=13023652717230068745&amp;mkt=en-in" target="_blank">Open signal</a>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d27d9bbe437e8f7f9262ad1dde36&amp;url=https%3a%2f%2fcio.economictimes.indiatimes.com%2fnews%2fartificial-intelligence%2fwill-agentic-ai-take-away-jobs-in-the-cybersecurity-domain%2f119966197&amp;c=13023652717230068745&amp;mkt=en-in" target="_blank">Open signal</a>
 </article><article class="resource">
   <h4>What is the Agentic SOC, and how can it help solve India’s Cybersecurity Talent Challenge?</h4>
   <p>India&#39;s booming digital infrastructure faces a cybersecurity workforce strain, with teams overwhelmed by AI-driven threats and operational fatigue. The &quot;Agentic SOC&quot; emerges as a solution, leveraging ...</p>
-  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d007e2b5478cb2120a5daa7587df&amp;url=https%3a%2f%2fcio.economictimes.indiatimes.com%2fnews%2fbrand-solution%2fwhat-is-the-agentic-soc-and-how-can-it-help-solve-indias-cybersecurity-talent-challenge%2f131787597&amp;c=11162604105569818634&amp;mkt=en-in" target="_blank">Open signal</a>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d27d9bbe437e8f7f9262ad1dde36&amp;url=https%3a%2f%2fcio.economictimes.indiatimes.com%2fnews%2fbrand-solution%2fwhat-is-the-agentic-soc-and-how-can-it-help-solve-indias-cybersecurity-talent-challenge%2f131787597&amp;c=11162604105569818634&amp;mkt=en-in" target="_blank">Open signal</a>
 </article><article class="resource">
   <h4>AGENTIC AI</h4>
   <p>Seamless reading experience. Save your favourite. &quot;Agentic AI is not just another tech upgrade but a strategic shift in how telecoms operate, compete, and serve. Its ability to autonomously observe, ...</p>
-  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d007e2b5478cb2120a5daa7587df&amp;url=https%3a%2f%2ftelecom.economictimes.indiatimes.com%2ftag%2fagentic%2bai&amp;c=2867126963796236559&amp;mkt=en-in" target="_blank">Open signal</a>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d27d9bbe437e8f7f9262ad1dde36&amp;url=https%3a%2f%2ftelecom.economictimes.indiatimes.com%2ftag%2fagentic%2bai&amp;c=2867126963796236559&amp;mkt=en-in" target="_blank">Open signal</a>
 </article><article class="resource">
   <h4>Agentic AI to reshape over 10 million jobs in India by 2030: ServiceNow report</h4>
   <p>Agentic AI is set to reshape over 10 million jobs in India by 2030, according to the ServiceNow AI Skills Research 2025 report with Pearson. Unlike traditional automation, Agentic AI enhances human ...</p>
-  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d007e2b5478cb2120a5daa7587df&amp;url=https%3a%2f%2ftimesofindia.indiatimes.com%2fetimes%2ftrending%2fagentic-ai-to-reshape-over-10-million-jobs-in-india-by-2030-servicenow-report%2farticleshow%2f123036275.cms&amp;c=2232104954980068744&amp;mkt=en-in" target="_blank">Open signal</a>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d27d9bbe437e8f7f9262ad1dde36&amp;url=https%3a%2f%2ftimesofindia.indiatimes.com%2fetimes%2ftrending%2fagentic-ai-to-reshape-over-10-million-jobs-in-india-by-2030-servicenow-report%2farticleshow%2f123036275.cms&amp;c=2232104954980068744&amp;mkt=en-in" target="_blank">Open signal</a>
 </article><article class="resource">
   <h4>Agentic AI: The catalyst for the future of work</h4>
   <p>The rise of agentic AI is fundamentally altering workplace dynamics, providing a blueprint for how individuals and organisations can thrive in an era defined by efficiency, innovation, and agility. By ...</p>
-  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d007e2b5478cb2120a5daa7587df&amp;url=https%3a%2f%2fwww.financialexpress.com%2flife%2ftechnology-agentic-ai-the-catalyst-for-the-future-of-work-3789729%2f&amp;c=13546797804911820273&amp;mkt=en-in" target="_blank">Open signal</a>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d27d9bbe437e8f7f9262ad1dde36&amp;url=https%3a%2f%2fwww.financialexpress.com%2flife%2ftechnology-agentic-ai-the-catalyst-for-the-future-of-work-3789729%2f&amp;c=13546797804911820273&amp;mkt=en-in" target="_blank">Open signal</a>
 </article>
 </section>
     </div>
@@ -430,11 +529,11 @@ li{margin:8px 0;line-height:1.45}
   <section class="section grid">
     <div class="card">
       <h3>Social Behaviour Prediction</h3>
-      <p>High opportunity: the topic has broad platform coverage. Expect stronger engagement around agents, systems, autonomous, especially on GitHub.</p>
+      <p>High opportunity: the topic has broad platform coverage. Expect stronger engagement around agents, systems, autonomous, especially on LinkedIn.</p>
     </div>
     <div class="card">
       <h3>Best Content Format</h3>
-      <p>Open-source repository, demo README, or technical changelog</p>
+      <p>Practical carousel, founder insight, or professional case study</p>
     </div>
   </section>
 
@@ -481,52 +580,52 @@ li{margin:8px 0;line-height:1.45}
       <tr>
   <td>1</td>
   <td><strong>agentic ai job tools</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>High-priority content test</td>
 </tr><tr>
   <td>2</td>
   <td><strong>agentic ai job workflow</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>High-priority content test</td>
 </tr><tr>
   <td>3</td>
   <td><strong>agentic ai job use cases</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>High-priority content test</td>
 </tr><tr>
   <td>4</td>
   <td><strong>agentic ai job tutorial</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>Secondary keyword experiment</td>
 </tr><tr>
   <td>5</td>
   <td><strong>agentic ai job automation</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>Secondary keyword experiment</td>
 </tr><tr>
   <td>6</td>
   <td><strong>agentic ai job open source</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>Secondary keyword experiment</td>
 </tr><tr>
   <td>7</td>
   <td><strong>agentic ai job business ideas</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>Educational post</td>
 </tr><tr>
   <td>8</td>
   <td><strong>agentic ai job content strategy</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>Educational post</td>
 </tr><tr>
   <td>9</td>
   <td><strong>agentic ai job comparison</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>Educational post</td>
 </tr><tr>
   <td>10</td>
   <td><strong>agentic ai job roadmap</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>Educational post</td>
 </tr>
     </tbody>
@@ -538,12 +637,12 @@ li{margin:8px 0;line-height:1.45}
   <section class="section">
     <div class="card recommend">
       <h3>Recommended Action</h3>
-      <p>Start with GitHub using a Open-source repository, demo README, or technical changelog. Re-check signals weekly and turn top keywords into experiments.</p>
+      <p>Start with LinkedIn using a Practical carousel, founder insight, or professional case study. Re-check signals weekly and turn top keywords into experiments.</p>
     </div>
   </section>
 
   <section class="section">
-    <p class="muted">Generated at 22 Jun 2026, 11:32 AM. Raw data is saved date-wise in <strong>social-data/</strong>.</p>
+    <p class="muted">Generated at 22 Jun 2026, 11:43 AM. Raw data is saved date-wise in <strong>social-data/</strong>.</p>
   </section>
 </main>
 </body>

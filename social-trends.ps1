@@ -135,16 +135,173 @@ function Get-TrendRadarTopTerms {
     )
 }
 
-function Get-TrendRadarPlatformScore {
-    param([array]$Results)
+function Get-TrendRadarDomain {
+    param([string]$Link)
 
-    $count = 0
-    if ($Results) {
-        $count = $Results.Count
+    try {
+        return ([uri]$Link).Host.ToLowerInvariant() -replace '^www\.', ''
+    }
+    catch {
+        return ""
+    }
+}
+
+function Get-TrendRadarResultScore {
+    param(
+        [object]$Result,
+        [string]$Topic,
+        [string]$PlatformName
+    )
+
+    $topicText = $Topic.ToLowerInvariant()
+    $topicWords = @($topicText -split '[^a-z0-9]+' | Where-Object { $_.Length -gt 2 })
+    $title = ([string]$Result.Title).ToLowerInvariant()
+    $description = ([string]$Result.Description).ToLowerInvariant()
+    $link = ([string]$Result.Link).ToLowerInvariant()
+    $haystack = "$title $description $link"
+    $domain = Get-TrendRadarDomain -Link $Result.Link
+
+    $score = 10
+
+    if ($title -like "*$topicText*") {
+        $score += 22
+    }
+    elseif ($haystack -like "*$topicText*") {
+        $score += 14
     }
 
-    $score = [math]::Min(100, [math]::Round(($count * 12) + 8))
-    return [int]$score
+    $matchedWords = 0
+    foreach ($word in $topicWords) {
+        if ($haystack -like "*$word*") {
+            $matchedWords++
+        }
+    }
+
+    if ($topicWords.Count -gt 0) {
+        $score += [math]::Min(18, [math]::Round(($matchedWords / $topicWords.Count) * 18))
+    }
+
+    switch ($PlatformName) {
+        "YouTube" {
+            if ($domain -match "youtube\.com|youtu\.be") { $score += 16 }
+            if ($title -match "tutorial|demo|explained|how to|review") { $score += 6 }
+        }
+        "X/Twitter" {
+            if ($domain -match "x\.com|twitter\.com") { $score += 16 }
+            if ($description -match "thread|post|viral|reaction") { $score += 5 }
+        }
+        "LinkedIn" {
+            if ($domain -match "linkedin\.com") { $score += 16 }
+            if ($haystack -match "job|career|business|founder|hiring|professional") { $score += 8 }
+        }
+        "Reddit" {
+            if ($domain -match "reddit\.com") { $score += 16 }
+            if ($haystack -match "discussion|comments|community|ask|opinion") { $score += 8 }
+        }
+        "GitHub" {
+            if ($domain -match "github\.com") { $score += 16 }
+            if ($haystack -match "repository|repo|open source|stars|issues|release|readme") { $score += 10 }
+        }
+        "News" {
+            if ($haystack -match "news|announced|launch|report|market|funding") { $score += 14 }
+        }
+        default {
+            if ($haystack -match "guide|analysis|trend|tools|use case|comparison") { $score += 10 }
+        }
+    }
+
+    if ($haystack -match "2026|2025|latest|new|recent|today|this week|this month") {
+        $score += 8
+    }
+
+    if (-not [string]::IsNullOrWhiteSpace($Result.Published)) {
+        try {
+            $publishedDate = [datetime]::Parse([string]$Result.Published)
+            $ageDays = ((Get-Date) - $publishedDate).TotalDays
+
+            if ($ageDays -le 7) {
+                $score += 10
+            }
+            elseif ($ageDays -le 30) {
+                $score += 7
+            }
+            elseif ($ageDays -le 90) {
+                $score += 4
+            }
+        }
+        catch {
+            $score += 2
+        }
+    }
+
+    if ($title.Length -ge 25 -and $description.Length -ge 60) {
+        $score += 5
+    }
+
+    return [int][math]::Max(1, [math]::Min(100, $score))
+}
+
+function Update-TrendRadarResultScores {
+    param(
+        [array]$Results,
+        [string]$Topic,
+        [string]$PlatformName
+    )
+
+    foreach ($result in $Results) {
+        $score = Get-TrendRadarResultScore -Result $result -Topic $Topic -PlatformName $PlatformName
+        $domain = Get-TrendRadarDomain -Link $result.Link
+        $result | Add-Member -NotePropertyName ResourceScore -NotePropertyValue $score -Force
+        $result | Add-Member -NotePropertyName Domain -NotePropertyValue $domain -Force
+    }
+
+    return $Results
+}
+
+function Get-TrendRadarPlatformScore {
+    param(
+        [array]$Results,
+        [string]$Topic,
+        [string]$PlatformName
+    )
+
+    $count = @($Results).Count
+
+    if ($count -eq 0) {
+        return 0
+    }
+
+    $resourceScores = @($Results | ForEach-Object { [int]$_.ResourceScore })
+    $averageResourceScore = [math]::Round((($resourceScores | Measure-Object -Average).Average), 0)
+    $bestResourceScore = [int](($resourceScores | Measure-Object -Maximum).Maximum)
+    $volumeScore = [math]::Min(22, $count * 3)
+    $domainCount = @($Results | ForEach-Object { $_.Domain } | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | Select-Object -Unique).Count
+    $diversityScore = [math]::Min(10, $domainCount * 2)
+
+    $terms = Get-TrendRadarTopTerms -Results $Results -Topic $Topic -Limit 8
+    $keywordScore = [math]::Min(10, @($terms).Count)
+
+    $platformFit = 0
+    switch ($PlatformName) {
+        "YouTube" { $platformFit = 7 }
+        "LinkedIn" { $platformFit = 8 }
+        "Reddit" { $platformFit = 7 }
+        "GitHub" { $platformFit = 9 }
+        "X/Twitter" { $platformFit = 6 }
+        "News" { $platformFit = 6 }
+        default { $platformFit = 5 }
+    }
+
+    $score = [math]::Round(
+        ($averageResourceScore * 0.45) +
+        ($bestResourceScore * 0.22) +
+        $volumeScore +
+        $diversityScore +
+        $keywordScore +
+        $platformFit
+    )
+
+    return [int][math]::Max(1, [math]::Min(100, $score))
 }
 
 function Get-TrendRadarContentFormat {
@@ -295,7 +452,8 @@ function Get-TrendRadarSignals {
             -SignalType $platform.Type `
             -Limit 8
 
-        $score = Get-TrendRadarPlatformScore -Results $results
+        $results = Update-TrendRadarResultScores -Results $results -Topic $Topic -PlatformName $platform.Name
+        $score = Get-TrendRadarPlatformScore -Results $results -Topic $Topic -PlatformName $platform.Name
         $terms = Get-TrendRadarTopTerms -Results $results -Topic $Topic -Limit 8
 
         $platforms += [PSCustomObject]@{
@@ -328,6 +486,11 @@ function Get-TrendRadarSignals {
     $overallScore = [int][math]::Min(100, [math]::Round(($avgScore * 0.75) + (($coverage / 7) * 25)))
     $keywords = Get-TrendRadarTopTerms -Results $allResults -Topic $Topic -Limit 12
     $relatedTopics = Get-TrendRadarRelatedTopics -Topic $Topic -Keywords $keywords -Limit 10
+    $bestResources = @(
+        $allResults |
+            Sort-Object @{ Expression = { [int]$_.ResourceScore }; Descending = $true }, Platform |
+            Select-Object -First 12
+    )
     $ideas = New-TrendRadarIdeas -Topic $Topic -Keywords $keywords -BestPlatform $bestPlatform
     $prediction = Get-TrendRadarPrediction -OverallScore $overallScore -BestPlatform $bestPlatform -Keywords $keywords
     $format = Get-TrendRadarContentFormat -BestPlatform $bestPlatform
@@ -351,6 +514,7 @@ function Get-TrendRadarSignals {
         LinkedInPostAngles = @($ideas.LinkedInAngles)
         TwitterPostIdeas = @($ideas.TwitterIdeas)
         SuggestedRelatedTopics = @($relatedTopics)
+        BestResources = @($bestResources)
         RedditDiscussionSignal = (($platforms | Where-Object { $_.Name -eq "Reddit" } | Select-Object -First 1).Score)
         GitHubOpenSourceSignal = (($platforms | Where-Object { $_.Name -eq "GitHub" } | Select-Object -First 1).Score)
         RecommendedAction = "Start with $bestPlatform using a $format. Re-check signals weekly and turn top keywords into experiments."

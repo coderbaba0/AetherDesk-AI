@@ -46,6 +46,9 @@ h1{font-size:42px;line-height:1.08;margin:24px 0 10px}
 .line-dot{fill:#fff;stroke:#2563eb;stroke-width:3}
 .axis-label{font-size:11px;fill:#657184;font-weight:800}
 .score-label{font-size:12px;fill:#152033;font-weight:900}
+.legend{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+.legend-item{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:900;color:#657184}
+.legend-item i{display:inline-block;width:24px;height:4px;border-radius:999px}
 .table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px}
 table{width:100%;border-collapse:collapse;background:#fff;min-width:820px}
 th,td{text-align:left;padding:13px 14px;border-bottom:1px solid #edf1f6;vertical-align:top}
@@ -55,6 +58,12 @@ td span{display:block;color:#657184;font-size:12px;margin-top:3px}
 .ai-meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
 .pill{display:inline-block;padding:7px 10px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:12px;font-weight:900;color:#126b5c}
 .resource-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.best-resource{display:grid;grid-template-columns:52px 1fr;gap:14px;border:1px solid var(--line);border-radius:18px;padding:16px;background:#fff;margin-bottom:12px}
+.resource-rank{height:42px;width:42px;border-radius:14px;background:#ecfdf5;color:#126b5c;display:flex;align-items:center;justify-content:center;font-weight:1000}
+.resource-meta{font-size:12px;color:#657184;font-weight:900;margin-bottom:6px}
+.best-resource h3{margin:0 0 7px;font-size:16px}
+.best-resource p{margin:0 0 9px;color:#657184;line-height:1.45;font-size:13px}
+.best-resource a{font-weight:900;color:var(--blue);text-decoration:none}
 ul{margin:0;padding-left:20px}
 li{margin:8px 0;line-height:1.45}
 .platform-section{border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:16px;background:#fff}
@@ -81,10 +90,10 @@ li{margin:8px 0;line-height:1.45}
     <h1>Fresher Job for AI developer</h1>
     <p>Social Trend Intelligence + Behaviour Prediction Report generated from public search, RSS, web, community, video, news, and open-source signals.</p>
     <div class="stats">
-      <div class="stat"><span>Opportunity Score</span><strong>100/100</strong></div>
-      <div class="stat"><span>Best Platform</span><strong>GitHub</strong></div>
-      <div class="stat"><span>Reddit Signal</span><strong>100/100</strong></div>
-      <div class="stat"><span>GitHub Signal</span><strong>100/100</strong></div>
+      <div class="stat"><span>Opportunity Score</span><strong>82/100</strong></div>
+      <div class="stat"><span>Best Platform</span><strong>LinkedIn</strong></div>
+      <div class="stat"><span>Reddit Signal</span><strong>75/100</strong></div>
+      <div class="stat"><span>GitHub Signal</span><strong>77/100</strong></div>
     </div>
   </section>
 
@@ -96,45 +105,45 @@ li{margin:8px 0;line-height:1.45}
         <div class="bar-row">
   <div class="bar-head">
     <span>YouTube</span>
-    <strong>100/100 · 8 signals</strong>
+    <strong>75/100 · 8 signals</strong>
   </div>
-  <div class="bar"><div class="fill" style="width:100%"></div></div>
+  <div class="bar"><div class="fill" style="width:75%"></div></div>
 </div><div class="bar-row">
   <div class="bar-head">
     <span>X/Twitter</span>
-    <strong>100/100 · 8 signals</strong>
+    <strong>75/100 · 8 signals</strong>
   </div>
-  <div class="bar"><div class="fill" style="width:100%"></div></div>
+  <div class="bar"><div class="fill" style="width:75%"></div></div>
 </div><div class="bar-row">
   <div class="bar-head">
     <span>LinkedIn</span>
-    <strong>100/100 · 8 signals</strong>
+    <strong>84/100 · 8 signals</strong>
   </div>
-  <div class="bar"><div class="fill" style="width:100%"></div></div>
+  <div class="bar"><div class="fill" style="width:84%"></div></div>
 </div><div class="bar-row">
   <div class="bar-head">
     <span>Reddit</span>
-    <strong>100/100 · 8 signals</strong>
+    <strong>75/100 · 8 signals</strong>
   </div>
-  <div class="bar"><div class="fill" style="width:100%"></div></div>
+  <div class="bar"><div class="fill" style="width:75%"></div></div>
 </div><div class="bar-row">
   <div class="bar-head">
     <span>GitHub</span>
-    <strong>100/100 · 8 signals</strong>
+    <strong>77/100 · 8 signals</strong>
   </div>
-  <div class="bar"><div class="fill" style="width:100%"></div></div>
+  <div class="bar"><div class="fill" style="width:77%"></div></div>
 </div><div class="bar-row">
   <div class="bar-head">
     <span>Google/Web</span>
-    <strong>100/100 · 8 signals</strong>
+    <strong>73/100 · 8 signals</strong>
   </div>
-  <div class="bar"><div class="fill" style="width:100%"></div></div>
+  <div class="bar"><div class="fill" style="width:73%"></div></div>
 </div><div class="bar-row">
   <div class="bar-head">
     <span>News</span>
-    <strong>100/100 · 8 signals</strong>
+    <strong>73/100 · 8 signals</strong>
   </div>
-  <div class="bar"><div class="fill" style="width:100%"></div></div>
+  <div class="bar"><div class="fill" style="width:73%"></div></div>
 </div>
       </div>
       <div class="card">
@@ -147,12 +156,32 @@ li{margin:8px 0;line-height:1.45}
   <text x="12" y="29" class="axis-label">100</text>
   <text x="20" y="120" class="axis-label">50</text>
   <text x="26" y="211" class="axis-label">0</text>
-  <polyline points="54,24 167.33,24 280.67,24 394,24 507.33,24 620.67,24 734,24" class="trend-line"></polyline>
-  <circle cx='54' cy='24' r='5' class='line-dot'></circle><text x='54' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='167.33' cy='24' r='5' class='line-dot'></circle><text x='167.33' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='280.67' cy='24' r='5' class='line-dot'></circle><text x='280.67' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='394' cy='24' r='5' class='line-dot'></circle><text x='394' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='507.33' cy='24' r='5' class='line-dot'></circle><text x='507.33' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='620.67' cy='24' r='5' class='line-dot'></circle><text x='620.67' y='14' text-anchor='middle' class='score-label'>100</text><circle cx='734' cy='24' r='5' class='line-dot'></circle><text x='734' y='14' text-anchor='middle' class='score-label'>100</text>
+  <polyline points="54,69.5 167.33,69.5 280.67,53.12 394,69.5 507.33,65.86 620.67,73.14 734,73.14" class="trend-line"></polyline>
+  <circle cx='54' cy='69.5' r='5' class='line-dot'></circle><text x='54' y='59.5' text-anchor='middle' class='score-label'>75</text><circle cx='167.33' cy='69.5' r='5' class='line-dot'></circle><text x='167.33' y='59.5' text-anchor='middle' class='score-label'>75</text><circle cx='280.67' cy='53.12' r='5' class='line-dot'></circle><text x='280.67' y='43.12' text-anchor='middle' class='score-label'>84</text><circle cx='394' cy='69.5' r='5' class='line-dot'></circle><text x='394' y='59.5' text-anchor='middle' class='score-label'>75</text><circle cx='507.33' cy='65.86' r='5' class='line-dot'></circle><text x='507.33' y='55.86' text-anchor='middle' class='score-label'>77</text><circle cx='620.67' cy='73.14' r='5' class='line-dot'></circle><text x='620.67' y='63.14' text-anchor='middle' class='score-label'>73</text><circle cx='734' cy='73.14' r='5' class='line-dot'></circle><text x='734' y='63.14' text-anchor='middle' class='score-label'>73</text>
   <text x='54' y='240' text-anchor='middle' class='axis-label'>YouTube</text><text x='167.33' y='240' text-anchor='middle' class='axis-label'>X/Twitter</text><text x='280.67' y='240' text-anchor='middle' class='axis-label'>LinkedIn</text><text x='394' y='240' text-anchor='middle' class='axis-label'>Reddit</text><text x='507.33' y='240' text-anchor='middle' class='axis-label'>GitHub</text><text x='620.67' y='240' text-anchor='middle' class='axis-label'>Google/Web</text><text x='734' y='240' text-anchor='middle' class='axis-label'>News</text>
 </svg>
       </div>
     </div>
+    <p class="muted">Scores are weighted by topic relevance, exact matches, freshness, source fit, domain diversity, keyword strength, and best-resource quality. This avoids every platform getting the same score just because each returned the same number of search results.</p>
+  </section>
+
+  <section class="section">
+    <h2>7-Day Platform Comparison</h2>
+    <p class="muted">This chart compares platform scores for the same topic across the latest seven saved daily runs. It becomes more useful as TrendRadar runs daily.</p>
+    <div class="history-chart-wrap">
+  <svg class="line-chart" viewBox="0 0 900 320" role="img" aria-label="Seven day platform comparison">
+    <line x1="54" y1="26" x2="54" y2="262" class="grid-axis"></line>
+    <line x1="54" y1="262" x2="872" y2="262" class="grid-axis"></line>
+    <line x1="54" y1="26" x2="872" y2="26" class="grid-soft"></line>
+    <line x1="54" y1="144" x2="872" y2="144" class="grid-soft"></line>
+    <text x="12" y="31" class="axis-label">100</text>
+    <text x="20" y="149" class="axis-label">50</text>
+    <text x="26" y="267" class="axis-label">0</text>
+    <polyline points='54,63.76' fill='none' stroke='#2563eb' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='63.76' r='4' fill='#2563eb'></circle><polyline points='54,80.28' fill='none' stroke='#0d7354' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='80.28' r='4' fill='#0d7354'></circle><polyline points='54,85' fill='none' stroke='#f59e0b' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='85' r='4' fill='#f59e0b'></circle><polyline points='54,85' fill='none' stroke='#dc2626' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='85' r='4' fill='#dc2626'></circle><polyline points='54,85' fill='none' stroke='#7c3aed' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline><circle cx='54' cy='85' r='4' fill='#7c3aed'></circle>
+    <text x='54' y='298' text-anchor='middle' class='axis-label'>22 Jun</text>
+  </svg>
+  <div class="legend"><span class='legend-item'><i style='background:#2563eb'></i>LinkedIn</span><span class='legend-item'><i style='background:#0d7354'></i>GitHub</span><span class='legend-item'><i style='background:#f59e0b'></i>Reddit</span><span class='legend-item'><i style='background:#dc2626'></i>YouTube</span><span class='legend-item'><i style='background:#7c3aed'></i>X/Twitter</span></div>
+</div>
   </section>
 
   <section class="section">
@@ -172,50 +201,50 @@ li{margin:8px 0;line-height:1.45}
     <tbody>
       <tr>
   <td>1</td>
-  <td><strong>GitHub</strong><span>Open Source</span></td>
-  <td>100/100</td>
+  <td><strong>LinkedIn</strong><span>Social</span></td>
+  <td>84/100</td>
   <td>8</td>
   <td>jobs, india, freshers, com, vacancies</td>
   <td>Use first</td>
 </tr><tr>
   <td>2</td>
-  <td><strong>Google/Web</strong><span>Web</span></td>
-  <td>100/100</td>
+  <td><strong>GitHub</strong><span>Open Source</span></td>
+  <td>77/100</td>
   <td>8</td>
   <td>jobs, india, freshers, com, vacancies</td>
   <td>Use second</td>
 </tr><tr>
   <td>3</td>
-  <td><strong>News</strong><span>News</span></td>
-  <td>100/100</td>
+  <td><strong>Reddit</strong><span>Community</span></td>
+  <td>75/100</td>
   <td>8</td>
-  <td>hiring, freshers, entry, jobs, level</td>
+  <td>jobs, india, freshers, com, vacancies</td>
   <td>Test</td>
 </tr><tr>
   <td>4</td>
-  <td><strong>Reddit</strong><span>Community</span></td>
-  <td>100/100</td>
+  <td><strong>YouTube</strong><span>Video</span></td>
+  <td>75/100</td>
   <td>8</td>
   <td>jobs, india, freshers, com, vacancies</td>
   <td>Test</td>
 </tr><tr>
   <td>5</td>
-  <td><strong>YouTube</strong><span>Video</span></td>
-  <td>100/100</td>
+  <td><strong>X/Twitter</strong><span>Social</span></td>
+  <td>75/100</td>
   <td>8</td>
   <td>jobs, india, freshers, com, vacancies</td>
   <td>Test</td>
 </tr><tr>
   <td>6</td>
-  <td><strong>X/Twitter</strong><span>Social</span></td>
-  <td>100/100</td>
+  <td><strong>News</strong><span>News</span></td>
+  <td>73/100</td>
   <td>8</td>
-  <td>jobs, india, freshers, com, vacancies</td>
+  <td>hiring, freshers, entry, jobs, level</td>
   <td>Test</td>
 </tr><tr>
   <td>7</td>
-  <td><strong>LinkedIn</strong><span>Social</span></td>
-  <td>100/100</td>
+  <td><strong>Google/Web</strong><span>Web</span></td>
+  <td>73/100</td>
   <td>8</td>
   <td>jobs, india, freshers, com, vacancies</td>
   <td>Test</td>
@@ -223,6 +252,76 @@ li{margin:8px 0;line-height:1.45}
     </tbody>
   </table>
 </div>
+  </section>
+
+  <section class="section">
+    <h2>Best Resources to Use</h2>
+    <p class="muted">These are the strongest individual links used by TrendRadar to decide platform quality.</p>
+    <article class="best-resource">
+  <div class="resource-rank">#1</div>
+  <div>
+    <div class="resource-meta">LinkedIn · in.linkedin.com · Resource score 61/100</div>
+    <h3>Fresher jobs in India</h3>
+    <p>Leverage your professional network, and get hired. New Fresher jobs added daily.</p>
+    <a href="https://in.linkedin.com/jobs/fresher-jobs" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#2</div>
+  <div>
+    <div class="resource-meta">News · bing.com · Resource score 56/100</div>
+    <h3>AI Automation is Reshaping Indian Careers: High-Paying Roles Freshers Must Master in 2026</h3>
+    <p>A new study shows Artificial Intelligence (AI) now handles 37% of entry-level tasks in India. This shift forces Indian freshers to rethink their career paths. Traditional manual data entry and basic ...</p>
+    <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d2a974f44314a26e0f4da105ac74&amp;url=https%3a%2f%2fwww.careerindia.com%2fnews%2fai-careers-in-india-2026-high-paying-roles-for-freshers-011-61053.html&amp;c=13278923549848299264&amp;mkt=en-in" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#3</div>
+  <div>
+    <div class="resource-meta">LinkedIn · freshersworld.com · Resource score 55/100</div>
+    <h3>Fresher Jobs: Latest Jobs for Freshers In India. Freshers Govt jobs ...</h3>
+    <p>Fresher Jobs: Search &amp; Apply for the Latest Fresher Jobs for Graduates &amp; Post Graduates. Register with Freshersworld for Latest freshers job vacancies in India.</p>
+    <a href="https://www.freshersworld.com/jobs" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#4</div>
+  <div>
+    <div class="resource-meta">LinkedIn · careerforfreshers.com · Resource score 55/100</div>
+    <h3>Fresher Jobs Archives - CareerForFreshers</h3>
+    <p>Find the newest fresher job openings across IT, engineering, healthcare, and corporate sectors to launch your career successfully.</p>
+    <a href="https://careerforfreshers.com/category/fresher-jobs/" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#5</div>
+  <div>
+    <div class="resource-meta">News · bing.com · Resource score 53/100</div>
+    <h3>The End of Easy IT Jobs? How TCS is Replacing Freshers with AI Agents in 2026</h3>
+    <p>Tata Consultancy Services (TCS) recently signaled a major shift in its mass hiring strategy. The company warns that Artificial Intelligence (AI) agents will soon handle many entry-level tasks. This ...</p>
+    <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d2a974f44314a26e0f4da105ac74&amp;url=https%3a%2f%2fwww.careerindia.com%2fnews%2ftcs-hiring-strategy-2026-ai-agents-replacing-entry-level-it-jobs-011-60549.html&amp;c=1819730918087831563&amp;mkt=en-in" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#6</div>
+  <div>
+    <div class="resource-meta">X/Twitter · freshersworld.com · Resource score 52/100</div>
+    <h3>Fresher Jobs: Latest Jobs for Freshers In India. Freshers Govt jobs ...</h3>
+    <p>Fresher Jobs: Search &amp; Apply for the Latest Fresher Jobs for Graduates &amp; Post Graduates. Register with Freshersworld for Latest freshers job vacancies in India.</p>
+    <a href="https://www.freshersworld.com/jobs" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#7</div>
+  <div>
+    <div class="resource-meta">News · bing.com · Resource score 51/100</div>
+    <h3>Fresher Leaves ₹10 LPA Job, Then Settles for ₹5 LPA Salary – The Reason Is…</h3>
+    <p>Success in a career isn’t about landing lucrative jobs with high salaries but about continuous self-improvement. This is especially true during the formative years in the workforce. A Redditor—a 2024 ...</p>
+    <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d2a974f44314a26e0f4da105ac74&amp;url=https%3a%2f%2fwww.livemint.com%2fnews%2ftrends%2ffresher-leaves-10-lpa-job-then-settles-for-5-lpa-salary-the-reason-is-11743923428321.html&amp;c=13903734747747895771&amp;mkt=en-in" target="_blank">Open best resource</a>
+  </div>
+</article><article class="best-resource">
+  <div class="resource-rank">#8</div>
+  <div>
+    <div class="resource-meta">News · bing.com · Resource score 51/100</div>
+    <h3>AI jobs in 2025: From data scientists to generative AI developers, the most in-demand roles, salaries and trends</h3>
+    <p>The demand for professionals skilled in artificial intelligence (AI) and machine learning (ML) is set to surge significantly in 2025, with industries such as healthcare, BFSI, and IT driving this ...</p>
+    <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d2a974f44314a26e0f4da105ac74&amp;url=https%3a%2f%2fwww.livemint.com%2fai%2fartificial-intelligence%2flooking-to-be-an-ai-expert-in-2025-check-top-job-roles-salaries-and-industry-trends-11734679408784.html&amp;c=14839331638561805170&amp;mkt=en-in" target="_blank">Open best resource</a>
+  </div>
+</article>
   </section>
 
   <section class="section ai-summary">
@@ -233,7 +332,7 @@ li{margin:8px 0;line-height:1.45}
       <span class="pill">Ollama local mode</span>
     </div>
     <div class="ai-content">
-      <h4>Gemma Trend Summary</h4><ul><li><strong>Growing Demand for Fresh AI Developers:</strong> There’s a significant surge in job postings specifically targeting freshers with an increasing focus on India, indicating high demand for entry-level roles within the field.</li><li><strong>Com as the Primary Destination:</strong> LinkedIn and GitHub are consistently showing the highest volume of relevant job listings related to &quot;Fresher Job for AI developer,&quot; suggesting this platform is currently the most effective channel for finding opportunities.</li><li><strong>Focus on India &amp; Emerging Technologies:</strong> YouTube, Reddit, and Google/Web highlight a strong emphasis on India as a primary location for these roles, hinting at growing interest in local talent and specific technological trends (engineering).</li></ul><h4>Platform Decision</h4><ul><li><strong>GitHub First - Core Focus:</strong> GitHub should be the first platform used due to its concentration of open-source projects related to AI development. It’s likely where many freshers are seeking practical experience and learning resources.</li></ul><h4>Behaviour Prediction</h4><p>– Users will actively search for specific job titles (e.g., &quot;AI Engineer Freshers India&quot;) on LinkedIn, GitHub, and Google/Web.  They&#39;ll also explore open-source projects related to the technologies mentioned in their job descriptions.</p><p>– Increased engagement with tutorials and documentation on platforms like YouTube and Reddit suggests a desire for hands-on learning.</p><h4>Content Plan (Next 7 Days)</h4><p>1. <strong>LinkedIn Article - &quot;Top 5 AI Skills for Freshers in India&quot;:</strong>  Create an article highlighting essential skills and career pathways for fresh AI developers in India, focusing on practical application.</p><p>2. <strong>GitHub Repository Showcase - “Project X: A Fresher’s First Project”:</strong> Develop a GitHub repository showcasing a small, manageable project that demonstrates fundamental AI concepts (e.g., image classification) – encouraging collaboration and learning.</p><p>3.  <strong>YouTube Tutorial Series – &quot;AI Fundamentals for Beginners&quot;:</strong> Produce a short series of YouTube tutorials on core AI concepts like neural networks or regression analysis to cater to beginners.</p><p>4. <strong>Reddit AMA - “Ask Me Anything” Session about Fresher Job Opportunities in AI:</strong> Host an AMA session on Reddit where freshers can ask questions about career paths and opportunities within the field, fostering community engagement.</p><p>5.  <strong>Blog Post – &quot;Navigating the Indian AI Job Market: Tips for Freshers&quot;</strong>: A blog post addressing common challenges and providing practical advice for new entrants to the industry.</p><h4>Related Topic Opportunities</h4><ul><li><strong>Fresher Job for AI Developer Tools:</strong> Explore tools like Jupyter Notebooks, TensorFlow/PyTorch, and cloud platforms (AWS SageMaker) that are frequently discussed in job postings.</li><li><strong>Fresher Job for AI Developer Workflow:</strong> Focus on processes such as data cleaning, model training, evaluation, and deployment – all crucial aspects of the role.</li><li><strong>Fresher Job for AI Developer Use Cases:</strong> Highlight specific applications like NLP (Natural Language Processing), Computer Vision, or recommendation systems.</li><li><strong>Fresher Job for AI Developer Tutorial:</strong> Create step-by-step tutorials on fundamental concepts in machine learning and deep learning.</li><li><strong>Fresher Job for AI Developer Content Strategy:</strong> Develop content that showcases the skills needed to create effective job descriptions, career blogs, and social media posts.</li></ul>
+      <h4>Gemma Trend Summary</h4><ul><li><strong>Rising Demand for Specialized AI Roles:</strong> There’s significant interest in fresh talent specifically focused on AI development – indicating a growing need for skilled professionals. LinkedIn is showing the highest demand, followed by GitHub and YouTube with considerable activity.</li><li><strong>Focus on Practical Experience &amp; Skills:</strong> Content strategy should prioritize practical examples, tutorials, and case studies demonstrating real-world application of AI concepts. The emphasis on “freshers” suggests content targeting entry-level roles will be highly sought after.</li><li><strong>LinkedIn Dominance for Professional Connections:</strong> LinkedIn is currently the most effective platform for connecting with potential employers and showcasing relevant skills. It’s also driving a high volume of job postings and discussions within the AI developer community.</li></ul><h4>Platform Decision</h4><p>Use LinkedIn first, followed by YouTube. GitHub offers valuable resources but has lower engagement rates compared to LinkedIn.</p><h4>Behaviour Prediction</h4><p>Users will likely engage with content that focuses on practical application, skill development, career advice for freshers, and specific technologies relevant to AI development.  They&#39;ll be drawn to tutorials, case studies, and profiles of individuals actively working in the field.</p><h4>Content Plan (7-Day)</h4><p>1.  <strong>Day 1:</strong> &quot;5 Essential AI Frameworks for Beginners&quot; - A carousel post showcasing key frameworks like TensorFlow/PyTorch and scikit-learn.</p><p>2.  <strong>Day 2:</strong> “Top 3 AI Projects to Build Your Portfolio” – Provide a list of achievable projects that demonstrate practical skills.</p><p>3.  <strong>Day 3:</strong> &quot;Common Mistakes in AI Development &amp; How to Avoid Them&quot; - An infographic or short video addressing frequent pitfalls and solutions.</p><p>4.  <strong>Day 4:</strong> “LinkedIn Profile Optimization for AI Developers” - Guide users on how to create a compelling profile highlighting relevant experience and skills.</p><p>5.  <strong>Day 5:</strong> &quot;AI Career Paths: A Roadmap for Freshers&quot; – An overview of different roles within the field, including salary expectations.</p><p>6.  <strong>Day 6:</strong> “Case Study: How [Company Name] Leveraged AI” - Showcase a real-world example of successful AI implementation.</p><p>7.  <strong>Day 7:</strong> &quot;AI Tool Spotlight: [Tool Name]&quot; – A review and demonstration of a useful AI tool for specific tasks.</p><h4>Related Topic Opportunities</h4><ul><li>&quot;Fresher Job for AI Developer Tools&quot;</li><li>&quot;Fresher Job for AI Developer Workflow&quot;</li><li>&quot;Fresher Job for AI Developer Use Cases&quot;</li><li>&quot;Fresher Job for AI Developer Tutorial&quot;</li><li>“Fresher Job for AI Developer Automation”</li><li>“Fresher Job for AI Developer Open Source”</li><li>“Fresher Job for AI Developer Business Ideas”</li><li>“Fresher Job for AI Developer Content Strategy”</li><li>“Fresher Job for AI Developer Comparison”</li><li>&quot;Fresher Job for AI Developer Roadmap&quot;</li></ul>
     </div>
   </section>
 
@@ -244,7 +343,7 @@ li{margin:8px 0;line-height:1.45}
       <section class="platform-section">
   <div class="platform-heading">
     <h3>YouTube</h3>
-    <span>100/100</span>
+    <span>75/100</span>
   </div>
   <article class="resource">
   <h4>Fresher Jobs Archives - CareerForFreshers</h4>
@@ -270,7 +369,7 @@ li{margin:8px 0;line-height:1.45}
 </section><section class="platform-section">
   <div class="platform-heading">
     <h3>X/Twitter</h3>
-    <span>100/100</span>
+    <span>75/100</span>
   </div>
   <article class="resource">
   <h4>Fresher Jobs Archives - CareerForFreshers</h4>
@@ -296,7 +395,7 @@ li{margin:8px 0;line-height:1.45}
 </section><section class="platform-section">
   <div class="platform-heading">
     <h3>LinkedIn</h3>
-    <span>100/100</span>
+    <span>84/100</span>
   </div>
   <article class="resource">
   <h4>Fresher Jobs Archives - CareerForFreshers</h4>
@@ -322,7 +421,7 @@ li{margin:8px 0;line-height:1.45}
 </section><section class="platform-section">
   <div class="platform-heading">
     <h3>Reddit</h3>
-    <span>100/100</span>
+    <span>75/100</span>
   </div>
   <article class="resource">
   <h4>Fresher Jobs Archives - CareerForFreshers</h4>
@@ -348,7 +447,7 @@ li{margin:8px 0;line-height:1.45}
 </section><section class="platform-section">
   <div class="platform-heading">
     <h3>GitHub</h3>
-    <span>100/100</span>
+    <span>77/100</span>
   </div>
   <article class="resource">
   <h4>Fresher Jobs Archives - CareerForFreshers</h4>
@@ -374,7 +473,7 @@ li{margin:8px 0;line-height:1.45}
 </section><section class="platform-section">
   <div class="platform-heading">
     <h3>Google/Web</h3>
-    <span>100/100</span>
+    <span>73/100</span>
   </div>
   <article class="resource">
   <h4>Fresher Jobs Archives - CareerForFreshers</h4>
@@ -400,28 +499,28 @@ li{margin:8px 0;line-height:1.45}
 </section><section class="platform-section">
   <div class="platform-heading">
     <h3>News</h3>
-    <span>100/100</span>
+    <span>73/100</span>
   </div>
   <article class="resource">
   <h4>Cognizant doubles fresher hiring in 2025; CEO says company plans to hire more graduates to …</h4>
   <p>Cognizant plans to hire 20,000 freshers this year, more than double the previous year&#39;s intake, to reshape its talent pyramid and support AI-led software development. CEO Ravi Kumar S. emphasizes ...</p>
-  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d0422f264d8abedc15166bbacf1a&amp;url=https%3a%2f%2ftimesofindia.indiatimes.com%2ftechnology%2ftech-news%2fcognizant-doubles-fresher-hiring-in-2025-ceo-says-company-plans-to-hire-more-graduates-to-%2farticleshow%2f120813553.cms&amp;c=16657918357605961569&amp;mkt=en-in" target="_blank">Open signal</a>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d2a974f44314a26e0f4da105ac74&amp;url=https%3a%2f%2ftimesofindia.indiatimes.com%2ftechnology%2ftech-news%2fcognizant-doubles-fresher-hiring-in-2025-ceo-says-company-plans-to-hire-more-graduates-to-%2farticleshow%2f120813553.cms&amp;c=16657918357605961569&amp;mkt=en-in" target="_blank">Open signal</a>
 </article><article class="resource">
   <h4>Report reveals most in-demand jobs, Indian cities that are top locations for fresher hiring, salaries and more</h4>
   <p>IT companies in India are increasingly hiring entry-level professionals, especially in Delhi and Bengaluru, focusing on new technologies. Startups lead in hiring engineering students for roles like ...</p>
-  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d0422f264d8abedc15166bbacf1a&amp;url=https%3a%2f%2ftimesofindia.indiatimes.com%2ftechnology%2ftech-news%2freport-reveals-most-in-demand-jobs-indian-cities-that-are-top-locations-for-fresher-hiring-salaries-and-more%2farticleshow%2f111037300.cms&amp;c=12272348445865546318&amp;mkt=en-in" target="_blank">Open signal</a>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d2a974f44314a26e0f4da105ac74&amp;url=https%3a%2f%2ftimesofindia.indiatimes.com%2ftechnology%2ftech-news%2freport-reveals-most-in-demand-jobs-indian-cities-that-are-top-locations-for-fresher-hiring-salaries-and-more%2farticleshow%2f111037300.cms&amp;c=12272348445865546318&amp;mkt=en-in" target="_blank">Open signal</a>
 </article><article class="resource">
   <h4>AI Automation is Reshaping Indian Careers: High-Paying Roles Freshers Must Master in 2026</h4>
   <p>A new study shows Artificial Intelligence (AI) now handles 37% of entry-level tasks in India. This shift forces Indian freshers to rethink their career paths. Traditional manual data entry and basic ...</p>
-  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d0422f264d8abedc15166bbacf1a&amp;url=https%3a%2f%2fwww.careerindia.com%2fnews%2fai-careers-in-india-2026-high-paying-roles-for-freshers-011-61053.html&amp;c=13278923549848299264&amp;mkt=en-in" target="_blank">Open signal</a>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d2a974f44314a26e0f4da105ac74&amp;url=https%3a%2f%2fwww.careerindia.com%2fnews%2fai-careers-in-india-2026-high-paying-roles-for-freshers-011-61053.html&amp;c=13278923549848299264&amp;mkt=en-in" target="_blank">Open signal</a>
 </article><article class="resource">
   <h4>The End of Easy IT Jobs? How TCS is Replacing Freshers with AI Agents in 2026</h4>
   <p>Tata Consultancy Services (TCS) recently signaled a major shift in its mass hiring strategy. The company warns that Artificial Intelligence (AI) agents will soon handle many entry-level tasks. This ...</p>
-  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d0422f264d8abedc15166bbacf1a&amp;url=https%3a%2f%2fwww.careerindia.com%2fnews%2ftcs-hiring-strategy-2026-ai-agents-replacing-entry-level-it-jobs-011-60549.html&amp;c=1819730918087831563&amp;mkt=en-in" target="_blank">Open signal</a>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d2a974f44314a26e0f4da105ac74&amp;url=https%3a%2f%2fwww.careerindia.com%2fnews%2ftcs-hiring-strategy-2026-ai-agents-replacing-entry-level-it-jobs-011-60549.html&amp;c=1819730918087831563&amp;mkt=en-in" target="_blank">Open signal</a>
 </article><article class="resource">
   <h4>Startups cushion IT hiring slowdown</h4>
   <p>Fresher hiring in the technology sector is being reshaped as large IT services firms scale back bulk recruitment while startups expand campus presence, helping keep overall placement volumes broadly ...</p>
-  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d0422f264d8abedc15166bbacf1a&amp;url=https%3a%2f%2fwww.financialexpress.com%2fbusiness%2fnews-tech-startups-ramp-up-fresher-hiring-as-it-hiring-takes-a-hit-4220820%2f&amp;c=10475009051019556859&amp;mkt=en-in" target="_blank">Open signal</a>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38d2a974f44314a26e0f4da105ac74&amp;url=https%3a%2f%2fwww.financialexpress.com%2fbusiness%2fnews-tech-startups-ramp-up-fresher-hiring-as-it-hiring-takes-a-hit-4220820%2f&amp;c=10475009051019556859&amp;mkt=en-in" target="_blank">Open signal</a>
 </article>
 </section>
     </div>
@@ -430,11 +529,11 @@ li{margin:8px 0;line-height:1.45}
   <section class="section grid">
     <div class="card">
       <h3>Social Behaviour Prediction</h3>
-      <p>High opportunity: the topic has broad platform coverage. Expect stronger engagement around jobs, india, freshers, especially on GitHub.</p>
+      <p>High opportunity: the topic has broad platform coverage. Expect stronger engagement around jobs, india, freshers, especially on LinkedIn.</p>
     </div>
     <div class="card">
       <h3>Best Content Format</h3>
-      <p>Open-source repository, demo README, or technical changelog</p>
+      <p>Practical carousel, founder insight, or professional case study</p>
     </div>
   </section>
 
@@ -481,52 +580,52 @@ li{margin:8px 0;line-height:1.45}
       <tr>
   <td>1</td>
   <td><strong>Fresher Job for AI developer tools</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>High-priority content test</td>
 </tr><tr>
   <td>2</td>
   <td><strong>Fresher Job for AI developer workflow</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>High-priority content test</td>
 </tr><tr>
   <td>3</td>
   <td><strong>Fresher Job for AI developer use cases</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>High-priority content test</td>
 </tr><tr>
   <td>4</td>
   <td><strong>Fresher Job for AI developer tutorial</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>Secondary keyword experiment</td>
 </tr><tr>
   <td>5</td>
   <td><strong>Fresher Job for AI developer automation</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>Secondary keyword experiment</td>
 </tr><tr>
   <td>6</td>
   <td><strong>Fresher Job for AI developer open source</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>Secondary keyword experiment</td>
 </tr><tr>
   <td>7</td>
   <td><strong>Fresher Job for AI developer business ideas</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>Educational post</td>
 </tr><tr>
   <td>8</td>
   <td><strong>Fresher Job for AI developer content strategy</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>Educational post</td>
 </tr><tr>
   <td>9</td>
   <td><strong>Fresher Job for AI developer comparison</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>Educational post</td>
 </tr><tr>
   <td>10</td>
   <td><strong>Fresher Job for AI developer roadmap</strong></td>
-  <td>GitHub</td>
+  <td>LinkedIn</td>
   <td>Educational post</td>
 </tr>
     </tbody>
@@ -538,12 +637,12 @@ li{margin:8px 0;line-height:1.45}
   <section class="section">
     <div class="card recommend">
       <h3>Recommended Action</h3>
-      <p>Start with GitHub using a Open-source repository, demo README, or technical changelog. Re-check signals weekly and turn top keywords into experiments.</p>
+      <p>Start with LinkedIn using a Practical carousel, founder insight, or professional case study. Re-check signals weekly and turn top keywords into experiments.</p>
     </div>
   </section>
 
   <section class="section">
-    <p class="muted">Generated at 22 Jun 2026, 11:33 AM. Raw data is saved date-wise in <strong>social-data/</strong>.</p>
+    <p class="muted">Generated at 22 Jun 2026, 11:44 AM. Raw data is saved date-wise in <strong>social-data/</strong>.</p>
   </section>
 </main>
 </body>

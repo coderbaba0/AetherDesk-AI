@@ -116,7 +116,9 @@ powershell -ExecutionPolicy Bypass -File .\activity-report.ps1
 
 Generates a Social Trend Intelligence + Behaviour Prediction Report from public search/RSS signals across YouTube, X/Twitter, LinkedIn, Reddit, GitHub, Google/Web, and News.
 
-The dashboard includes platform comparison bar/line graphs, a platform decision table, public signal results, related topic suggestions, and a local Gemma/Ollama summary when Ollama is running.
+The dashboard includes platform comparison bar/line graphs, a 7-day platform comparison chart, a platform decision table, best-resource ranking, public signal results, related topic suggestions, and a local Gemma/Ollama summary when Ollama is running.
+
+TrendRadar scoring is weighted by topic relevance, exact matches, freshness, source fit, domain diversity, keyword strength, and best-resource quality, so the report can identify which platform is actually strongest for the topic.
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\social-trend-report.ps1

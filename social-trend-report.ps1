@@ -155,7 +155,45 @@ Rules:
 - Do not invent metrics.
 - Platform score is the value before "/100"; signal count is separate. Never use signal count as a score.
 - Be direct and useful.
+- Do not add conversational closing lines like "let me know".
 "@
+}
+
+function Repair-TrendRadarGemmaText {
+    param([string]$Text)
+
+    if ([string]::IsNullOrWhiteSpace($Text)) {
+        return $Text
+    }
+
+    $clean = $Text.Trim()
+    $duplicateIndex = $clean.IndexOf("## Gemma Trend Summary (Revised)")
+
+    if ($duplicateIndex -gt 0) {
+        $clean = $clean.Substring(0, $duplicateIndex).Trim()
+    }
+
+    $lines = @()
+
+    foreach ($line in ($clean -replace "`r`n", "`n" -split "`n")) {
+        $trimmed = $line.Trim()
+
+        if ($trimmed -match '^Okay, here') {
+            continue
+        }
+
+        if ($trimmed -match '^Let me know') {
+            continue
+        }
+
+        if ($trimmed -eq "---") {
+            continue
+        }
+
+        $lines += $line
+    }
+
+    return (($lines -join "`n").Trim())
 }
 
 function Invoke-TrendRadarGemmaSummary {
@@ -203,11 +241,12 @@ function Invoke-TrendRadarGemmaSummary {
 
     $prompt = New-TrendRadarAiPrompt -TrendData $TrendData
     $result = Invoke-Ollama -Prompt $prompt -Config $config
+    $cleanText = Repair-TrendRadarGemmaText -Text $result.Text
 
     return [PSCustomObject]@{
         Success = $result.Success
         Model = $result.Model
-        Text = $result.Text
+        Text = $cleanText
     }
 }
 
@@ -307,6 +346,164 @@ function New-TrendRadarComparisonTableHtml {
   </table>
 </div>
 "@
+}
+
+function Get-TrendRadarSevenDayHistory {
+    param(
+        [object]$TrendData,
+        [string]$BaseDir
+    )
+
+    $history = @()
+    $socialRoot = Join-Path $BaseDir "social-data"
+
+    if (!(Test-Path $socialRoot)) {
+        return @()
+    }
+
+    $files = @(Get-ChildItem -Path $socialRoot -Recurse -Filter "$($TrendData.Slug)-social-raw.json" -ErrorAction SilentlyContinue)
+
+    foreach ($file in $files) {
+        try {
+            $json = [System.IO.File]::ReadAllText($file.FullName) | ConvertFrom-Json
+            $dateValue = $json.Date
+
+            if ([string]::IsNullOrWhiteSpace($dateValue)) {
+                $dateValue = $file.Directory.Name
+            }
+
+            $history += [PSCustomObject]@{
+                Date = $dateValue
+                OverallScore = [int]$json.OverallTrendOpportunityScore
+                BestPlatform = [string]$json.BestPlatform
+                Platforms = @($json.Platforms)
+            }
+        }
+        catch {
+            continue
+        }
+    }
+
+    return @(
+        $history |
+            Sort-Object Date -Descending |
+            Select-Object -First 7 |
+            Sort-Object Date
+    )
+}
+
+function New-TrendRadarSevenDayChartHtml {
+    param(
+        [array]$History,
+        [array]$CurrentPlatforms
+    )
+
+    if (-not $History -or $History.Count -eq 0) {
+        return "<p class='muted'>Seven-day history will appear after more daily TrendRadar runs for this topic.</p>"
+    }
+
+    $platformNames = @($CurrentPlatforms | Sort-Object Score -Descending | Select-Object -First 5 | ForEach-Object { $_.Name })
+    $width = 900
+    $height = 320
+    $left = 54
+    $right = 28
+    $top = 26
+    $bottom = 58
+    $plotWidth = $width - $left - $right
+    $plotHeight = $height - $top - $bottom
+    $count = [math]::Max(1, $History.Count)
+    $step = if ($count -gt 1) { $plotWidth / ($count - 1) } else { 0 }
+    $colors = @("#2563eb", "#0d7354", "#f59e0b", "#dc2626", "#7c3aed")
+    $lines = ""
+    $labels = ""
+    $legend = ""
+
+    for ($i = 0; $i -lt $History.Count; $i++) {
+        $x = [math]::Round($left + ($i * $step), 2)
+        $label = ConvertTo-TrendRadarHtmlSafe ([datetime]::Parse($History[$i].Date).ToString("dd MMM"))
+        $labels += "<text x='$x' y='$($height - 22)' text-anchor='middle' class='axis-label'>$label</text>"
+    }
+
+    for ($p = 0; $p -lt $platformNames.Count; $p++) {
+        $platformName = $platformNames[$p]
+        $color = $colors[$p % $colors.Count]
+        $points = @()
+        $dots = ""
+
+        for ($i = 0; $i -lt $History.Count; $i++) {
+            $platform = @($History[$i].Platforms | Where-Object { $_.Name -eq $platformName } | Select-Object -First 1)
+            $score = 0
+
+            if ($platform) {
+                $score = [int]$platform.Score
+            }
+
+            $x = [math]::Round($left + ($i * $step), 2)
+            $y = [math]::Round($top + ($plotHeight - (($score / 100) * $plotHeight)), 2)
+            $points += "$x,$y"
+            $dots += "<circle cx='$x' cy='$y' r='4' fill='$color'></circle>"
+        }
+
+        $safeName = ConvertTo-TrendRadarHtmlSafe $platformName
+        $lines += "<polyline points='$($points -join " ")' fill='none' stroke='$color' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'></polyline>$dots"
+        $legend += "<span class='legend-item'><i style='background:$color'></i>$safeName</span>"
+    }
+
+    return @"
+<div class="history-chart-wrap">
+  <svg class="line-chart" viewBox="0 0 $width $height" role="img" aria-label="Seven day platform comparison">
+    <line x1="$left" y1="$top" x2="$left" y2="$($top + $plotHeight)" class="grid-axis"></line>
+    <line x1="$left" y1="$($top + $plotHeight)" x2="$($width - $right)" y2="$($top + $plotHeight)" class="grid-axis"></line>
+    <line x1="$left" y1="$top" x2="$($width - $right)" y2="$top" class="grid-soft"></line>
+    <line x1="$left" y1="$($top + ($plotHeight * .5))" x2="$($width - $right)" y2="$($top + ($plotHeight * .5))" class="grid-soft"></line>
+    <text x="12" y="$($top + 5)" class="axis-label">100</text>
+    <text x="20" y="$($top + ($plotHeight * .5) + 5)" class="axis-label">50</text>
+    <text x="26" y="$($top + $plotHeight + 5)" class="axis-label">0</text>
+    $lines
+    $labels
+  </svg>
+  <div class="legend">$legend</div>
+</div>
+"@
+}
+
+function New-TrendRadarBestResourceHtml {
+    param([array]$Resources)
+
+    if (-not $Resources -or $Resources.Count -eq 0) {
+        return "<p class='muted'>No ranked resources available.</p>"
+    }
+
+    $cards = ""
+    $rank = 1
+
+    foreach ($resource in @($Resources | Select-Object -First 8)) {
+        $title = ConvertTo-TrendRadarHtmlSafe $resource.Title
+        $desc = ConvertTo-TrendRadarHtmlSafe $resource.Description
+        $link = ConvertTo-TrendRadarHtmlSafe $resource.Link
+        $platform = ConvertTo-TrendRadarHtmlSafe $resource.Platform
+        $domain = ConvertTo-TrendRadarHtmlSafe $resource.Domain
+        $score = [int]$resource.ResourceScore
+
+        if ([string]::IsNullOrWhiteSpace($desc)) {
+            $desc = "No description available."
+        }
+
+        $cards += @"
+<article class="best-resource">
+  <div class="resource-rank">#$rank</div>
+  <div>
+    <div class="resource-meta">$platform · $domain · Resource score $score/100</div>
+    <h3>$title</h3>
+    <p>$desc</p>
+    <a href="$link" target="_blank">Open best resource</a>
+  </div>
+</article>
+"@
+        $rank++
+    }
+
+    return $cards
 }
 
 function New-TrendRadarRelatedTopicTableHtml {
@@ -444,7 +641,10 @@ function New-TrendRadarReport {
     }
 
     $lineChartHtml = New-TrendRadarLineChartHtml -Platforms $TrendData.Platforms
+    $sevenDayHistory = Get-TrendRadarSevenDayHistory -TrendData $TrendData -BaseDir $BaseDir
+    $sevenDayChartHtml = New-TrendRadarSevenDayChartHtml -History $sevenDayHistory -CurrentPlatforms $TrendData.Platforms
     $comparisonTableHtml = New-TrendRadarComparisonTableHtml -Platforms $TrendData.Platforms
+    $bestResourceHtml = New-TrendRadarBestResourceHtml -Resources $TrendData.BestResources
     $keywordHtml = New-TrendRadarListHtml -Items $TrendData.KeywordClusters
     $hashtagHtml = New-TrendRadarListHtml -Items $TrendData.HashtagIdeas
     $youtubeHtml = New-TrendRadarListHtml -Items $TrendData.YouTubeTitleIdeas
@@ -526,6 +726,9 @@ h1{font-size:42px;line-height:1.08;margin:24px 0 10px}
 .line-dot{fill:#fff;stroke:#2563eb;stroke-width:3}
 .axis-label{font-size:11px;fill:#657184;font-weight:800}
 .score-label{font-size:12px;fill:#152033;font-weight:900}
+.legend{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+.legend-item{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:900;color:#657184}
+.legend-item i{display:inline-block;width:24px;height:4px;border-radius:999px}
 .table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px}
 table{width:100%;border-collapse:collapse;background:#fff;min-width:820px}
 th,td{text-align:left;padding:13px 14px;border-bottom:1px solid #edf1f6;vertical-align:top}
@@ -535,6 +738,12 @@ td span{display:block;color:#657184;font-size:12px;margin-top:3px}
 .ai-meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
 .pill{display:inline-block;padding:7px 10px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:12px;font-weight:900;color:#126b5c}
 .resource-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.best-resource{display:grid;grid-template-columns:52px 1fr;gap:14px;border:1px solid var(--line);border-radius:18px;padding:16px;background:#fff;margin-bottom:12px}
+.resource-rank{height:42px;width:42px;border-radius:14px;background:#ecfdf5;color:#126b5c;display:flex;align-items:center;justify-content:center;font-weight:1000}
+.resource-meta{font-size:12px;color:#657184;font-weight:900;margin-bottom:6px}
+.best-resource h3{margin:0 0 7px;font-size:16px}
+.best-resource p{margin:0 0 9px;color:#657184;line-height:1.45;font-size:13px}
+.best-resource a{font-weight:900;color:var(--blue);text-decoration:none}
 ul{margin:0;padding-left:20px}
 li{margin:8px 0;line-height:1.45}
 .platform-section{border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:16px;background:#fff}
@@ -580,11 +789,24 @@ li{margin:8px 0;line-height:1.45}
         $lineChartHtml
       </div>
     </div>
+    <p class="muted">Scores are weighted by topic relevance, exact matches, freshness, source fit, domain diversity, keyword strength, and best-resource quality. This avoids every platform getting the same score just because each returned the same number of search results.</p>
+  </section>
+
+  <section class="section">
+    <h2>7-Day Platform Comparison</h2>
+    <p class="muted">This chart compares platform scores for the same topic across the latest seven saved daily runs. It becomes more useful as TrendRadar runs daily.</p>
+    $sevenDayChartHtml
   </section>
 
   <section class="section">
     <h2>Which Platform Is Best?</h2>
     $comparisonTableHtml
+  </section>
+
+  <section class="section">
+    <h2>Best Resources to Use</h2>
+    <p class="muted">These are the strongest individual links used by TrendRadar to decide platform quality.</p>
+    $bestResourceHtml
   </section>
 
   <section class="section ai-summary">
