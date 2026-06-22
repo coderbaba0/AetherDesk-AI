@@ -1,0 +1,696 @@
+﻿{
+    "Module":  "AetherDesk TrendRadar",
+    "Purpose":  "Social Trend Intelligence + Behaviour Prediction Report",
+    "Topic":  "local ai agent",
+    "Slug":  "local-ai-agent",
+    "Date":  "2026-06-22",
+    "GeneratedAt":  "2026-06-22T11:18:45",
+    "OverallTrendOpportunityScore":  100,
+    "BestPlatform":  "GitHub",
+    "BestContentFormat":  "Open-source repository, demo README, or technical changelog",
+    "SocialBehaviourPrediction":  "High opportunity: the topic has broad platform coverage. Expect stronger engagement around agents, open, source, especially on GitHub.",
+    "KeywordClusters":  [
+                            "agents",
+                            "open",
+                            "source",
+                            "run",
+                            "locally",
+                            "localai",
+                            "chennai",
+                            "models",
+                            "our",
+                            "autonomous",
+                            "2026",
+                            "can"
+                        ],
+    "HashtagIdeas":  [
+                         "#localaiagent",
+                         "#agents",
+                         "#open",
+                         "#source",
+                         "#run",
+                         "#locally",
+                         "#localai",
+                         "#chennai"
+                     ],
+    "YouTubeTitleIdeas":  [
+                              "I tested local ai agent so you do not have to",
+                              "local ai agent explained with a real workflow",
+                              "Is local ai agent the next practical AI opportunity?",
+                              "local ai agent: tools, examples, and mistakes to avoid"
+                          ],
+    "LinkedInPostAngles":  [
+                               "What local ai agent means for builders and small teams",
+                               "A practical framework to evaluate local ai agent before adopting it",
+                               "The hidden behaviour shift behind local ai agent",
+                               "Why agents is becoming important in the local ai agent conversation"
+                           ],
+    "TwitterPostIdeas":  [
+                             "A short thread: what is actually changing around local ai agent",
+                             "Hot take: local ai agent matters less for hype and more for workflow design",
+                             "3 signals showing why local ai agent is worth watching",
+                             "Question for builders: where does local ai agent fit in your stack?"
+                         ],
+    "RedditDiscussionSignal":  100,
+    "GitHubOpenSourceSignal":  100,
+    "RecommendedAction":  "Start with GitHub using a Open-source repository, demo README, or technical changelog. Re-check signals weekly and turn top keywords into experiments.",
+    "Platforms":  [
+                      {
+                          "Name":  "YouTube",
+                          "Type":  "Video",
+                          "Query":  "local ai agent site:youtube.com/watch",
+                          "Score":  100,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "agents",
+                                           "source",
+                                           "open",
+                                           "localai",
+                                           "locally",
+                                           "run",
+                                           "models",
+                                           "own"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Best Open-Source AI Coding Agents in 2026 — Agentic.ai",
+                                              "Link":  "https://agentic.ai/best/open-source-coding-agents",
+                                              "Description":  "Self-hostable, inspectable, bring-your-own-model AI coding agents — the open-source alternatives to Cursor and Copilot, ranked by our independent 36-point agenticness rubric.",
+                                              "Published":  "Sun, 21 Jun 2026 16:28:00 GMT",
+                                              "Query":  "local ai agent site:youtube.com/watch"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Top 10 Local AI Agents You Can Run on Your PC in 2026",
+                                              "Link":  "https://dev.to/rednakta/top-10-openclaw-alternatives-local-ai-agents-you-can-run-on-your-pc-in-2026-305e",
+                                              "Description":  "A personal AI agent that runs on your laptop, talks to local or remote models, and exposes itself through every messaging app you already use. Started as a weekend project, hit 250k stars in 60 days, kept going.",
+                                              "Published":  "Tue, 16 Jun 2026 11:05:00 GMT",
+                                              "Query":  "local ai agent site:youtube.com/watch"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Top 10 Open Source AI Agents You Can Run Locally (2026)",
+                                              "Link":  "https://fast.io/resources/top-10-open-source-ai-agents/",
+                                              "Description":  "Run AI agents on your own hardware with zero cloud costs and full privacy. Compare 10 open source agents with local LLM support and setup guides.",
+                                              "Published":  "Sat, 20 Jun 2026 22:49:00 GMT",
+                                              "Query":  "local ai agent site:youtube.com/watch"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Awesome Local AI - GitHub",
+                                              "Link":  "https://github.com/msb-msb/awesome-local-ai",
+                                              "Description":  "A curated list of resources for running AI locally on consumer hardware -- LLMs, image generation, and AI agents without cloud dependencies. 230+ guides, tools, and community links.",
+                                              "Published":  "Tue, 03 Feb 2026 23:37:00 GMT",
+                                              "Query":  "local ai agent site:youtube.com/watch"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "GitHub - mudler/LocalAI: LocalAI is the open-source AI engine. Run any ...",
+                                              "Link":  "https://github.com/mudler/LocalAI",
+                                              "Description":  "Built-in Agents — Autonomous AI agents with tool use, RAG, skills, SSE streaming, and Agent Hub Backend Gallery — Install/remove backends on the fly via OCI images",
+                                              "Published":  "Thu, 19 Mar 2026 14:09:00 GMT",
+                                              "Query":  "local ai agent site:youtube.com/watch"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "LocalAgents.ai - Orchestrate AI Agents Locally",
+                                              "Link":  "https://localagents.ai/",
+                                              "Description":  "Simple Python SDK with intuitive APIs, full type hints, and comprehensive documentation. Bring your own models, tools, and integrations. Works with any local LLM. Then create your first agent in just a few lines of code. © 2024 LocalAgents.ai. Built for developers who value privacy and control.",
+                                              "Published":  "Thu, 18 Jun 2026 14:16:00 GMT",
+                                              "Query":  "local ai agent site:youtube.com/watch"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "LocalAI",
+                                              "Link":  "https://localai.io/",
+                                              "Description":  "OpenAI API Compatible - Run AI models locally with our modular ecosystem. From language models to autonomous agents and semantic search, build your complete AI stack without the cloud.",
+                                              "Published":  "Sun, 21 Jun 2026 01:05:00 GMT",
+                                              "Query":  "local ai agent site:youtube.com/watch"
+                                          },
+                                          {
+                                              "Platform":  "YouTube",
+                                              "Type":  "Video",
+                                              "Title":  "Agents - LocalAI",
+                                              "Link":  "https://localai.io/features/agents/",
+                                              "Description":  "Agents are autonomous AI entities that can reason, use tools, maintain memory, and interact with external services — all running locally as part of the LocalAI process.",
+                                              "Published":  "Sat, 20 Jun 2026 14:06:00 GMT",
+                                              "Query":  "local ai agent site:youtube.com/watch"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "X/Twitter",
+                          "Type":  "Social",
+                          "Query":  "local ai agent site:x.com OR site:twitter.com",
+                          "Score":  100,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "agents",
+                                           "source",
+                                           "open",
+                                           "localai",
+                                           "locally",
+                                           "run",
+                                           "models",
+                                           "own"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Best Open-Source AI Coding Agents in 2026 — Agentic.ai",
+                                              "Link":  "https://agentic.ai/best/open-source-coding-agents",
+                                              "Description":  "Self-hostable, inspectable, bring-your-own-model AI coding agents — the open-source alternatives to Cursor and Copilot, ranked by our independent 36-point agenticness rubric.",
+                                              "Published":  "Sun, 21 Jun 2026 16:28:00 GMT",
+                                              "Query":  "local ai agent site:x.com OR site:twitter.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Top 10 Local AI Agents You Can Run on Your PC in 2026",
+                                              "Link":  "https://dev.to/rednakta/top-10-openclaw-alternatives-local-ai-agents-you-can-run-on-your-pc-in-2026-305e",
+                                              "Description":  "A personal AI agent that runs on your laptop, talks to local or remote models, and exposes itself through every messaging app you already use. Started as a weekend project, hit 250k stars in 60 days, kept going.",
+                                              "Published":  "Tue, 16 Jun 2026 11:05:00 GMT",
+                                              "Query":  "local ai agent site:x.com OR site:twitter.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Top 10 Open Source AI Agents You Can Run Locally (2026)",
+                                              "Link":  "https://fast.io/resources/top-10-open-source-ai-agents/",
+                                              "Description":  "Run AI agents on your own hardware with zero cloud costs and full privacy. Compare 10 open source agents with local LLM support and setup guides.",
+                                              "Published":  "Sat, 20 Jun 2026 22:49:00 GMT",
+                                              "Query":  "local ai agent site:x.com OR site:twitter.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Awesome Local AI - GitHub",
+                                              "Link":  "https://github.com/msb-msb/awesome-local-ai",
+                                              "Description":  "A curated list of resources for running AI locally on consumer hardware -- LLMs, image generation, and AI agents without cloud dependencies. 230+ guides, tools, and community links.",
+                                              "Published":  "Tue, 03 Feb 2026 23:37:00 GMT",
+                                              "Query":  "local ai agent site:x.com OR site:twitter.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "GitHub - mudler/LocalAI: LocalAI is the open-source AI engine. Run any ...",
+                                              "Link":  "https://github.com/mudler/LocalAI",
+                                              "Description":  "Built-in Agents — Autonomous AI agents with tool use, RAG, skills, SSE streaming, and Agent Hub Backend Gallery — Install/remove backends on the fly via OCI images",
+                                              "Published":  "Thu, 19 Mar 2026 14:09:00 GMT",
+                                              "Query":  "local ai agent site:x.com OR site:twitter.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "LocalAgents.ai - Orchestrate AI Agents Locally",
+                                              "Link":  "https://localagents.ai/",
+                                              "Description":  "Simple Python SDK with intuitive APIs, full type hints, and comprehensive documentation. Bring your own models, tools, and integrations. Works with any local LLM. Then create your first agent in just a few lines of code. © 2024 LocalAgents.ai. Built for developers who value privacy and control.",
+                                              "Published":  "Thu, 18 Jun 2026 14:16:00 GMT",
+                                              "Query":  "local ai agent site:x.com OR site:twitter.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "LocalAI",
+                                              "Link":  "https://localai.io/",
+                                              "Description":  "OpenAI API Compatible - Run AI models locally with our modular ecosystem. From language models to autonomous agents and semantic search, build your complete AI stack without the cloud.",
+                                              "Published":  "Sun, 21 Jun 2026 01:05:00 GMT",
+                                              "Query":  "local ai agent site:x.com OR site:twitter.com"
+                                          },
+                                          {
+                                              "Platform":  "X/Twitter",
+                                              "Type":  "Social",
+                                              "Title":  "Agents - LocalAI",
+                                              "Link":  "https://localai.io/features/agents/",
+                                              "Description":  "Agents are autonomous AI entities that can reason, use tools, maintain memory, and interact with external services — all running locally as part of the LocalAI process.",
+                                              "Published":  "Sat, 20 Jun 2026 14:06:00 GMT",
+                                              "Query":  "local ai agent site:x.com OR site:twitter.com"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "LinkedIn",
+                          "Type":  "Social",
+                          "Query":  "local ai agent site:linkedin.com/posts OR site:linkedin.com/pulse",
+                          "Score":  100,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "agents",
+                                           "source",
+                                           "open",
+                                           "localai",
+                                           "locally",
+                                           "run",
+                                           "models",
+                                           "own"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Best Open-Source AI Coding Agents in 2026 — Agentic.ai",
+                                              "Link":  "https://agentic.ai/best/open-source-coding-agents",
+                                              "Description":  "Self-hostable, inspectable, bring-your-own-model AI coding agents — the open-source alternatives to Cursor and Copilot, ranked by our independent 36-point agenticness rubric.",
+                                              "Published":  "Sun, 21 Jun 2026 16:28:00 GMT",
+                                              "Query":  "local ai agent site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Top 10 Local AI Agents You Can Run on Your PC in 2026",
+                                              "Link":  "https://dev.to/rednakta/top-10-openclaw-alternatives-local-ai-agents-you-can-run-on-your-pc-in-2026-305e",
+                                              "Description":  "A personal AI agent that runs on your laptop, talks to local or remote models, and exposes itself through every messaging app you already use. Started as a weekend project, hit 250k stars in 60 days, kept going.",
+                                              "Published":  "Tue, 16 Jun 2026 11:05:00 GMT",
+                                              "Query":  "local ai agent site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Top 10 Open Source AI Agents You Can Run Locally (2026)",
+                                              "Link":  "https://fast.io/resources/top-10-open-source-ai-agents/",
+                                              "Description":  "Run AI agents on your own hardware with zero cloud costs and full privacy. Compare 10 open source agents with local LLM support and setup guides.",
+                                              "Published":  "Sat, 20 Jun 2026 22:49:00 GMT",
+                                              "Query":  "local ai agent site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Awesome Local AI - GitHub",
+                                              "Link":  "https://github.com/msb-msb/awesome-local-ai",
+                                              "Description":  "A curated list of resources for running AI locally on consumer hardware -- LLMs, image generation, and AI agents without cloud dependencies. 230+ guides, tools, and community links.",
+                                              "Published":  "Tue, 03 Feb 2026 23:37:00 GMT",
+                                              "Query":  "local ai agent site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "GitHub - mudler/LocalAI: LocalAI is the open-source AI engine. Run any ...",
+                                              "Link":  "https://github.com/mudler/LocalAI",
+                                              "Description":  "Built-in Agents — Autonomous AI agents with tool use, RAG, skills, SSE streaming, and Agent Hub Backend Gallery — Install/remove backends on the fly via OCI images",
+                                              "Published":  "Thu, 19 Mar 2026 14:09:00 GMT",
+                                              "Query":  "local ai agent site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "LocalAgents.ai - Orchestrate AI Agents Locally",
+                                              "Link":  "https://localagents.ai/",
+                                              "Description":  "Simple Python SDK with intuitive APIs, full type hints, and comprehensive documentation. Bring your own models, tools, and integrations. Works with any local LLM. Then create your first agent in just a few lines of code. © 2024 LocalAgents.ai. Built for developers who value privacy and control.",
+                                              "Published":  "Thu, 18 Jun 2026 14:16:00 GMT",
+                                              "Query":  "local ai agent site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "LocalAI",
+                                              "Link":  "https://localai.io/",
+                                              "Description":  "OpenAI API Compatible - Run AI models locally with our modular ecosystem. From language models to autonomous agents and semantic search, build your complete AI stack without the cloud.",
+                                              "Published":  "Sun, 21 Jun 2026 01:05:00 GMT",
+                                              "Query":  "local ai agent site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                          },
+                                          {
+                                              "Platform":  "LinkedIn",
+                                              "Type":  "Social",
+                                              "Title":  "Agents - LocalAI",
+                                              "Link":  "https://localai.io/features/agents/",
+                                              "Description":  "Agents are autonomous AI entities that can reason, use tools, maintain memory, and interact with external services — all running locally as part of the LocalAI process.",
+                                              "Published":  "Sat, 20 Jun 2026 14:06:00 GMT",
+                                              "Query":  "local ai agent site:linkedin.com/posts OR site:linkedin.com/pulse"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "Reddit",
+                          "Type":  "Community",
+                          "Query":  "local ai agent site:reddit.com/r",
+                          "Score":  100,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "agents",
+                                           "source",
+                                           "open",
+                                           "localai",
+                                           "locally",
+                                           "run",
+                                           "models",
+                                           "own"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Best Open-Source AI Coding Agents in 2026 — Agentic.ai",
+                                              "Link":  "https://agentic.ai/best/open-source-coding-agents",
+                                              "Description":  "Self-hostable, inspectable, bring-your-own-model AI coding agents — the open-source alternatives to Cursor and Copilot, ranked by our independent 36-point agenticness rubric.",
+                                              "Published":  "Sun, 21 Jun 2026 16:28:00 GMT",
+                                              "Query":  "local ai agent site:reddit.com/r"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Top 10 Local AI Agents You Can Run on Your PC in 2026",
+                                              "Link":  "https://dev.to/rednakta/top-10-openclaw-alternatives-local-ai-agents-you-can-run-on-your-pc-in-2026-305e",
+                                              "Description":  "A personal AI agent that runs on your laptop, talks to local or remote models, and exposes itself through every messaging app you already use. Started as a weekend project, hit 250k stars in 60 days, kept going.",
+                                              "Published":  "Tue, 16 Jun 2026 11:05:00 GMT",
+                                              "Query":  "local ai agent site:reddit.com/r"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Top 10 Open Source AI Agents You Can Run Locally (2026)",
+                                              "Link":  "https://fast.io/resources/top-10-open-source-ai-agents/",
+                                              "Description":  "Run AI agents on your own hardware with zero cloud costs and full privacy. Compare 10 open source agents with local LLM support and setup guides.",
+                                              "Published":  "Sat, 20 Jun 2026 22:49:00 GMT",
+                                              "Query":  "local ai agent site:reddit.com/r"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Awesome Local AI - GitHub",
+                                              "Link":  "https://github.com/msb-msb/awesome-local-ai",
+                                              "Description":  "A curated list of resources for running AI locally on consumer hardware -- LLMs, image generation, and AI agents without cloud dependencies. 230+ guides, tools, and community links.",
+                                              "Published":  "Tue, 03 Feb 2026 23:37:00 GMT",
+                                              "Query":  "local ai agent site:reddit.com/r"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "GitHub - mudler/LocalAI: LocalAI is the open-source AI engine. Run any ...",
+                                              "Link":  "https://github.com/mudler/LocalAI",
+                                              "Description":  "Built-in Agents — Autonomous AI agents with tool use, RAG, skills, SSE streaming, and Agent Hub Backend Gallery — Install/remove backends on the fly via OCI images",
+                                              "Published":  "Thu, 19 Mar 2026 14:09:00 GMT",
+                                              "Query":  "local ai agent site:reddit.com/r"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "LocalAgents.ai - Orchestrate AI Agents Locally",
+                                              "Link":  "https://localagents.ai/",
+                                              "Description":  "Simple Python SDK with intuitive APIs, full type hints, and comprehensive documentation. Bring your own models, tools, and integrations. Works with any local LLM. Then create your first agent in just a few lines of code. © 2024 LocalAgents.ai. Built for developers who value privacy and control.",
+                                              "Published":  "Thu, 18 Jun 2026 14:16:00 GMT",
+                                              "Query":  "local ai agent site:reddit.com/r"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "LocalAI",
+                                              "Link":  "https://localai.io/",
+                                              "Description":  "OpenAI API Compatible - Run AI models locally with our modular ecosystem. From language models to autonomous agents and semantic search, build your complete AI stack without the cloud.",
+                                              "Published":  "Sun, 21 Jun 2026 01:05:00 GMT",
+                                              "Query":  "local ai agent site:reddit.com/r"
+                                          },
+                                          {
+                                              "Platform":  "Reddit",
+                                              "Type":  "Community",
+                                              "Title":  "Agents - LocalAI",
+                                              "Link":  "https://localai.io/features/agents/",
+                                              "Description":  "Agents are autonomous AI entities that can reason, use tools, maintain memory, and interact with external services — all running locally as part of the LocalAI process.",
+                                              "Published":  "Sat, 20 Jun 2026 14:06:00 GMT",
+                                              "Query":  "local ai agent site:reddit.com/r"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "GitHub",
+                          "Type":  "Open Source",
+                          "Query":  "local ai agent site:github.com repository open source",
+                          "Score":  100,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "chennai",
+                                           "india",
+                                           "free",
+                                           "job",
+                                           "tamil",
+                                           "tamilnadu",
+                                           "our",
+                                           "classifieds"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Chennai District | Government of Tamil Nadu | Gateway of South India ...",
+                                              "Link":  "https://chennai.nic.in/",
+                                              "Description":  "Chennai is the capital city of Tamilnadu State. It is one of the metropolis of India and serves as the gateway of the culture of South India.",
+                                              "Published":  "Sun, 21 Jun 2026 21:50:00 GMT",
+                                              "Query":  "local ai agent site:github.com repository open source"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "LOCAL | English meaning - Cambridge Dictionary",
+                                              "Link":  "https://dictionary.cambridge.org/dictionary/english/local",
+                                              "Description":  "Most of the local population depend on fishing for their income. Our children all go to the local school. Many local shops will be forced to close if the new supermarket is built. She works on the checkout at the local supermarket. I\u0027ve just joined the local tennis club. We advertised our car in the local newspaper.",
+                                              "Published":  "Sun, 21 Jun 2026 08:50:00 GMT",
+                                              "Query":  "local ai agent site:github.com repository open source"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Post Your Job| Hire Employees | Lokal Employer Login",
+                                              "Link":  "https://getlokalapp.com/hire",
+                                              "Description":  "With 45M+ downloads, Lokal is a one stop solution for local updates, job search, classifieds and more!. Hire from 2500000+ pool of skilled candidates. Browse and filter from your district, recruit within 24hrs.Post a Job Vacancy : Telecallers, Admin office Staff \u0026 more.",
+                                              "Published":  "Sun, 21 Jun 2026 13:43:00 GMT",
+                                              "Query":  "local ai agent site:github.com repository open source"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Google Maps",
+                                              "Link":  "https://local.google.com/",
+                                              "Description":  "Find local businesses, view maps and get driving directions in Google Maps.",
+                                              "Published":  "Sat, 20 Jun 2026 18:45:00 GMT",
+                                              "Query":  "local ai agent site:github.com repository open source"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Metropolitan Transport Corporation (Chennai) Ltd",
+                                              "Link":  "https://mtcbus.tn.gov.in/",
+                                              "Description":  "MTC Driving School, Chrompet - Application \u0026 Syllabus for Heavy Motor Vehicle available in our website . MTC Driving School, Chrompet - Application \u0026 Syllabus for Light Motor Vehicle available in our website . Free Travel for all Women in Ordinary Fare City buses in MTC from 08-05-2021.",
+                                              "Published":  "Sun, 21 Jun 2026 18:08:00 GMT",
+                                              "Query":  "local ai agent site:github.com repository open source"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Tamil Nadu News (தமிழ்நாடு): Live News ... - Lokal Tamil",
+                                              "Link":  "https://tamil.getlokalapp.com/tamilnadu-news",
+                                              "Description":  "Tamil Nadu News (தமிழ்நாடு): நேரலை, சென்னை செய்திகள், அப்டேட்கள், தலைப்புச் செய்திகள்",
+                                              "Published":  "Sun, 21 Jun 2026 19:20:00 GMT",
+                                              "Query":  "local ai agent site:github.com repository open source"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Chennai News: Latest Chennai News Headlines \u0026 Coronavirus News Updates ...",
+                                              "Link":  "https://timesofindia.indiatimes.com/city/chennai",
+                                              "Description":  "Check out the latest news in Chennai on The Times of India with a wide range of topics including Chennai’s politics, Chennai crime, sports, fashion, Kollywood, culture, dance and music, industries, civic bodies, Chennai traffic updates, new trends, education and civic issues.",
+                                              "Published":  "Wed, 03 Jan 2024 19:49:00 GMT",
+                                              "Query":  "local ai agent site:github.com repository open source"
+                                          },
+                                          {
+                                              "Platform":  "GitHub",
+                                              "Type":  "Open Source",
+                                              "Title":  "Tamilnadu Free Classifieds TNlocal - TNlocal.in | Tamilnadu Free ...",
+                                              "Link":  "https://tnlocal.in/",
+                                              "Description":  "TN local (www.tnlocal.in) a Largest Classified Listing Marketplace in Tamilnadu. Allows users to post Free Sell, Rent, Motor, Real Estate \u0026 Job Classifieds.",
+                                              "Published":  "Fri, 19 Jun 2026 14:29:00 GMT",
+                                              "Query":  "local ai agent site:github.com repository open source"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "Google/Web",
+                          "Type":  "Web",
+                          "Query":  "local ai agent latest trend guide analysis",
+                          "Score":  100,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "chennai",
+                                           "india",
+                                           "free",
+                                           "job",
+                                           "tamil",
+                                           "tamilnadu",
+                                           "our",
+                                           "classifieds"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Chennai District | Government of Tamil Nadu | Gateway of South India ...",
+                                              "Link":  "https://chennai.nic.in/",
+                                              "Description":  "Chennai is the capital city of Tamilnadu State. It is one of the metropolis of India and serves as the gateway of the culture of South India.",
+                                              "Published":  "Sun, 21 Jun 2026 21:50:00 GMT",
+                                              "Query":  "local ai agent latest trend guide analysis"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "LOCAL | English meaning - Cambridge Dictionary",
+                                              "Link":  "https://dictionary.cambridge.org/dictionary/english/local",
+                                              "Description":  "Most of the local population depend on fishing for their income. Our children all go to the local school. Many local shops will be forced to close if the new supermarket is built. She works on the checkout at the local supermarket. I\u0027ve just joined the local tennis club. We advertised our car in the local newspaper.",
+                                              "Published":  "Sun, 21 Jun 2026 08:50:00 GMT",
+                                              "Query":  "local ai agent latest trend guide analysis"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Post Your Job| Hire Employees | Lokal Employer Login",
+                                              "Link":  "https://getlokalapp.com/hire",
+                                              "Description":  "With 45M+ downloads, Lokal is a one stop solution for local updates, job search, classifieds and more!. Hire from 2500000+ pool of skilled candidates. Browse and filter from your district, recruit within 24hrs.Post a Job Vacancy : Telecallers, Admin office Staff \u0026 more.",
+                                              "Published":  "Sun, 21 Jun 2026 13:43:00 GMT",
+                                              "Query":  "local ai agent latest trend guide analysis"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Google Maps",
+                                              "Link":  "https://local.google.com/",
+                                              "Description":  "Find local businesses, view maps and get driving directions in Google Maps.",
+                                              "Published":  "Sat, 20 Jun 2026 18:45:00 GMT",
+                                              "Query":  "local ai agent latest trend guide analysis"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Metropolitan Transport Corporation (Chennai) Ltd",
+                                              "Link":  "https://mtcbus.tn.gov.in/",
+                                              "Description":  "MTC Driving School, Chrompet - Application \u0026 Syllabus for Heavy Motor Vehicle available in our website . MTC Driving School, Chrompet - Application \u0026 Syllabus for Light Motor Vehicle available in our website . Free Travel for all Women in Ordinary Fare City buses in MTC from 08-05-2021.",
+                                              "Published":  "Sun, 21 Jun 2026 18:08:00 GMT",
+                                              "Query":  "local ai agent latest trend guide analysis"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Tamil Nadu News (தமிழ்நாடு): Live News ... - Lokal Tamil",
+                                              "Link":  "https://tamil.getlokalapp.com/tamilnadu-news",
+                                              "Description":  "Tamil Nadu News (தமிழ்நாடு): நேரலை, சென்னை செய்திகள், அப்டேட்கள், தலைப்புச் செய்திகள்",
+                                              "Published":  "Sun, 21 Jun 2026 19:20:00 GMT",
+                                              "Query":  "local ai agent latest trend guide analysis"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Chennai News: Latest Chennai News Headlines \u0026 Coronavirus News Updates ...",
+                                              "Link":  "https://timesofindia.indiatimes.com/city/chennai",
+                                              "Description":  "Check out the latest news in Chennai on The Times of India with a wide range of topics including Chennai’s politics, Chennai crime, sports, fashion, Kollywood, culture, dance and music, industries, civic bodies, Chennai traffic updates, new trends, education and civic issues.",
+                                              "Published":  "Wed, 03 Jan 2024 19:49:00 GMT",
+                                              "Query":  "local ai agent latest trend guide analysis"
+                                          },
+                                          {
+                                              "Platform":  "Google/Web",
+                                              "Type":  "Web",
+                                              "Title":  "Tamilnadu Free Classifieds TNlocal - TNlocal.in | Tamilnadu Free ...",
+                                              "Link":  "https://tnlocal.in/",
+                                              "Description":  "TN local (www.tnlocal.in) a Largest Classified Listing Marketplace in Tamilnadu. Allows users to post Free Sell, Rent, Motor, Real Estate \u0026 Job Classifieds.",
+                                              "Published":  "Fri, 19 Jun 2026 14:29:00 GMT",
+                                              "Query":  "local ai agent latest trend guide analysis"
+                                          }
+                                      ]
+                      },
+                      {
+                          "Name":  "News",
+                          "Type":  "News",
+                          "Query":  "local ai agent latest news trend",
+                          "Score":  100,
+                          "ResultCount":  8,
+                          "Keywords":  [
+                                           "agents",
+                                           "google",
+                                           "autonomous",
+                                           "has",
+                                           "gemini",
+                                           "its",
+                                           "they",
+                                           "jio"
+                                       ],
+                          "Results":  [
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "AI AGENTS",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38ccbdc24743ec8ddbb213e36c79c0\u0026url=https%3a%2f%2fcio.economictimes.indiatimes.com%2ftag%2fai%2bagents\u0026c=15959058778854586404\u0026mkt=en-in",
+                                              "Description":  "Agentic AI is revolutionizing finance by embedding autonomous decision-making into workflows, offering speed and personalization. Financial institutions must adapt by designing agent-friendly products ...",
+                                              "Published":  "Mon, 04 May 2026 21:09:00 GMT",
+                                              "Query":  "local ai agent latest news trend"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Why Google DeepMind thinks AI agents need to be treated like ‘insider threats’",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38ccbdc24743ec8ddbb213e36c79c0\u0026url=https%3a%2f%2findianexpress.com%2farticle%2fexplained%2fexplained-ai%2fdeepmind-ai-control-roadmap-explained-10749406%2f\u0026c=17273593336538475420\u0026mkt=en-in",
+                                              "Description":  "As increasingly autonomous AI agents are deployed in software development, cybersecurity, scientific research and business operations, traditional techniques may not be enough to manage the risks they ...",
+                                              "Published":  "Sat, 20 Jun 2026 05:28:00 GMT",
+                                              "Query":  "local ai agent latest news trend"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Onix 2026 AI trends: Multi-agent systems redefine enterprise workflows",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38ccbdc24743ec8ddbb213e36c79c0\u0026url=https%3a%2f%2ftimesofindia.indiatimes.com%2ftechnology%2ftech-news%2fonix-2026-ai-trends-multi-agent-systems-redefine-enterprise-workflows%2farticleshow%2f126487254.cms\u0026c=9450863937097822001\u0026mkt=en-in",
+                                              "Description":  "Agentic AI as the Operational Baseline: AI has evolved from a passive assistant to an active executor. Minimal human input is now required for routine processes, making autonomous agents the default ...",
+                                              "Published":  "Mon, 12 Jan 2026 18:09:00 GMT",
+                                              "Query":  "local ai agent latest news trend"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Why AI agents could create a new control and security crisis",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38ccbdc24743ec8ddbb213e36c79c0\u0026url=https%3a%2f%2fwww.computerworld.com%2fvideo%2f4185559%2fwhy-ai-agents-could-create-a-new-control-and-security-crisis.html\u0026c=11103198929557135692\u0026mkt=en-in",
+                                              "Description":  "Abhinav: The technology is advancing quickly. One important development is the adoption of the Model Context Protocol (MCP) as a standard way to control what agents can access and do. MCP effectively ...",
+                                              "Published":  "Tue, 16 Jun 2026 04:49:00 GMT",
+                                              "Query":  "local ai agent latest news trend"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Gemini CLI: Google’s latest open source AI agent explained",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38ccbdc24743ec8ddbb213e36c79c0\u0026url=https%3a%2f%2fwww.digit.in%2ffeatures%2fgeneral%2fgemini-cli-googles-latest-open-source-ai-agent-explained.html\u0026c=13186403246934766964\u0026mkt=en-in",
+                                              "Description":  "Google has released a powerful new tool aimed squarely at developers and it runs right from the terminal. Meet Gemini CLI, an open-source command-line interface powered by Google’s Gemini AI models.",
+                                              "Published":  "Wed, 25 Jun 2025 16:59:00 GMT",
+                                              "Query":  "local ai agent latest news trend"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "Jio brings AI Call Agent and MyJio AI advisor: Here is what it will do",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38ccbdc24743ec8ddbb213e36c79c0\u0026url=https%3a%2f%2fwww.digit.in%2fnews%2fgeneral%2fjio-brings-ai-call-agent-and-myjio-ai-advisor-here-is-what-it-will-do.html\u0026c=15200957828769489637\u0026mkt=en-in",
+                                              "Description":  "Reliance Jio announced two AI-driven products at its 49th Annual General Meeting (AGM) 2026 on Friday. The idea, Jio claims, is to offer artificial intelligence (AI) into its services rather than ...",
+                                              "Published":  "Fri, 19 Jun 2026 03:51:00 GMT",
+                                              "Query":  "local ai agent latest news trend"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "OpenAI wants an all-knowing personal AI agent for everyone on Earth",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38ccbdc24743ec8ddbb213e36c79c0\u0026url=https%3a%2f%2fwww.digitaltrends.com%2fcomputing%2fopenai-wants-an-all-knowing-personal-ai-agent-for-everyone-on-earth%2f\u0026c=14717577602423477225\u0026mkt=en-in",
+                                              "Description":  "OpenAI is framing personal AGI as the mass-market endpoint of its AI race, but it still has to explain price, access, safeguards, and how an all-knowing assistant would work for everyone.",
+                                              "Published":  "Sat, 20 Jun 2026 03:55:00 GMT",
+                                              "Query":  "local ai agent latest news trend"
+                                          },
+                                          {
+                                              "Platform":  "News",
+                                              "Type":  "News",
+                                              "Title":  "AI Agents: Big Tech\u0027s Next Battleground",
+                                              "Link":  "http://www.bing.com/news/apiclick.aspx?ref=FexRss\u0026aid=\u0026tid=6a38ccbdc24743ec8ddbb213e36c79c0\u0026url=https%3a%2f%2fwww.miragenews.com%2fai-agents-big-techs-next-battleground-1695296%2f\u0026c=14328525065801679040\u0026mkt=en-in",
+                                              "Description":  "A customer sends a WhatsApp message to a local store asking about a product. Within seconds, they receive an answer.The product they\u0027re after is in ...",
+                                              "Published":  "Thu, 18 Jun 2026 11:58:00 GMT",
+                                              "Query":  "local ai agent latest news trend"
+                                          }
+                                      ]
+                      }
+                  ]
+}

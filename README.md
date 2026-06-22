@@ -8,6 +8,7 @@ It helps you:
 * Check Windows system health
 * Track active app usage
 * Build productivity dashboards from local activity data
+* Analyze public social trend signals with TrendRadar
 * Export clean browser-based reports
 
 > Local AI. Local reports. Local productivity intelligence.
@@ -78,6 +79,7 @@ Watch how to run AetherDesk AI:
 | System health | Checks CPU, RAM, disk, Wi-Fi, Bluetooth, DNS, internet, and battery |
 | Activity tracking | Tracks active Windows apps and window titles |
 | Productivity dashboard | Shows app usage, category usage, time patterns, and score |
+| TrendRadar | Builds social trend intelligence and behaviour prediction reports |
 | HTML reports | Browser-based reports with PDF/print support |
 | Scheduler support | Daily/weekly automation through Windows Task Scheduler |
 
@@ -110,6 +112,14 @@ powershell -ExecutionPolicy Bypass -File .\activity-tracker.ps1
 powershell -ExecutionPolicy Bypass -File .\activity-report.ps1
 ```
 
+### AetherDesk TrendRadar
+
+Generates a Social Trend Intelligence + Behaviour Prediction Report from public search/RSS signals across YouTube, X/Twitter, LinkedIn, Reddit, GitHub, Google/Web, and News.
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\social-trend-report.ps1
+```
+
 ---
 
 ## Folder Structure
@@ -123,12 +133,15 @@ AetherDeskAI/
 ├── run-health-ai.ps1
 ├── activity-tracker.ps1
 ├── activity-report.ps1
+├── social-trends.ps1
+├── social-trend-report.ps1
 ├── system-health.ps1
 ├── report.ps1
 ├── search.ps1
 ├── ollama.ps1
 ├── screenshots/
 ├── reports/
+├── social-data/
 ├── logs/
 ├── cache/
 └── activity-data/
@@ -166,6 +179,7 @@ powershell -ExecutionPolicy Bypass -File .\run-agent.ps1
 powershell -ExecutionPolicy Bypass -File .\run-health-ai.ps1
 powershell -ExecutionPolicy Bypass -File .\activity-tracker.ps1
 powershell -ExecutionPolicy Bypass -File .\activity-report.ps1
+powershell -ExecutionPolicy Bypass -File .\social-trend-report.ps1
 ```
 
 Generated reports are saved in:
@@ -178,6 +192,12 @@ Activity logs are saved in:
 
 ```text
 activity-data/
+```
+
+TrendRadar raw data is saved in:
+
+```text
+social-data/
 ```
 
 ---

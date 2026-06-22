@@ -18,6 +18,7 @@ if not exist "%BASE%\reports" mkdir "%BASE%\reports"
 if not exist "%BASE%\logs" mkdir "%BASE%\logs"
 if not exist "%BASE%\cache" mkdir "%BASE%\cache"
 if not exist "%BASE%\activity-data" mkdir "%BASE%\activity-data"
+if not exist "%BASE%\social-data" mkdir "%BASE%\social-data"
 
 call :WELCOME
 
@@ -40,6 +41,7 @@ echo   2. System Health AI Report
 echo   3. Start Activity Tracker  [opens in NEW terminal]
 echo   4. Generate Activity Productivity Dashboard
 echo   5. Open Reports Folder
+echo   14. Social TrendRadar Report
 echo.
 echo Scheduler:
 echo   6. Schedule Daily Trending AI Report
@@ -70,6 +72,7 @@ if "%choice%"=="10" goto CHECK_OLLAMA
 if "%choice%"=="11" goto OLLAMA_HELP
 if "%choice%"=="12" goto USAGE
 if "%choice%"=="13" goto REMOVE_TRACKER_SCHEDULE
+if "%choice%"=="14" goto TRENDRADAR
 if "%choice%"=="0" exit /b
 
 echo.
@@ -292,6 +295,52 @@ cd /d "%BASE%"
 
 echo.
 echo Productivity dashboard process finished.
+echo Reports folder:
+echo %BASE%\reports
+echo.
+pause
+goto MENU
+
+
+:TRENDRADAR
+cls
+color 0A
+echo ==================================================
+echo AetherDesk TrendRadar Social Intelligence Report
+echo ==================================================
+echo.
+echo Built by: flutterfever.com
+echo.
+echo This module collects public search/RSS based signals from:
+echo - YouTube
+echo - X/Twitter
+echo - LinkedIn
+echo - Reddit
+echo - GitHub
+echo - Google/Web
+echo - News
+echo.
+echo Raw data folder:
+echo %BASE%\social-data
+echo.
+echo Report folder:
+echo %BASE%\reports
+echo.
+
+if not exist "%BASE%\social-trend-report.ps1" (
+    echo [ERROR] social-trend-report.ps1 not found.
+    echo Expected path:
+    echo %BASE%\social-trend-report.ps1
+    echo.
+    pause
+    goto MENU
+)
+
+cd /d "%BASE%"
+%PS% -File "%BASE%\social-trend-report.ps1"
+
+echo.
+echo TrendRadar report process finished.
 echo Reports folder:
 echo %BASE%\reports
 echo.
@@ -606,6 +655,25 @@ echo Choose option 4 to generate productivity dashboard.
 echo.
 echo Data folder:
 echo %BASE%\activity-data
+echo.
+echo Output:
+echo %BASE%\reports
+echo.
+echo.
+echo MODULE 4: TrendRadar Social Intelligence Agent
+echo ----------------------------------------------
+echo Use option 14.
+echo It asks for a topic, then collects public signals from:
+echo - YouTube
+echo - X/Twitter
+echo - LinkedIn
+echo - Reddit
+echo - GitHub
+echo - Google/Web
+echo - News
+echo.
+echo Raw data:
+echo %BASE%\social-data
 echo.
 echo Output:
 echo %BASE%\reports

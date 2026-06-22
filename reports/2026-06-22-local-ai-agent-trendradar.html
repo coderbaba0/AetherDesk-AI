@@ -1,0 +1,358 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>local ai agent - AetherDesk TrendRadar</title>
+<style>
+*{box-sizing:border-box}
+:root{
+  --bg:#f4f7fb;
+  --ink:#152033;
+  --muted:#657184;
+  --card:#ffffff;
+  --line:#dce4ef;
+  --primary:#126b5c;
+  --primary2:#29b391;
+  --blue:#2563eb;
+  --orange:#f59e0b;
+  --shadow:0 18px 42px rgba(21,32,51,.10);
+}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",Arial,sans-serif}
+.page{padding:30px;min-height:100vh;background:linear-gradient(135deg,#f7fbff,#eef7f3)}
+.hero{border-radius:26px;padding:34px;background:linear-gradient(135deg,#102238,#126b5c 65%,#29b391);color:#fff;box-shadow:var(--shadow)}
+.topline{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap}
+.tag{padding:8px 13px;border-radius:999px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);font-size:12px;font-weight:800;letter-spacing:.5px;text-transform:uppercase}
+.print{border:0;border-radius:12px;padding:10px 14px;font-weight:900;color:#126b5c;background:#fff;cursor:pointer}
+h1{font-size:42px;line-height:1.08;margin:24px 0 10px}
+.hero p{max-width:900px;line-height:1.6;opacity:.9}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:24px}
+.stat{padding:16px;border-radius:18px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22)}
+.stat span{display:block;font-size:12px;opacity:.78}
+.stat strong{display:block;font-size:25px;margin-top:7px}
+.section{margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:var(--shadow)}
+.section h2{margin:0 0 16px;font-size:24px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.card{border:1px solid var(--line);border-radius:18px;padding:18px;background:#fff}
+.card h3{margin:0 0 10px}
+.muted{color:var(--muted)}
+.bar-row{margin-bottom:14px}
+.bar-head{display:flex;justify-content:space-between;gap:12px;margin-bottom:7px;font-size:13px}
+.bar{height:13px;border-radius:999px;background:#e7edf5;overflow:hidden}
+.fill{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--primary),var(--primary2))}
+ul{margin:0;padding-left:20px}
+li{margin:8px 0;line-height:1.45}
+.platform-section{border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:16px;background:#fff}
+.platform-heading{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}
+.platform-heading h3{margin:0}
+.platform-heading span{font-weight:900;color:var(--primary)}
+.resource{border-top:1px solid #edf1f6;padding:13px 0}
+.resource:first-of-type{border-top:0}
+.resource h4{margin:0 0 6px;font-size:15px}
+.resource p{margin:0 0 8px;color:var(--muted);font-size:13px;line-height:1.45}
+.resource a{font-weight:900;color:var(--blue);text-decoration:none}
+.recommend{background:linear-gradient(135deg,#fff7ed,#ecfdf5);border-color:#fed7aa}
+@media(max-width:900px){.page{padding:16px}.stats,.grid{grid-template-columns:1fr}h1{font-size:32px}}
+@media print{.print{display:none}.page{padding:0}.section,.hero{box-shadow:none}}
+</style>
+</head>
+<body>
+<main class="page">
+  <section class="hero">
+    <div class="topline">
+      <span class="tag">AetherDesk TrendRadar</span>
+      <button class="print" onclick="window.print()">Save as PDF</button>
+    </div>
+    <h1>local ai agent</h1>
+    <p>Social Trend Intelligence + Behaviour Prediction Report generated from public search, RSS, web, community, video, news, and open-source signals.</p>
+    <div class="stats">
+      <div class="stat"><span>Opportunity Score</span><strong>100/100</strong></div>
+      <div class="stat"><span>Best Platform</span><strong>GitHub</strong></div>
+      <div class="stat"><span>Reddit Signal</span><strong>100/100</strong></div>
+      <div class="stat"><span>GitHub Signal</span><strong>100/100</strong></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Platform-wise Score</h2>
+    <div class="bar-row">
+  <div class="bar-head">
+    <span>YouTube</span>
+    <strong>100/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:100%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>X/Twitter</span>
+    <strong>100/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:100%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>LinkedIn</span>
+    <strong>100/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:100%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>Reddit</span>
+    <strong>100/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:100%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>GitHub</span>
+    <strong>100/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:100%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>Google/Web</span>
+    <strong>100/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:100%"></div></div>
+</div><div class="bar-row">
+  <div class="bar-head">
+    <span>News</span>
+    <strong>100/100 · 8 signals</strong>
+  </div>
+  <div class="bar"><div class="fill" style="width:100%"></div></div>
+</div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>Social Behaviour Prediction</h3>
+      <p>High opportunity: the topic has broad platform coverage. Expect stronger engagement around agents, open, source, especially on GitHub.</p>
+    </div>
+    <div class="card">
+      <h3>Best Content Format</h3>
+      <p>Open-source repository, demo README, or technical changelog</p>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>Keyword Clusters</h3>
+      <ul><li>agents</li><li>open</li><li>source</li><li>run</li><li>locally</li><li>localai</li><li>chennai</li><li>models</li><li>our</li><li>autonomous</li><li>2026</li><li>can</li></ul>
+    </div>
+    <div class="card">
+      <h3>Hashtag Ideas</h3>
+      <ul><li>#localaiagent</li><li>#agents</li><li>#open</li><li>#source</li><li>#run</li><li>#locally</li><li>#localai</li><li>#chennai</li></ul>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>YouTube Title Ideas</h3>
+      <ul><li>I tested local ai agent so you do not have to</li><li>local ai agent explained with a real workflow</li><li>Is local ai agent the next practical AI opportunity?</li><li>local ai agent: tools, examples, and mistakes to avoid</li></ul>
+    </div>
+    <div class="card">
+      <h3>LinkedIn Post Angles</h3>
+      <ul><li>What local ai agent means for builders and small teams</li><li>A practical framework to evaluate local ai agent before adopting it</li><li>The hidden behaviour shift behind local ai agent</li><li>Why agents is becoming important in the local ai agent conversation</li></ul>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card">
+      <h3>X/Twitter Post Ideas</h3>
+      <ul><li>A short thread: what is actually changing around local ai agent</li><li>Hot take: local ai agent matters less for hype and more for workflow design</li><li>3 signals showing why local ai agent is worth watching</li><li>Question for builders: where does local ai agent fit in your stack?</li></ul>
+    </div>
+    <div class="card recommend">
+      <h3>Recommended Action</h3>
+      <p>Start with GitHub using a Open-source repository, demo README, or technical changelog. Re-check signals weekly and turn top keywords into experiments.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Public Signals</h2>
+    <section class="platform-section">
+  <div class="platform-heading">
+    <h3>YouTube</h3>
+    <span>100/100</span>
+  </div>
+  <article class="resource">
+  <h4>Best Open-Source AI Coding Agents in 2026 — Agentic.ai</h4>
+  <p>Self-hostable, inspectable, bring-your-own-model AI coding agents — the open-source alternatives to Cursor and Copilot, ranked by our independent 36-point agenticness rubric.</p>
+  <a href="https://agentic.ai/best/open-source-coding-agents" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Top 10 Local AI Agents You Can Run on Your PC in 2026</h4>
+  <p>A personal AI agent that runs on your laptop, talks to local or remote models, and exposes itself through every messaging app you already use. Started as a weekend project, hit 250k stars in 60 days, kept going.</p>
+  <a href="https://dev.to/rednakta/top-10-openclaw-alternatives-local-ai-agents-you-can-run-on-your-pc-in-2026-305e" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Top 10 Open Source AI Agents You Can Run Locally (2026)</h4>
+  <p>Run AI agents on your own hardware with zero cloud costs and full privacy. Compare 10 open source agents with local LLM support and setup guides.</p>
+  <a href="https://fast.io/resources/top-10-open-source-ai-agents/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Awesome Local AI - GitHub</h4>
+  <p>A curated list of resources for running AI locally on consumer hardware -- LLMs, image generation, and AI agents without cloud dependencies. 230+ guides, tools, and community links.</p>
+  <a href="https://github.com/msb-msb/awesome-local-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>GitHub - mudler/LocalAI: LocalAI is the open-source AI engine. Run any ...</h4>
+  <p>Built-in Agents — Autonomous AI agents with tool use, RAG, skills, SSE streaming, and Agent Hub Backend Gallery — Install/remove backends on the fly via OCI images</p>
+  <a href="https://github.com/mudler/LocalAI" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>X/Twitter</h3>
+    <span>100/100</span>
+  </div>
+  <article class="resource">
+  <h4>Best Open-Source AI Coding Agents in 2026 — Agentic.ai</h4>
+  <p>Self-hostable, inspectable, bring-your-own-model AI coding agents — the open-source alternatives to Cursor and Copilot, ranked by our independent 36-point agenticness rubric.</p>
+  <a href="https://agentic.ai/best/open-source-coding-agents" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Top 10 Local AI Agents You Can Run on Your PC in 2026</h4>
+  <p>A personal AI agent that runs on your laptop, talks to local or remote models, and exposes itself through every messaging app you already use. Started as a weekend project, hit 250k stars in 60 days, kept going.</p>
+  <a href="https://dev.to/rednakta/top-10-openclaw-alternatives-local-ai-agents-you-can-run-on-your-pc-in-2026-305e" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Top 10 Open Source AI Agents You Can Run Locally (2026)</h4>
+  <p>Run AI agents on your own hardware with zero cloud costs and full privacy. Compare 10 open source agents with local LLM support and setup guides.</p>
+  <a href="https://fast.io/resources/top-10-open-source-ai-agents/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Awesome Local AI - GitHub</h4>
+  <p>A curated list of resources for running AI locally on consumer hardware -- LLMs, image generation, and AI agents without cloud dependencies. 230+ guides, tools, and community links.</p>
+  <a href="https://github.com/msb-msb/awesome-local-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>GitHub - mudler/LocalAI: LocalAI is the open-source AI engine. Run any ...</h4>
+  <p>Built-in Agents — Autonomous AI agents with tool use, RAG, skills, SSE streaming, and Agent Hub Backend Gallery — Install/remove backends on the fly via OCI images</p>
+  <a href="https://github.com/mudler/LocalAI" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>LinkedIn</h3>
+    <span>100/100</span>
+  </div>
+  <article class="resource">
+  <h4>Best Open-Source AI Coding Agents in 2026 — Agentic.ai</h4>
+  <p>Self-hostable, inspectable, bring-your-own-model AI coding agents — the open-source alternatives to Cursor and Copilot, ranked by our independent 36-point agenticness rubric.</p>
+  <a href="https://agentic.ai/best/open-source-coding-agents" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Top 10 Local AI Agents You Can Run on Your PC in 2026</h4>
+  <p>A personal AI agent that runs on your laptop, talks to local or remote models, and exposes itself through every messaging app you already use. Started as a weekend project, hit 250k stars in 60 days, kept going.</p>
+  <a href="https://dev.to/rednakta/top-10-openclaw-alternatives-local-ai-agents-you-can-run-on-your-pc-in-2026-305e" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Top 10 Open Source AI Agents You Can Run Locally (2026)</h4>
+  <p>Run AI agents on your own hardware with zero cloud costs and full privacy. Compare 10 open source agents with local LLM support and setup guides.</p>
+  <a href="https://fast.io/resources/top-10-open-source-ai-agents/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Awesome Local AI - GitHub</h4>
+  <p>A curated list of resources for running AI locally on consumer hardware -- LLMs, image generation, and AI agents without cloud dependencies. 230+ guides, tools, and community links.</p>
+  <a href="https://github.com/msb-msb/awesome-local-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>GitHub - mudler/LocalAI: LocalAI is the open-source AI engine. Run any ...</h4>
+  <p>Built-in Agents — Autonomous AI agents with tool use, RAG, skills, SSE streaming, and Agent Hub Backend Gallery — Install/remove backends on the fly via OCI images</p>
+  <a href="https://github.com/mudler/LocalAI" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>Reddit</h3>
+    <span>100/100</span>
+  </div>
+  <article class="resource">
+  <h4>Best Open-Source AI Coding Agents in 2026 — Agentic.ai</h4>
+  <p>Self-hostable, inspectable, bring-your-own-model AI coding agents — the open-source alternatives to Cursor and Copilot, ranked by our independent 36-point agenticness rubric.</p>
+  <a href="https://agentic.ai/best/open-source-coding-agents" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Top 10 Local AI Agents You Can Run on Your PC in 2026</h4>
+  <p>A personal AI agent that runs on your laptop, talks to local or remote models, and exposes itself through every messaging app you already use. Started as a weekend project, hit 250k stars in 60 days, kept going.</p>
+  <a href="https://dev.to/rednakta/top-10-openclaw-alternatives-local-ai-agents-you-can-run-on-your-pc-in-2026-305e" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Top 10 Open Source AI Agents You Can Run Locally (2026)</h4>
+  <p>Run AI agents on your own hardware with zero cloud costs and full privacy. Compare 10 open source agents with local LLM support and setup guides.</p>
+  <a href="https://fast.io/resources/top-10-open-source-ai-agents/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Awesome Local AI - GitHub</h4>
+  <p>A curated list of resources for running AI locally on consumer hardware -- LLMs, image generation, and AI agents without cloud dependencies. 230+ guides, tools, and community links.</p>
+  <a href="https://github.com/msb-msb/awesome-local-ai" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>GitHub - mudler/LocalAI: LocalAI is the open-source AI engine. Run any ...</h4>
+  <p>Built-in Agents — Autonomous AI agents with tool use, RAG, skills, SSE streaming, and Agent Hub Backend Gallery — Install/remove backends on the fly via OCI images</p>
+  <a href="https://github.com/mudler/LocalAI" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>GitHub</h3>
+    <span>100/100</span>
+  </div>
+  <article class="resource">
+  <h4>Chennai District | Government of Tamil Nadu | Gateway of South India ...</h4>
+  <p>Chennai is the capital city of Tamilnadu State. It is one of the metropolis of India and serves as the gateway of the culture of South India.</p>
+  <a href="https://chennai.nic.in/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>LOCAL | English meaning - Cambridge Dictionary</h4>
+  <p>Most of the local population depend on fishing for their income. Our children all go to the local school. Many local shops will be forced to close if the new supermarket is built. She works on the checkout at the local supermarket. I&#39;ve just joined the local tennis club. We advertised our car in the local newspaper.</p>
+  <a href="https://dictionary.cambridge.org/dictionary/english/local" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Post Your Job| Hire Employees | Lokal Employer Login</h4>
+  <p>With 45M+ downloads, Lokal is a one stop solution for local updates, job search, classifieds and more!. Hire from 2500000+ pool of skilled candidates. Browse and filter from your district, recruit within 24hrs.Post a Job Vacancy : Telecallers, Admin office Staff &amp; more.</p>
+  <a href="https://getlokalapp.com/hire" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Google Maps</h4>
+  <p>Find local businesses, view maps and get driving directions in Google Maps.</p>
+  <a href="https://local.google.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Metropolitan Transport Corporation (Chennai) Ltd</h4>
+  <p>MTC Driving School, Chrompet - Application &amp; Syllabus for Heavy Motor Vehicle available in our website . MTC Driving School, Chrompet - Application &amp; Syllabus for Light Motor Vehicle available in our website . Free Travel for all Women in Ordinary Fare City buses in MTC from 08-05-2021.</p>
+  <a href="https://mtcbus.tn.gov.in/" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>Google/Web</h3>
+    <span>100/100</span>
+  </div>
+  <article class="resource">
+  <h4>Chennai District | Government of Tamil Nadu | Gateway of South India ...</h4>
+  <p>Chennai is the capital city of Tamilnadu State. It is one of the metropolis of India and serves as the gateway of the culture of South India.</p>
+  <a href="https://chennai.nic.in/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>LOCAL | English meaning - Cambridge Dictionary</h4>
+  <p>Most of the local population depend on fishing for their income. Our children all go to the local school. Many local shops will be forced to close if the new supermarket is built. She works on the checkout at the local supermarket. I&#39;ve just joined the local tennis club. We advertised our car in the local newspaper.</p>
+  <a href="https://dictionary.cambridge.org/dictionary/english/local" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Post Your Job| Hire Employees | Lokal Employer Login</h4>
+  <p>With 45M+ downloads, Lokal is a one stop solution for local updates, job search, classifieds and more!. Hire from 2500000+ pool of skilled candidates. Browse and filter from your district, recruit within 24hrs.Post a Job Vacancy : Telecallers, Admin office Staff &amp; more.</p>
+  <a href="https://getlokalapp.com/hire" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Google Maps</h4>
+  <p>Find local businesses, view maps and get driving directions in Google Maps.</p>
+  <a href="https://local.google.com/" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Metropolitan Transport Corporation (Chennai) Ltd</h4>
+  <p>MTC Driving School, Chrompet - Application &amp; Syllabus for Heavy Motor Vehicle available in our website . MTC Driving School, Chrompet - Application &amp; Syllabus for Light Motor Vehicle available in our website . Free Travel for all Women in Ordinary Fare City buses in MTC from 08-05-2021.</p>
+  <a href="https://mtcbus.tn.gov.in/" target="_blank">Open signal</a>
+</article>
+</section><section class="platform-section">
+  <div class="platform-heading">
+    <h3>News</h3>
+    <span>100/100</span>
+  </div>
+  <article class="resource">
+  <h4>AI AGENTS</h4>
+  <p>Agentic AI is revolutionizing finance by embedding autonomous decision-making into workflows, offering speed and personalization. Financial institutions must adapt by designing agent-friendly products ...</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38ccbdc24743ec8ddbb213e36c79c0&amp;url=https%3a%2f%2fcio.economictimes.indiatimes.com%2ftag%2fai%2bagents&amp;c=15959058778854586404&amp;mkt=en-in" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Why Google DeepMind thinks AI agents need to be treated like ‘insider threats’</h4>
+  <p>As increasingly autonomous AI agents are deployed in software development, cybersecurity, scientific research and business operations, traditional techniques may not be enough to manage the risks they ...</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38ccbdc24743ec8ddbb213e36c79c0&amp;url=https%3a%2f%2findianexpress.com%2farticle%2fexplained%2fexplained-ai%2fdeepmind-ai-control-roadmap-explained-10749406%2f&amp;c=17273593336538475420&amp;mkt=en-in" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Onix 2026 AI trends: Multi-agent systems redefine enterprise workflows</h4>
+  <p>Agentic AI as the Operational Baseline: AI has evolved from a passive assistant to an active executor. Minimal human input is now required for routine processes, making autonomous agents the default ...</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38ccbdc24743ec8ddbb213e36c79c0&amp;url=https%3a%2f%2ftimesofindia.indiatimes.com%2ftechnology%2ftech-news%2fonix-2026-ai-trends-multi-agent-systems-redefine-enterprise-workflows%2farticleshow%2f126487254.cms&amp;c=9450863937097822001&amp;mkt=en-in" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Why AI agents could create a new control and security crisis</h4>
+  <p>Abhinav: The technology is advancing quickly. One important development is the adoption of the Model Context Protocol (MCP) as a standard way to control what agents can access and do. MCP effectively ...</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38ccbdc24743ec8ddbb213e36c79c0&amp;url=https%3a%2f%2fwww.computerworld.com%2fvideo%2f4185559%2fwhy-ai-agents-could-create-a-new-control-and-security-crisis.html&amp;c=11103198929557135692&amp;mkt=en-in" target="_blank">Open signal</a>
+</article><article class="resource">
+  <h4>Gemini CLI: Google’s latest open source AI agent explained</h4>
+  <p>Google has released a powerful new tool aimed squarely at developers and it runs right from the terminal. Meet Gemini CLI, an open-source command-line interface powered by Google’s Gemini AI models.</p>
+  <a href="http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a38ccbdc24743ec8ddbb213e36c79c0&amp;url=https%3a%2f%2fwww.digit.in%2ffeatures%2fgeneral%2fgemini-cli-googles-latest-open-source-ai-agent-explained.html&amp;c=13186403246934766964&amp;mkt=en-in" target="_blank">Open signal</a>
+</article>
+</section>
+  </section>
+
+  <section class="section">
+    <p class="muted">Generated at 22 Jun 2026, 11:18 AM. Raw data is saved date-wise in <strong>social-data/</strong>.</p>
+  </section>
+</main>
+</body>
+</html>
